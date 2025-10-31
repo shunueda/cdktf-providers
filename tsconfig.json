@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "composite": false,
+    "target": "esnext",
+    "lib": ["esnext", "esnext.asynciterable"],
+    "module": "nodenext",
+    "moduleDetection": "force",
+    "moduleResolution": "nodenext",
+    "allowImportingTsExtensions": true,
+    "rewriteRelativeImportExtensions": true,
+    "allowJs": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noUncheckedIndexedAccess": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "erasableSyntaxOnly": true,
+    "noUncheckedSideEffectImports": true,
+    "skipLibCheck": true,
+    "useUnknownInCatchVariables": true
+  },
+  "include": ["src"]
+}
