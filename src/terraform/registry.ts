@@ -1,7 +1,7 @@
 import { URL } from 'node:url'
-import type { ZodType } from 'zod'
+import { z } from 'zod'
+import { fetchJsonParse } from '../helpers/fetch.ts'
 import {
-  type ProviderData,
   providersResponseNoVersionsSchema,
   providersResponseSchema
 } from './schema.ts'
@@ -28,29 +28,24 @@ function createFetchProviderVersionsUrl(providerFullName: string): URL {
   return url
 }
 
-async function fetchJsonParse<T>(url: URL, schema: ZodType<T>): Promise<T> {
-  const response = await fetch(url)
-  const json = await response.json()
-  return schema.parse(json)
+export async function fetchProviderVersions(providerFullName: string) {
+  const url = createFetchProviderVersionsUrl(providerFullName)
+  return fetchJsonParse(url, providersResponseSchema)
 }
 
 export async function* fetchProviderData(
   page = 0
-): AsyncGenerator<ProviderData> {
+): AsyncGenerator<
+  z.infer<typeof providersResponseNoVersionsSchema>['data'][number]
+> {
   const url = createFetchProvidersUrl(page)
   const { data } = await fetchJsonParse(url, providersResponseNoVersionsSchema)
   if (!data.length) {
     return
   }
-  for (const { attributes } of data) {
-    if (
-      attributes.tier === 'community' &&
-      attributes.downloads < communityTierDownloadThreshold
-    ) {
-      continue
-    }
-    const url = createFetchProviderVersionsUrl(attributes['full-name'])
-    yield fetchJsonParse(url, providersResponseSchema)
-  }
+  yield* data.filter(({ attributes }) => {
+    const { tier, downloads } = attributes
+    return tier !== 'community' || downloads >= communityTierDownloadThreshold
+  })
   yield* fetchProviderData(page + 1)
 }

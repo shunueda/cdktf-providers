@@ -160,3 +160,6 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Generated files
+gen/**/package.json

@@ -1,6 +1,6 @@
 import { type output, z } from 'zod'
 
-const baseProviderDataSchema = z.object({
+const providerDataSchema = z.object({
   type: z.literal('providers'),
   id: z.string(),
   attributes: z.object({
@@ -26,7 +26,7 @@ const baseProviderDataSchema = z.object({
 })
 
 export const providersResponseNoVersionsSchema = z.object({
-  data: z.array(baseProviderDataSchema),
+  data: z.array(providerDataSchema),
   links: z.object({
     first: z.string(),
     last: z.string(),
@@ -46,7 +46,7 @@ export const providersResponseNoVersionsSchema = z.object({
 })
 
 export const providersResponseSchema = z.object({
-  data: baseProviderDataSchema.extend({
+  data: providerDataSchema.extend({
     relationships: z.object({
       'provider-versions': z.object({
         data: z.array(
@@ -79,4 +79,4 @@ export const providersResponseSchema = z.object({
   )
 })
 
-export type ProviderData = output<typeof providersResponseSchema>
+export type ProvidersResponse = output<typeof providersResponseSchema>
