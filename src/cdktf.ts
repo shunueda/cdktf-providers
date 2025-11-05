@@ -10,7 +10,6 @@ import {
   TerraformProviderConstraint
 } from '@cdktf/commons'
 import { ConstructsMaker } from '@cdktf/provider-generator'
-import { ok } from 'node:assert/strict'
 import { readFile } from 'node:fs/promises'
 import { join } from 'node:path'
 import { z } from 'zod'
@@ -25,7 +24,7 @@ export type ProviderConstructionOption = Readonly<{
 }>
 
 /**
- * Generates construct for a given constraint.
+ * Generates constructs for the given provider.
  */
 export async function generateProviderConstruct(
   option: ProviderConstructionOption
@@ -67,6 +66,5 @@ async function readVersionsFile(
   const content = await readFile(file, 'utf-8')
   const versions = JSON.parse(content)
   const version = versions[`registry.terraform.io/${source.toLowerCase()}`]
-  ok(version)
   return z.string().parse(version)
 }

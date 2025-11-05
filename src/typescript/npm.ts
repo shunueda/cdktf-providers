@@ -62,7 +62,7 @@ export function createPackageJson(
   name: string,
   version: string,
   directory: string
-): PackageJSON {
+): Readonly<PackageJSON> {
   return {
     name,
     version,
