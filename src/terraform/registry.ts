@@ -1,10 +1,5 @@
 import { URL } from 'node:url'
-import { z } from 'zod'
-import { fetchJsonParse } from '../helpers/fetch.ts'
-import {
-  providersResponseNoVersionsSchema,
-  providersResponseSchema
-} from './schema.ts'
+import { type ProviderData, providersResponseSchema } from './schema.ts'
 
 // only fetch community providers with more than 500k downloads. Pulled out of thin air.
 const communityTierDownloadThreshold = 500_000
@@ -22,24 +17,13 @@ function createFetchProvidersUrl(page: number): URL {
   return url
 }
 
-function createFetchProviderVersionsUrl(providerFullName: string): URL {
-  const url = new URL(`./${providerFullName}`, `${baseUrl}/`)
-  url.searchParams.set('include', 'provider-versions')
-  return url
-}
-
-export async function fetchProviderVersions(providerFullName: string) {
-  const url = createFetchProviderVersionsUrl(providerFullName)
-  return fetchJsonParse(url, providersResponseSchema)
-}
-
 export async function* fetchProviderData(
   page = 0
-): AsyncGenerator<
-  z.infer<typeof providersResponseNoVersionsSchema>['data'][number]
-> {
+): AsyncGenerator<ProviderData> {
   const url = createFetchProvidersUrl(page)
-  const { data } = await fetchJsonParse(url, providersResponseNoVersionsSchema)
+  const response = await fetch(url)
+  const json = await response.json()
+  const { data } = providersResponseSchema.parse(json)
   if (!data.length) {
     return
   }

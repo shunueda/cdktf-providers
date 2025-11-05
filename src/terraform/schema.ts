@@ -25,7 +25,9 @@ const providerDataSchema = z.object({
   })
 })
 
-export const providersResponseNoVersionsSchema = z.object({
+export type ProviderData = output<typeof providerDataSchema>
+
+export const providersResponseSchema = z.object({
   data: z.array(providerDataSchema),
   links: z.object({
     first: z.string(),
@@ -44,39 +46,3 @@ export const providersResponseNoVersionsSchema = z.object({
     })
   })
 })
-
-export const providersResponseSchema = z.object({
-  data: providerDataSchema.extend({
-    relationships: z.object({
-      'provider-versions': z.object({
-        data: z.array(
-          z.object({
-            id: z.string(),
-            type: z.literal('provider-versions')
-          })
-        ),
-        links: z.object({
-          related: z.string()
-        })
-      })
-    })
-  }),
-  included: z.array(
-    z.object({
-      type: z.literal('provider-versions'),
-      id: z.string(),
-      attributes: z.object({
-        description: z.string(),
-        downloads: z.number(),
-        'published-at': z.string(),
-        tag: z.string(),
-        version: z.string()
-      }),
-      links: z.object({
-        self: z.string()
-      })
-    })
-  )
-})
-
-export type ProvidersResponse = output<typeof providersResponseSchema>
