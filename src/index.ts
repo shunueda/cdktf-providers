@@ -19,8 +19,10 @@ for (const language of languages) {
     const { name, ['full-name']: fullname, namespace } = attributes
 
     const dir = join('gen', fullname, language)
+    const prefix = `[${fullname} ${language}]`
 
     try {
+      console.log(prefix, 'Generating construct...')
       const { version } = await generateProviderConstruct({
         language,
         name,
@@ -40,6 +42,7 @@ for (const language of languages) {
             continue
           }
 
+          console.log(prefix, `Compiling TypeScript package ${pkgname}...`)
           const files = glob(join(dir, '**', '*.ts'))
           await tsc(files, {
             module: ModuleKind.ES2022,
@@ -65,14 +68,12 @@ for (const language of languages) {
           await cp('LICENSE', join(dir, 'LICENSE'))
 
           // await publishNpmPackage(directory, env.NPM_TOKEN)
+          console.log(prefix, `Done!`)
           break
         }
       }
-    } catch (e) {
-      console.warn(
-        `Error generating construct for ${fullname} (${language}):`,
-        e
-      )
+    } catch (error) {
+      console.warn(prefix, `Error generating construct`, error)
     }
   }
 }
