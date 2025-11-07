@@ -4,7 +4,7 @@ on:
   # NOMERGE
   push:
     branches:
-      - main
+      - chore/manual-gen
   workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'
