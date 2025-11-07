@@ -25,7 +25,7 @@ const npmPackageScope = '@cdktf-providers'
  * createNpmPackageName('google', 'compute') // '@cdktf-providers/google-compute'
  */
 export function createNpmPackageName(namespace: string, name: string): string {
-  return `${npmPackageScope}/${namespace === name ? name : `${namespace}-${name}`}`
+  return `${npmPackageScope}/${namespace === name ? name : `${namespace}-${name}`}`.toLowerCase()
 }
 
 /**
