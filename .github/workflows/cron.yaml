@@ -1,0 +1,22 @@
+name: cron
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5.0.0
+      - uses: ./.github/actions/setup-node
+      - uses: ./.github/actions/setup-terraform
+      - run: npm run start
+        env:
+          NODE_OPTIONS: '--max_old_space_size=8192'
+      - uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: 'chore: update'

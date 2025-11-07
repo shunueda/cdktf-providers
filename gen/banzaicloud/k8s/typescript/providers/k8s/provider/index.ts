@@ -1,0 +1,591 @@
+// https://registry.terraform.io/providers/banzaicloud/k8s/0.9.1/docs
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface K8SProviderConfig {
+  /**
+  * PEM-encoded client certificate for TLS authentication.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/banzaicloud/k8s/0.9.1/docs#client_certificate K8SProvider#client_certificate}
+  */
+  readonly clientCertificate?: string;
+  /**
+  * PEM-encoded client certificate key for TLS authentication.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/banzaicloud/k8s/0.9.1/docs#client_key K8SProvider#client_key}
+  */
+  readonly clientKey?: string;
+  /**
+  * PEM-encoded root certificates bundle for TLS authentication.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/banzaicloud/k8s/0.9.1/docs#cluster_ca_certificate K8SProvider#cluster_ca_certificate}
+  */
+  readonly clusterCaCertificate?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/banzaicloud/k8s/0.9.1/docs#config_context K8SProvider#config_context}
+  */
+  readonly configContext?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/banzaicloud/k8s/0.9.1/docs#config_context_auth_info K8SProvider#config_context_auth_info}
+  */
+  readonly configContextAuthInfo?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/banzaicloud/k8s/0.9.1/docs#config_context_cluster K8SProvider#config_context_cluster}
+  */
+  readonly configContextCluster?: string;
+  /**
+  * Path to the kube config file, defaults to ~/.kube/config
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/banzaicloud/k8s/0.9.1/docs#config_path K8SProvider#config_path}
+  */
+  readonly configPath?: string;
+  /**
+  * The hostname (in form of URI) of Kubernetes master.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/banzaicloud/k8s/0.9.1/docs#host K8SProvider#host}
+  */
+  readonly host?: string;
+  /**
+  * Whether server should be accessed without verifying the TLS certificate.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/banzaicloud/k8s/0.9.1/docs#insecure K8SProvider#insecure}
+  */
+  readonly insecure?: boolean | cdktf.IResolvable;
+  /**
+  * Load local kubeconfig.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/banzaicloud/k8s/0.9.1/docs#load_config_file K8SProvider#load_config_file}
+  */
+  readonly loadConfigFile?: boolean | cdktf.IResolvable;
+  /**
+  * The password to use for HTTP basic authentication when accessing the Kubernetes master endpoint.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/banzaicloud/k8s/0.9.1/docs#password K8SProvider#password}
+  */
+  readonly password?: string;
+  /**
+  * Token to authenticate an service account
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/banzaicloud/k8s/0.9.1/docs#token K8SProvider#token}
+  */
+  readonly token?: string;
+  /**
+  * The username to use for HTTP basic authentication when accessing the Kubernetes master endpoint.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/banzaicloud/k8s/0.9.1/docs#username K8SProvider#username}
+  */
+  readonly username?: string;
+  /**
+  * Alias name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/banzaicloud/k8s/0.9.1/docs#alias K8SProvider#alias}
+  */
+  readonly alias?: string;
+  /**
+  * exec block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/banzaicloud/k8s/0.9.1/docs#exec K8SProvider#exec}
+  */
+  readonly exec?: K8SProviderExec;
+}
+export interface K8SProviderExec {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/banzaicloud/k8s/0.9.1/docs#api_version K8SProvider#api_version}
+  */
+  readonly apiVersion: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/banzaicloud/k8s/0.9.1/docs#args K8SProvider#args}
+  */
+  readonly args?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/banzaicloud/k8s/0.9.1/docs#command K8SProvider#command}
+  */
+  readonly command: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/banzaicloud/k8s/0.9.1/docs#env K8SProvider#env}
+  */
+  readonly env?: { [key: string]: string };
+}
+
+export function k8SProviderExecToTerraform(struct?: K8SProviderExec): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    api_version: cdktf.stringToTerraform(struct!.apiVersion),
+    args: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.args),
+    command: cdktf.stringToTerraform(struct!.command),
+    env: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.env),
+  }
+}
+
+
+export function k8SProviderExecToHclTerraform(struct?: K8SProviderExec): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    api_version: {
+      value: cdktf.stringToHclTerraform(struct!.apiVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    args: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.args),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    command: {
+      value: cdktf.stringToHclTerraform(struct!.command),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    env: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.env),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/banzaicloud/k8s/0.9.1/docs k8s}
+*/
+export class K8SProvider extends cdktf.TerraformProvider {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "k8s";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a K8SProvider resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the K8SProvider to import
+  * @param importFromId The id of the existing K8SProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/banzaicloud/k8s/0.9.1/docs#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the K8SProvider to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "k8s", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/banzaicloud/k8s/0.9.1/docs k8s} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options K8SProviderConfig = {}
+  */
+  public constructor(scope: Construct, id: string, config: K8SProviderConfig = {}) {
+    super(scope, id, {
+      terraformResourceType: 'k8s',
+      terraformGeneratorMetadata: {
+        providerName: 'k8s',
+        providerVersion: '0.9.1'
+      },
+      terraformProviderSource: 'banzaicloud/k8s'
+    });
+    this._clientCertificate = config.clientCertificate;
+    this._clientKey = config.clientKey;
+    this._clusterCaCertificate = config.clusterCaCertificate;
+    this._configContext = config.configContext;
+    this._configContextAuthInfo = config.configContextAuthInfo;
+    this._configContextCluster = config.configContextCluster;
+    this._configPath = config.configPath;
+    this._host = config.host;
+    this._insecure = config.insecure;
+    this._loadConfigFile = config.loadConfigFile;
+    this._password = config.password;
+    this._token = config.token;
+    this._username = config.username;
+    this._alias = config.alias;
+    this._exec = config.exec;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // client_certificate - computed: false, optional: true, required: false
+  private _clientCertificate?: string; 
+  public get clientCertificate() {
+    return this._clientCertificate;
+  }
+  public set clientCertificate(value: string | undefined) {
+    this._clientCertificate = value;
+  }
+  public resetClientCertificate() {
+    this._clientCertificate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clientCertificateInput() {
+    return this._clientCertificate;
+  }
+
+  // client_key - computed: false, optional: true, required: false
+  private _clientKey?: string; 
+  public get clientKey() {
+    return this._clientKey;
+  }
+  public set clientKey(value: string | undefined) {
+    this._clientKey = value;
+  }
+  public resetClientKey() {
+    this._clientKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clientKeyInput() {
+    return this._clientKey;
+  }
+
+  // cluster_ca_certificate - computed: false, optional: true, required: false
+  private _clusterCaCertificate?: string; 
+  public get clusterCaCertificate() {
+    return this._clusterCaCertificate;
+  }
+  public set clusterCaCertificate(value: string | undefined) {
+    this._clusterCaCertificate = value;
+  }
+  public resetClusterCaCertificate() {
+    this._clusterCaCertificate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clusterCaCertificateInput() {
+    return this._clusterCaCertificate;
+  }
+
+  // config_context - computed: false, optional: true, required: false
+  private _configContext?: string; 
+  public get configContext() {
+    return this._configContext;
+  }
+  public set configContext(value: string | undefined) {
+    this._configContext = value;
+  }
+  public resetConfigContext() {
+    this._configContext = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configContextInput() {
+    return this._configContext;
+  }
+
+  // config_context_auth_info - computed: false, optional: true, required: false
+  private _configContextAuthInfo?: string; 
+  public get configContextAuthInfo() {
+    return this._configContextAuthInfo;
+  }
+  public set configContextAuthInfo(value: string | undefined) {
+    this._configContextAuthInfo = value;
+  }
+  public resetConfigContextAuthInfo() {
+    this._configContextAuthInfo = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configContextAuthInfoInput() {
+    return this._configContextAuthInfo;
+  }
+
+  // config_context_cluster - computed: false, optional: true, required: false
+  private _configContextCluster?: string; 
+  public get configContextCluster() {
+    return this._configContextCluster;
+  }
+  public set configContextCluster(value: string | undefined) {
+    this._configContextCluster = value;
+  }
+  public resetConfigContextCluster() {
+    this._configContextCluster = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configContextClusterInput() {
+    return this._configContextCluster;
+  }
+
+  // config_path - computed: false, optional: true, required: false
+  private _configPath?: string; 
+  public get configPath() {
+    return this._configPath;
+  }
+  public set configPath(value: string | undefined) {
+    this._configPath = value;
+  }
+  public resetConfigPath() {
+    this._configPath = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configPathInput() {
+    return this._configPath;
+  }
+
+  // host - computed: false, optional: true, required: false
+  private _host?: string; 
+  public get host() {
+    return this._host;
+  }
+  public set host(value: string | undefined) {
+    this._host = value;
+  }
+  public resetHost() {
+    this._host = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hostInput() {
+    return this._host;
+  }
+
+  // insecure - computed: false, optional: true, required: false
+  private _insecure?: boolean | cdktf.IResolvable; 
+  public get insecure() {
+    return this._insecure;
+  }
+  public set insecure(value: boolean | cdktf.IResolvable | undefined) {
+    this._insecure = value;
+  }
+  public resetInsecure() {
+    this._insecure = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get insecureInput() {
+    return this._insecure;
+  }
+
+  // load_config_file - computed: false, optional: true, required: false
+  private _loadConfigFile?: boolean | cdktf.IResolvable; 
+  public get loadConfigFile() {
+    return this._loadConfigFile;
+  }
+  public set loadConfigFile(value: boolean | cdktf.IResolvable | undefined) {
+    this._loadConfigFile = value;
+  }
+  public resetLoadConfigFile() {
+    this._loadConfigFile = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get loadConfigFileInput() {
+    return this._loadConfigFile;
+  }
+
+  // password - computed: false, optional: true, required: false
+  private _password?: string; 
+  public get password() {
+    return this._password;
+  }
+  public set password(value: string | undefined) {
+    this._password = value;
+  }
+  public resetPassword() {
+    this._password = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get passwordInput() {
+    return this._password;
+  }
+
+  // token - computed: false, optional: true, required: false
+  private _token?: string; 
+  public get token() {
+    return this._token;
+  }
+  public set token(value: string | undefined) {
+    this._token = value;
+  }
+  public resetToken() {
+    this._token = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tokenInput() {
+    return this._token;
+  }
+
+  // username - computed: false, optional: true, required: false
+  private _username?: string; 
+  public get username() {
+    return this._username;
+  }
+  public set username(value: string | undefined) {
+    this._username = value;
+  }
+  public resetUsername() {
+    this._username = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get usernameInput() {
+    return this._username;
+  }
+
+  // alias - computed: false, optional: true, required: false
+  private _alias?: string; 
+  public get alias() {
+    return this._alias;
+  }
+  public set alias(value: string | undefined) {
+    this._alias = value;
+  }
+  public resetAlias() {
+    this._alias = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get aliasInput() {
+    return this._alias;
+  }
+
+  // exec - computed: false, optional: true, required: false
+  private _exec?: K8SProviderExec; 
+  public get exec() {
+    return this._exec;
+  }
+  public set exec(value: K8SProviderExec | undefined) {
+    this._exec = value;
+  }
+  public resetExec() {
+    this._exec = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get execInput() {
+    return this._exec;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      client_certificate: cdktf.stringToTerraform(this._clientCertificate),
+      client_key: cdktf.stringToTerraform(this._clientKey),
+      cluster_ca_certificate: cdktf.stringToTerraform(this._clusterCaCertificate),
+      config_context: cdktf.stringToTerraform(this._configContext),
+      config_context_auth_info: cdktf.stringToTerraform(this._configContextAuthInfo),
+      config_context_cluster: cdktf.stringToTerraform(this._configContextCluster),
+      config_path: cdktf.stringToTerraform(this._configPath),
+      host: cdktf.stringToTerraform(this._host),
+      insecure: cdktf.booleanToTerraform(this._insecure),
+      load_config_file: cdktf.booleanToTerraform(this._loadConfigFile),
+      password: cdktf.stringToTerraform(this._password),
+      token: cdktf.stringToTerraform(this._token),
+      username: cdktf.stringToTerraform(this._username),
+      alias: cdktf.stringToTerraform(this._alias),
+      exec: k8SProviderExecToTerraform(this._exec),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      client_certificate: {
+        value: cdktf.stringToHclTerraform(this._clientCertificate),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      client_key: {
+        value: cdktf.stringToHclTerraform(this._clientKey),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      cluster_ca_certificate: {
+        value: cdktf.stringToHclTerraform(this._clusterCaCertificate),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      config_context: {
+        value: cdktf.stringToHclTerraform(this._configContext),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      config_context_auth_info: {
+        value: cdktf.stringToHclTerraform(this._configContextAuthInfo),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      config_context_cluster: {
+        value: cdktf.stringToHclTerraform(this._configContextCluster),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      config_path: {
+        value: cdktf.stringToHclTerraform(this._configPath),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      host: {
+        value: cdktf.stringToHclTerraform(this._host),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      insecure: {
+        value: cdktf.booleanToHclTerraform(this._insecure),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      load_config_file: {
+        value: cdktf.booleanToHclTerraform(this._loadConfigFile),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      password: {
+        value: cdktf.stringToHclTerraform(this._password),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      token: {
+        value: cdktf.stringToHclTerraform(this._token),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      username: {
+        value: cdktf.stringToHclTerraform(this._username),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      alias: {
+        value: cdktf.stringToHclTerraform(this._alias),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      exec: {
+        value: k8SProviderExecToHclTerraform(this._exec),
+        isBlock: true,
+        type: "list",
+        storageClassType: "K8SProviderExecList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

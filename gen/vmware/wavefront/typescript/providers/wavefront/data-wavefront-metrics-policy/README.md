@@ -1,0 +1,3 @@
+# `data_wavefront_metrics_policy`
+
+Refer to the Terraform Registry for docs: [`data_wavefront_metrics_policy`](https://registry.terraform.io/providers/vmware/wavefront/5.1.0/docs/data-sources/metrics_policy).

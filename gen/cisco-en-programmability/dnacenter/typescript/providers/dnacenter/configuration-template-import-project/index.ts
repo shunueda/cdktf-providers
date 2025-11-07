@@ -1,0 +1,320 @@
+// https://registry.terraform.io/providers/cisco-en-programmability/dnacenter/1.1.21/docs/resources/configuration_template_import_project
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface ConfigurationTemplateImportProjectConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cisco-en-programmability/dnacenter/1.1.21/docs/resources/configuration_template_import_project#id ConfigurationTemplateImportProject#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * parameters block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cisco-en-programmability/dnacenter/1.1.21/docs/resources/configuration_template_import_project#parameters ConfigurationTemplateImportProject#parameters}
+  */
+  readonly parameters: ConfigurationTemplateImportProjectParameters;
+}
+export interface ConfigurationTemplateImportProjectItem {
+}
+
+export function configurationTemplateImportProjectItemToTerraform(struct?: ConfigurationTemplateImportProjectItem): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function configurationTemplateImportProjectItemToHclTerraform(struct?: ConfigurationTemplateImportProjectItem): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class ConfigurationTemplateImportProjectItemOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ConfigurationTemplateImportProjectItem | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ConfigurationTemplateImportProjectItem | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // task_id - computed: true, optional: false, required: false
+  public get taskId() {
+    return this.getStringAttribute('task_id');
+  }
+
+  // url - computed: true, optional: false, required: false
+  public get url() {
+    return this.getStringAttribute('url');
+  }
+}
+
+export class ConfigurationTemplateImportProjectItemList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ConfigurationTemplateImportProjectItemOutputReference {
+    return new ConfigurationTemplateImportProjectItemOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ConfigurationTemplateImportProjectParameters {
+  /**
+  * doVersion query parameter. If this flag is true then it creates a new version of the template with the imported contents in case if the templates already exists. " If this flag is false and if template already exists, then operation fails with 'Template already exists' error
+  * 			
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cisco-en-programmability/dnacenter/1.1.21/docs/resources/configuration_template_import_project#do_version ConfigurationTemplateImportProject#do_version}
+  */
+  readonly doVersion?: boolean | cdktf.IResolvable;
+}
+
+export function configurationTemplateImportProjectParametersToTerraform(struct?: ConfigurationTemplateImportProjectParametersOutputReference | ConfigurationTemplateImportProjectParameters): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    do_version: cdktf.booleanToTerraform(struct!.doVersion),
+  }
+}
+
+
+export function configurationTemplateImportProjectParametersToHclTerraform(struct?: ConfigurationTemplateImportProjectParametersOutputReference | ConfigurationTemplateImportProjectParameters): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    do_version: {
+      value: cdktf.booleanToHclTerraform(struct!.doVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ConfigurationTemplateImportProjectParametersOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ConfigurationTemplateImportProjectParameters | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._doVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.doVersion = this._doVersion;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ConfigurationTemplateImportProjectParameters | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._doVersion = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._doVersion = value.doVersion;
+    }
+  }
+
+  // do_version - computed: false, optional: true, required: false
+  private _doVersion?: boolean | cdktf.IResolvable; 
+  public get doVersion() {
+    return this.getBooleanAttribute('do_version');
+  }
+  public set doVersion(value: boolean | cdktf.IResolvable) {
+    this._doVersion = value;
+  }
+  public resetDoVersion() {
+    this._doVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get doVersionInput() {
+    return this._doVersion;
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/cisco-en-programmability/dnacenter/1.1.21/docs/resources/configuration_template_import_project dnacenter_configuration_template_import_project}
+*/
+export class ConfigurationTemplateImportProject extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "dnacenter_configuration_template_import_project";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a ConfigurationTemplateImportProject resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the ConfigurationTemplateImportProject to import
+  * @param importFromId The id of the existing ConfigurationTemplateImportProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/cisco-en-programmability/dnacenter/1.1.21/docs/resources/configuration_template_import_project#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the ConfigurationTemplateImportProject to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "dnacenter_configuration_template_import_project", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/cisco-en-programmability/dnacenter/1.1.21/docs/resources/configuration_template_import_project dnacenter_configuration_template_import_project} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options ConfigurationTemplateImportProjectConfig
+  */
+  public constructor(scope: Construct, id: string, config: ConfigurationTemplateImportProjectConfig) {
+    super(scope, id, {
+      terraformResourceType: 'dnacenter_configuration_template_import_project',
+      terraformGeneratorMetadata: {
+        providerName: 'dnacenter',
+        providerVersion: '1.1.21'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._id = config.id;
+    this._parameters.internalValue = config.parameters;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // item - computed: true, optional: false, required: false
+  private _item = new ConfigurationTemplateImportProjectItemList(this, "item", false);
+  public get item() {
+    return this._item;
+  }
+
+  // last_updated - computed: true, optional: false, required: false
+  public get lastUpdated() {
+    return this.getStringAttribute('last_updated');
+  }
+
+  // parameters - computed: false, optional: false, required: true
+  private _parameters = new ConfigurationTemplateImportProjectParametersOutputReference(this, "parameters");
+  public get parameters() {
+    return this._parameters;
+  }
+  public putParameters(value: ConfigurationTemplateImportProjectParameters) {
+    this._parameters.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get parametersInput() {
+    return this._parameters.internalValue;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      id: cdktf.stringToTerraform(this._id),
+      parameters: configurationTemplateImportProjectParametersToTerraform(this._parameters.internalValue),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      parameters: {
+        value: configurationTemplateImportProjectParametersToHclTerraform(this._parameters.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ConfigurationTemplateImportProjectParametersList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

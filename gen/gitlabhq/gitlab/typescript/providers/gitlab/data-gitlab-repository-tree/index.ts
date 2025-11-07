@@ -1,0 +1,309 @@
+// https://registry.terraform.io/providers/gitlabhq/gitlab/18.5.0/docs/data-sources/repository_tree
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface DataGitlabRepositoryTreeConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * The path inside repository. Used to get content of subdirectories.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.5.0/docs/data-sources/repository_tree#path DataGitlabRepositoryTree#path}
+  */
+  readonly path?: string;
+  /**
+  * The ID or full path of the project owned by the authenticated user.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.5.0/docs/data-sources/repository_tree#project DataGitlabRepositoryTree#project}
+  */
+  readonly project: string;
+  /**
+  * Boolean value used to get a recursive tree (false by default).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.5.0/docs/data-sources/repository_tree#recursive DataGitlabRepositoryTree#recursive}
+  */
+  readonly recursive?: boolean | cdktf.IResolvable;
+  /**
+  * The name of a repository branch or tag.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.5.0/docs/data-sources/repository_tree#ref DataGitlabRepositoryTree#ref}
+  */
+  readonly ref: string;
+}
+export interface DataGitlabRepositoryTreeTree {
+}
+
+export function dataGitlabRepositoryTreeTreeToTerraform(struct?: DataGitlabRepositoryTreeTree): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataGitlabRepositoryTreeTreeToHclTerraform(struct?: DataGitlabRepositoryTreeTree): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataGitlabRepositoryTreeTreeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataGitlabRepositoryTreeTree | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataGitlabRepositoryTreeTree | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // mode - computed: true, optional: false, required: false
+  public get mode() {
+    return this.getStringAttribute('mode');
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // node_id - computed: true, optional: false, required: false
+  public get nodeId() {
+    return this.getStringAttribute('node_id');
+  }
+
+  // path - computed: true, optional: false, required: false
+  public get path() {
+    return this.getStringAttribute('path');
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+}
+
+export class DataGitlabRepositoryTreeTreeList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataGitlabRepositoryTreeTreeOutputReference {
+    return new DataGitlabRepositoryTreeTreeOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.5.0/docs/data-sources/repository_tree gitlab_repository_tree}
+*/
+export class DataGitlabRepositoryTree extends cdktf.TerraformDataSource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "gitlab_repository_tree";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a DataGitlabRepositoryTree resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the DataGitlabRepositoryTree to import
+  * @param importFromId The id of the existing DataGitlabRepositoryTree that should be imported. Refer to the {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.5.0/docs/data-sources/repository_tree#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the DataGitlabRepositoryTree to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "gitlab_repository_tree", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.5.0/docs/data-sources/repository_tree gitlab_repository_tree} Data Source
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options DataGitlabRepositoryTreeConfig
+  */
+  public constructor(scope: Construct, id: string, config: DataGitlabRepositoryTreeConfig) {
+    super(scope, id, {
+      terraformResourceType: 'gitlab_repository_tree',
+      terraformGeneratorMetadata: {
+        providerName: 'gitlab',
+        providerVersion: '18.5.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._path = config.path;
+    this._project = config.project;
+    this._recursive = config.recursive;
+    this._ref = config.ref;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // path - computed: false, optional: true, required: false
+  private _path?: string; 
+  public get path() {
+    return this.getStringAttribute('path');
+  }
+  public set path(value: string) {
+    this._path = value;
+  }
+  public resetPath() {
+    this._path = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pathInput() {
+    return this._path;
+  }
+
+  // project - computed: false, optional: false, required: true
+  private _project?: string; 
+  public get project() {
+    return this.getStringAttribute('project');
+  }
+  public set project(value: string) {
+    this._project = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get projectInput() {
+    return this._project;
+  }
+
+  // recursive - computed: false, optional: true, required: false
+  private _recursive?: boolean | cdktf.IResolvable; 
+  public get recursive() {
+    return this.getBooleanAttribute('recursive');
+  }
+  public set recursive(value: boolean | cdktf.IResolvable) {
+    this._recursive = value;
+  }
+  public resetRecursive() {
+    this._recursive = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get recursiveInput() {
+    return this._recursive;
+  }
+
+  // ref - computed: false, optional: false, required: true
+  private _ref?: string; 
+  public get ref() {
+    return this.getStringAttribute('ref');
+  }
+  public set ref(value: string) {
+    this._ref = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get refInput() {
+    return this._ref;
+  }
+
+  // tree - computed: true, optional: false, required: false
+  private _tree = new DataGitlabRepositoryTreeTreeList(this, "tree", false);
+  public get tree() {
+    return this._tree;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      path: cdktf.stringToTerraform(this._path),
+      project: cdktf.stringToTerraform(this._project),
+      recursive: cdktf.booleanToTerraform(this._recursive),
+      ref: cdktf.stringToTerraform(this._ref),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      path: {
+        value: cdktf.stringToHclTerraform(this._path),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      project: {
+        value: cdktf.stringToHclTerraform(this._project),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      recursive: {
+        value: cdktf.booleanToHclTerraform(this._recursive),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      ref: {
+        value: cdktf.stringToHclTerraform(this._ref),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

@@ -1,0 +1,3 @@
+# `wavefront_role`
+
+Refer to the Terraform Registry for docs: [`wavefront_role`](https://registry.terraform.io/providers/vmware/wavefront/5.1.0/docs/resources/role).

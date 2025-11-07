@@ -1,0 +1,3 @@
+# `data_pingdirectory_ldap_sdk_debug_logger`
+
+Refer to the Terraform Registry for docs: [`data_pingdirectory_ldap_sdk_debug_logger`](https://registry.terraform.io/providers/pingidentity/pingdirectory/1.5.0/docs/data-sources/ldap_sdk_debug_logger).

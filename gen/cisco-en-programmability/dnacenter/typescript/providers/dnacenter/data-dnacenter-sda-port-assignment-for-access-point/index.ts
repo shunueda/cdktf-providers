@@ -1,0 +1,290 @@
+// https://registry.terraform.io/providers/cisco-en-programmability/dnacenter/1.1.21/docs/data-sources/sda_port_assignment_for_access_point
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface DataDnacenterSdaPortAssignmentForAccessPointConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * deviceManagementIpAddress query parameter.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cisco-en-programmability/dnacenter/1.1.21/docs/data-sources/sda_port_assignment_for_access_point#device_management_ip_address DataDnacenterSdaPortAssignmentForAccessPoint#device_management_ip_address}
+  */
+  readonly deviceManagementIpAddress: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cisco-en-programmability/dnacenter/1.1.21/docs/data-sources/sda_port_assignment_for_access_point#id DataDnacenterSdaPortAssignmentForAccessPoint#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * interfaceName query parameter.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cisco-en-programmability/dnacenter/1.1.21/docs/data-sources/sda_port_assignment_for_access_point#interface_name DataDnacenterSdaPortAssignmentForAccessPoint#interface_name}
+  */
+  readonly interfaceName: string;
+}
+export interface DataDnacenterSdaPortAssignmentForAccessPointItem {
+}
+
+export function dataDnacenterSdaPortAssignmentForAccessPointItemToTerraform(struct?: DataDnacenterSdaPortAssignmentForAccessPointItem): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataDnacenterSdaPortAssignmentForAccessPointItemToHclTerraform(struct?: DataDnacenterSdaPortAssignmentForAccessPointItem): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataDnacenterSdaPortAssignmentForAccessPointItemOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataDnacenterSdaPortAssignmentForAccessPointItem | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataDnacenterSdaPortAssignmentForAccessPointItem | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // authenticate_template_name - computed: true, optional: false, required: false
+  public get authenticateTemplateName() {
+    return this.getStringAttribute('authenticate_template_name');
+  }
+
+  // data_ip_address_pool_name - computed: true, optional: false, required: false
+  public get dataIpAddressPoolName() {
+    return this.getStringAttribute('data_ip_address_pool_name');
+  }
+
+  // description - computed: true, optional: false, required: false
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+
+  // device_management_ip_address - computed: true, optional: false, required: false
+  public get deviceManagementIpAddress() {
+    return this.getStringAttribute('device_management_ip_address');
+  }
+
+  // interface_name - computed: true, optional: false, required: false
+  public get interfaceName() {
+    return this.getStringAttribute('interface_name');
+  }
+
+  // scalable_group_name - computed: true, optional: false, required: false
+  public get scalableGroupName() {
+    return this.getStringAttribute('scalable_group_name');
+  }
+
+  // site_name_hierarchy - computed: true, optional: false, required: false
+  public get siteNameHierarchy() {
+    return this.getStringAttribute('site_name_hierarchy');
+  }
+
+  // status - computed: true, optional: false, required: false
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+
+  // voice_ip_address_pool_name - computed: true, optional: false, required: false
+  public get voiceIpAddressPoolName() {
+    return this.getStringAttribute('voice_ip_address_pool_name');
+  }
+}
+
+export class DataDnacenterSdaPortAssignmentForAccessPointItemList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataDnacenterSdaPortAssignmentForAccessPointItemOutputReference {
+    return new DataDnacenterSdaPortAssignmentForAccessPointItemOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/cisco-en-programmability/dnacenter/1.1.21/docs/data-sources/sda_port_assignment_for_access_point dnacenter_sda_port_assignment_for_access_point}
+*/
+export class DataDnacenterSdaPortAssignmentForAccessPoint extends cdktf.TerraformDataSource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "dnacenter_sda_port_assignment_for_access_point";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a DataDnacenterSdaPortAssignmentForAccessPoint resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the DataDnacenterSdaPortAssignmentForAccessPoint to import
+  * @param importFromId The id of the existing DataDnacenterSdaPortAssignmentForAccessPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/cisco-en-programmability/dnacenter/1.1.21/docs/data-sources/sda_port_assignment_for_access_point#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the DataDnacenterSdaPortAssignmentForAccessPoint to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "dnacenter_sda_port_assignment_for_access_point", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/cisco-en-programmability/dnacenter/1.1.21/docs/data-sources/sda_port_assignment_for_access_point dnacenter_sda_port_assignment_for_access_point} Data Source
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options DataDnacenterSdaPortAssignmentForAccessPointConfig
+  */
+  public constructor(scope: Construct, id: string, config: DataDnacenterSdaPortAssignmentForAccessPointConfig) {
+    super(scope, id, {
+      terraformResourceType: 'dnacenter_sda_port_assignment_for_access_point',
+      terraformGeneratorMetadata: {
+        providerName: 'dnacenter',
+        providerVersion: '1.1.21'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._deviceManagementIpAddress = config.deviceManagementIpAddress;
+    this._id = config.id;
+    this._interfaceName = config.interfaceName;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // device_management_ip_address - computed: false, optional: false, required: true
+  private _deviceManagementIpAddress?: string; 
+  public get deviceManagementIpAddress() {
+    return this.getStringAttribute('device_management_ip_address');
+  }
+  public set deviceManagementIpAddress(value: string) {
+    this._deviceManagementIpAddress = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deviceManagementIpAddressInput() {
+    return this._deviceManagementIpAddress;
+  }
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // interface_name - computed: false, optional: false, required: true
+  private _interfaceName?: string; 
+  public get interfaceName() {
+    return this.getStringAttribute('interface_name');
+  }
+  public set interfaceName(value: string) {
+    this._interfaceName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interfaceNameInput() {
+    return this._interfaceName;
+  }
+
+  // item - computed: true, optional: false, required: false
+  private _item = new DataDnacenterSdaPortAssignmentForAccessPointItemList(this, "item", false);
+  public get item() {
+    return this._item;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      device_management_ip_address: cdktf.stringToTerraform(this._deviceManagementIpAddress),
+      id: cdktf.stringToTerraform(this._id),
+      interface_name: cdktf.stringToTerraform(this._interfaceName),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      device_management_ip_address: {
+        value: cdktf.stringToHclTerraform(this._deviceManagementIpAddress),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      interface_name: {
+        value: cdktf.stringToHclTerraform(this._interfaceName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

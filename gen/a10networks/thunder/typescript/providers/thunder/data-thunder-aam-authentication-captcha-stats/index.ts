@@ -1,0 +1,1232 @@
+// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface DataThunderAamAuthenticationCaptchaStatsConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#id DataThunderAamAuthenticationCaptchaStats#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * instance_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#instance_list DataThunderAamAuthenticationCaptchaStats#instance_list}
+  */
+  readonly instanceList?: DataThunderAamAuthenticationCaptchaStatsInstanceListStruct[] | cdktf.IResolvable;
+  /**
+  * stats block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#stats DataThunderAamAuthenticationCaptchaStats#stats}
+  */
+  readonly stats?: DataThunderAamAuthenticationCaptchaStatsStats;
+}
+export interface DataThunderAamAuthenticationCaptchaStatsInstanceListStats {
+  /**
+  * Total Attibute Check Failure
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#attr_fail DataThunderAamAuthenticationCaptchaStats#attr_fail}
+  */
+  readonly attrFail?: number;
+  /**
+  * Total Failure JSON Response
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#json_fail DataThunderAamAuthenticationCaptchaStats#json_fail}
+  */
+  readonly jsonFail?: number;
+  /**
+  * Total Other Error
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#other_error DataThunderAamAuthenticationCaptchaStats#other_error}
+  */
+  readonly otherError?: number;
+  /**
+  * Total JSON Response Parse Failure
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#parse_fail DataThunderAamAuthenticationCaptchaStats#parse_fail}
+  */
+  readonly parseFail?: number;
+  /**
+  * Total Request
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#request DataThunderAamAuthenticationCaptchaStats#request}
+  */
+  readonly request?: number;
+  /**
+  * Total Timeout
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#timeout_error DataThunderAamAuthenticationCaptchaStats#timeout_error}
+  */
+  readonly timeoutError?: number;
+  /**
+  * Total Verification Success Response
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#verify_succ DataThunderAamAuthenticationCaptchaStats#verify_succ}
+  */
+  readonly verifySucc?: number;
+}
+
+export function dataThunderAamAuthenticationCaptchaStatsInstanceListStatsToTerraform(struct?: DataThunderAamAuthenticationCaptchaStatsInstanceListStatsOutputReference | DataThunderAamAuthenticationCaptchaStatsInstanceListStats): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    attr_fail: cdktf.numberToTerraform(struct!.attrFail),
+    json_fail: cdktf.numberToTerraform(struct!.jsonFail),
+    other_error: cdktf.numberToTerraform(struct!.otherError),
+    parse_fail: cdktf.numberToTerraform(struct!.parseFail),
+    request: cdktf.numberToTerraform(struct!.request),
+    timeout_error: cdktf.numberToTerraform(struct!.timeoutError),
+    verify_succ: cdktf.numberToTerraform(struct!.verifySucc),
+  }
+}
+
+
+export function dataThunderAamAuthenticationCaptchaStatsInstanceListStatsToHclTerraform(struct?: DataThunderAamAuthenticationCaptchaStatsInstanceListStatsOutputReference | DataThunderAamAuthenticationCaptchaStatsInstanceListStats): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    attr_fail: {
+      value: cdktf.numberToHclTerraform(struct!.attrFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    json_fail: {
+      value: cdktf.numberToHclTerraform(struct!.jsonFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    other_error: {
+      value: cdktf.numberToHclTerraform(struct!.otherError),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    parse_fail: {
+      value: cdktf.numberToHclTerraform(struct!.parseFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    request: {
+      value: cdktf.numberToHclTerraform(struct!.request),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    timeout_error: {
+      value: cdktf.numberToHclTerraform(struct!.timeoutError),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    verify_succ: {
+      value: cdktf.numberToHclTerraform(struct!.verifySucc),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataThunderAamAuthenticationCaptchaStatsInstanceListStatsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataThunderAamAuthenticationCaptchaStatsInstanceListStats | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._attrFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.attrFail = this._attrFail;
+    }
+    if (this._jsonFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.jsonFail = this._jsonFail;
+    }
+    if (this._otherError !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.otherError = this._otherError;
+    }
+    if (this._parseFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.parseFail = this._parseFail;
+    }
+    if (this._request !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.request = this._request;
+    }
+    if (this._timeoutError !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.timeoutError = this._timeoutError;
+    }
+    if (this._verifySucc !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.verifySucc = this._verifySucc;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataThunderAamAuthenticationCaptchaStatsInstanceListStats | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._attrFail = undefined;
+      this._jsonFail = undefined;
+      this._otherError = undefined;
+      this._parseFail = undefined;
+      this._request = undefined;
+      this._timeoutError = undefined;
+      this._verifySucc = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._attrFail = value.attrFail;
+      this._jsonFail = value.jsonFail;
+      this._otherError = value.otherError;
+      this._parseFail = value.parseFail;
+      this._request = value.request;
+      this._timeoutError = value.timeoutError;
+      this._verifySucc = value.verifySucc;
+    }
+  }
+
+  // attr_fail - computed: false, optional: true, required: false
+  private _attrFail?: number; 
+  public get attrFail() {
+    return this.getNumberAttribute('attr_fail');
+  }
+  public set attrFail(value: number) {
+    this._attrFail = value;
+  }
+  public resetAttrFail() {
+    this._attrFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get attrFailInput() {
+    return this._attrFail;
+  }
+
+  // json_fail - computed: false, optional: true, required: false
+  private _jsonFail?: number; 
+  public get jsonFail() {
+    return this.getNumberAttribute('json_fail');
+  }
+  public set jsonFail(value: number) {
+    this._jsonFail = value;
+  }
+  public resetJsonFail() {
+    this._jsonFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get jsonFailInput() {
+    return this._jsonFail;
+  }
+
+  // other_error - computed: false, optional: true, required: false
+  private _otherError?: number; 
+  public get otherError() {
+    return this.getNumberAttribute('other_error');
+  }
+  public set otherError(value: number) {
+    this._otherError = value;
+  }
+  public resetOtherError() {
+    this._otherError = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get otherErrorInput() {
+    return this._otherError;
+  }
+
+  // parse_fail - computed: false, optional: true, required: false
+  private _parseFail?: number; 
+  public get parseFail() {
+    return this.getNumberAttribute('parse_fail');
+  }
+  public set parseFail(value: number) {
+    this._parseFail = value;
+  }
+  public resetParseFail() {
+    this._parseFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get parseFailInput() {
+    return this._parseFail;
+  }
+
+  // request - computed: false, optional: true, required: false
+  private _request?: number; 
+  public get request() {
+    return this.getNumberAttribute('request');
+  }
+  public set request(value: number) {
+    this._request = value;
+  }
+  public resetRequest() {
+    this._request = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requestInput() {
+    return this._request;
+  }
+
+  // timeout_error - computed: false, optional: true, required: false
+  private _timeoutError?: number; 
+  public get timeoutError() {
+    return this.getNumberAttribute('timeout_error');
+  }
+  public set timeoutError(value: number) {
+    this._timeoutError = value;
+  }
+  public resetTimeoutError() {
+    this._timeoutError = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timeoutErrorInput() {
+    return this._timeoutError;
+  }
+
+  // verify_succ - computed: false, optional: true, required: false
+  private _verifySucc?: number; 
+  public get verifySucc() {
+    return this.getNumberAttribute('verify_succ');
+  }
+  public set verifySucc(value: number) {
+    this._verifySucc = value;
+  }
+  public resetVerifySucc() {
+    this._verifySucc = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get verifySuccInput() {
+    return this._verifySucc;
+  }
+}
+export interface DataThunderAamAuthenticationCaptchaStatsInstanceListStruct {
+  /**
+  * Specify captcha profile name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#name DataThunderAamAuthenticationCaptchaStats#name}
+  */
+  readonly name: string;
+  /**
+  * stats block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#stats DataThunderAamAuthenticationCaptchaStats#stats}
+  */
+  readonly stats?: DataThunderAamAuthenticationCaptchaStatsInstanceListStats;
+}
+
+export function dataThunderAamAuthenticationCaptchaStatsInstanceListStructToTerraform(struct?: DataThunderAamAuthenticationCaptchaStatsInstanceListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    stats: dataThunderAamAuthenticationCaptchaStatsInstanceListStatsToTerraform(struct!.stats),
+  }
+}
+
+
+export function dataThunderAamAuthenticationCaptchaStatsInstanceListStructToHclTerraform(struct?: DataThunderAamAuthenticationCaptchaStatsInstanceListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    stats: {
+      value: dataThunderAamAuthenticationCaptchaStatsInstanceListStatsToHclTerraform(struct!.stats),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataThunderAamAuthenticationCaptchaStatsInstanceListStatsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataThunderAamAuthenticationCaptchaStatsInstanceListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataThunderAamAuthenticationCaptchaStatsInstanceListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._stats?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.stats = this._stats?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataThunderAamAuthenticationCaptchaStatsInstanceListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._stats.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._stats.internalValue = value.stats;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // stats - computed: false, optional: true, required: false
+  private _stats = new DataThunderAamAuthenticationCaptchaStatsInstanceListStatsOutputReference(this, "stats");
+  public get stats() {
+    return this._stats;
+  }
+  public putStats(value: DataThunderAamAuthenticationCaptchaStatsInstanceListStats) {
+    this._stats.internalValue = value;
+  }
+  public resetStats() {
+    this._stats.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statsInput() {
+    return this._stats.internalValue;
+  }
+}
+
+export class DataThunderAamAuthenticationCaptchaStatsInstanceListStructList extends cdktf.ComplexList {
+  public internalValue? : DataThunderAamAuthenticationCaptchaStatsInstanceListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataThunderAamAuthenticationCaptchaStatsInstanceListStructOutputReference {
+    return new DataThunderAamAuthenticationCaptchaStatsInstanceListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataThunderAamAuthenticationCaptchaStatsStats {
+  /**
+  * Total Attribute Check Failure
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#attr_fail DataThunderAamAuthenticationCaptchaStats#attr_fail}
+  */
+  readonly attrFail?: number;
+  /**
+  * Total Job Start Error
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#job_start_error DataThunderAamAuthenticationCaptchaStats#job_start_error}
+  */
+  readonly jobStartError?: number;
+  /**
+  * Total Failure JSON Response
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#json_fail DataThunderAamAuthenticationCaptchaStats#json_fail}
+  */
+  readonly jsonFail?: number;
+  /**
+  * Total Other Error
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#other_error DataThunderAamAuthenticationCaptchaStats#other_error}
+  */
+  readonly otherError?: number;
+  /**
+  * Total JSON Response Parse Failure
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#parse_fail DataThunderAamAuthenticationCaptchaStats#parse_fail}
+  */
+  readonly parseFail?: number;
+  /**
+  * Total Polling Control Error
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#polling_control_error DataThunderAamAuthenticationCaptchaStats#polling_control_error}
+  */
+  readonly pollingControlError?: number;
+  /**
+  * Total Request
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#request DataThunderAamAuthenticationCaptchaStats#request}
+  */
+  readonly request?: number;
+  /**
+  * Total Dropped Request
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#request_dropped DataThunderAamAuthenticationCaptchaStats#request_dropped}
+  */
+  readonly requestDropped?: number;
+  /**
+  * Total Normal Request
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#request_normal DataThunderAamAuthenticationCaptchaStats#request_normal}
+  */
+  readonly requestNormal?: number;
+  /**
+  * Total Error Response
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#response_error DataThunderAamAuthenticationCaptchaStats#response_error}
+  */
+  readonly responseError?: number;
+  /**
+  * Total Failure Response
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#response_failure DataThunderAamAuthenticationCaptchaStats#response_failure}
+  */
+  readonly responseFailure?: number;
+  /**
+  * Total Other Response
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#response_other DataThunderAamAuthenticationCaptchaStats#response_other}
+  */
+  readonly responseOther?: number;
+  /**
+  * Total Success Response
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#response_success DataThunderAamAuthenticationCaptchaStats#response_success}
+  */
+  readonly responseSuccess?: number;
+  /**
+  * Total Timeout Response
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#response_timeout DataThunderAamAuthenticationCaptchaStats#response_timeout}
+  */
+  readonly responseTimeout?: number;
+  /**
+  * Total Timeout
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#timeout_error DataThunderAamAuthenticationCaptchaStats#timeout_error}
+  */
+  readonly timeoutError?: number;
+  /**
+  * Total Verification Success Response
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#verify_succ DataThunderAamAuthenticationCaptchaStats#verify_succ}
+  */
+  readonly verifySucc?: number;
+}
+
+export function dataThunderAamAuthenticationCaptchaStatsStatsToTerraform(struct?: DataThunderAamAuthenticationCaptchaStatsStatsOutputReference | DataThunderAamAuthenticationCaptchaStatsStats): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    attr_fail: cdktf.numberToTerraform(struct!.attrFail),
+    job_start_error: cdktf.numberToTerraform(struct!.jobStartError),
+    json_fail: cdktf.numberToTerraform(struct!.jsonFail),
+    other_error: cdktf.numberToTerraform(struct!.otherError),
+    parse_fail: cdktf.numberToTerraform(struct!.parseFail),
+    polling_control_error: cdktf.numberToTerraform(struct!.pollingControlError),
+    request: cdktf.numberToTerraform(struct!.request),
+    request_dropped: cdktf.numberToTerraform(struct!.requestDropped),
+    request_normal: cdktf.numberToTerraform(struct!.requestNormal),
+    response_error: cdktf.numberToTerraform(struct!.responseError),
+    response_failure: cdktf.numberToTerraform(struct!.responseFailure),
+    response_other: cdktf.numberToTerraform(struct!.responseOther),
+    response_success: cdktf.numberToTerraform(struct!.responseSuccess),
+    response_timeout: cdktf.numberToTerraform(struct!.responseTimeout),
+    timeout_error: cdktf.numberToTerraform(struct!.timeoutError),
+    verify_succ: cdktf.numberToTerraform(struct!.verifySucc),
+  }
+}
+
+
+export function dataThunderAamAuthenticationCaptchaStatsStatsToHclTerraform(struct?: DataThunderAamAuthenticationCaptchaStatsStatsOutputReference | DataThunderAamAuthenticationCaptchaStatsStats): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    attr_fail: {
+      value: cdktf.numberToHclTerraform(struct!.attrFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    job_start_error: {
+      value: cdktf.numberToHclTerraform(struct!.jobStartError),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    json_fail: {
+      value: cdktf.numberToHclTerraform(struct!.jsonFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    other_error: {
+      value: cdktf.numberToHclTerraform(struct!.otherError),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    parse_fail: {
+      value: cdktf.numberToHclTerraform(struct!.parseFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    polling_control_error: {
+      value: cdktf.numberToHclTerraform(struct!.pollingControlError),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    request: {
+      value: cdktf.numberToHclTerraform(struct!.request),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    request_dropped: {
+      value: cdktf.numberToHclTerraform(struct!.requestDropped),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    request_normal: {
+      value: cdktf.numberToHclTerraform(struct!.requestNormal),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    response_error: {
+      value: cdktf.numberToHclTerraform(struct!.responseError),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    response_failure: {
+      value: cdktf.numberToHclTerraform(struct!.responseFailure),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    response_other: {
+      value: cdktf.numberToHclTerraform(struct!.responseOther),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    response_success: {
+      value: cdktf.numberToHclTerraform(struct!.responseSuccess),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    response_timeout: {
+      value: cdktf.numberToHclTerraform(struct!.responseTimeout),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    timeout_error: {
+      value: cdktf.numberToHclTerraform(struct!.timeoutError),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    verify_succ: {
+      value: cdktf.numberToHclTerraform(struct!.verifySucc),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataThunderAamAuthenticationCaptchaStatsStatsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataThunderAamAuthenticationCaptchaStatsStats | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._attrFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.attrFail = this._attrFail;
+    }
+    if (this._jobStartError !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.jobStartError = this._jobStartError;
+    }
+    if (this._jsonFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.jsonFail = this._jsonFail;
+    }
+    if (this._otherError !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.otherError = this._otherError;
+    }
+    if (this._parseFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.parseFail = this._parseFail;
+    }
+    if (this._pollingControlError !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.pollingControlError = this._pollingControlError;
+    }
+    if (this._request !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.request = this._request;
+    }
+    if (this._requestDropped !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.requestDropped = this._requestDropped;
+    }
+    if (this._requestNormal !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.requestNormal = this._requestNormal;
+    }
+    if (this._responseError !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.responseError = this._responseError;
+    }
+    if (this._responseFailure !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.responseFailure = this._responseFailure;
+    }
+    if (this._responseOther !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.responseOther = this._responseOther;
+    }
+    if (this._responseSuccess !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.responseSuccess = this._responseSuccess;
+    }
+    if (this._responseTimeout !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.responseTimeout = this._responseTimeout;
+    }
+    if (this._timeoutError !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.timeoutError = this._timeoutError;
+    }
+    if (this._verifySucc !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.verifySucc = this._verifySucc;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataThunderAamAuthenticationCaptchaStatsStats | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._attrFail = undefined;
+      this._jobStartError = undefined;
+      this._jsonFail = undefined;
+      this._otherError = undefined;
+      this._parseFail = undefined;
+      this._pollingControlError = undefined;
+      this._request = undefined;
+      this._requestDropped = undefined;
+      this._requestNormal = undefined;
+      this._responseError = undefined;
+      this._responseFailure = undefined;
+      this._responseOther = undefined;
+      this._responseSuccess = undefined;
+      this._responseTimeout = undefined;
+      this._timeoutError = undefined;
+      this._verifySucc = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._attrFail = value.attrFail;
+      this._jobStartError = value.jobStartError;
+      this._jsonFail = value.jsonFail;
+      this._otherError = value.otherError;
+      this._parseFail = value.parseFail;
+      this._pollingControlError = value.pollingControlError;
+      this._request = value.request;
+      this._requestDropped = value.requestDropped;
+      this._requestNormal = value.requestNormal;
+      this._responseError = value.responseError;
+      this._responseFailure = value.responseFailure;
+      this._responseOther = value.responseOther;
+      this._responseSuccess = value.responseSuccess;
+      this._responseTimeout = value.responseTimeout;
+      this._timeoutError = value.timeoutError;
+      this._verifySucc = value.verifySucc;
+    }
+  }
+
+  // attr_fail - computed: false, optional: true, required: false
+  private _attrFail?: number; 
+  public get attrFail() {
+    return this.getNumberAttribute('attr_fail');
+  }
+  public set attrFail(value: number) {
+    this._attrFail = value;
+  }
+  public resetAttrFail() {
+    this._attrFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get attrFailInput() {
+    return this._attrFail;
+  }
+
+  // job_start_error - computed: false, optional: true, required: false
+  private _jobStartError?: number; 
+  public get jobStartError() {
+    return this.getNumberAttribute('job_start_error');
+  }
+  public set jobStartError(value: number) {
+    this._jobStartError = value;
+  }
+  public resetJobStartError() {
+    this._jobStartError = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get jobStartErrorInput() {
+    return this._jobStartError;
+  }
+
+  // json_fail - computed: false, optional: true, required: false
+  private _jsonFail?: number; 
+  public get jsonFail() {
+    return this.getNumberAttribute('json_fail');
+  }
+  public set jsonFail(value: number) {
+    this._jsonFail = value;
+  }
+  public resetJsonFail() {
+    this._jsonFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get jsonFailInput() {
+    return this._jsonFail;
+  }
+
+  // other_error - computed: false, optional: true, required: false
+  private _otherError?: number; 
+  public get otherError() {
+    return this.getNumberAttribute('other_error');
+  }
+  public set otherError(value: number) {
+    this._otherError = value;
+  }
+  public resetOtherError() {
+    this._otherError = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get otherErrorInput() {
+    return this._otherError;
+  }
+
+  // parse_fail - computed: false, optional: true, required: false
+  private _parseFail?: number; 
+  public get parseFail() {
+    return this.getNumberAttribute('parse_fail');
+  }
+  public set parseFail(value: number) {
+    this._parseFail = value;
+  }
+  public resetParseFail() {
+    this._parseFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get parseFailInput() {
+    return this._parseFail;
+  }
+
+  // polling_control_error - computed: false, optional: true, required: false
+  private _pollingControlError?: number; 
+  public get pollingControlError() {
+    return this.getNumberAttribute('polling_control_error');
+  }
+  public set pollingControlError(value: number) {
+    this._pollingControlError = value;
+  }
+  public resetPollingControlError() {
+    this._pollingControlError = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pollingControlErrorInput() {
+    return this._pollingControlError;
+  }
+
+  // request - computed: false, optional: true, required: false
+  private _request?: number; 
+  public get request() {
+    return this.getNumberAttribute('request');
+  }
+  public set request(value: number) {
+    this._request = value;
+  }
+  public resetRequest() {
+    this._request = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requestInput() {
+    return this._request;
+  }
+
+  // request_dropped - computed: false, optional: true, required: false
+  private _requestDropped?: number; 
+  public get requestDropped() {
+    return this.getNumberAttribute('request_dropped');
+  }
+  public set requestDropped(value: number) {
+    this._requestDropped = value;
+  }
+  public resetRequestDropped() {
+    this._requestDropped = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requestDroppedInput() {
+    return this._requestDropped;
+  }
+
+  // request_normal - computed: false, optional: true, required: false
+  private _requestNormal?: number; 
+  public get requestNormal() {
+    return this.getNumberAttribute('request_normal');
+  }
+  public set requestNormal(value: number) {
+    this._requestNormal = value;
+  }
+  public resetRequestNormal() {
+    this._requestNormal = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requestNormalInput() {
+    return this._requestNormal;
+  }
+
+  // response_error - computed: false, optional: true, required: false
+  private _responseError?: number; 
+  public get responseError() {
+    return this.getNumberAttribute('response_error');
+  }
+  public set responseError(value: number) {
+    this._responseError = value;
+  }
+  public resetResponseError() {
+    this._responseError = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get responseErrorInput() {
+    return this._responseError;
+  }
+
+  // response_failure - computed: false, optional: true, required: false
+  private _responseFailure?: number; 
+  public get responseFailure() {
+    return this.getNumberAttribute('response_failure');
+  }
+  public set responseFailure(value: number) {
+    this._responseFailure = value;
+  }
+  public resetResponseFailure() {
+    this._responseFailure = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get responseFailureInput() {
+    return this._responseFailure;
+  }
+
+  // response_other - computed: false, optional: true, required: false
+  private _responseOther?: number; 
+  public get responseOther() {
+    return this.getNumberAttribute('response_other');
+  }
+  public set responseOther(value: number) {
+    this._responseOther = value;
+  }
+  public resetResponseOther() {
+    this._responseOther = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get responseOtherInput() {
+    return this._responseOther;
+  }
+
+  // response_success - computed: false, optional: true, required: false
+  private _responseSuccess?: number; 
+  public get responseSuccess() {
+    return this.getNumberAttribute('response_success');
+  }
+  public set responseSuccess(value: number) {
+    this._responseSuccess = value;
+  }
+  public resetResponseSuccess() {
+    this._responseSuccess = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get responseSuccessInput() {
+    return this._responseSuccess;
+  }
+
+  // response_timeout - computed: false, optional: true, required: false
+  private _responseTimeout?: number; 
+  public get responseTimeout() {
+    return this.getNumberAttribute('response_timeout');
+  }
+  public set responseTimeout(value: number) {
+    this._responseTimeout = value;
+  }
+  public resetResponseTimeout() {
+    this._responseTimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get responseTimeoutInput() {
+    return this._responseTimeout;
+  }
+
+  // timeout_error - computed: false, optional: true, required: false
+  private _timeoutError?: number; 
+  public get timeoutError() {
+    return this.getNumberAttribute('timeout_error');
+  }
+  public set timeoutError(value: number) {
+    this._timeoutError = value;
+  }
+  public resetTimeoutError() {
+    this._timeoutError = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timeoutErrorInput() {
+    return this._timeoutError;
+  }
+
+  // verify_succ - computed: false, optional: true, required: false
+  private _verifySucc?: number; 
+  public get verifySucc() {
+    return this.getNumberAttribute('verify_succ');
+  }
+  public set verifySucc(value: number) {
+    this._verifySucc = value;
+  }
+  public resetVerifySucc() {
+    this._verifySucc = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get verifySuccInput() {
+    return this._verifySucc;
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats thunder_aam_authentication_captcha_stats}
+*/
+export class DataThunderAamAuthenticationCaptchaStats extends cdktf.TerraformDataSource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "thunder_aam_authentication_captcha_stats";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a DataThunderAamAuthenticationCaptchaStats resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the DataThunderAamAuthenticationCaptchaStats to import
+  * @param importFromId The id of the existing DataThunderAamAuthenticationCaptchaStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the DataThunderAamAuthenticationCaptchaStats to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "thunder_aam_authentication_captcha_stats", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_stats thunder_aam_authentication_captcha_stats} Data Source
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options DataThunderAamAuthenticationCaptchaStatsConfig = {}
+  */
+  public constructor(scope: Construct, id: string, config: DataThunderAamAuthenticationCaptchaStatsConfig = {}) {
+    super(scope, id, {
+      terraformResourceType: 'thunder_aam_authentication_captcha_stats',
+      terraformGeneratorMetadata: {
+        providerName: 'thunder',
+        providerVersion: '1.4.2'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._id = config.id;
+    this._instanceList.internalValue = config.instanceList;
+    this._stats.internalValue = config.stats;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // instance_list - computed: false, optional: true, required: false
+  private _instanceList = new DataThunderAamAuthenticationCaptchaStatsInstanceListStructList(this, "instance_list", false);
+  public get instanceList() {
+    return this._instanceList;
+  }
+  public putInstanceList(value: DataThunderAamAuthenticationCaptchaStatsInstanceListStruct[] | cdktf.IResolvable) {
+    this._instanceList.internalValue = value;
+  }
+  public resetInstanceList() {
+    this._instanceList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceListInput() {
+    return this._instanceList.internalValue;
+  }
+
+  // stats - computed: false, optional: true, required: false
+  private _stats = new DataThunderAamAuthenticationCaptchaStatsStatsOutputReference(this, "stats");
+  public get stats() {
+    return this._stats;
+  }
+  public putStats(value: DataThunderAamAuthenticationCaptchaStatsStats) {
+    this._stats.internalValue = value;
+  }
+  public resetStats() {
+    this._stats.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statsInput() {
+    return this._stats.internalValue;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      id: cdktf.stringToTerraform(this._id),
+      instance_list: cdktf.listMapper(dataThunderAamAuthenticationCaptchaStatsInstanceListStructToTerraform, true)(this._instanceList.internalValue),
+      stats: dataThunderAamAuthenticationCaptchaStatsStatsToTerraform(this._stats.internalValue),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      instance_list: {
+        value: cdktf.listMapperHcl(dataThunderAamAuthenticationCaptchaStatsInstanceListStructToHclTerraform, true)(this._instanceList.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "DataThunderAamAuthenticationCaptchaStatsInstanceListStructList",
+      },
+      stats: {
+        value: dataThunderAamAuthenticationCaptchaStatsStatsToHclTerraform(this._stats.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "DataThunderAamAuthenticationCaptchaStatsStatsList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

@@ -1,0 +1,199 @@
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aix_extension
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface AixExtensionConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * This setting is enabled (`true`) or disabled (`false`)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aix_extension#enabled AixExtension#enabled}
+  */
+  readonly enabled?: boolean | cdktf.IResolvable;
+  /**
+  * The scope of this settings. If the settings should cover the whole environment, just don't specify any scope.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aix_extension#host_id AixExtension#host_id}
+  */
+  readonly hostId: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aix_extension#id AixExtension#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * Use global settings
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aix_extension#use_global_settings AixExtension#use_global_settings}
+  */
+  readonly useGlobalSettings: boolean | cdktf.IResolvable;
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aix_extension dynatrace_aix_extension}
+*/
+export class AixExtension extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "dynatrace_aix_extension";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a AixExtension resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the AixExtension to import
+  * @param importFromId The id of the existing AixExtension that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aix_extension#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the AixExtension to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "dynatrace_aix_extension", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aix_extension dynatrace_aix_extension} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options AixExtensionConfig
+  */
+  public constructor(scope: Construct, id: string, config: AixExtensionConfig) {
+    super(scope, id, {
+      terraformResourceType: 'dynatrace_aix_extension',
+      terraformGeneratorMetadata: {
+        providerName: 'dynatrace',
+        providerVersion: '1.87.1'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._enabled = config.enabled;
+    this._hostId = config.hostId;
+    this._id = config.id;
+    this._useGlobalSettings = config.useGlobalSettings;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // enabled - computed: false, optional: true, required: false
+  private _enabled?: boolean | cdktf.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktf.IResolvable) {
+    this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+
+  // host_id - computed: false, optional: false, required: true
+  private _hostId?: string; 
+  public get hostId() {
+    return this.getStringAttribute('host_id');
+  }
+  public set hostId(value: string) {
+    this._hostId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hostIdInput() {
+    return this._hostId;
+  }
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // use_global_settings - computed: false, optional: false, required: true
+  private _useGlobalSettings?: boolean | cdktf.IResolvable; 
+  public get useGlobalSettings() {
+    return this.getBooleanAttribute('use_global_settings');
+  }
+  public set useGlobalSettings(value: boolean | cdktf.IResolvable) {
+    this._useGlobalSettings = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useGlobalSettingsInput() {
+    return this._useGlobalSettings;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      enabled: cdktf.booleanToTerraform(this._enabled),
+      host_id: cdktf.stringToTerraform(this._hostId),
+      id: cdktf.stringToTerraform(this._id),
+      use_global_settings: cdktf.booleanToTerraform(this._useGlobalSettings),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      enabled: {
+        value: cdktf.booleanToHclTerraform(this._enabled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      host_id: {
+        value: cdktf.stringToHclTerraform(this._hostId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      use_global_settings: {
+        value: cdktf.booleanToHclTerraform(this._useGlobalSettings),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

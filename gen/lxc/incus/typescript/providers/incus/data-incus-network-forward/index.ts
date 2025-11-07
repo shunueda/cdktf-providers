@@ -1,0 +1,589 @@
+// https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_forward
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface DataIncusNetworkForwardConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_forward#description DataIncusNetworkForward#description}
+  */
+  readonly description?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_forward#listen_address DataIncusNetworkForward#listen_address}
+  */
+  readonly listenAddress: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_forward#location DataIncusNetworkForward#location}
+  */
+  readonly location?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_forward#network DataIncusNetworkForward#network}
+  */
+  readonly network: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_forward#ports DataIncusNetworkForward#ports}
+  */
+  readonly ports?: DataIncusNetworkForwardPorts[] | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_forward#project DataIncusNetworkForward#project}
+  */
+  readonly project?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_forward#remote DataIncusNetworkForward#remote}
+  */
+  readonly remote?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_forward#target DataIncusNetworkForward#target}
+  */
+  readonly target?: string;
+}
+export interface DataIncusNetworkForwardPorts {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_forward#description DataIncusNetworkForward#description}
+  */
+  readonly description?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_forward#listen_port DataIncusNetworkForward#listen_port}
+  */
+  readonly listenPort?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_forward#protocol DataIncusNetworkForward#protocol}
+  */
+  readonly protocol?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_forward#snat DataIncusNetworkForward#snat}
+  */
+  readonly snat?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_forward#target_address DataIncusNetworkForward#target_address}
+  */
+  readonly targetAddress?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_forward#target_port DataIncusNetworkForward#target_port}
+  */
+  readonly targetPort?: string;
+}
+
+export function dataIncusNetworkForwardPortsToTerraform(struct?: DataIncusNetworkForwardPorts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    description: cdktf.stringToTerraform(struct!.description),
+    listen_port: cdktf.stringToTerraform(struct!.listenPort),
+    protocol: cdktf.stringToTerraform(struct!.protocol),
+    snat: cdktf.booleanToTerraform(struct!.snat),
+    target_address: cdktf.stringToTerraform(struct!.targetAddress),
+    target_port: cdktf.stringToTerraform(struct!.targetPort),
+  }
+}
+
+
+export function dataIncusNetworkForwardPortsToHclTerraform(struct?: DataIncusNetworkForwardPorts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    description: {
+      value: cdktf.stringToHclTerraform(struct!.description),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    listen_port: {
+      value: cdktf.stringToHclTerraform(struct!.listenPort),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    protocol: {
+      value: cdktf.stringToHclTerraform(struct!.protocol),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    snat: {
+      value: cdktf.booleanToHclTerraform(struct!.snat),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    target_address: {
+      value: cdktf.stringToHclTerraform(struct!.targetAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    target_port: {
+      value: cdktf.stringToHclTerraform(struct!.targetPort),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataIncusNetworkForwardPortsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIncusNetworkForwardPorts | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._description !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.description = this._description;
+    }
+    if (this._listenPort !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.listenPort = this._listenPort;
+    }
+    if (this._protocol !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.protocol = this._protocol;
+    }
+    if (this._snat !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.snat = this._snat;
+    }
+    if (this._targetAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.targetAddress = this._targetAddress;
+    }
+    if (this._targetPort !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.targetPort = this._targetPort;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIncusNetworkForwardPorts | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._description = undefined;
+      this._listenPort = undefined;
+      this._protocol = undefined;
+      this._snat = undefined;
+      this._targetAddress = undefined;
+      this._targetPort = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._description = value.description;
+      this._listenPort = value.listenPort;
+      this._protocol = value.protocol;
+      this._snat = value.snat;
+      this._targetAddress = value.targetAddress;
+      this._targetPort = value.targetPort;
+    }
+  }
+
+  // description - computed: true, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // listen_port - computed: true, optional: true, required: false
+  private _listenPort?: string; 
+  public get listenPort() {
+    return this.getStringAttribute('listen_port');
+  }
+  public set listenPort(value: string) {
+    this._listenPort = value;
+  }
+  public resetListenPort() {
+    this._listenPort = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get listenPortInput() {
+    return this._listenPort;
+  }
+
+  // protocol - computed: true, optional: true, required: false
+  private _protocol?: string; 
+  public get protocol() {
+    return this.getStringAttribute('protocol');
+  }
+  public set protocol(value: string) {
+    this._protocol = value;
+  }
+  public resetProtocol() {
+    this._protocol = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get protocolInput() {
+    return this._protocol;
+  }
+
+  // snat - computed: true, optional: true, required: false
+  private _snat?: boolean | cdktf.IResolvable; 
+  public get snat() {
+    return this.getBooleanAttribute('snat');
+  }
+  public set snat(value: boolean | cdktf.IResolvable) {
+    this._snat = value;
+  }
+  public resetSnat() {
+    this._snat = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get snatInput() {
+    return this._snat;
+  }
+
+  // target_address - computed: true, optional: true, required: false
+  private _targetAddress?: string; 
+  public get targetAddress() {
+    return this.getStringAttribute('target_address');
+  }
+  public set targetAddress(value: string) {
+    this._targetAddress = value;
+  }
+  public resetTargetAddress() {
+    this._targetAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetAddressInput() {
+    return this._targetAddress;
+  }
+
+  // target_port - computed: true, optional: true, required: false
+  private _targetPort?: string; 
+  public get targetPort() {
+    return this.getStringAttribute('target_port');
+  }
+  public set targetPort(value: string) {
+    this._targetPort = value;
+  }
+  public resetTargetPort() {
+    this._targetPort = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetPortInput() {
+    return this._targetPort;
+  }
+}
+
+export class DataIncusNetworkForwardPortsList extends cdktf.ComplexList {
+  public internalValue? : DataIncusNetworkForwardPorts[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIncusNetworkForwardPortsOutputReference {
+    return new DataIncusNetworkForwardPortsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_forward incus_network_forward}
+*/
+export class DataIncusNetworkForward extends cdktf.TerraformDataSource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "incus_network_forward";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a DataIncusNetworkForward resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the DataIncusNetworkForward to import
+  * @param importFromId The id of the existing DataIncusNetworkForward that should be imported. Refer to the {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_forward#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the DataIncusNetworkForward to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "incus_network_forward", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_forward incus_network_forward} Data Source
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options DataIncusNetworkForwardConfig
+  */
+  public constructor(scope: Construct, id: string, config: DataIncusNetworkForwardConfig) {
+    super(scope, id, {
+      terraformResourceType: 'incus_network_forward',
+      terraformGeneratorMetadata: {
+        providerName: 'incus',
+        providerVersion: '1.0.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._description = config.description;
+    this._listenAddress = config.listenAddress;
+    this._location = config.location;
+    this._network = config.network;
+    this._ports.internalValue = config.ports;
+    this._project = config.project;
+    this._remote = config.remote;
+    this._target = config.target;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // config - computed: true, optional: false, required: false
+  private _config = new cdktf.StringMap(this, "config");
+  public get config() {
+    return this._config;
+  }
+
+  // description - computed: true, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // listen_address - computed: false, optional: false, required: true
+  private _listenAddress?: string; 
+  public get listenAddress() {
+    return this.getStringAttribute('listen_address');
+  }
+  public set listenAddress(value: string) {
+    this._listenAddress = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get listenAddressInput() {
+    return this._listenAddress;
+  }
+
+  // location - computed: true, optional: true, required: false
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  public resetLocation() {
+    this._location = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // network - computed: false, optional: false, required: true
+  private _network?: string; 
+  public get network() {
+    return this.getStringAttribute('network');
+  }
+  public set network(value: string) {
+    this._network = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkInput() {
+    return this._network;
+  }
+
+  // ports - computed: true, optional: true, required: false
+  private _ports = new DataIncusNetworkForwardPortsList(this, "ports", false);
+  public get ports() {
+    return this._ports;
+  }
+  public putPorts(value: DataIncusNetworkForwardPorts[] | cdktf.IResolvable) {
+    this._ports.internalValue = value;
+  }
+  public resetPorts() {
+    this._ports.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portsInput() {
+    return this._ports.internalValue;
+  }
+
+  // project - computed: false, optional: true, required: false
+  private _project?: string; 
+  public get project() {
+    return this.getStringAttribute('project');
+  }
+  public set project(value: string) {
+    this._project = value;
+  }
+  public resetProject() {
+    this._project = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get projectInput() {
+    return this._project;
+  }
+
+  // remote - computed: false, optional: true, required: false
+  private _remote?: string; 
+  public get remote() {
+    return this.getStringAttribute('remote');
+  }
+  public set remote(value: string) {
+    this._remote = value;
+  }
+  public resetRemote() {
+    this._remote = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get remoteInput() {
+    return this._remote;
+  }
+
+  // target - computed: false, optional: true, required: false
+  private _target?: string; 
+  public get target() {
+    return this.getStringAttribute('target');
+  }
+  public set target(value: string) {
+    this._target = value;
+  }
+  public resetTarget() {
+    this._target = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetInput() {
+    return this._target;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      description: cdktf.stringToTerraform(this._description),
+      listen_address: cdktf.stringToTerraform(this._listenAddress),
+      location: cdktf.stringToTerraform(this._location),
+      network: cdktf.stringToTerraform(this._network),
+      ports: cdktf.listMapper(dataIncusNetworkForwardPortsToTerraform, false)(this._ports.internalValue),
+      project: cdktf.stringToTerraform(this._project),
+      remote: cdktf.stringToTerraform(this._remote),
+      target: cdktf.stringToTerraform(this._target),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      description: {
+        value: cdktf.stringToHclTerraform(this._description),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      listen_address: {
+        value: cdktf.stringToHclTerraform(this._listenAddress),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      location: {
+        value: cdktf.stringToHclTerraform(this._location),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      network: {
+        value: cdktf.stringToHclTerraform(this._network),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ports: {
+        value: cdktf.listMapperHcl(dataIncusNetworkForwardPortsToHclTerraform, false)(this._ports.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "DataIncusNetworkForwardPortsList",
+      },
+      project: {
+        value: cdktf.stringToHclTerraform(this._project),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      remote: {
+        value: cdktf.stringToHclTerraform(this._remote),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      target: {
+        value: cdktf.stringToHclTerraform(this._target),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

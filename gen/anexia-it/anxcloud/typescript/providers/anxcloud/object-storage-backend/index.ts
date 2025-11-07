@@ -1,0 +1,638 @@
+// https://registry.terraform.io/providers/anexia-it/anxcloud/0.7.4/docs/resources/object_storage_backend
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface ObjectStorageBackendConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Password of the S3 backend user.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/anexia-it/anxcloud/0.7.4/docs/resources/object_storage_backend#backend_password ObjectStorageBackend#backend_password}
+  */
+  readonly backendPassword: string;
+  /**
+  * Type of the S3 backend. 1 = NetApp Storage Grid v4.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/anexia-it/anxcloud/0.7.4/docs/resources/object_storage_backend#backend_type ObjectStorageBackend#backend_type}
+  */
+  readonly backendType?: string;
+  /**
+  * Name of the S3 backend user.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/anexia-it/anxcloud/0.7.4/docs/resources/object_storage_backend#backend_user ObjectStorageBackend#backend_user}
+  */
+  readonly backendUser: string;
+  /**
+  * Identifier of the customer the resource should be assigned to (mandatory).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/anexia-it/anxcloud/0.7.4/docs/resources/object_storage_backend#customer ObjectStorageBackend#customer}
+  */
+  readonly customer: string;
+  /**
+  * Indicates if the S3 backend is enabled.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/anexia-it/anxcloud/0.7.4/docs/resources/object_storage_backend#enabled ObjectStorageBackend#enabled}
+  */
+  readonly enabled?: boolean | cdktf.IResolvable;
+  /**
+  * Identifier of the referenced resource.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/anexia-it/anxcloud/0.7.4/docs/resources/object_storage_backend#endpoint ObjectStorageBackend#endpoint}
+  */
+  readonly endpoint: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/anexia-it/anxcloud/0.7.4/docs/resources/object_storage_backend#id ObjectStorageBackend#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * Name of the S3 backend.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/anexia-it/anxcloud/0.7.4/docs/resources/object_storage_backend#name ObjectStorageBackend#name}
+  */
+  readonly name: string;
+  /**
+  * Identifier of the reseller the resource should be assigned to.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/anexia-it/anxcloud/0.7.4/docs/resources/object_storage_backend#reseller ObjectStorageBackend#reseller}
+  */
+  readonly reseller?: string;
+  /**
+  * List of resource pool identifiers to which the resource should be assigned.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/anexia-it/anxcloud/0.7.4/docs/resources/object_storage_backend#resource_pools ObjectStorageBackend#resource_pools}
+  */
+  readonly resourcePools?: string[];
+  /**
+  * Defines whether a resource is shared.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/anexia-it/anxcloud/0.7.4/docs/resources/object_storage_backend#share ObjectStorageBackend#share}
+  */
+  readonly share?: boolean | cdktf.IResolvable;
+  /**
+  * timeouts block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/anexia-it/anxcloud/0.7.4/docs/resources/object_storage_backend#timeouts ObjectStorageBackend#timeouts}
+  */
+  readonly timeouts?: ObjectStorageBackendTimeouts;
+}
+export interface ObjectStorageBackendTimeouts {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/anexia-it/anxcloud/0.7.4/docs/resources/object_storage_backend#create ObjectStorageBackend#create}
+  */
+  readonly create?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/anexia-it/anxcloud/0.7.4/docs/resources/object_storage_backend#delete ObjectStorageBackend#delete}
+  */
+  readonly delete?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/anexia-it/anxcloud/0.7.4/docs/resources/object_storage_backend#read ObjectStorageBackend#read}
+  */
+  readonly read?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/anexia-it/anxcloud/0.7.4/docs/resources/object_storage_backend#update ObjectStorageBackend#update}
+  */
+  readonly update?: string;
+}
+
+export function objectStorageBackendTimeoutsToTerraform(struct?: ObjectStorageBackendTimeouts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    create: cdktf.stringToTerraform(struct!.create),
+    delete: cdktf.stringToTerraform(struct!.delete),
+    read: cdktf.stringToTerraform(struct!.read),
+    update: cdktf.stringToTerraform(struct!.update),
+  }
+}
+
+
+export function objectStorageBackendTimeoutsToHclTerraform(struct?: ObjectStorageBackendTimeouts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    create: {
+      value: cdktf.stringToHclTerraform(struct!.create),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    delete: {
+      value: cdktf.stringToHclTerraform(struct!.delete),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    read: {
+      value: cdktf.stringToHclTerraform(struct!.read),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    update: {
+      value: cdktf.stringToHclTerraform(struct!.update),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ObjectStorageBackendTimeoutsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): ObjectStorageBackendTimeouts | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._create !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.create = this._create;
+    }
+    if (this._delete !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.delete = this._delete;
+    }
+    if (this._read !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.read = this._read;
+    }
+    if (this._update !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.update = this._update;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ObjectStorageBackendTimeouts | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._create = undefined;
+      this._delete = undefined;
+      this._read = undefined;
+      this._update = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._create = value.create;
+      this._delete = value.delete;
+      this._read = value.read;
+      this._update = value.update;
+    }
+  }
+
+  // create - computed: false, optional: true, required: false
+  private _create?: string; 
+  public get create() {
+    return this.getStringAttribute('create');
+  }
+  public set create(value: string) {
+    this._create = value;
+  }
+  public resetCreate() {
+    this._create = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get createInput() {
+    return this._create;
+  }
+
+  // delete - computed: false, optional: true, required: false
+  private _delete?: string; 
+  public get delete() {
+    return this.getStringAttribute('delete');
+  }
+  public set delete(value: string) {
+    this._delete = value;
+  }
+  public resetDelete() {
+    this._delete = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deleteInput() {
+    return this._delete;
+  }
+
+  // read - computed: false, optional: true, required: false
+  private _read?: string; 
+  public get read() {
+    return this.getStringAttribute('read');
+  }
+  public set read(value: string) {
+    this._read = value;
+  }
+  public resetRead() {
+    this._read = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get readInput() {
+    return this._read;
+  }
+
+  // update - computed: false, optional: true, required: false
+  private _update?: string; 
+  public get update() {
+    return this.getStringAttribute('update');
+  }
+  public set update(value: string) {
+    this._update = value;
+  }
+  public resetUpdate() {
+    this._update = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get updateInput() {
+    return this._update;
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/anexia-it/anxcloud/0.7.4/docs/resources/object_storage_backend anxcloud_object_storage_backend}
+*/
+export class ObjectStorageBackend extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "anxcloud_object_storage_backend";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a ObjectStorageBackend resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the ObjectStorageBackend to import
+  * @param importFromId The id of the existing ObjectStorageBackend that should be imported. Refer to the {@link https://registry.terraform.io/providers/anexia-it/anxcloud/0.7.4/docs/resources/object_storage_backend#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the ObjectStorageBackend to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "anxcloud_object_storage_backend", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/anexia-it/anxcloud/0.7.4/docs/resources/object_storage_backend anxcloud_object_storage_backend} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options ObjectStorageBackendConfig
+  */
+  public constructor(scope: Construct, id: string, config: ObjectStorageBackendConfig) {
+    super(scope, id, {
+      terraformResourceType: 'anxcloud_object_storage_backend',
+      terraformGeneratorMetadata: {
+        providerName: 'anxcloud',
+        providerVersion: '0.7.4'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._backendPassword = config.backendPassword;
+    this._backendType = config.backendType;
+    this._backendUser = config.backendUser;
+    this._customer = config.customer;
+    this._enabled = config.enabled;
+    this._endpoint = config.endpoint;
+    this._id = config.id;
+    this._name = config.name;
+    this._reseller = config.reseller;
+    this._resourcePools = config.resourcePools;
+    this._share = config.share;
+    this._timeouts.internalValue = config.timeouts;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // backend_password - computed: false, optional: false, required: true
+  private _backendPassword?: string; 
+  public get backendPassword() {
+    return this.getStringAttribute('backend_password');
+  }
+  public set backendPassword(value: string) {
+    this._backendPassword = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get backendPasswordInput() {
+    return this._backendPassword;
+  }
+
+  // backend_type - computed: false, optional: true, required: false
+  private _backendType?: string; 
+  public get backendType() {
+    return this.getStringAttribute('backend_type');
+  }
+  public set backendType(value: string) {
+    this._backendType = value;
+  }
+  public resetBackendType() {
+    this._backendType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get backendTypeInput() {
+    return this._backendType;
+  }
+
+  // backend_user - computed: false, optional: false, required: true
+  private _backendUser?: string; 
+  public get backendUser() {
+    return this.getStringAttribute('backend_user');
+  }
+  public set backendUser(value: string) {
+    this._backendUser = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get backendUserInput() {
+    return this._backendUser;
+  }
+
+  // created_at - computed: true, optional: false, required: false
+  public get createdAt() {
+    return this.getStringAttribute('created_at');
+  }
+
+  // customer - computed: false, optional: false, required: true
+  private _customer?: string; 
+  public get customer() {
+    return this.getStringAttribute('customer');
+  }
+  public set customer(value: string) {
+    this._customer = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customerInput() {
+    return this._customer;
+  }
+
+  // enabled - computed: false, optional: true, required: false
+  private _enabled?: boolean | cdktf.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktf.IResolvable) {
+    this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+
+  // endpoint - computed: false, optional: false, required: true
+  private _endpoint?: string; 
+  public get endpoint() {
+    return this.getStringAttribute('endpoint');
+  }
+  public set endpoint(value: string) {
+    this._endpoint = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endpointInput() {
+    return this._endpoint;
+  }
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // reseller - computed: false, optional: true, required: false
+  private _reseller?: string; 
+  public get reseller() {
+    return this.getStringAttribute('reseller');
+  }
+  public set reseller(value: string) {
+    this._reseller = value;
+  }
+  public resetReseller() {
+    this._reseller = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resellerInput() {
+    return this._reseller;
+  }
+
+  // resource_pools - computed: false, optional: true, required: false
+  private _resourcePools?: string[]; 
+  public get resourcePools() {
+    return this.getListAttribute('resource_pools');
+  }
+  public set resourcePools(value: string[]) {
+    this._resourcePools = value;
+  }
+  public resetResourcePools() {
+    this._resourcePools = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourcePoolsInput() {
+    return this._resourcePools;
+  }
+
+  // share - computed: false, optional: true, required: false
+  private _share?: boolean | cdktf.IResolvable; 
+  public get share() {
+    return this.getBooleanAttribute('share');
+  }
+  public set share(value: boolean | cdktf.IResolvable) {
+    this._share = value;
+  }
+  public resetShare() {
+    this._share = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shareInput() {
+    return this._share;
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+
+  // updated_at - computed: true, optional: false, required: false
+  public get updatedAt() {
+    return this.getStringAttribute('updated_at');
+  }
+
+  // timeouts - computed: false, optional: true, required: false
+  private _timeouts = new ObjectStorageBackendTimeoutsOutputReference(this, "timeouts");
+  public get timeouts() {
+    return this._timeouts;
+  }
+  public putTimeouts(value: ObjectStorageBackendTimeouts) {
+    this._timeouts.internalValue = value;
+  }
+  public resetTimeouts() {
+    this._timeouts.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timeoutsInput() {
+    return this._timeouts.internalValue;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      backend_password: cdktf.stringToTerraform(this._backendPassword),
+      backend_type: cdktf.stringToTerraform(this._backendType),
+      backend_user: cdktf.stringToTerraform(this._backendUser),
+      customer: cdktf.stringToTerraform(this._customer),
+      enabled: cdktf.booleanToTerraform(this._enabled),
+      endpoint: cdktf.stringToTerraform(this._endpoint),
+      id: cdktf.stringToTerraform(this._id),
+      name: cdktf.stringToTerraform(this._name),
+      reseller: cdktf.stringToTerraform(this._reseller),
+      resource_pools: cdktf.listMapper(cdktf.stringToTerraform, false)(this._resourcePools),
+      share: cdktf.booleanToTerraform(this._share),
+      timeouts: objectStorageBackendTimeoutsToTerraform(this._timeouts.internalValue),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      backend_password: {
+        value: cdktf.stringToHclTerraform(this._backendPassword),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      backend_type: {
+        value: cdktf.stringToHclTerraform(this._backendType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      backend_user: {
+        value: cdktf.stringToHclTerraform(this._backendUser),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      customer: {
+        value: cdktf.stringToHclTerraform(this._customer),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      enabled: {
+        value: cdktf.booleanToHclTerraform(this._enabled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      endpoint: {
+        value: cdktf.stringToHclTerraform(this._endpoint),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      reseller: {
+        value: cdktf.stringToHclTerraform(this._reseller),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      resource_pools: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._resourcePools),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      share: {
+        value: cdktf.booleanToHclTerraform(this._share),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      timeouts: {
+        value: objectStorageBackendTimeoutsToHclTerraform(this._timeouts.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "ObjectStorageBackendTimeouts",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

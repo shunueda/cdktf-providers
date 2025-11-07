@@ -1,0 +1,180 @@
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_add_api_key
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface ManagementAddApiKeyConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Administrator name to generate API key for.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_add_api_key#admin_name ManagementAddApiKey#admin_name}
+  */
+  readonly adminName?: string;
+  /**
+  * Administrator uid to generate API key for.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_add_api_key#admin_uid ManagementAddApiKey#admin_uid}
+  */
+  readonly adminUid?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_add_api_key#id ManagementAddApiKey#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_add_api_key checkpoint_management_add_api_key}
+*/
+export class ManagementAddApiKey extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "checkpoint_management_add_api_key";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a ManagementAddApiKey resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the ManagementAddApiKey to import
+  * @param importFromId The id of the existing ManagementAddApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_add_api_key#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the ManagementAddApiKey to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "checkpoint_management_add_api_key", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_add_api_key checkpoint_management_add_api_key} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options ManagementAddApiKeyConfig = {}
+  */
+  public constructor(scope: Construct, id: string, config: ManagementAddApiKeyConfig = {}) {
+    super(scope, id, {
+      terraformResourceType: 'checkpoint_management_add_api_key',
+      terraformGeneratorMetadata: {
+        providerName: 'checkpoint',
+        providerVersion: '2.11.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._adminName = config.adminName;
+    this._adminUid = config.adminUid;
+    this._id = config.id;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // admin_name - computed: false, optional: true, required: false
+  private _adminName?: string; 
+  public get adminName() {
+    return this.getStringAttribute('admin_name');
+  }
+  public set adminName(value: string) {
+    this._adminName = value;
+  }
+  public resetAdminName() {
+    this._adminName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get adminNameInput() {
+    return this._adminName;
+  }
+
+  // admin_uid - computed: false, optional: true, required: false
+  private _adminUid?: string; 
+  public get adminUid() {
+    return this.getStringAttribute('admin_uid');
+  }
+  public set adminUid(value: string) {
+    this._adminUid = value;
+  }
+  public resetAdminUid() {
+    this._adminUid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get adminUidInput() {
+    return this._adminUid;
+  }
+
+  // api_key - computed: true, optional: false, required: false
+  public get apiKey() {
+    return this.getStringAttribute('api_key');
+  }
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      admin_name: cdktf.stringToTerraform(this._adminName),
+      admin_uid: cdktf.stringToTerraform(this._adminUid),
+      id: cdktf.stringToTerraform(this._id),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      admin_name: {
+        value: cdktf.stringToHclTerraform(this._adminName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      admin_uid: {
+        value: cdktf.stringToHclTerraform(this._adminUid),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

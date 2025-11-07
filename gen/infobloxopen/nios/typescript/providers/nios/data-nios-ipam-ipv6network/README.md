@@ -1,0 +1,3 @@
+# `data_nios_ipam_ipv6network`
+
+Refer to the Terraform Registry for docs: [`data_nios_ipam_ipv6network`](https://registry.terraform.io/providers/infobloxopen/nios/1.0.0/docs/data-sources/ipam_ipv6network).

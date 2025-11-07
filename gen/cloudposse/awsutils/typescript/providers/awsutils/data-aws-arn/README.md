@@ -1,0 +1,3 @@
+# `data_aws_arn`
+
+Refer to the Terraform Registry for docs: [`data_aws_arn`](https://registry.terraform.io/providers/cloudposse/awsutils/0.20.1/docs/data-sources/aws_arn).

@@ -1,0 +1,3 @@
+# `aiven_flink_application`
+
+Refer to the Terraform Registry for docs: [`aiven_flink_application`](https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application).

@@ -1,0 +1,3 @@
+# `cpln_custom_location`
+
+Refer to the Terraform Registry for docs: [`cpln_custom_location`](https://registry.terraform.io/providers/controlplane-com/cpln/1.2.14/docs/resources/custom_location).

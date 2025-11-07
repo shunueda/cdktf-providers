@@ -1,0 +1,3 @@
+# `tanzu-mission-control_custom_iam_role`
+
+Refer to the Terraform Registry for docs: [`tanzu-mission-control_custom_iam_role`](https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role).

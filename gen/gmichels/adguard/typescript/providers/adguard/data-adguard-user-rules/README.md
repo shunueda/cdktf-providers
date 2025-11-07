@@ -1,0 +1,3 @@
+# `data_adguard_user_rules`
+
+Refer to the Terraform Registry for docs: [`data_adguard_user_rules`](https://registry.terraform.io/providers/gmichels/adguard/1.6.2/docs/data-sources/user_rules).

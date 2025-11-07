@@ -1,0 +1,865 @@
+// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_flux_config_v1alpha1_manifest
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_flux_config_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1Manifest#metadata}
+  */
+  readonly metadata: DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestMetadata;
+  /**
+  * FluxConfigSpec defines the desired state of FluxConfig.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_flux_config_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1Manifest#spec}
+  */
+  readonly spec?: DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpec;
+}
+export interface DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestMetadata {
+  /**
+  * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_flux_config_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1Manifest#annotations}
+  */
+  readonly annotations?: { [key: string]: string };
+  /**
+  * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_flux_config_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1Manifest#labels}
+  */
+  readonly labels?: { [key: string]: string };
+  /**
+  * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_flux_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1Manifest#name}
+  */
+  readonly name: string;
+  /**
+  * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_flux_config_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1Manifest#namespace}
+  */
+  readonly namespace: string;
+}
+
+export function dataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestMetadataToTerraform(struct?: DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestMetadata | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    annotations: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.annotations),
+    labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.labels),
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+  }
+}
+
+
+export function dataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestMetadataToHclTerraform(struct?: DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestMetadata | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    annotations: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.annotations),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    labels: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.labels),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestMetadataOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestMetadata | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._annotations !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.annotations = this._annotations;
+    }
+    if (this._labels !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.labels = this._labels;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestMetadata | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._annotations = undefined;
+      this._labels = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._annotations = value.annotations;
+      this._labels = value.labels;
+      this._name = value.name;
+      this._namespace = value.namespace;
+    }
+  }
+
+  // annotations - computed: false, optional: true, required: false
+  private _annotations?: { [key: string]: string }; 
+  public get annotations() {
+    return this.getStringMapAttribute('annotations');
+  }
+  public set annotations(value: { [key: string]: string }) {
+    this._annotations = value;
+  }
+  public resetAnnotations() {
+    this._annotations = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get annotationsInput() {
+    return this._annotations;
+  }
+
+  // labels - computed: false, optional: true, required: false
+  private _labels?: { [key: string]: string }; 
+  public get labels() {
+    return this.getStringMapAttribute('labels');
+  }
+  public set labels(value: { [key: string]: string }) {
+    this._labels = value;
+  }
+  public resetLabels() {
+    this._labels = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelsInput() {
+    return this._labels;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: false, required: true
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+}
+export interface DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGit {
+  /**
+  * Repository URL for the repository to be used with flux. Can be either an SSH or HTTPS url.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_flux_config_v1alpha1_manifest#repository_url DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1Manifest#repository_url}
+  */
+  readonly repositoryUrl: string;
+  /**
+  * SSH public key algorithm for the private key specified (rsa, ecdsa, ed25519) (default ecdsa)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_flux_config_v1alpha1_manifest#ssh_key_algorithm DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1Manifest#ssh_key_algorithm}
+  */
+  readonly sshKeyAlgorithm?: string;
+}
+
+export function dataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGitToTerraform(struct?: DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGit | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    repository_url: cdktf.stringToTerraform(struct!.repositoryUrl),
+    ssh_key_algorithm: cdktf.stringToTerraform(struct!.sshKeyAlgorithm),
+  }
+}
+
+
+export function dataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGitToHclTerraform(struct?: DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGit | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    repository_url: {
+      value: cdktf.stringToHclTerraform(struct!.repositoryUrl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ssh_key_algorithm: {
+      value: cdktf.stringToHclTerraform(struct!.sshKeyAlgorithm),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGitOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGit | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._repositoryUrl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.repositoryUrl = this._repositoryUrl;
+    }
+    if (this._sshKeyAlgorithm !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sshKeyAlgorithm = this._sshKeyAlgorithm;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGit | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._repositoryUrl = undefined;
+      this._sshKeyAlgorithm = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._repositoryUrl = value.repositoryUrl;
+      this._sshKeyAlgorithm = value.sshKeyAlgorithm;
+    }
+  }
+
+  // repository_url - computed: false, optional: false, required: true
+  private _repositoryUrl?: string; 
+  public get repositoryUrl() {
+    return this.getStringAttribute('repository_url');
+  }
+  public set repositoryUrl(value: string) {
+    this._repositoryUrl = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get repositoryUrlInput() {
+    return this._repositoryUrl;
+  }
+
+  // ssh_key_algorithm - computed: false, optional: true, required: false
+  private _sshKeyAlgorithm?: string; 
+  public get sshKeyAlgorithm() {
+    return this.getStringAttribute('ssh_key_algorithm');
+  }
+  public set sshKeyAlgorithm(value: string) {
+    this._sshKeyAlgorithm = value;
+  }
+  public resetSshKeyAlgorithm() {
+    this._sshKeyAlgorithm = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sshKeyAlgorithmInput() {
+    return this._sshKeyAlgorithm;
+  }
+}
+export interface DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGithub {
+  /**
+  * Owner is the user or organization name of the Git provider.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_flux_config_v1alpha1_manifest#owner DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1Manifest#owner}
+  */
+  readonly owner: string;
+  /**
+  * if true, the owner is assumed to be a Git user; otherwise an org.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_flux_config_v1alpha1_manifest#personal DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1Manifest#personal}
+  */
+  readonly personal?: boolean | cdktf.IResolvable;
+  /**
+  * Repository name.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_flux_config_v1alpha1_manifest#repository DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1Manifest#repository}
+  */
+  readonly repository: string;
+}
+
+export function dataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGithubToTerraform(struct?: DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGithub | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    owner: cdktf.stringToTerraform(struct!.owner),
+    personal: cdktf.booleanToTerraform(struct!.personal),
+    repository: cdktf.stringToTerraform(struct!.repository),
+  }
+}
+
+
+export function dataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGithubToHclTerraform(struct?: DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGithub | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    owner: {
+      value: cdktf.stringToHclTerraform(struct!.owner),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    personal: {
+      value: cdktf.booleanToHclTerraform(struct!.personal),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    repository: {
+      value: cdktf.stringToHclTerraform(struct!.repository),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGithubOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGithub | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._owner !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.owner = this._owner;
+    }
+    if (this._personal !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.personal = this._personal;
+    }
+    if (this._repository !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.repository = this._repository;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGithub | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._owner = undefined;
+      this._personal = undefined;
+      this._repository = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._owner = value.owner;
+      this._personal = value.personal;
+      this._repository = value.repository;
+    }
+  }
+
+  // owner - computed: false, optional: false, required: true
+  private _owner?: string; 
+  public get owner() {
+    return this.getStringAttribute('owner');
+  }
+  public set owner(value: string) {
+    this._owner = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ownerInput() {
+    return this._owner;
+  }
+
+  // personal - computed: false, optional: true, required: false
+  private _personal?: boolean | cdktf.IResolvable; 
+  public get personal() {
+    return this.getBooleanAttribute('personal');
+  }
+  public set personal(value: boolean | cdktf.IResolvable) {
+    this._personal = value;
+  }
+  public resetPersonal() {
+    this._personal = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get personalInput() {
+    return this._personal;
+  }
+
+  // repository - computed: false, optional: false, required: true
+  private _repository?: string; 
+  public get repository() {
+    return this.getStringAttribute('repository');
+  }
+  public set repository(value: string) {
+    this._repository = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get repositoryInput() {
+    return this._repository;
+  }
+}
+export interface DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpec {
+  /**
+  * Git branch. Defaults to main.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_flux_config_v1alpha1_manifest#branch DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1Manifest#branch}
+  */
+  readonly branch?: string;
+  /**
+  * ClusterConfigPath relative to the repository root, when specified the cluster sync will be scoped to this path.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_flux_config_v1alpha1_manifest#cluster_config_path DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1Manifest#cluster_config_path}
+  */
+  readonly clusterConfigPath?: string;
+  /**
+  * Used to specify Git provider that will be used to host the git files
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_flux_config_v1alpha1_manifest#git DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1Manifest#git}
+  */
+  readonly git?: DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGit;
+  /**
+  * Used to specify Github provider to host the Git repo and host the git files
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_flux_config_v1alpha1_manifest#github DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1Manifest#github}
+  */
+  readonly github?: DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGithub;
+  /**
+  * SystemNamespace scope for this operation. Defaults to flux-system
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_flux_config_v1alpha1_manifest#system_namespace DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1Manifest#system_namespace}
+  */
+  readonly systemNamespace?: string;
+}
+
+export function dataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecToTerraform(struct?: DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpec | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    branch: cdktf.stringToTerraform(struct!.branch),
+    cluster_config_path: cdktf.stringToTerraform(struct!.clusterConfigPath),
+    git: dataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGitToTerraform(struct!.git),
+    github: dataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGithubToTerraform(struct!.github),
+    system_namespace: cdktf.stringToTerraform(struct!.systemNamespace),
+  }
+}
+
+
+export function dataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecToHclTerraform(struct?: DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpec | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    branch: {
+      value: cdktf.stringToHclTerraform(struct!.branch),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    cluster_config_path: {
+      value: cdktf.stringToHclTerraform(struct!.clusterConfigPath),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    git: {
+      value: dataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGitToHclTerraform(struct!.git),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGit",
+    },
+    github: {
+      value: dataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGithubToHclTerraform(struct!.github),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGithub",
+    },
+    system_namespace: {
+      value: cdktf.stringToHclTerraform(struct!.systemNamespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpec | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._branch !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.branch = this._branch;
+    }
+    if (this._clusterConfigPath !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clusterConfigPath = this._clusterConfigPath;
+    }
+    if (this._git?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.git = this._git?.internalValue;
+    }
+    if (this._github?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.github = this._github?.internalValue;
+    }
+    if (this._systemNamespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.systemNamespace = this._systemNamespace;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpec | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._branch = undefined;
+      this._clusterConfigPath = undefined;
+      this._git.internalValue = undefined;
+      this._github.internalValue = undefined;
+      this._systemNamespace = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._branch = value.branch;
+      this._clusterConfigPath = value.clusterConfigPath;
+      this._git.internalValue = value.git;
+      this._github.internalValue = value.github;
+      this._systemNamespace = value.systemNamespace;
+    }
+  }
+
+  // branch - computed: false, optional: true, required: false
+  private _branch?: string; 
+  public get branch() {
+    return this.getStringAttribute('branch');
+  }
+  public set branch(value: string) {
+    this._branch = value;
+  }
+  public resetBranch() {
+    this._branch = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get branchInput() {
+    return this._branch;
+  }
+
+  // cluster_config_path - computed: false, optional: true, required: false
+  private _clusterConfigPath?: string; 
+  public get clusterConfigPath() {
+    return this.getStringAttribute('cluster_config_path');
+  }
+  public set clusterConfigPath(value: string) {
+    this._clusterConfigPath = value;
+  }
+  public resetClusterConfigPath() {
+    this._clusterConfigPath = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clusterConfigPathInput() {
+    return this._clusterConfigPath;
+  }
+
+  // git - computed: false, optional: true, required: false
+  private _git = new DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGitOutputReference(this, "git");
+  public get git() {
+    return this._git;
+  }
+  public putGit(value: DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGit) {
+    this._git.internalValue = value;
+  }
+  public resetGit() {
+    this._git.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gitInput() {
+    return this._git.internalValue;
+  }
+
+  // github - computed: false, optional: true, required: false
+  private _github = new DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGithubOutputReference(this, "github");
+  public get github() {
+    return this._github;
+  }
+  public putGithub(value: DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecGithub) {
+    this._github.internalValue = value;
+  }
+  public resetGithub() {
+    this._github.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get githubInput() {
+    return this._github.internalValue;
+  }
+
+  // system_namespace - computed: false, optional: true, required: false
+  private _systemNamespace?: string; 
+  public get systemNamespace() {
+    return this.getStringAttribute('system_namespace');
+  }
+  public set systemNamespace(value: string) {
+    this._systemNamespace = value;
+  }
+  public resetSystemNamespace() {
+    this._systemNamespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get systemNamespaceInput() {
+    return this._systemNamespace;
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_flux_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_flux_config_v1alpha1_manifest}
+*/
+export class DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1Manifest extends cdktf.TerraformDataSource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "k8s_anywhere_eks_amazonaws_com_flux_config_v1alpha1_manifest";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1Manifest to import
+  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_flux_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1Manifest to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "k8s_anywhere_eks_amazonaws_com_flux_config_v1alpha1_manifest", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_flux_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_flux_config_v1alpha1_manifest} Data Source
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestConfig
+  */
+  public constructor(scope: Construct, id: string, config: DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestConfig) {
+    super(scope, id, {
+      terraformResourceType: 'k8s_anywhere_eks_amazonaws_com_flux_config_v1alpha1_manifest',
+      terraformGeneratorMetadata: {
+        providerName: 'k8s',
+        providerVersion: '2025.11.3'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._metadata.internalValue = config.metadata;
+    this._spec.internalValue = config.spec;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // metadata - computed: false, optional: false, required: true
+  private _metadata = new DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestMetadataOutputReference(this, "metadata");
+  public get metadata() {
+    return this._metadata;
+  }
+  public putMetadata(value: DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestMetadata) {
+    this._metadata.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metadataInput() {
+    return this._metadata.internalValue;
+  }
+
+  // spec - computed: false, optional: true, required: false
+  private _spec = new DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecOutputReference(this, "spec");
+  public get spec() {
+    return this._spec;
+  }
+  public putSpec(value: DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpec) {
+    this._spec.internalValue = value;
+  }
+  public resetSpec() {
+    this._spec.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get specInput() {
+    return this._spec.internalValue;
+  }
+
+  // yaml - computed: true, optional: false, required: false
+  public get yaml() {
+    return this.getStringAttribute('yaml');
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      metadata: dataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestMetadataToTerraform(this._metadata.internalValue),
+      spec: dataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecToTerraform(this._spec.internalValue),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      metadata: {
+        value: dataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestMetadataToHclTerraform(this._metadata.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestMetadata",
+      },
+      spec: {
+        value: dataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpecToHclTerraform(this._spec.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "DataK8SAnywhereEksAmazonawsComFluxConfigV1Alpha1ManifestSpec",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

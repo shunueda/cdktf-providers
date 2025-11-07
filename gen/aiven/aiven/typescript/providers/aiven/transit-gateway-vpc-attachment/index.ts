@@ -1,0 +1,525 @@
+// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface TransitGatewayVpcAttachmentConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#id TransitGatewayVpcAttachment#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * AWS account ID or GCP project ID of the peered VPC. Changing this property forces recreation of the resource.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#peer_cloud_account TransitGatewayVpcAttachment#peer_cloud_account}
+  */
+  readonly peerCloudAccount: string;
+  /**
+  * AWS region of the peered VPC (if not in the same region as Aiven VPC). This value can't be changed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#peer_region TransitGatewayVpcAttachment#peer_region}
+  */
+  readonly peerRegion?: string;
+  /**
+  * Transit gateway ID. Changing this property forces recreation of the resource.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#peer_vpc TransitGatewayVpcAttachment#peer_vpc}
+  */
+  readonly peerVpc: string;
+  /**
+  * List of private IPv4 ranges to route through the peering connection
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#user_peer_network_cidrs TransitGatewayVpcAttachment#user_peer_network_cidrs}
+  */
+  readonly userPeerNetworkCidrs: string[];
+  /**
+  * The VPC the peering connection belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#vpc_id TransitGatewayVpcAttachment#vpc_id}
+  */
+  readonly vpcId: string;
+  /**
+  * timeouts block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#timeouts TransitGatewayVpcAttachment#timeouts}
+  */
+  readonly timeouts?: TransitGatewayVpcAttachmentTimeouts;
+}
+export interface TransitGatewayVpcAttachmentTimeouts {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#create TransitGatewayVpcAttachment#create}
+  */
+  readonly create?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#default TransitGatewayVpcAttachment#default}
+  */
+  readonly default?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#delete TransitGatewayVpcAttachment#delete}
+  */
+  readonly delete?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#read TransitGatewayVpcAttachment#read}
+  */
+  readonly read?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#update TransitGatewayVpcAttachment#update}
+  */
+  readonly update?: string;
+}
+
+export function transitGatewayVpcAttachmentTimeoutsToTerraform(struct?: TransitGatewayVpcAttachmentTimeouts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    create: cdktf.stringToTerraform(struct!.create),
+    default: cdktf.stringToTerraform(struct!.default),
+    delete: cdktf.stringToTerraform(struct!.delete),
+    read: cdktf.stringToTerraform(struct!.read),
+    update: cdktf.stringToTerraform(struct!.update),
+  }
+}
+
+
+export function transitGatewayVpcAttachmentTimeoutsToHclTerraform(struct?: TransitGatewayVpcAttachmentTimeouts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    create: {
+      value: cdktf.stringToHclTerraform(struct!.create),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    default: {
+      value: cdktf.stringToHclTerraform(struct!.default),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    delete: {
+      value: cdktf.stringToHclTerraform(struct!.delete),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    read: {
+      value: cdktf.stringToHclTerraform(struct!.read),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    update: {
+      value: cdktf.stringToHclTerraform(struct!.update),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class TransitGatewayVpcAttachmentTimeoutsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): TransitGatewayVpcAttachmentTimeouts | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._create !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.create = this._create;
+    }
+    if (this._default !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.default = this._default;
+    }
+    if (this._delete !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.delete = this._delete;
+    }
+    if (this._read !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.read = this._read;
+    }
+    if (this._update !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.update = this._update;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: TransitGatewayVpcAttachmentTimeouts | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._create = undefined;
+      this._default = undefined;
+      this._delete = undefined;
+      this._read = undefined;
+      this._update = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._create = value.create;
+      this._default = value.default;
+      this._delete = value.delete;
+      this._read = value.read;
+      this._update = value.update;
+    }
+  }
+
+  // create - computed: false, optional: true, required: false
+  private _create?: string; 
+  public get create() {
+    return this.getStringAttribute('create');
+  }
+  public set create(value: string) {
+    this._create = value;
+  }
+  public resetCreate() {
+    this._create = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get createInput() {
+    return this._create;
+  }
+
+  // default - computed: false, optional: true, required: false
+  private _default?: string; 
+  public get default() {
+    return this.getStringAttribute('default');
+  }
+  public set default(value: string) {
+    this._default = value;
+  }
+  public resetDefault() {
+    this._default = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultInput() {
+    return this._default;
+  }
+
+  // delete - computed: false, optional: true, required: false
+  private _delete?: string; 
+  public get delete() {
+    return this.getStringAttribute('delete');
+  }
+  public set delete(value: string) {
+    this._delete = value;
+  }
+  public resetDelete() {
+    this._delete = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deleteInput() {
+    return this._delete;
+  }
+
+  // read - computed: false, optional: true, required: false
+  private _read?: string; 
+  public get read() {
+    return this.getStringAttribute('read');
+  }
+  public set read(value: string) {
+    this._read = value;
+  }
+  public resetRead() {
+    this._read = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get readInput() {
+    return this._read;
+  }
+
+  // update - computed: false, optional: true, required: false
+  private _update?: string; 
+  public get update() {
+    return this.getStringAttribute('update');
+  }
+  public set update(value: string) {
+    this._update = value;
+  }
+  public resetUpdate() {
+    this._update = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get updateInput() {
+    return this._update;
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment aiven_transit_gateway_vpc_attachment}
+*/
+export class TransitGatewayVpcAttachment extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "aiven_transit_gateway_vpc_attachment";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a TransitGatewayVpcAttachment resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the TransitGatewayVpcAttachment to import
+  * @param importFromId The id of the existing TransitGatewayVpcAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the TransitGatewayVpcAttachment to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "aiven_transit_gateway_vpc_attachment", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment aiven_transit_gateway_vpc_attachment} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options TransitGatewayVpcAttachmentConfig
+  */
+  public constructor(scope: Construct, id: string, config: TransitGatewayVpcAttachmentConfig) {
+    super(scope, id, {
+      terraformResourceType: 'aiven_transit_gateway_vpc_attachment',
+      terraformGeneratorMetadata: {
+        providerName: 'aiven',
+        providerVersion: '4.46.1'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._id = config.id;
+    this._peerCloudAccount = config.peerCloudAccount;
+    this._peerRegion = config.peerRegion;
+    this._peerVpc = config.peerVpc;
+    this._userPeerNetworkCidrs = config.userPeerNetworkCidrs;
+    this._vpcId = config.vpcId;
+    this._timeouts.internalValue = config.timeouts;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // peer_cloud_account - computed: false, optional: false, required: true
+  private _peerCloudAccount?: string; 
+  public get peerCloudAccount() {
+    return this.getStringAttribute('peer_cloud_account');
+  }
+  public set peerCloudAccount(value: string) {
+    this._peerCloudAccount = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get peerCloudAccountInput() {
+    return this._peerCloudAccount;
+  }
+
+  // peer_region - computed: false, optional: true, required: false
+  private _peerRegion?: string; 
+  public get peerRegion() {
+    return this.getStringAttribute('peer_region');
+  }
+  public set peerRegion(value: string) {
+    this._peerRegion = value;
+  }
+  public resetPeerRegion() {
+    this._peerRegion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get peerRegionInput() {
+    return this._peerRegion;
+  }
+
+  // peer_vpc - computed: false, optional: false, required: true
+  private _peerVpc?: string; 
+  public get peerVpc() {
+    return this.getStringAttribute('peer_vpc');
+  }
+  public set peerVpc(value: string) {
+    this._peerVpc = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get peerVpcInput() {
+    return this._peerVpc;
+  }
+
+  // peering_connection_id - computed: true, optional: false, required: false
+  public get peeringConnectionId() {
+    return this.getStringAttribute('peering_connection_id');
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+
+  // state_info - computed: true, optional: false, required: false
+  private _stateInfo = new cdktf.StringMap(this, "state_info");
+  public get stateInfo() {
+    return this._stateInfo;
+  }
+
+  // user_peer_network_cidrs - computed: false, optional: false, required: true
+  private _userPeerNetworkCidrs?: string[]; 
+  public get userPeerNetworkCidrs() {
+    return cdktf.Fn.tolist(this.getListAttribute('user_peer_network_cidrs'));
+  }
+  public set userPeerNetworkCidrs(value: string[]) {
+    this._userPeerNetworkCidrs = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userPeerNetworkCidrsInput() {
+    return this._userPeerNetworkCidrs;
+  }
+
+  // vpc_id - computed: false, optional: false, required: true
+  private _vpcId?: string; 
+  public get vpcId() {
+    return this.getStringAttribute('vpc_id');
+  }
+  public set vpcId(value: string) {
+    this._vpcId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vpcIdInput() {
+    return this._vpcId;
+  }
+
+  // timeouts - computed: false, optional: true, required: false
+  private _timeouts = new TransitGatewayVpcAttachmentTimeoutsOutputReference(this, "timeouts");
+  public get timeouts() {
+    return this._timeouts;
+  }
+  public putTimeouts(value: TransitGatewayVpcAttachmentTimeouts) {
+    this._timeouts.internalValue = value;
+  }
+  public resetTimeouts() {
+    this._timeouts.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timeoutsInput() {
+    return this._timeouts.internalValue;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      id: cdktf.stringToTerraform(this._id),
+      peer_cloud_account: cdktf.stringToTerraform(this._peerCloudAccount),
+      peer_region: cdktf.stringToTerraform(this._peerRegion),
+      peer_vpc: cdktf.stringToTerraform(this._peerVpc),
+      user_peer_network_cidrs: cdktf.listMapper(cdktf.stringToTerraform, false)(this._userPeerNetworkCidrs),
+      vpc_id: cdktf.stringToTerraform(this._vpcId),
+      timeouts: transitGatewayVpcAttachmentTimeoutsToTerraform(this._timeouts.internalValue),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      peer_cloud_account: {
+        value: cdktf.stringToHclTerraform(this._peerCloudAccount),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      peer_region: {
+        value: cdktf.stringToHclTerraform(this._peerRegion),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      peer_vpc: {
+        value: cdktf.stringToHclTerraform(this._peerVpc),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      user_peer_network_cidrs: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._userPeerNetworkCidrs),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      vpc_id: {
+        value: cdktf.stringToHclTerraform(this._vpcId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      timeouts: {
+        value: transitGatewayVpcAttachmentTimeoutsToHclTerraform(this._timeouts.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "TransitGatewayVpcAttachmentTimeouts",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

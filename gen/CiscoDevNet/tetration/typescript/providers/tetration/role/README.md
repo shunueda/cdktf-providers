@@ -1,0 +1,3 @@
+# `tetration_role`
+
+Refer to the Terraform Registry for docs: [`tetration_role`](https://registry.terraform.io/providers/ciscodevnet/tetration/0.1.1/docs/resources/role).

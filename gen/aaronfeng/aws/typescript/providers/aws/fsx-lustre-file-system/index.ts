@@ -1,0 +1,772 @@
+// https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/fsx_lustre_file_system
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface FsxLustreFileSystemConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/fsx_lustre_file_system#auto_import_policy FsxLustreFileSystem#auto_import_policy}
+  */
+  readonly autoImportPolicy?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/fsx_lustre_file_system#automatic_backup_retention_days FsxLustreFileSystem#automatic_backup_retention_days}
+  */
+  readonly automaticBackupRetentionDays?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/fsx_lustre_file_system#copy_tags_to_backups FsxLustreFileSystem#copy_tags_to_backups}
+  */
+  readonly copyTagsToBackups?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/fsx_lustre_file_system#daily_automatic_backup_start_time FsxLustreFileSystem#daily_automatic_backup_start_time}
+  */
+  readonly dailyAutomaticBackupStartTime?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/fsx_lustre_file_system#deployment_type FsxLustreFileSystem#deployment_type}
+  */
+  readonly deploymentType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/fsx_lustre_file_system#drive_cache_type FsxLustreFileSystem#drive_cache_type}
+  */
+  readonly driveCacheType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/fsx_lustre_file_system#export_path FsxLustreFileSystem#export_path}
+  */
+  readonly exportPath?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/fsx_lustre_file_system#id FsxLustreFileSystem#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/fsx_lustre_file_system#import_path FsxLustreFileSystem#import_path}
+  */
+  readonly importPath?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/fsx_lustre_file_system#imported_file_chunk_size FsxLustreFileSystem#imported_file_chunk_size}
+  */
+  readonly importedFileChunkSize?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/fsx_lustre_file_system#kms_key_id FsxLustreFileSystem#kms_key_id}
+  */
+  readonly kmsKeyId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/fsx_lustre_file_system#per_unit_storage_throughput FsxLustreFileSystem#per_unit_storage_throughput}
+  */
+  readonly perUnitStorageThroughput?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/fsx_lustre_file_system#security_group_ids FsxLustreFileSystem#security_group_ids}
+  */
+  readonly securityGroupIds?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/fsx_lustre_file_system#storage_capacity FsxLustreFileSystem#storage_capacity}
+  */
+  readonly storageCapacity: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/fsx_lustre_file_system#storage_type FsxLustreFileSystem#storage_type}
+  */
+  readonly storageType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/fsx_lustre_file_system#subnet_ids FsxLustreFileSystem#subnet_ids}
+  */
+  readonly subnetIds: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/fsx_lustre_file_system#tags FsxLustreFileSystem#tags}
+  */
+  readonly tags?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/fsx_lustre_file_system#weekly_maintenance_start_time FsxLustreFileSystem#weekly_maintenance_start_time}
+  */
+  readonly weeklyMaintenanceStartTime?: string;
+  /**
+  * timeouts block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/fsx_lustre_file_system#timeouts FsxLustreFileSystem#timeouts}
+  */
+  readonly timeouts?: FsxLustreFileSystemTimeouts;
+}
+export interface FsxLustreFileSystemTimeouts {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/fsx_lustre_file_system#create FsxLustreFileSystem#create}
+  */
+  readonly create?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/fsx_lustre_file_system#delete FsxLustreFileSystem#delete}
+  */
+  readonly delete?: string;
+}
+
+export function fsxLustreFileSystemTimeoutsToTerraform(struct?: FsxLustreFileSystemTimeouts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    create: cdktf.stringToTerraform(struct!.create),
+    delete: cdktf.stringToTerraform(struct!.delete),
+  }
+}
+
+
+export function fsxLustreFileSystemTimeoutsToHclTerraform(struct?: FsxLustreFileSystemTimeouts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    create: {
+      value: cdktf.stringToHclTerraform(struct!.create),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    delete: {
+      value: cdktf.stringToHclTerraform(struct!.delete),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FsxLustreFileSystemTimeoutsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): FsxLustreFileSystemTimeouts | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._create !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.create = this._create;
+    }
+    if (this._delete !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.delete = this._delete;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FsxLustreFileSystemTimeouts | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._create = undefined;
+      this._delete = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._create = value.create;
+      this._delete = value.delete;
+    }
+  }
+
+  // create - computed: false, optional: true, required: false
+  private _create?: string; 
+  public get create() {
+    return this.getStringAttribute('create');
+  }
+  public set create(value: string) {
+    this._create = value;
+  }
+  public resetCreate() {
+    this._create = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get createInput() {
+    return this._create;
+  }
+
+  // delete - computed: false, optional: true, required: false
+  private _delete?: string; 
+  public get delete() {
+    return this.getStringAttribute('delete');
+  }
+  public set delete(value: string) {
+    this._delete = value;
+  }
+  public resetDelete() {
+    this._delete = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deleteInput() {
+    return this._delete;
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/fsx_lustre_file_system aws_fsx_lustre_file_system}
+*/
+export class FsxLustreFileSystem extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "aws_fsx_lustre_file_system";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a FsxLustreFileSystem resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the FsxLustreFileSystem to import
+  * @param importFromId The id of the existing FsxLustreFileSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/fsx_lustre_file_system#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the FsxLustreFileSystem to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "aws_fsx_lustre_file_system", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/fsx_lustre_file_system aws_fsx_lustre_file_system} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options FsxLustreFileSystemConfig
+  */
+  public constructor(scope: Construct, id: string, config: FsxLustreFileSystemConfig) {
+    super(scope, id, {
+      terraformResourceType: 'aws_fsx_lustre_file_system',
+      terraformGeneratorMetadata: {
+        providerName: 'aws',
+        providerVersion: '3.29.6'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._autoImportPolicy = config.autoImportPolicy;
+    this._automaticBackupRetentionDays = config.automaticBackupRetentionDays;
+    this._copyTagsToBackups = config.copyTagsToBackups;
+    this._dailyAutomaticBackupStartTime = config.dailyAutomaticBackupStartTime;
+    this._deploymentType = config.deploymentType;
+    this._driveCacheType = config.driveCacheType;
+    this._exportPath = config.exportPath;
+    this._id = config.id;
+    this._importPath = config.importPath;
+    this._importedFileChunkSize = config.importedFileChunkSize;
+    this._kmsKeyId = config.kmsKeyId;
+    this._perUnitStorageThroughput = config.perUnitStorageThroughput;
+    this._securityGroupIds = config.securityGroupIds;
+    this._storageCapacity = config.storageCapacity;
+    this._storageType = config.storageType;
+    this._subnetIds = config.subnetIds;
+    this._tags = config.tags;
+    this._weeklyMaintenanceStartTime = config.weeklyMaintenanceStartTime;
+    this._timeouts.internalValue = config.timeouts;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // arn - computed: true, optional: false, required: false
+  public get arn() {
+    return this.getStringAttribute('arn');
+  }
+
+  // auto_import_policy - computed: true, optional: true, required: false
+  private _autoImportPolicy?: string; 
+  public get autoImportPolicy() {
+    return this.getStringAttribute('auto_import_policy');
+  }
+  public set autoImportPolicy(value: string) {
+    this._autoImportPolicy = value;
+  }
+  public resetAutoImportPolicy() {
+    this._autoImportPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get autoImportPolicyInput() {
+    return this._autoImportPolicy;
+  }
+
+  // automatic_backup_retention_days - computed: true, optional: true, required: false
+  private _automaticBackupRetentionDays?: number; 
+  public get automaticBackupRetentionDays() {
+    return this.getNumberAttribute('automatic_backup_retention_days');
+  }
+  public set automaticBackupRetentionDays(value: number) {
+    this._automaticBackupRetentionDays = value;
+  }
+  public resetAutomaticBackupRetentionDays() {
+    this._automaticBackupRetentionDays = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get automaticBackupRetentionDaysInput() {
+    return this._automaticBackupRetentionDays;
+  }
+
+  // copy_tags_to_backups - computed: false, optional: true, required: false
+  private _copyTagsToBackups?: boolean | cdktf.IResolvable; 
+  public get copyTagsToBackups() {
+    return this.getBooleanAttribute('copy_tags_to_backups');
+  }
+  public set copyTagsToBackups(value: boolean | cdktf.IResolvable) {
+    this._copyTagsToBackups = value;
+  }
+  public resetCopyTagsToBackups() {
+    this._copyTagsToBackups = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get copyTagsToBackupsInput() {
+    return this._copyTagsToBackups;
+  }
+
+  // daily_automatic_backup_start_time - computed: true, optional: true, required: false
+  private _dailyAutomaticBackupStartTime?: string; 
+  public get dailyAutomaticBackupStartTime() {
+    return this.getStringAttribute('daily_automatic_backup_start_time');
+  }
+  public set dailyAutomaticBackupStartTime(value: string) {
+    this._dailyAutomaticBackupStartTime = value;
+  }
+  public resetDailyAutomaticBackupStartTime() {
+    this._dailyAutomaticBackupStartTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dailyAutomaticBackupStartTimeInput() {
+    return this._dailyAutomaticBackupStartTime;
+  }
+
+  // deployment_type - computed: false, optional: true, required: false
+  private _deploymentType?: string; 
+  public get deploymentType() {
+    return this.getStringAttribute('deployment_type');
+  }
+  public set deploymentType(value: string) {
+    this._deploymentType = value;
+  }
+  public resetDeploymentType() {
+    this._deploymentType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deploymentTypeInput() {
+    return this._deploymentType;
+  }
+
+  // dns_name - computed: true, optional: false, required: false
+  public get dnsName() {
+    return this.getStringAttribute('dns_name');
+  }
+
+  // drive_cache_type - computed: false, optional: true, required: false
+  private _driveCacheType?: string; 
+  public get driveCacheType() {
+    return this.getStringAttribute('drive_cache_type');
+  }
+  public set driveCacheType(value: string) {
+    this._driveCacheType = value;
+  }
+  public resetDriveCacheType() {
+    this._driveCacheType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get driveCacheTypeInput() {
+    return this._driveCacheType;
+  }
+
+  // export_path - computed: true, optional: true, required: false
+  private _exportPath?: string; 
+  public get exportPath() {
+    return this.getStringAttribute('export_path');
+  }
+  public set exportPath(value: string) {
+    this._exportPath = value;
+  }
+  public resetExportPath() {
+    this._exportPath = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get exportPathInput() {
+    return this._exportPath;
+  }
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // import_path - computed: false, optional: true, required: false
+  private _importPath?: string; 
+  public get importPath() {
+    return this.getStringAttribute('import_path');
+  }
+  public set importPath(value: string) {
+    this._importPath = value;
+  }
+  public resetImportPath() {
+    this._importPath = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get importPathInput() {
+    return this._importPath;
+  }
+
+  // imported_file_chunk_size - computed: true, optional: true, required: false
+  private _importedFileChunkSize?: number; 
+  public get importedFileChunkSize() {
+    return this.getNumberAttribute('imported_file_chunk_size');
+  }
+  public set importedFileChunkSize(value: number) {
+    this._importedFileChunkSize = value;
+  }
+  public resetImportedFileChunkSize() {
+    this._importedFileChunkSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get importedFileChunkSizeInput() {
+    return this._importedFileChunkSize;
+  }
+
+  // kms_key_id - computed: true, optional: true, required: false
+  private _kmsKeyId?: string; 
+  public get kmsKeyId() {
+    return this.getStringAttribute('kms_key_id');
+  }
+  public set kmsKeyId(value: string) {
+    this._kmsKeyId = value;
+  }
+  public resetKmsKeyId() {
+    this._kmsKeyId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kmsKeyIdInput() {
+    return this._kmsKeyId;
+  }
+
+  // mount_name - computed: true, optional: false, required: false
+  public get mountName() {
+    return this.getStringAttribute('mount_name');
+  }
+
+  // network_interface_ids - computed: true, optional: false, required: false
+  public get networkInterfaceIds() {
+    return this.getListAttribute('network_interface_ids');
+  }
+
+  // owner_id - computed: true, optional: false, required: false
+  public get ownerId() {
+    return this.getStringAttribute('owner_id');
+  }
+
+  // per_unit_storage_throughput - computed: false, optional: true, required: false
+  private _perUnitStorageThroughput?: number; 
+  public get perUnitStorageThroughput() {
+    return this.getNumberAttribute('per_unit_storage_throughput');
+  }
+  public set perUnitStorageThroughput(value: number) {
+    this._perUnitStorageThroughput = value;
+  }
+  public resetPerUnitStorageThroughput() {
+    this._perUnitStorageThroughput = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get perUnitStorageThroughputInput() {
+    return this._perUnitStorageThroughput;
+  }
+
+  // security_group_ids - computed: false, optional: true, required: false
+  private _securityGroupIds?: string[]; 
+  public get securityGroupIds() {
+    return cdktf.Fn.tolist(this.getListAttribute('security_group_ids'));
+  }
+  public set securityGroupIds(value: string[]) {
+    this._securityGroupIds = value;
+  }
+  public resetSecurityGroupIds() {
+    this._securityGroupIds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get securityGroupIdsInput() {
+    return this._securityGroupIds;
+  }
+
+  // storage_capacity - computed: false, optional: false, required: true
+  private _storageCapacity?: number; 
+  public get storageCapacity() {
+    return this.getNumberAttribute('storage_capacity');
+  }
+  public set storageCapacity(value: number) {
+    this._storageCapacity = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storageCapacityInput() {
+    return this._storageCapacity;
+  }
+
+  // storage_type - computed: false, optional: true, required: false
+  private _storageType?: string; 
+  public get storageType() {
+    return this.getStringAttribute('storage_type');
+  }
+  public set storageType(value: string) {
+    this._storageType = value;
+  }
+  public resetStorageType() {
+    this._storageType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storageTypeInput() {
+    return this._storageType;
+  }
+
+  // subnet_ids - computed: false, optional: false, required: true
+  private _subnetIds?: string[]; 
+  public get subnetIds() {
+    return this.getListAttribute('subnet_ids');
+  }
+  public set subnetIds(value: string[]) {
+    this._subnetIds = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subnetIdsInput() {
+    return this._subnetIds;
+  }
+
+  // tags - computed: false, optional: true, required: false
+  private _tags?: { [key: string]: string }; 
+  public get tags() {
+    return this.getStringMapAttribute('tags');
+  }
+  public set tags(value: { [key: string]: string }) {
+    this._tags = value;
+  }
+  public resetTags() {
+    this._tags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagsInput() {
+    return this._tags;
+  }
+
+  // vpc_id - computed: true, optional: false, required: false
+  public get vpcId() {
+    return this.getStringAttribute('vpc_id');
+  }
+
+  // weekly_maintenance_start_time - computed: true, optional: true, required: false
+  private _weeklyMaintenanceStartTime?: string; 
+  public get weeklyMaintenanceStartTime() {
+    return this.getStringAttribute('weekly_maintenance_start_time');
+  }
+  public set weeklyMaintenanceStartTime(value: string) {
+    this._weeklyMaintenanceStartTime = value;
+  }
+  public resetWeeklyMaintenanceStartTime() {
+    this._weeklyMaintenanceStartTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get weeklyMaintenanceStartTimeInput() {
+    return this._weeklyMaintenanceStartTime;
+  }
+
+  // timeouts - computed: false, optional: true, required: false
+  private _timeouts = new FsxLustreFileSystemTimeoutsOutputReference(this, "timeouts");
+  public get timeouts() {
+    return this._timeouts;
+  }
+  public putTimeouts(value: FsxLustreFileSystemTimeouts) {
+    this._timeouts.internalValue = value;
+  }
+  public resetTimeouts() {
+    this._timeouts.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timeoutsInput() {
+    return this._timeouts.internalValue;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      auto_import_policy: cdktf.stringToTerraform(this._autoImportPolicy),
+      automatic_backup_retention_days: cdktf.numberToTerraform(this._automaticBackupRetentionDays),
+      copy_tags_to_backups: cdktf.booleanToTerraform(this._copyTagsToBackups),
+      daily_automatic_backup_start_time: cdktf.stringToTerraform(this._dailyAutomaticBackupStartTime),
+      deployment_type: cdktf.stringToTerraform(this._deploymentType),
+      drive_cache_type: cdktf.stringToTerraform(this._driveCacheType),
+      export_path: cdktf.stringToTerraform(this._exportPath),
+      id: cdktf.stringToTerraform(this._id),
+      import_path: cdktf.stringToTerraform(this._importPath),
+      imported_file_chunk_size: cdktf.numberToTerraform(this._importedFileChunkSize),
+      kms_key_id: cdktf.stringToTerraform(this._kmsKeyId),
+      per_unit_storage_throughput: cdktf.numberToTerraform(this._perUnitStorageThroughput),
+      security_group_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._securityGroupIds),
+      storage_capacity: cdktf.numberToTerraform(this._storageCapacity),
+      storage_type: cdktf.stringToTerraform(this._storageType),
+      subnet_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._subnetIds),
+      tags: cdktf.hashMapper(cdktf.stringToTerraform)(this._tags),
+      weekly_maintenance_start_time: cdktf.stringToTerraform(this._weeklyMaintenanceStartTime),
+      timeouts: fsxLustreFileSystemTimeoutsToTerraform(this._timeouts.internalValue),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      auto_import_policy: {
+        value: cdktf.stringToHclTerraform(this._autoImportPolicy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      automatic_backup_retention_days: {
+        value: cdktf.numberToHclTerraform(this._automaticBackupRetentionDays),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      copy_tags_to_backups: {
+        value: cdktf.booleanToHclTerraform(this._copyTagsToBackups),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      daily_automatic_backup_start_time: {
+        value: cdktf.stringToHclTerraform(this._dailyAutomaticBackupStartTime),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      deployment_type: {
+        value: cdktf.stringToHclTerraform(this._deploymentType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      drive_cache_type: {
+        value: cdktf.stringToHclTerraform(this._driveCacheType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      export_path: {
+        value: cdktf.stringToHclTerraform(this._exportPath),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      import_path: {
+        value: cdktf.stringToHclTerraform(this._importPath),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      imported_file_chunk_size: {
+        value: cdktf.numberToHclTerraform(this._importedFileChunkSize),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      kms_key_id: {
+        value: cdktf.stringToHclTerraform(this._kmsKeyId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      per_unit_storage_throughput: {
+        value: cdktf.numberToHclTerraform(this._perUnitStorageThroughput),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      security_group_ids: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._securityGroupIds),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      storage_capacity: {
+        value: cdktf.numberToHclTerraform(this._storageCapacity),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      storage_type: {
+        value: cdktf.stringToHclTerraform(this._storageType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      subnet_ids: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._subnetIds),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      tags: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._tags),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
+      },
+      weekly_maintenance_start_time: {
+        value: cdktf.stringToHclTerraform(this._weeklyMaintenanceStartTime),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      timeouts: {
+        value: fsxLustreFileSystemTimeoutsToHclTerraform(this._timeouts.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "FsxLustreFileSystemTimeouts",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

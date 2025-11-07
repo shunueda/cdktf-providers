@@ -1,0 +1,821 @@
+// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_scheduling_policy_scheduling_windows
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface DataOciDatabaseSchedulingPolicySchedulingWindowsConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_scheduling_policy_scheduling_windows#compartment_id DataOciDatabaseSchedulingPolicySchedulingWindows#compartment_id}
+  */
+  readonly compartmentId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_scheduling_policy_scheduling_windows#display_name DataOciDatabaseSchedulingPolicySchedulingWindows#display_name}
+  */
+  readonly displayName?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_scheduling_policy_scheduling_windows#id DataOciDatabaseSchedulingPolicySchedulingWindows#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_scheduling_policy_scheduling_windows#scheduling_policy_id DataOciDatabaseSchedulingPolicySchedulingWindows#scheduling_policy_id}
+  */
+  readonly schedulingPolicyId: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_scheduling_policy_scheduling_windows#state DataOciDatabaseSchedulingPolicySchedulingWindows#state}
+  */
+  readonly state?: string;
+  /**
+  * filter block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_scheduling_policy_scheduling_windows#filter DataOciDatabaseSchedulingPolicySchedulingWindows#filter}
+  */
+  readonly filter?: DataOciDatabaseSchedulingPolicySchedulingWindowsFilter[] | cdktf.IResolvable;
+}
+export interface DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceDaysOfWeek {
+}
+
+export function dataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceDaysOfWeekToTerraform(struct?: DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceDaysOfWeek): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceDaysOfWeekToHclTerraform(struct?: DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceDaysOfWeek): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceDaysOfWeekOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceDaysOfWeek | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceDaysOfWeek | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+}
+
+export class DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceDaysOfWeekList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceDaysOfWeekOutputReference {
+    return new DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceDaysOfWeekOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceMonths {
+}
+
+export function dataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceMonthsToTerraform(struct?: DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceMonths): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceMonthsToHclTerraform(struct?: DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceMonths): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceMonthsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceMonths | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceMonths | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+}
+
+export class DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceMonthsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceMonthsOutputReference {
+    return new DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceMonthsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreference {
+}
+
+export function dataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceToTerraform(struct?: DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreference): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceToHclTerraform(struct?: DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreference): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreference | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreference | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // days_of_week - computed: true, optional: false, required: false
+  private _daysOfWeek = new DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceDaysOfWeekList(this, "days_of_week", false);
+  public get daysOfWeek() {
+    return this._daysOfWeek;
+  }
+
+  // duration - computed: true, optional: false, required: false
+  public get duration() {
+    return this.getNumberAttribute('duration');
+  }
+
+  // is_enforced_duration - computed: true, optional: false, required: false
+  public get isEnforcedDuration() {
+    return this.getBooleanAttribute('is_enforced_duration');
+  }
+
+  // months - computed: true, optional: false, required: false
+  private _months = new DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceMonthsList(this, "months", false);
+  public get months() {
+    return this._months;
+  }
+
+  // start_time - computed: true, optional: false, required: false
+  public get startTime() {
+    return this.getStringAttribute('start_time');
+  }
+
+  // weeks_of_month - computed: true, optional: false, required: false
+  public get weeksOfMonth() {
+    return this.getNumberListAttribute('weeks_of_month');
+  }
+}
+
+export class DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceOutputReference {
+    return new DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindows {
+}
+
+export function dataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsToTerraform(struct?: DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindows): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsToHclTerraform(struct?: DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindows): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindows | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindows | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // compartment_id - computed: true, optional: false, required: false
+  public get compartmentId() {
+    return this.getStringAttribute('compartment_id');
+  }
+
+  // defined_tags - computed: true, optional: false, required: false
+  private _definedTags = new cdktf.StringMap(this, "defined_tags");
+  public get definedTags() {
+    return this._definedTags;
+  }
+
+  // display_name - computed: true, optional: false, required: false
+  public get displayName() {
+    return this.getStringAttribute('display_name');
+  }
+
+  // freeform_tags - computed: true, optional: false, required: false
+  private _freeformTags = new cdktf.StringMap(this, "freeform_tags");
+  public get freeformTags() {
+    return this._freeformTags;
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // lifecycle_details - computed: true, optional: false, required: false
+  public get lifecycleDetails() {
+    return this.getStringAttribute('lifecycle_details');
+  }
+
+  // scheduling_policy_id - computed: true, optional: false, required: false
+  public get schedulingPolicyId() {
+    return this.getStringAttribute('scheduling_policy_id');
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+
+  // time_created - computed: true, optional: false, required: false
+  public get timeCreated() {
+    return this.getStringAttribute('time_created');
+  }
+
+  // time_next_scheduling_window_starts - computed: true, optional: false, required: false
+  public get timeNextSchedulingWindowStarts() {
+    return this.getStringAttribute('time_next_scheduling_window_starts');
+  }
+
+  // time_updated - computed: true, optional: false, required: false
+  public get timeUpdated() {
+    return this.getStringAttribute('time_updated');
+  }
+
+  // window_preference - computed: true, optional: false, required: false
+  private _windowPreference = new DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsWindowPreferenceList(this, "window_preference", false);
+  public get windowPreference() {
+    return this._windowPreference;
+  }
+}
+
+export class DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsOutputReference {
+    return new DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataOciDatabaseSchedulingPolicySchedulingWindowsFilter {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_scheduling_policy_scheduling_windows#name DataOciDatabaseSchedulingPolicySchedulingWindows#name}
+  */
+  readonly name: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_scheduling_policy_scheduling_windows#regex DataOciDatabaseSchedulingPolicySchedulingWindows#regex}
+  */
+  readonly regex?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_scheduling_policy_scheduling_windows#values DataOciDatabaseSchedulingPolicySchedulingWindows#values}
+  */
+  readonly values: string[];
+}
+
+export function dataOciDatabaseSchedulingPolicySchedulingWindowsFilterToTerraform(struct?: DataOciDatabaseSchedulingPolicySchedulingWindowsFilter | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    regex: cdktf.booleanToTerraform(struct!.regex),
+    values: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.values),
+  }
+}
+
+
+export function dataOciDatabaseSchedulingPolicySchedulingWindowsFilterToHclTerraform(struct?: DataOciDatabaseSchedulingPolicySchedulingWindowsFilter | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    regex: {
+      value: cdktf.booleanToHclTerraform(struct!.regex),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    values: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.values),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataOciDatabaseSchedulingPolicySchedulingWindowsFilterOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataOciDatabaseSchedulingPolicySchedulingWindowsFilter | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._regex !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.regex = this._regex;
+    }
+    if (this._values !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.values = this._values;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOciDatabaseSchedulingPolicySchedulingWindowsFilter | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._regex = undefined;
+      this._values = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._regex = value.regex;
+      this._values = value.values;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // regex - computed: false, optional: true, required: false
+  private _regex?: boolean | cdktf.IResolvable; 
+  public get regex() {
+    return this.getBooleanAttribute('regex');
+  }
+  public set regex(value: boolean | cdktf.IResolvable) {
+    this._regex = value;
+  }
+  public resetRegex() {
+    this._regex = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regexInput() {
+    return this._regex;
+  }
+
+  // values - computed: false, optional: false, required: true
+  private _values?: string[]; 
+  public get values() {
+    return this.getListAttribute('values');
+  }
+  public set values(value: string[]) {
+    this._values = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valuesInput() {
+    return this._values;
+  }
+}
+
+export class DataOciDatabaseSchedulingPolicySchedulingWindowsFilterList extends cdktf.ComplexList {
+  public internalValue? : DataOciDatabaseSchedulingPolicySchedulingWindowsFilter[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataOciDatabaseSchedulingPolicySchedulingWindowsFilterOutputReference {
+    return new DataOciDatabaseSchedulingPolicySchedulingWindowsFilterOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_scheduling_policy_scheduling_windows oci_database_scheduling_policy_scheduling_windows}
+*/
+export class DataOciDatabaseSchedulingPolicySchedulingWindows extends cdktf.TerraformDataSource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "oci_database_scheduling_policy_scheduling_windows";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a DataOciDatabaseSchedulingPolicySchedulingWindows resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the DataOciDatabaseSchedulingPolicySchedulingWindows to import
+  * @param importFromId The id of the existing DataOciDatabaseSchedulingPolicySchedulingWindows that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_scheduling_policy_scheduling_windows#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the DataOciDatabaseSchedulingPolicySchedulingWindows to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "oci_database_scheduling_policy_scheduling_windows", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_scheduling_policy_scheduling_windows oci_database_scheduling_policy_scheduling_windows} Data Source
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options DataOciDatabaseSchedulingPolicySchedulingWindowsConfig
+  */
+  public constructor(scope: Construct, id: string, config: DataOciDatabaseSchedulingPolicySchedulingWindowsConfig) {
+    super(scope, id, {
+      terraformResourceType: 'oci_database_scheduling_policy_scheduling_windows',
+      terraformGeneratorMetadata: {
+        providerName: 'oci',
+        providerVersion: '7.25.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._compartmentId = config.compartmentId;
+    this._displayName = config.displayName;
+    this._id = config.id;
+    this._schedulingPolicyId = config.schedulingPolicyId;
+    this._state = config.state;
+    this._filter.internalValue = config.filter;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // compartment_id - computed: false, optional: true, required: false
+  private _compartmentId?: string; 
+  public get compartmentId() {
+    return this.getStringAttribute('compartment_id');
+  }
+  public set compartmentId(value: string) {
+    this._compartmentId = value;
+  }
+  public resetCompartmentId() {
+    this._compartmentId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get compartmentIdInput() {
+    return this._compartmentId;
+  }
+
+  // display_name - computed: false, optional: true, required: false
+  private _displayName?: string; 
+  public get displayName() {
+    return this.getStringAttribute('display_name');
+  }
+  public set displayName(value: string) {
+    this._displayName = value;
+  }
+  public resetDisplayName() {
+    this._displayName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get displayNameInput() {
+    return this._displayName;
+  }
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // scheduling_policy_id - computed: false, optional: false, required: true
+  private _schedulingPolicyId?: string; 
+  public get schedulingPolicyId() {
+    return this.getStringAttribute('scheduling_policy_id');
+  }
+  public set schedulingPolicyId(value: string) {
+    this._schedulingPolicyId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get schedulingPolicyIdInput() {
+    return this._schedulingPolicyId;
+  }
+
+  // scheduling_windows - computed: true, optional: false, required: false
+  private _schedulingWindows = new DataOciDatabaseSchedulingPolicySchedulingWindowsSchedulingWindowsList(this, "scheduling_windows", false);
+  public get schedulingWindows() {
+    return this._schedulingWindows;
+  }
+
+  // state - computed: false, optional: true, required: false
+  private _state?: string; 
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+  public set state(value: string) {
+    this._state = value;
+  }
+  public resetState() {
+    this._state = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stateInput() {
+    return this._state;
+  }
+
+  // filter - computed: false, optional: true, required: false
+  private _filter = new DataOciDatabaseSchedulingPolicySchedulingWindowsFilterList(this, "filter", true);
+  public get filter() {
+    return this._filter;
+  }
+  public putFilter(value: DataOciDatabaseSchedulingPolicySchedulingWindowsFilter[] | cdktf.IResolvable) {
+    this._filter.internalValue = value;
+  }
+  public resetFilter() {
+    this._filter.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get filterInput() {
+    return this._filter.internalValue;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      compartment_id: cdktf.stringToTerraform(this._compartmentId),
+      display_name: cdktf.stringToTerraform(this._displayName),
+      id: cdktf.stringToTerraform(this._id),
+      scheduling_policy_id: cdktf.stringToTerraform(this._schedulingPolicyId),
+      state: cdktf.stringToTerraform(this._state),
+      filter: cdktf.listMapper(dataOciDatabaseSchedulingPolicySchedulingWindowsFilterToTerraform, true)(this._filter.internalValue),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      compartment_id: {
+        value: cdktf.stringToHclTerraform(this._compartmentId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      display_name: {
+        value: cdktf.stringToHclTerraform(this._displayName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      scheduling_policy_id: {
+        value: cdktf.stringToHclTerraform(this._schedulingPolicyId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      state: {
+        value: cdktf.stringToHclTerraform(this._state),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      filter: {
+        value: cdktf.listMapperHcl(dataOciDatabaseSchedulingPolicySchedulingWindowsFilterToHclTerraform, true)(this._filter.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "DataOciDatabaseSchedulingPolicySchedulingWindowsFilterList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

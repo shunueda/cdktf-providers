@@ -1,0 +1,258 @@
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_restore_domain
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface ManagementRestoreDomainConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * IPv4 address.<br><font color="red">Required only for</font> importing Security Management Server into Multi-Domain Server.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_restore_domain#domain_ip_address ManagementRestoreDomain#domain_ip_address}
+  */
+  readonly domainIpAddress: string;
+  /**
+  * Domain name. Should be unique in the MDS.<br><font color="red">Required only for</font> importing Security Management Server into Multi-Domain Server.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_restore_domain#domain_name ManagementRestoreDomain#domain_name}
+  */
+  readonly domainName: string;
+  /**
+  * Multi Domain server name.<br><font color="red">Required only for</font> importing Security Management Server into Multi-Domain Server.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_restore_domain#domain_server_name ManagementRestoreDomain#domain_server_name}
+  */
+  readonly domainServerName: string;
+  /**
+  * Path to the backup file to be restored. <br>Should be the full file path (example, "/var/log/domain1_backup.tgz").
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_restore_domain#file_path ManagementRestoreDomain#file_path}
+  */
+  readonly filePath: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_restore_domain#id ManagementRestoreDomain#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * If true, verify that the import operation is valid for this input file and this environment <br>Note: Restore operation will not be executed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_restore_domain#verify_only ManagementRestoreDomain#verify_only}
+  */
+  readonly verifyOnly?: boolean | cdktf.IResolvable;
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_restore_domain checkpoint_management_restore_domain}
+*/
+export class ManagementRestoreDomain extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "checkpoint_management_restore_domain";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a ManagementRestoreDomain resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the ManagementRestoreDomain to import
+  * @param importFromId The id of the existing ManagementRestoreDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_restore_domain#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the ManagementRestoreDomain to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "checkpoint_management_restore_domain", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_restore_domain checkpoint_management_restore_domain} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options ManagementRestoreDomainConfig
+  */
+  public constructor(scope: Construct, id: string, config: ManagementRestoreDomainConfig) {
+    super(scope, id, {
+      terraformResourceType: 'checkpoint_management_restore_domain',
+      terraformGeneratorMetadata: {
+        providerName: 'checkpoint',
+        providerVersion: '2.11.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._domainIpAddress = config.domainIpAddress;
+    this._domainName = config.domainName;
+    this._domainServerName = config.domainServerName;
+    this._filePath = config.filePath;
+    this._id = config.id;
+    this._verifyOnly = config.verifyOnly;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // domain_ip_address - computed: false, optional: false, required: true
+  private _domainIpAddress?: string; 
+  public get domainIpAddress() {
+    return this.getStringAttribute('domain_ip_address');
+  }
+  public set domainIpAddress(value: string) {
+    this._domainIpAddress = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get domainIpAddressInput() {
+    return this._domainIpAddress;
+  }
+
+  // domain_name - computed: false, optional: false, required: true
+  private _domainName?: string; 
+  public get domainName() {
+    return this.getStringAttribute('domain_name');
+  }
+  public set domainName(value: string) {
+    this._domainName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get domainNameInput() {
+    return this._domainName;
+  }
+
+  // domain_server_name - computed: false, optional: false, required: true
+  private _domainServerName?: string; 
+  public get domainServerName() {
+    return this.getStringAttribute('domain_server_name');
+  }
+  public set domainServerName(value: string) {
+    this._domainServerName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get domainServerNameInput() {
+    return this._domainServerName;
+  }
+
+  // file_path - computed: false, optional: false, required: true
+  private _filePath?: string; 
+  public get filePath() {
+    return this.getStringAttribute('file_path');
+  }
+  public set filePath(value: string) {
+    this._filePath = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get filePathInput() {
+    return this._filePath;
+  }
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // task_id - computed: true, optional: false, required: false
+  public get taskId() {
+    return this.getStringAttribute('task_id');
+  }
+
+  // verify_only - computed: false, optional: true, required: false
+  private _verifyOnly?: boolean | cdktf.IResolvable; 
+  public get verifyOnly() {
+    return this.getBooleanAttribute('verify_only');
+  }
+  public set verifyOnly(value: boolean | cdktf.IResolvable) {
+    this._verifyOnly = value;
+  }
+  public resetVerifyOnly() {
+    this._verifyOnly = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get verifyOnlyInput() {
+    return this._verifyOnly;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      domain_ip_address: cdktf.stringToTerraform(this._domainIpAddress),
+      domain_name: cdktf.stringToTerraform(this._domainName),
+      domain_server_name: cdktf.stringToTerraform(this._domainServerName),
+      file_path: cdktf.stringToTerraform(this._filePath),
+      id: cdktf.stringToTerraform(this._id),
+      verify_only: cdktf.booleanToTerraform(this._verifyOnly),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      domain_ip_address: {
+        value: cdktf.stringToHclTerraform(this._domainIpAddress),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      domain_name: {
+        value: cdktf.stringToHclTerraform(this._domainName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      domain_server_name: {
+        value: cdktf.stringToHclTerraform(this._domainServerName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      file_path: {
+        value: cdktf.stringToHclTerraform(this._filePath),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      verify_only: {
+        value: cdktf.booleanToHclTerraform(this._verifyOnly),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

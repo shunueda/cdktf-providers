@@ -1,0 +1,3 @@
+# `fortiadc_load_balance_web_filter_profile_child_category_members`
+
+Refer to the Terraform Registry for docs: [`fortiadc_load_balance_web_filter_profile_child_category_members`](https://registry.terraform.io/providers/fortinetdev/fortiadc/1.3.1/docs/resources/load_balance_web_filter_profile_child_category_members).

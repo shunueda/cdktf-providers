@@ -1,0 +1,173 @@
+// https://registry.terraform.io/providers/doublecloud/doublecloud/0.1.26/docs/resources/organization_group
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface OrganizationGroupConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Organization group description
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doublecloud/doublecloud/0.1.26/docs/resources/organization_group#description OrganizationGroup#description}
+  */
+  readonly description?: string;
+  /**
+  * Organization group name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doublecloud/doublecloud/0.1.26/docs/resources/organization_group#name OrganizationGroup#name}
+  */
+  readonly name: string;
+  /**
+  * Organization ID
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doublecloud/doublecloud/0.1.26/docs/resources/organization_group#organization_id OrganizationGroup#organization_id}
+  */
+  readonly organizationId: string;
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/doublecloud/doublecloud/0.1.26/docs/resources/organization_group doublecloud_organization_group}
+*/
+export class OrganizationGroup extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "doublecloud_organization_group";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a OrganizationGroup resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the OrganizationGroup to import
+  * @param importFromId The id of the existing OrganizationGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/doublecloud/doublecloud/0.1.26/docs/resources/organization_group#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the OrganizationGroup to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "doublecloud_organization_group", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/doublecloud/doublecloud/0.1.26/docs/resources/organization_group doublecloud_organization_group} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options OrganizationGroupConfig
+  */
+  public constructor(scope: Construct, id: string, config: OrganizationGroupConfig) {
+    super(scope, id, {
+      terraformResourceType: 'doublecloud_organization_group',
+      terraformGeneratorMetadata: {
+        providerName: 'doublecloud',
+        providerVersion: '0.1.26'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._description = config.description;
+    this._name = config.name;
+    this._organizationId = config.organizationId;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // description - computed: true, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // organization_id - computed: false, optional: false, required: true
+  private _organizationId?: string; 
+  public get organizationId() {
+    return this.getStringAttribute('organization_id');
+  }
+  public set organizationId(value: string) {
+    this._organizationId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get organizationIdInput() {
+    return this._organizationId;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      description: cdktf.stringToTerraform(this._description),
+      name: cdktf.stringToTerraform(this._name),
+      organization_id: cdktf.stringToTerraform(this._organizationId),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      description: {
+        value: cdktf.stringToHclTerraform(this._description),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      organization_id: {
+        value: cdktf.stringToHclTerraform(this._organizationId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

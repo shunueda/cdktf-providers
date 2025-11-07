@@ -1,0 +1,3 @@
+# `thunder_visibility_reporting_template_notification_template_name_authentication`
+
+Refer to the Terraform Registry for docs: [`thunder_visibility_reporting_template_notification_template_name_authentication`](https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name_authentication).

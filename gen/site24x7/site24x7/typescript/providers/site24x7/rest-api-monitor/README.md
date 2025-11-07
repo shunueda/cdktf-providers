@@ -1,0 +1,3 @@
+# `site24x7_rest_api_monitor`
+
+Refer to the Terraform Registry for docs: [`site24x7_rest_api_monitor`](https://registry.terraform.io/providers/site24x7/site24x7/2.0.3/docs/resources/rest_api_monitor).

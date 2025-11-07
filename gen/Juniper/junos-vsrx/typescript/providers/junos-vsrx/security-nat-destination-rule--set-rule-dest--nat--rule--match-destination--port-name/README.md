@@ -1,0 +1,3 @@
+# `junos-vsrx_SecurityNatDestinationRule__SetRuleDest__Nat__Rule__MatchDestination__PortName`
+
+Refer to the Terraform Registry for docs: [`junos-vsrx_SecurityNatDestinationRule__SetRuleDest__Nat__Rule__MatchDestination__PortName`](https://registry.terraform.io/providers/juniper/junos-vsrx/20.32.106/docs/resources/security_nat_destination_rule__set_rule_dest__nat__rule__match_destination__port_name).

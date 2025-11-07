@@ -1,0 +1,3 @@
+# `thunder_ip_icmp`
+
+Refer to the Terraform Registry for docs: [`thunder_ip_icmp`](https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_icmp).

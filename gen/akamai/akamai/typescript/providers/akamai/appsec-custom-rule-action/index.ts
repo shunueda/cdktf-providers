@@ -1,0 +1,223 @@
+// https://registry.terraform.io/providers/akamai/akamai/9.1.0/docs/resources/appsec_custom_rule_action
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface AppsecCustomRuleActionConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Unique identifier of the security configuration
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akamai/akamai/9.1.0/docs/resources/appsec_custom_rule_action#config_id AppsecCustomRuleAction#config_id}
+  */
+  readonly configId: number;
+  /**
+  * Action to be taken when the custom rule is invoked
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akamai/akamai/9.1.0/docs/resources/appsec_custom_rule_action#custom_rule_action AppsecCustomRuleAction#custom_rule_action}
+  */
+  readonly customRuleAction: string;
+  /**
+  * Unique identifier of the custom rule whose action is being modified
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akamai/akamai/9.1.0/docs/resources/appsec_custom_rule_action#custom_rule_id AppsecCustomRuleAction#custom_rule_id}
+  */
+  readonly customRuleId: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akamai/akamai/9.1.0/docs/resources/appsec_custom_rule_action#id AppsecCustomRuleAction#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * Unique identifier of the security policy
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akamai/akamai/9.1.0/docs/resources/appsec_custom_rule_action#security_policy_id AppsecCustomRuleAction#security_policy_id}
+  */
+  readonly securityPolicyId: string;
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/akamai/akamai/9.1.0/docs/resources/appsec_custom_rule_action akamai_appsec_custom_rule_action}
+*/
+export class AppsecCustomRuleAction extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "akamai_appsec_custom_rule_action";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a AppsecCustomRuleAction resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the AppsecCustomRuleAction to import
+  * @param importFromId The id of the existing AppsecCustomRuleAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/akamai/akamai/9.1.0/docs/resources/appsec_custom_rule_action#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the AppsecCustomRuleAction to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "akamai_appsec_custom_rule_action", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/akamai/akamai/9.1.0/docs/resources/appsec_custom_rule_action akamai_appsec_custom_rule_action} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options AppsecCustomRuleActionConfig
+  */
+  public constructor(scope: Construct, id: string, config: AppsecCustomRuleActionConfig) {
+    super(scope, id, {
+      terraformResourceType: 'akamai_appsec_custom_rule_action',
+      terraformGeneratorMetadata: {
+        providerName: 'akamai',
+        providerVersion: '9.1.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._configId = config.configId;
+    this._customRuleAction = config.customRuleAction;
+    this._customRuleId = config.customRuleId;
+    this._id = config.id;
+    this._securityPolicyId = config.securityPolicyId;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // config_id - computed: false, optional: false, required: true
+  private _configId?: number; 
+  public get configId() {
+    return this.getNumberAttribute('config_id');
+  }
+  public set configId(value: number) {
+    this._configId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configIdInput() {
+    return this._configId;
+  }
+
+  // custom_rule_action - computed: false, optional: false, required: true
+  private _customRuleAction?: string; 
+  public get customRuleAction() {
+    return this.getStringAttribute('custom_rule_action');
+  }
+  public set customRuleAction(value: string) {
+    this._customRuleAction = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customRuleActionInput() {
+    return this._customRuleAction;
+  }
+
+  // custom_rule_id - computed: false, optional: false, required: true
+  private _customRuleId?: number; 
+  public get customRuleId() {
+    return this.getNumberAttribute('custom_rule_id');
+  }
+  public set customRuleId(value: number) {
+    this._customRuleId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customRuleIdInput() {
+    return this._customRuleId;
+  }
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // security_policy_id - computed: false, optional: false, required: true
+  private _securityPolicyId?: string; 
+  public get securityPolicyId() {
+    return this.getStringAttribute('security_policy_id');
+  }
+  public set securityPolicyId(value: string) {
+    this._securityPolicyId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get securityPolicyIdInput() {
+    return this._securityPolicyId;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      config_id: cdktf.numberToTerraform(this._configId),
+      custom_rule_action: cdktf.stringToTerraform(this._customRuleAction),
+      custom_rule_id: cdktf.numberToTerraform(this._customRuleId),
+      id: cdktf.stringToTerraform(this._id),
+      security_policy_id: cdktf.stringToTerraform(this._securityPolicyId),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      config_id: {
+        value: cdktf.numberToHclTerraform(this._configId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      custom_rule_action: {
+        value: cdktf.stringToHclTerraform(this._customRuleAction),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      custom_rule_id: {
+        value: cdktf.numberToHclTerraform(this._customRuleId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      security_policy_id: {
+        value: cdktf.stringToHclTerraform(this._securityPolicyId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

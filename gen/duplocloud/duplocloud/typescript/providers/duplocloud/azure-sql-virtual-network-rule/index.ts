@@ -1,0 +1,445 @@
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface AzureSqlVirtualNetworkRuleConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule#id AzureSqlVirtualNetworkRule#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * Create the virtual network rule before the subnet has the virtual network service endpoint enabled.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule#ignore_missing_vnet_service_endpoint AzureSqlVirtualNetworkRule#ignore_missing_vnet_service_endpoint}
+  */
+  readonly ignoreMissingVnetServiceEndpoint?: boolean | cdktf.IResolvable;
+  /**
+  * The name of the SQL virtual network rule.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule#name AzureSqlVirtualNetworkRule#name}
+  */
+  readonly name: string;
+  /**
+  * The name of the SQL Server to which this SQL virtual network rule will be applied to.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule#server_name AzureSqlVirtualNetworkRule#server_name}
+  */
+  readonly serverName: string;
+  /**
+  * The ID of the subnet that the SQL server will be connected to.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule#subnet_id AzureSqlVirtualNetworkRule#subnet_id}
+  */
+  readonly subnetId: string;
+  /**
+  * The GUID of the tenant that the sql virtual network rule will be created in.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule#tenant_id AzureSqlVirtualNetworkRule#tenant_id}
+  */
+  readonly tenantId: string;
+  /**
+  * Whether or not to wait until Redis cache instance to be ready, after creation. Defaults to `true`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule#wait_until_ready AzureSqlVirtualNetworkRule#wait_until_ready}
+  */
+  readonly waitUntilReady?: boolean | cdktf.IResolvable;
+  /**
+  * timeouts block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule#timeouts AzureSqlVirtualNetworkRule#timeouts}
+  */
+  readonly timeouts?: AzureSqlVirtualNetworkRuleTimeouts;
+}
+export interface AzureSqlVirtualNetworkRuleTimeouts {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule#create AzureSqlVirtualNetworkRule#create}
+  */
+  readonly create?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule#delete AzureSqlVirtualNetworkRule#delete}
+  */
+  readonly delete?: string;
+}
+
+export function azureSqlVirtualNetworkRuleTimeoutsToTerraform(struct?: AzureSqlVirtualNetworkRuleTimeouts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    create: cdktf.stringToTerraform(struct!.create),
+    delete: cdktf.stringToTerraform(struct!.delete),
+  }
+}
+
+
+export function azureSqlVirtualNetworkRuleTimeoutsToHclTerraform(struct?: AzureSqlVirtualNetworkRuleTimeouts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    create: {
+      value: cdktf.stringToHclTerraform(struct!.create),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    delete: {
+      value: cdktf.stringToHclTerraform(struct!.delete),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AzureSqlVirtualNetworkRuleTimeoutsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): AzureSqlVirtualNetworkRuleTimeouts | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._create !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.create = this._create;
+    }
+    if (this._delete !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.delete = this._delete;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AzureSqlVirtualNetworkRuleTimeouts | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._create = undefined;
+      this._delete = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._create = value.create;
+      this._delete = value.delete;
+    }
+  }
+
+  // create - computed: false, optional: true, required: false
+  private _create?: string; 
+  public get create() {
+    return this.getStringAttribute('create');
+  }
+  public set create(value: string) {
+    this._create = value;
+  }
+  public resetCreate() {
+    this._create = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get createInput() {
+    return this._create;
+  }
+
+  // delete - computed: false, optional: true, required: false
+  private _delete?: string; 
+  public get delete() {
+    return this.getStringAttribute('delete');
+  }
+  public set delete(value: string) {
+    this._delete = value;
+  }
+  public resetDelete() {
+    this._delete = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deleteInput() {
+    return this._delete;
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule duplocloud_azure_sql_virtual_network_rule}
+*/
+export class AzureSqlVirtualNetworkRule extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "duplocloud_azure_sql_virtual_network_rule";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a AzureSqlVirtualNetworkRule resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the AzureSqlVirtualNetworkRule to import
+  * @param importFromId The id of the existing AzureSqlVirtualNetworkRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the AzureSqlVirtualNetworkRule to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "duplocloud_azure_sql_virtual_network_rule", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule duplocloud_azure_sql_virtual_network_rule} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options AzureSqlVirtualNetworkRuleConfig
+  */
+  public constructor(scope: Construct, id: string, config: AzureSqlVirtualNetworkRuleConfig) {
+    super(scope, id, {
+      terraformResourceType: 'duplocloud_azure_sql_virtual_network_rule',
+      terraformGeneratorMetadata: {
+        providerName: 'duplocloud',
+        providerVersion: '0.11.28'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._id = config.id;
+    this._ignoreMissingVnetServiceEndpoint = config.ignoreMissingVnetServiceEndpoint;
+    this._name = config.name;
+    this._serverName = config.serverName;
+    this._subnetId = config.subnetId;
+    this._tenantId = config.tenantId;
+    this._waitUntilReady = config.waitUntilReady;
+    this._timeouts.internalValue = config.timeouts;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // azure_id - computed: true, optional: false, required: false
+  public get azureId() {
+    return this.getStringAttribute('azure_id');
+  }
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // ignore_missing_vnet_service_endpoint - computed: true, optional: true, required: false
+  private _ignoreMissingVnetServiceEndpoint?: boolean | cdktf.IResolvable; 
+  public get ignoreMissingVnetServiceEndpoint() {
+    return this.getBooleanAttribute('ignore_missing_vnet_service_endpoint');
+  }
+  public set ignoreMissingVnetServiceEndpoint(value: boolean | cdktf.IResolvable) {
+    this._ignoreMissingVnetServiceEndpoint = value;
+  }
+  public resetIgnoreMissingVnetServiceEndpoint() {
+    this._ignoreMissingVnetServiceEndpoint = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ignoreMissingVnetServiceEndpointInput() {
+    return this._ignoreMissingVnetServiceEndpoint;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // server_name - computed: false, optional: false, required: true
+  private _serverName?: string; 
+  public get serverName() {
+    return this.getStringAttribute('server_name');
+  }
+  public set serverName(value: string) {
+    this._serverName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serverNameInput() {
+    return this._serverName;
+  }
+
+  // subnet_id - computed: false, optional: false, required: true
+  private _subnetId?: string; 
+  public get subnetId() {
+    return this.getStringAttribute('subnet_id');
+  }
+  public set subnetId(value: string) {
+    this._subnetId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subnetIdInput() {
+    return this._subnetId;
+  }
+
+  // tenant_id - computed: false, optional: false, required: true
+  private _tenantId?: string; 
+  public get tenantId() {
+    return this.getStringAttribute('tenant_id');
+  }
+  public set tenantId(value: string) {
+    this._tenantId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantIdInput() {
+    return this._tenantId;
+  }
+
+  // wait_until_ready - computed: false, optional: true, required: false
+  private _waitUntilReady?: boolean | cdktf.IResolvable; 
+  public get waitUntilReady() {
+    return this.getBooleanAttribute('wait_until_ready');
+  }
+  public set waitUntilReady(value: boolean | cdktf.IResolvable) {
+    this._waitUntilReady = value;
+  }
+  public resetWaitUntilReady() {
+    this._waitUntilReady = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get waitUntilReadyInput() {
+    return this._waitUntilReady;
+  }
+
+  // timeouts - computed: false, optional: true, required: false
+  private _timeouts = new AzureSqlVirtualNetworkRuleTimeoutsOutputReference(this, "timeouts");
+  public get timeouts() {
+    return this._timeouts;
+  }
+  public putTimeouts(value: AzureSqlVirtualNetworkRuleTimeouts) {
+    this._timeouts.internalValue = value;
+  }
+  public resetTimeouts() {
+    this._timeouts.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timeoutsInput() {
+    return this._timeouts.internalValue;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      id: cdktf.stringToTerraform(this._id),
+      ignore_missing_vnet_service_endpoint: cdktf.booleanToTerraform(this._ignoreMissingVnetServiceEndpoint),
+      name: cdktf.stringToTerraform(this._name),
+      server_name: cdktf.stringToTerraform(this._serverName),
+      subnet_id: cdktf.stringToTerraform(this._subnetId),
+      tenant_id: cdktf.stringToTerraform(this._tenantId),
+      wait_until_ready: cdktf.booleanToTerraform(this._waitUntilReady),
+      timeouts: azureSqlVirtualNetworkRuleTimeoutsToTerraform(this._timeouts.internalValue),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ignore_missing_vnet_service_endpoint: {
+        value: cdktf.booleanToHclTerraform(this._ignoreMissingVnetServiceEndpoint),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      server_name: {
+        value: cdktf.stringToHclTerraform(this._serverName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      subnet_id: {
+        value: cdktf.stringToHclTerraform(this._subnetId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      tenant_id: {
+        value: cdktf.stringToHclTerraform(this._tenantId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      wait_until_ready: {
+        value: cdktf.booleanToHclTerraform(this._waitUntilReady),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      timeouts: {
+        value: azureSqlVirtualNetworkRuleTimeoutsToHclTerraform(this._timeouts.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "AzureSqlVirtualNetworkRuleTimeouts",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

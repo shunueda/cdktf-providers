@@ -1,0 +1,3 @@
+# `fortimanager_object_webproxy_profile_headers`
+
+Refer to the Terraform Registry for docs: [`fortimanager_object_webproxy_profile_headers`](https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_profile_headers).

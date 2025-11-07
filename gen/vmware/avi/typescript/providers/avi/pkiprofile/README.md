@@ -1,0 +1,3 @@
+# `avi_pkiprofile`
+
+Refer to the Terraform Registry for docs: [`avi_pkiprofile`](https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/pkiprofile).

@@ -1,0 +1,472 @@
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_external_trusted_ca
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface ManagementExternalTrustedCaConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Allow only certificates from listed branches.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_external_trusted_ca#allow_certificates_from_branches ManagementExternalTrustedCa#allow_certificates_from_branches}
+  */
+  readonly allowCertificatesFromBranches?: boolean | cdktf.IResolvable;
+  /**
+  * Certificate file encoded in base64.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_external_trusted_ca#base64_certificate ManagementExternalTrustedCa#base64_certificate}
+  */
+  readonly base64Certificate?: string;
+  /**
+  * Branches to allow certificates from. Required only if "allow-certificates-from-branches" set to "true".
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_external_trusted_ca#branches ManagementExternalTrustedCa#branches}
+  */
+  readonly branches?: string[];
+  /**
+  * Color of the object. Should be one of existing colors.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_external_trusted_ca#color ManagementExternalTrustedCa#color}
+  */
+  readonly color?: string;
+  /**
+  * Comments string.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_external_trusted_ca#comments ManagementExternalTrustedCa#comments}
+  */
+  readonly comments?: string;
+  /**
+  * Weather to retrieve new Certificate Revocation List after the certificate expires or after a fixed period.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_external_trusted_ca#crl_cache_method ManagementExternalTrustedCa#crl_cache_method}
+  */
+  readonly crlCacheMethod?: string;
+  /**
+  * When to fetch new Certificate Revocation List (in minutes).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_external_trusted_ca#crl_cache_timeout ManagementExternalTrustedCa#crl_cache_timeout}
+  */
+  readonly crlCacheTimeout?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_external_trusted_ca#id ManagementExternalTrustedCa#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_external_trusted_ca#ignore_errors ManagementExternalTrustedCa#ignore_errors}
+  */
+  readonly ignoreErrors?: boolean | cdktf.IResolvable;
+  /**
+  * Apply changes ignoring warnings.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_external_trusted_ca#ignore_warnings ManagementExternalTrustedCa#ignore_warnings}
+  */
+  readonly ignoreWarnings?: boolean | cdktf.IResolvable;
+  /**
+  * Object name.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_external_trusted_ca#name ManagementExternalTrustedCa#name}
+  */
+  readonly name: string;
+  /**
+  * Whether to retrieve Certificate Revocation List from http servers.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_external_trusted_ca#retrieve_crl_from_http_servers ManagementExternalTrustedCa#retrieve_crl_from_http_servers}
+  */
+  readonly retrieveCrlFromHttpServers?: boolean | cdktf.IResolvable;
+  /**
+  * Collection of tag identifiers.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_external_trusted_ca#tags ManagementExternalTrustedCa#tags}
+  */
+  readonly tags?: string[];
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_external_trusted_ca checkpoint_management_external_trusted_ca}
+*/
+export class ManagementExternalTrustedCa extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "checkpoint_management_external_trusted_ca";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a ManagementExternalTrustedCa resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the ManagementExternalTrustedCa to import
+  * @param importFromId The id of the existing ManagementExternalTrustedCa that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_external_trusted_ca#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the ManagementExternalTrustedCa to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "checkpoint_management_external_trusted_ca", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_external_trusted_ca checkpoint_management_external_trusted_ca} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options ManagementExternalTrustedCaConfig
+  */
+  public constructor(scope: Construct, id: string, config: ManagementExternalTrustedCaConfig) {
+    super(scope, id, {
+      terraformResourceType: 'checkpoint_management_external_trusted_ca',
+      terraformGeneratorMetadata: {
+        providerName: 'checkpoint',
+        providerVersion: '2.11.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._allowCertificatesFromBranches = config.allowCertificatesFromBranches;
+    this._base64Certificate = config.base64Certificate;
+    this._branches = config.branches;
+    this._color = config.color;
+    this._comments = config.comments;
+    this._crlCacheMethod = config.crlCacheMethod;
+    this._crlCacheTimeout = config.crlCacheTimeout;
+    this._id = config.id;
+    this._ignoreErrors = config.ignoreErrors;
+    this._ignoreWarnings = config.ignoreWarnings;
+    this._name = config.name;
+    this._retrieveCrlFromHttpServers = config.retrieveCrlFromHttpServers;
+    this._tags = config.tags;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // allow_certificates_from_branches - computed: false, optional: true, required: false
+  private _allowCertificatesFromBranches?: boolean | cdktf.IResolvable; 
+  public get allowCertificatesFromBranches() {
+    return this.getBooleanAttribute('allow_certificates_from_branches');
+  }
+  public set allowCertificatesFromBranches(value: boolean | cdktf.IResolvable) {
+    this._allowCertificatesFromBranches = value;
+  }
+  public resetAllowCertificatesFromBranches() {
+    this._allowCertificatesFromBranches = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowCertificatesFromBranchesInput() {
+    return this._allowCertificatesFromBranches;
+  }
+
+  // base64_certificate - computed: false, optional: true, required: false
+  private _base64Certificate?: string; 
+  public get base64Certificate() {
+    return this.getStringAttribute('base64_certificate');
+  }
+  public set base64Certificate(value: string) {
+    this._base64Certificate = value;
+  }
+  public resetBase64Certificate() {
+    this._base64Certificate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get base64CertificateInput() {
+    return this._base64Certificate;
+  }
+
+  // branches - computed: false, optional: true, required: false
+  private _branches?: string[]; 
+  public get branches() {
+    return cdktf.Fn.tolist(this.getListAttribute('branches'));
+  }
+  public set branches(value: string[]) {
+    this._branches = value;
+  }
+  public resetBranches() {
+    this._branches = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get branchesInput() {
+    return this._branches;
+  }
+
+  // color - computed: false, optional: true, required: false
+  private _color?: string; 
+  public get color() {
+    return this.getStringAttribute('color');
+  }
+  public set color(value: string) {
+    this._color = value;
+  }
+  public resetColor() {
+    this._color = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get colorInput() {
+    return this._color;
+  }
+
+  // comments - computed: false, optional: true, required: false
+  private _comments?: string; 
+  public get comments() {
+    return this.getStringAttribute('comments');
+  }
+  public set comments(value: string) {
+    this._comments = value;
+  }
+  public resetComments() {
+    this._comments = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get commentsInput() {
+    return this._comments;
+  }
+
+  // crl_cache_method - computed: false, optional: true, required: false
+  private _crlCacheMethod?: string; 
+  public get crlCacheMethod() {
+    return this.getStringAttribute('crl_cache_method');
+  }
+  public set crlCacheMethod(value: string) {
+    this._crlCacheMethod = value;
+  }
+  public resetCrlCacheMethod() {
+    this._crlCacheMethod = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get crlCacheMethodInput() {
+    return this._crlCacheMethod;
+  }
+
+  // crl_cache_timeout - computed: false, optional: true, required: false
+  private _crlCacheTimeout?: number; 
+  public get crlCacheTimeout() {
+    return this.getNumberAttribute('crl_cache_timeout');
+  }
+  public set crlCacheTimeout(value: number) {
+    this._crlCacheTimeout = value;
+  }
+  public resetCrlCacheTimeout() {
+    this._crlCacheTimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get crlCacheTimeoutInput() {
+    return this._crlCacheTimeout;
+  }
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // ignore_errors - computed: false, optional: true, required: false
+  private _ignoreErrors?: boolean | cdktf.IResolvable; 
+  public get ignoreErrors() {
+    return this.getBooleanAttribute('ignore_errors');
+  }
+  public set ignoreErrors(value: boolean | cdktf.IResolvable) {
+    this._ignoreErrors = value;
+  }
+  public resetIgnoreErrors() {
+    this._ignoreErrors = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ignoreErrorsInput() {
+    return this._ignoreErrors;
+  }
+
+  // ignore_warnings - computed: false, optional: true, required: false
+  private _ignoreWarnings?: boolean | cdktf.IResolvable; 
+  public get ignoreWarnings() {
+    return this.getBooleanAttribute('ignore_warnings');
+  }
+  public set ignoreWarnings(value: boolean | cdktf.IResolvable) {
+    this._ignoreWarnings = value;
+  }
+  public resetIgnoreWarnings() {
+    this._ignoreWarnings = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ignoreWarningsInput() {
+    return this._ignoreWarnings;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // retrieve_crl_from_http_servers - computed: false, optional: true, required: false
+  private _retrieveCrlFromHttpServers?: boolean | cdktf.IResolvable; 
+  public get retrieveCrlFromHttpServers() {
+    return this.getBooleanAttribute('retrieve_crl_from_http_servers');
+  }
+  public set retrieveCrlFromHttpServers(value: boolean | cdktf.IResolvable) {
+    this._retrieveCrlFromHttpServers = value;
+  }
+  public resetRetrieveCrlFromHttpServers() {
+    this._retrieveCrlFromHttpServers = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get retrieveCrlFromHttpServersInput() {
+    return this._retrieveCrlFromHttpServers;
+  }
+
+  // tags - computed: false, optional: true, required: false
+  private _tags?: string[]; 
+  public get tags() {
+    return cdktf.Fn.tolist(this.getListAttribute('tags'));
+  }
+  public set tags(value: string[]) {
+    this._tags = value;
+  }
+  public resetTags() {
+    this._tags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagsInput() {
+    return this._tags;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      allow_certificates_from_branches: cdktf.booleanToTerraform(this._allowCertificatesFromBranches),
+      base64_certificate: cdktf.stringToTerraform(this._base64Certificate),
+      branches: cdktf.listMapper(cdktf.stringToTerraform, false)(this._branches),
+      color: cdktf.stringToTerraform(this._color),
+      comments: cdktf.stringToTerraform(this._comments),
+      crl_cache_method: cdktf.stringToTerraform(this._crlCacheMethod),
+      crl_cache_timeout: cdktf.numberToTerraform(this._crlCacheTimeout),
+      id: cdktf.stringToTerraform(this._id),
+      ignore_errors: cdktf.booleanToTerraform(this._ignoreErrors),
+      ignore_warnings: cdktf.booleanToTerraform(this._ignoreWarnings),
+      name: cdktf.stringToTerraform(this._name),
+      retrieve_crl_from_http_servers: cdktf.booleanToTerraform(this._retrieveCrlFromHttpServers),
+      tags: cdktf.listMapper(cdktf.stringToTerraform, false)(this._tags),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      allow_certificates_from_branches: {
+        value: cdktf.booleanToHclTerraform(this._allowCertificatesFromBranches),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      base64_certificate: {
+        value: cdktf.stringToHclTerraform(this._base64Certificate),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      branches: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._branches),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      color: {
+        value: cdktf.stringToHclTerraform(this._color),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      comments: {
+        value: cdktf.stringToHclTerraform(this._comments),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      crl_cache_method: {
+        value: cdktf.stringToHclTerraform(this._crlCacheMethod),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      crl_cache_timeout: {
+        value: cdktf.numberToHclTerraform(this._crlCacheTimeout),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ignore_errors: {
+        value: cdktf.booleanToHclTerraform(this._ignoreErrors),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      ignore_warnings: {
+        value: cdktf.booleanToHclTerraform(this._ignoreWarnings),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      retrieve_crl_from_http_servers: {
+        value: cdktf.booleanToHclTerraform(this._retrieveCrlFromHttpServers),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      tags: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._tags),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

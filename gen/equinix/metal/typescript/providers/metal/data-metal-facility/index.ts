@@ -1,0 +1,365 @@
+// https://registry.terraform.io/providers/equinix/metal/3.3.0/docs/data-sources/facility
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface DataMetalFacilityConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * The code of the Facility to match
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/metal/3.3.0/docs/data-sources/facility#code DataMetalFacility#code}
+  */
+  readonly code: string;
+  /**
+  * Features which the facility needs to have.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/metal/3.3.0/docs/data-sources/facility#features_required DataMetalFacility#features_required}
+  */
+  readonly featuresRequired?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/metal/3.3.0/docs/data-sources/facility#id DataMetalFacility#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * capacity block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/metal/3.3.0/docs/data-sources/facility#capacity DataMetalFacility#capacity}
+  */
+  readonly capacity?: DataMetalFacilityCapacity[] | cdktf.IResolvable;
+}
+export interface DataMetalFacilityCapacity {
+  /**
+  * Plan which has to be available in selected location
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/metal/3.3.0/docs/data-sources/facility#plan DataMetalFacility#plan}
+  */
+  readonly plan: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/metal/3.3.0/docs/data-sources/facility#quantity DataMetalFacility#quantity}
+  */
+  readonly quantity?: number;
+}
+
+export function dataMetalFacilityCapacityToTerraform(struct?: DataMetalFacilityCapacity | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    plan: cdktf.stringToTerraform(struct!.plan),
+    quantity: cdktf.numberToTerraform(struct!.quantity),
+  }
+}
+
+
+export function dataMetalFacilityCapacityToHclTerraform(struct?: DataMetalFacilityCapacity | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    plan: {
+      value: cdktf.stringToHclTerraform(struct!.plan),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    quantity: {
+      value: cdktf.numberToHclTerraform(struct!.quantity),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataMetalFacilityCapacityOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataMetalFacilityCapacity | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._plan !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.plan = this._plan;
+    }
+    if (this._quantity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.quantity = this._quantity;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataMetalFacilityCapacity | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._plan = undefined;
+      this._quantity = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._plan = value.plan;
+      this._quantity = value.quantity;
+    }
+  }
+
+  // plan - computed: false, optional: false, required: true
+  private _plan?: string; 
+  public get plan() {
+    return this.getStringAttribute('plan');
+  }
+  public set plan(value: string) {
+    this._plan = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get planInput() {
+    return this._plan;
+  }
+
+  // quantity - computed: false, optional: true, required: false
+  private _quantity?: number; 
+  public get quantity() {
+    return this.getNumberAttribute('quantity');
+  }
+  public set quantity(value: number) {
+    this._quantity = value;
+  }
+  public resetQuantity() {
+    this._quantity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get quantityInput() {
+    return this._quantity;
+  }
+}
+
+export class DataMetalFacilityCapacityList extends cdktf.ComplexList {
+  public internalValue? : DataMetalFacilityCapacity[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataMetalFacilityCapacityOutputReference {
+    return new DataMetalFacilityCapacityOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/equinix/metal/3.3.0/docs/data-sources/facility metal_facility}
+*/
+export class DataMetalFacility extends cdktf.TerraformDataSource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "metal_facility";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a DataMetalFacility resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the DataMetalFacility to import
+  * @param importFromId The id of the existing DataMetalFacility that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/metal/3.3.0/docs/data-sources/facility#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the DataMetalFacility to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "metal_facility", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/equinix/metal/3.3.0/docs/data-sources/facility metal_facility} Data Source
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options DataMetalFacilityConfig
+  */
+  public constructor(scope: Construct, id: string, config: DataMetalFacilityConfig) {
+    super(scope, id, {
+      terraformResourceType: 'metal_facility',
+      terraformGeneratorMetadata: {
+        providerName: 'metal',
+        providerVersion: '3.3.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._code = config.code;
+    this._featuresRequired = config.featuresRequired;
+    this._id = config.id;
+    this._capacity.internalValue = config.capacity;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // code - computed: false, optional: false, required: true
+  private _code?: string; 
+  public get code() {
+    return this.getStringAttribute('code');
+  }
+  public set code(value: string) {
+    this._code = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get codeInput() {
+    return this._code;
+  }
+
+  // features - computed: true, optional: false, required: false
+  public get features() {
+    return this.getListAttribute('features');
+  }
+
+  // features_required - computed: false, optional: true, required: false
+  private _featuresRequired?: string[]; 
+  public get featuresRequired() {
+    return cdktf.Fn.tolist(this.getListAttribute('features_required'));
+  }
+  public set featuresRequired(value: string[]) {
+    this._featuresRequired = value;
+  }
+  public resetFeaturesRequired() {
+    this._featuresRequired = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get featuresRequiredInput() {
+    return this._featuresRequired;
+  }
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // metro - computed: true, optional: false, required: false
+  public get metro() {
+    return this.getStringAttribute('metro');
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // capacity - computed: false, optional: true, required: false
+  private _capacity = new DataMetalFacilityCapacityList(this, "capacity", false);
+  public get capacity() {
+    return this._capacity;
+  }
+  public putCapacity(value: DataMetalFacilityCapacity[] | cdktf.IResolvable) {
+    this._capacity.internalValue = value;
+  }
+  public resetCapacity() {
+    this._capacity.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get capacityInput() {
+    return this._capacity.internalValue;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      code: cdktf.stringToTerraform(this._code),
+      features_required: cdktf.listMapper(cdktf.stringToTerraform, false)(this._featuresRequired),
+      id: cdktf.stringToTerraform(this._id),
+      capacity: cdktf.listMapper(dataMetalFacilityCapacityToTerraform, true)(this._capacity.internalValue),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      code: {
+        value: cdktf.stringToHclTerraform(this._code),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      features_required: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._featuresRequired),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      capacity: {
+        value: cdktf.listMapperHcl(dataMetalFacilityCapacityToHclTerraform, true)(this._capacity.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "DataMetalFacilityCapacityList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

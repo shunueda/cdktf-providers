@@ -1,0 +1,3 @@
+# `intelcloud_iks_node_group`
+
+Refer to the Terraform Registry for docs: [`intelcloud_iks_node_group`](https://registry.terraform.io/providers/intel/intelcloud/0.0.20/docs/resources/iks_node_group).

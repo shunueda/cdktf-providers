@@ -1,0 +1,3706 @@
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface RecommendationHardwareExpansionRequestConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * The Account ID for this managed object.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#account_moid RecommendationHardwareExpansionRequest#account_moid}
+  */
+  readonly accountMoid?: string;
+  /**
+  * Action to be triggered for computing recommendation. Default value is None.
+  * * `None` - The Enum value None represents that no action is triggered on the forecast Instance managed object.
+  * * `Evaluate` - The Enum value Evaluate represents that a re-evaluation of the forecast needs to be triggered.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#action RecommendationHardwareExpansionRequest#action}
+  */
+  readonly action?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * An array of relationships to moBaseMo resources.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#ancestors RecommendationHardwareExpansionRequest#ancestors}
+  */
+  readonly ancestors?: RecommendationHardwareExpansionRequestAncestors[] | cdktf.IResolvable;
+  /**
+  * The fully-qualified name of the instantiated, concrete type.
+  * This property is used as a discriminator to identify the type of the payload
+  * when marshaling and unmarshaling data.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * The time when this managed object was created.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#create_time RecommendationHardwareExpansionRequest#create_time}
+  */
+  readonly createTime?: string;
+  /**
+  * The DomainGroup ID for this managed object.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#domain_group_moid RecommendationHardwareExpansionRequest#domain_group_moid}
+  */
+  readonly domainGroupMoid?: string;
+  /**
+  * An array of relationships to recommendationHardwareExpansionRequestItem resources.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#hw_expansion_request_items RecommendationHardwareExpansionRequest#hw_expansion_request_items}
+  */
+  readonly hwExpansionRequestItems?: RecommendationHardwareExpansionRequestHwExpansionRequestItems[] | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#id RecommendationHardwareExpansionRequest#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * User visible error message for the Hardware Expansion request.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#message RecommendationHardwareExpansionRequest#message}
+  */
+  readonly message?: string;
+  /**
+  * The time when this managed object was last modified.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#mod_time RecommendationHardwareExpansionRequest#mod_time}
+  */
+  readonly modTime?: string;
+  /**
+  * The unique identifier of this Managed Object instance.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
+  */
+  readonly moid?: string;
+  /**
+  * The name of the expansion specification.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#name RecommendationHardwareExpansionRequest#name}
+  */
+  readonly name?: string;
+  /**
+  * The fully-qualified name of the instantiated, concrete type.
+  * The value should be the same as the 'ClassId' property.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
+  */
+  readonly objectType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#owners RecommendationHardwareExpansionRequest#owners}
+  */
+  readonly owners?: string[];
+  /**
+  * A reference to a moBaseMo resource.
+  * When the $expand query parameter is specified, the referenced resource is returned inline.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#parent RecommendationHardwareExpansionRequest#parent}
+  */
+  readonly parent?: RecommendationHardwareExpansionRequestParent[] | cdktf.IResolvable;
+  /**
+  * An array of relationships to moBaseMo resources.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#permission_resources RecommendationHardwareExpansionRequest#permission_resources}
+  */
+  readonly permissionResources?: RecommendationHardwareExpansionRequestPermissionResources[] | cdktf.IResolvable;
+  /**
+  * A reference to a assetDeviceRegistration resource.
+  * When the $expand query parameter is specified, the referenced resource is returned inline.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#registered_device RecommendationHardwareExpansionRequest#registered_device}
+  */
+  readonly registeredDevice?: RecommendationHardwareExpansionRequestRegisteredDevice[] | cdktf.IResolvable;
+  /**
+  * The time when the expansion was requested.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#request_time RecommendationHardwareExpansionRequest#request_time}
+  */
+  readonly requestTime?: string;
+  /**
+  * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
+  * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#shared_scope RecommendationHardwareExpansionRequest#shared_scope}
+  */
+  readonly sharedScope?: string;
+  /**
+  * Status of the Hardware Expansion request.
+  * * `None` - The Enum value None represents the default status value before any API call is made.
+  * * `Success` - The Enum value Success represents that the API call returned with success.
+  * * `Fail` - The Enum value Fail represents that the API call returned with a failure.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#status RecommendationHardwareExpansionRequest#status}
+  */
+  readonly status?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#tags RecommendationHardwareExpansionRequest#tags}
+  */
+  readonly tags?: RecommendationHardwareExpansionRequestTags[] | cdktf.IResolvable;
+  /**
+  * The versioning info for this managed object.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#version_context RecommendationHardwareExpansionRequest#version_context}
+  */
+  readonly versionContext?: RecommendationHardwareExpansionRequestVersionContext[] | cdktf.IResolvable;
+}
+export interface RecommendationHardwareExpansionRequestAncestors {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
+  */
+  readonly moid?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
+  */
+  readonly objectType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
+  */
+  readonly selector?: string;
+}
+
+export function recommendationHardwareExpansionRequestAncestorsToTerraform(struct?: RecommendationHardwareExpansionRequestAncestors | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    class_id: cdktf.stringToTerraform(struct!.classId),
+    moid: cdktf.stringToTerraform(struct!.moid),
+    object_type: cdktf.stringToTerraform(struct!.objectType),
+    selector: cdktf.stringToTerraform(struct!.selector),
+  }
+}
+
+
+export function recommendationHardwareExpansionRequestAncestorsToHclTerraform(struct?: RecommendationHardwareExpansionRequestAncestors | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    class_id: {
+      value: cdktf.stringToHclTerraform(struct!.classId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    moid: {
+      value: cdktf.stringToHclTerraform(struct!.moid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    object_type: {
+      value: cdktf.stringToHclTerraform(struct!.objectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    selector: {
+      value: cdktf.stringToHclTerraform(struct!.selector),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RecommendationHardwareExpansionRequestAncestorsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): RecommendationHardwareExpansionRequestAncestors | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._classId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classId = this._classId;
+    }
+    if (this._moid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.moid = this._moid;
+    }
+    if (this._objectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectType = this._objectType;
+    }
+    if (this._selector !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.selector = this._selector;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RecommendationHardwareExpansionRequestAncestors | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._additionalProperties = undefined;
+      this._classId = undefined;
+      this._moid = undefined;
+      this._objectType = undefined;
+      this._selector = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._additionalProperties = value.additionalProperties;
+      this._classId = value.classId;
+      this._moid = value.moid;
+      this._objectType = value.objectType;
+      this._selector = value.selector;
+    }
+  }
+
+  // additional_properties - computed: true, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // class_id - computed: true, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // moid - computed: true, optional: true, required: false
+  private _moid?: string; 
+  public get moid() {
+    return this.getStringAttribute('moid');
+  }
+  public set moid(value: string) {
+    this._moid = value;
+  }
+  public resetMoid() {
+    this._moid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get moidInput() {
+    return this._moid;
+  }
+
+  // object_type - computed: true, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+
+  // selector - computed: true, optional: true, required: false
+  private _selector?: string; 
+  public get selector() {
+    return this.getStringAttribute('selector');
+  }
+  public set selector(value: string) {
+    this._selector = value;
+  }
+  public resetSelector() {
+    this._selector = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get selectorInput() {
+    return this._selector;
+  }
+}
+
+export class RecommendationHardwareExpansionRequestAncestorsList extends cdktf.ComplexList {
+  public internalValue? : RecommendationHardwareExpansionRequestAncestors[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): RecommendationHardwareExpansionRequestAncestorsOutputReference {
+    return new RecommendationHardwareExpansionRequestAncestorsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface RecommendationHardwareExpansionRequestHwExpansionRequestItems {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
+  */
+  readonly moid?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
+  */
+  readonly objectType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
+  */
+  readonly selector?: string;
+}
+
+export function recommendationHardwareExpansionRequestHwExpansionRequestItemsToTerraform(struct?: RecommendationHardwareExpansionRequestHwExpansionRequestItems | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    class_id: cdktf.stringToTerraform(struct!.classId),
+    moid: cdktf.stringToTerraform(struct!.moid),
+    object_type: cdktf.stringToTerraform(struct!.objectType),
+    selector: cdktf.stringToTerraform(struct!.selector),
+  }
+}
+
+
+export function recommendationHardwareExpansionRequestHwExpansionRequestItemsToHclTerraform(struct?: RecommendationHardwareExpansionRequestHwExpansionRequestItems | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    class_id: {
+      value: cdktf.stringToHclTerraform(struct!.classId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    moid: {
+      value: cdktf.stringToHclTerraform(struct!.moid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    object_type: {
+      value: cdktf.stringToHclTerraform(struct!.objectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    selector: {
+      value: cdktf.stringToHclTerraform(struct!.selector),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RecommendationHardwareExpansionRequestHwExpansionRequestItemsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): RecommendationHardwareExpansionRequestHwExpansionRequestItems | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._classId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classId = this._classId;
+    }
+    if (this._moid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.moid = this._moid;
+    }
+    if (this._objectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectType = this._objectType;
+    }
+    if (this._selector !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.selector = this._selector;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RecommendationHardwareExpansionRequestHwExpansionRequestItems | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._additionalProperties = undefined;
+      this._classId = undefined;
+      this._moid = undefined;
+      this._objectType = undefined;
+      this._selector = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._additionalProperties = value.additionalProperties;
+      this._classId = value.classId;
+      this._moid = value.moid;
+      this._objectType = value.objectType;
+      this._selector = value.selector;
+    }
+  }
+
+  // additional_properties - computed: true, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // class_id - computed: true, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // moid - computed: true, optional: true, required: false
+  private _moid?: string; 
+  public get moid() {
+    return this.getStringAttribute('moid');
+  }
+  public set moid(value: string) {
+    this._moid = value;
+  }
+  public resetMoid() {
+    this._moid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get moidInput() {
+    return this._moid;
+  }
+
+  // object_type - computed: true, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+
+  // selector - computed: true, optional: true, required: false
+  private _selector?: string; 
+  public get selector() {
+    return this.getStringAttribute('selector');
+  }
+  public set selector(value: string) {
+    this._selector = value;
+  }
+  public resetSelector() {
+    this._selector = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get selectorInput() {
+    return this._selector;
+  }
+}
+
+export class RecommendationHardwareExpansionRequestHwExpansionRequestItemsList extends cdktf.ComplexList {
+  public internalValue? : RecommendationHardwareExpansionRequestHwExpansionRequestItems[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): RecommendationHardwareExpansionRequestHwExpansionRequestItemsOutputReference {
+    return new RecommendationHardwareExpansionRequestHwExpansionRequestItemsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface RecommendationHardwareExpansionRequestParent {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
+  */
+  readonly moid?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
+  */
+  readonly objectType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
+  */
+  readonly selector?: string;
+}
+
+export function recommendationHardwareExpansionRequestParentToTerraform(struct?: RecommendationHardwareExpansionRequestParent | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    class_id: cdktf.stringToTerraform(struct!.classId),
+    moid: cdktf.stringToTerraform(struct!.moid),
+    object_type: cdktf.stringToTerraform(struct!.objectType),
+    selector: cdktf.stringToTerraform(struct!.selector),
+  }
+}
+
+
+export function recommendationHardwareExpansionRequestParentToHclTerraform(struct?: RecommendationHardwareExpansionRequestParent | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    class_id: {
+      value: cdktf.stringToHclTerraform(struct!.classId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    moid: {
+      value: cdktf.stringToHclTerraform(struct!.moid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    object_type: {
+      value: cdktf.stringToHclTerraform(struct!.objectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    selector: {
+      value: cdktf.stringToHclTerraform(struct!.selector),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RecommendationHardwareExpansionRequestParentOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): RecommendationHardwareExpansionRequestParent | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._classId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classId = this._classId;
+    }
+    if (this._moid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.moid = this._moid;
+    }
+    if (this._objectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectType = this._objectType;
+    }
+    if (this._selector !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.selector = this._selector;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RecommendationHardwareExpansionRequestParent | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._additionalProperties = undefined;
+      this._classId = undefined;
+      this._moid = undefined;
+      this._objectType = undefined;
+      this._selector = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._additionalProperties = value.additionalProperties;
+      this._classId = value.classId;
+      this._moid = value.moid;
+      this._objectType = value.objectType;
+      this._selector = value.selector;
+    }
+  }
+
+  // additional_properties - computed: true, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // class_id - computed: true, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // moid - computed: true, optional: true, required: false
+  private _moid?: string; 
+  public get moid() {
+    return this.getStringAttribute('moid');
+  }
+  public set moid(value: string) {
+    this._moid = value;
+  }
+  public resetMoid() {
+    this._moid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get moidInput() {
+    return this._moid;
+  }
+
+  // object_type - computed: true, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+
+  // selector - computed: true, optional: true, required: false
+  private _selector?: string; 
+  public get selector() {
+    return this.getStringAttribute('selector');
+  }
+  public set selector(value: string) {
+    this._selector = value;
+  }
+  public resetSelector() {
+    this._selector = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get selectorInput() {
+    return this._selector;
+  }
+}
+
+export class RecommendationHardwareExpansionRequestParentList extends cdktf.ComplexList {
+  public internalValue? : RecommendationHardwareExpansionRequestParent[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): RecommendationHardwareExpansionRequestParentOutputReference {
+    return new RecommendationHardwareExpansionRequestParentOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface RecommendationHardwareExpansionRequestPermissionResources {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
+  */
+  readonly moid?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
+  */
+  readonly objectType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
+  */
+  readonly selector?: string;
+}
+
+export function recommendationHardwareExpansionRequestPermissionResourcesToTerraform(struct?: RecommendationHardwareExpansionRequestPermissionResources | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    class_id: cdktf.stringToTerraform(struct!.classId),
+    moid: cdktf.stringToTerraform(struct!.moid),
+    object_type: cdktf.stringToTerraform(struct!.objectType),
+    selector: cdktf.stringToTerraform(struct!.selector),
+  }
+}
+
+
+export function recommendationHardwareExpansionRequestPermissionResourcesToHclTerraform(struct?: RecommendationHardwareExpansionRequestPermissionResources | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    class_id: {
+      value: cdktf.stringToHclTerraform(struct!.classId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    moid: {
+      value: cdktf.stringToHclTerraform(struct!.moid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    object_type: {
+      value: cdktf.stringToHclTerraform(struct!.objectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    selector: {
+      value: cdktf.stringToHclTerraform(struct!.selector),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RecommendationHardwareExpansionRequestPermissionResourcesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): RecommendationHardwareExpansionRequestPermissionResources | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._classId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classId = this._classId;
+    }
+    if (this._moid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.moid = this._moid;
+    }
+    if (this._objectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectType = this._objectType;
+    }
+    if (this._selector !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.selector = this._selector;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RecommendationHardwareExpansionRequestPermissionResources | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._additionalProperties = undefined;
+      this._classId = undefined;
+      this._moid = undefined;
+      this._objectType = undefined;
+      this._selector = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._additionalProperties = value.additionalProperties;
+      this._classId = value.classId;
+      this._moid = value.moid;
+      this._objectType = value.objectType;
+      this._selector = value.selector;
+    }
+  }
+
+  // additional_properties - computed: true, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // class_id - computed: true, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // moid - computed: true, optional: true, required: false
+  private _moid?: string; 
+  public get moid() {
+    return this.getStringAttribute('moid');
+  }
+  public set moid(value: string) {
+    this._moid = value;
+  }
+  public resetMoid() {
+    this._moid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get moidInput() {
+    return this._moid;
+  }
+
+  // object_type - computed: true, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+
+  // selector - computed: true, optional: true, required: false
+  private _selector?: string; 
+  public get selector() {
+    return this.getStringAttribute('selector');
+  }
+  public set selector(value: string) {
+    this._selector = value;
+  }
+  public resetSelector() {
+    this._selector = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get selectorInput() {
+    return this._selector;
+  }
+}
+
+export class RecommendationHardwareExpansionRequestPermissionResourcesList extends cdktf.ComplexList {
+  public internalValue? : RecommendationHardwareExpansionRequestPermissionResources[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): RecommendationHardwareExpansionRequestPermissionResourcesOutputReference {
+    return new RecommendationHardwareExpansionRequestPermissionResourcesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface RecommendationHardwareExpansionRequestRegisteredDevice {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
+  */
+  readonly moid?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
+  */
+  readonly objectType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
+  */
+  readonly selector?: string;
+}
+
+export function recommendationHardwareExpansionRequestRegisteredDeviceToTerraform(struct?: RecommendationHardwareExpansionRequestRegisteredDevice | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    class_id: cdktf.stringToTerraform(struct!.classId),
+    moid: cdktf.stringToTerraform(struct!.moid),
+    object_type: cdktf.stringToTerraform(struct!.objectType),
+    selector: cdktf.stringToTerraform(struct!.selector),
+  }
+}
+
+
+export function recommendationHardwareExpansionRequestRegisteredDeviceToHclTerraform(struct?: RecommendationHardwareExpansionRequestRegisteredDevice | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    class_id: {
+      value: cdktf.stringToHclTerraform(struct!.classId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    moid: {
+      value: cdktf.stringToHclTerraform(struct!.moid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    object_type: {
+      value: cdktf.stringToHclTerraform(struct!.objectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    selector: {
+      value: cdktf.stringToHclTerraform(struct!.selector),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RecommendationHardwareExpansionRequestRegisteredDeviceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): RecommendationHardwareExpansionRequestRegisteredDevice | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._classId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classId = this._classId;
+    }
+    if (this._moid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.moid = this._moid;
+    }
+    if (this._objectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectType = this._objectType;
+    }
+    if (this._selector !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.selector = this._selector;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RecommendationHardwareExpansionRequestRegisteredDevice | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._additionalProperties = undefined;
+      this._classId = undefined;
+      this._moid = undefined;
+      this._objectType = undefined;
+      this._selector = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._additionalProperties = value.additionalProperties;
+      this._classId = value.classId;
+      this._moid = value.moid;
+      this._objectType = value.objectType;
+      this._selector = value.selector;
+    }
+  }
+
+  // additional_properties - computed: true, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // class_id - computed: true, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // moid - computed: true, optional: true, required: false
+  private _moid?: string; 
+  public get moid() {
+    return this.getStringAttribute('moid');
+  }
+  public set moid(value: string) {
+    this._moid = value;
+  }
+  public resetMoid() {
+    this._moid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get moidInput() {
+    return this._moid;
+  }
+
+  // object_type - computed: true, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+
+  // selector - computed: true, optional: true, required: false
+  private _selector?: string; 
+  public get selector() {
+    return this.getStringAttribute('selector');
+  }
+  public set selector(value: string) {
+    this._selector = value;
+  }
+  public resetSelector() {
+    this._selector = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get selectorInput() {
+    return this._selector;
+  }
+}
+
+export class RecommendationHardwareExpansionRequestRegisteredDeviceList extends cdktf.ComplexList {
+  public internalValue? : RecommendationHardwareExpansionRequestRegisteredDevice[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): RecommendationHardwareExpansionRequestRegisteredDeviceOutputReference {
+    return new RecommendationHardwareExpansionRequestRegisteredDeviceOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface RecommendationHardwareExpansionRequestTagsAncestorDefinitions {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
+  */
+  readonly moid?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
+  */
+  readonly objectType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
+  */
+  readonly selector?: string;
+}
+
+export function recommendationHardwareExpansionRequestTagsAncestorDefinitionsToTerraform(struct?: RecommendationHardwareExpansionRequestTagsAncestorDefinitions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    class_id: cdktf.stringToTerraform(struct!.classId),
+    moid: cdktf.stringToTerraform(struct!.moid),
+    object_type: cdktf.stringToTerraform(struct!.objectType),
+    selector: cdktf.stringToTerraform(struct!.selector),
+  }
+}
+
+
+export function recommendationHardwareExpansionRequestTagsAncestorDefinitionsToHclTerraform(struct?: RecommendationHardwareExpansionRequestTagsAncestorDefinitions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    class_id: {
+      value: cdktf.stringToHclTerraform(struct!.classId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    moid: {
+      value: cdktf.stringToHclTerraform(struct!.moid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    object_type: {
+      value: cdktf.stringToHclTerraform(struct!.objectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    selector: {
+      value: cdktf.stringToHclTerraform(struct!.selector),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RecommendationHardwareExpansionRequestTagsAncestorDefinitionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): RecommendationHardwareExpansionRequestTagsAncestorDefinitions | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._classId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classId = this._classId;
+    }
+    if (this._moid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.moid = this._moid;
+    }
+    if (this._objectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectType = this._objectType;
+    }
+    if (this._selector !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.selector = this._selector;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RecommendationHardwareExpansionRequestTagsAncestorDefinitions | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._additionalProperties = undefined;
+      this._classId = undefined;
+      this._moid = undefined;
+      this._objectType = undefined;
+      this._selector = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._additionalProperties = value.additionalProperties;
+      this._classId = value.classId;
+      this._moid = value.moid;
+      this._objectType = value.objectType;
+      this._selector = value.selector;
+    }
+  }
+
+  // additional_properties - computed: true, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // class_id - computed: true, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // moid - computed: true, optional: true, required: false
+  private _moid?: string; 
+  public get moid() {
+    return this.getStringAttribute('moid');
+  }
+  public set moid(value: string) {
+    this._moid = value;
+  }
+  public resetMoid() {
+    this._moid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get moidInput() {
+    return this._moid;
+  }
+
+  // object_type - computed: true, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+
+  // selector - computed: true, optional: true, required: false
+  private _selector?: string; 
+  public get selector() {
+    return this.getStringAttribute('selector');
+  }
+  public set selector(value: string) {
+    this._selector = value;
+  }
+  public resetSelector() {
+    this._selector = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get selectorInput() {
+    return this._selector;
+  }
+}
+
+export class RecommendationHardwareExpansionRequestTagsAncestorDefinitionsList extends cdktf.ComplexList {
+  public internalValue? : RecommendationHardwareExpansionRequestTagsAncestorDefinitions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): RecommendationHardwareExpansionRequestTagsAncestorDefinitionsOutputReference {
+    return new RecommendationHardwareExpansionRequestTagsAncestorDefinitionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface RecommendationHardwareExpansionRequestTagsDefinition {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
+  */
+  readonly moid?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
+  */
+  readonly objectType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
+  */
+  readonly selector?: string;
+}
+
+export function recommendationHardwareExpansionRequestTagsDefinitionToTerraform(struct?: RecommendationHardwareExpansionRequestTagsDefinition | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    class_id: cdktf.stringToTerraform(struct!.classId),
+    moid: cdktf.stringToTerraform(struct!.moid),
+    object_type: cdktf.stringToTerraform(struct!.objectType),
+    selector: cdktf.stringToTerraform(struct!.selector),
+  }
+}
+
+
+export function recommendationHardwareExpansionRequestTagsDefinitionToHclTerraform(struct?: RecommendationHardwareExpansionRequestTagsDefinition | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    class_id: {
+      value: cdktf.stringToHclTerraform(struct!.classId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    moid: {
+      value: cdktf.stringToHclTerraform(struct!.moid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    object_type: {
+      value: cdktf.stringToHclTerraform(struct!.objectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    selector: {
+      value: cdktf.stringToHclTerraform(struct!.selector),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RecommendationHardwareExpansionRequestTagsDefinitionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): RecommendationHardwareExpansionRequestTagsDefinition | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._classId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classId = this._classId;
+    }
+    if (this._moid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.moid = this._moid;
+    }
+    if (this._objectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectType = this._objectType;
+    }
+    if (this._selector !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.selector = this._selector;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RecommendationHardwareExpansionRequestTagsDefinition | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._additionalProperties = undefined;
+      this._classId = undefined;
+      this._moid = undefined;
+      this._objectType = undefined;
+      this._selector = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._additionalProperties = value.additionalProperties;
+      this._classId = value.classId;
+      this._moid = value.moid;
+      this._objectType = value.objectType;
+      this._selector = value.selector;
+    }
+  }
+
+  // additional_properties - computed: true, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // class_id - computed: true, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // moid - computed: true, optional: true, required: false
+  private _moid?: string; 
+  public get moid() {
+    return this.getStringAttribute('moid');
+  }
+  public set moid(value: string) {
+    this._moid = value;
+  }
+  public resetMoid() {
+    this._moid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get moidInput() {
+    return this._moid;
+  }
+
+  // object_type - computed: true, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+
+  // selector - computed: true, optional: true, required: false
+  private _selector?: string; 
+  public get selector() {
+    return this.getStringAttribute('selector');
+  }
+  public set selector(value: string) {
+    this._selector = value;
+  }
+  public resetSelector() {
+    this._selector = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get selectorInput() {
+    return this._selector;
+  }
+}
+
+export class RecommendationHardwareExpansionRequestTagsDefinitionList extends cdktf.ComplexList {
+  public internalValue? : RecommendationHardwareExpansionRequestTagsDefinition[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): RecommendationHardwareExpansionRequestTagsDefinitionOutputReference {
+    return new RecommendationHardwareExpansionRequestTagsDefinitionOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface RecommendationHardwareExpansionRequestTags {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#ancestor_definitions RecommendationHardwareExpansionRequest#ancestor_definitions}
+  */
+  readonly ancestorDefinitions?: RecommendationHardwareExpansionRequestTagsAncestorDefinitions[] | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#definition RecommendationHardwareExpansionRequest#definition}
+  */
+  readonly definition?: RecommendationHardwareExpansionRequestTagsDefinition[] | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#key RecommendationHardwareExpansionRequest#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#propagated RecommendationHardwareExpansionRequest#propagated}
+  */
+  readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#type RecommendationHardwareExpansionRequest#type}
+  */
+  readonly type?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#value RecommendationHardwareExpansionRequest#value}
+  */
+  readonly value?: string;
+}
+
+export function recommendationHardwareExpansionRequestTagsToTerraform(struct?: RecommendationHardwareExpansionRequestTags | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    ancestor_definitions: cdktf.listMapper(recommendationHardwareExpansionRequestTagsAncestorDefinitionsToTerraform, false)(struct!.ancestorDefinitions),
+    definition: cdktf.listMapper(recommendationHardwareExpansionRequestTagsDefinitionToTerraform, false)(struct!.definition),
+    key: cdktf.stringToTerraform(struct!.key),
+    propagated: cdktf.booleanToTerraform(struct!.propagated),
+    type: cdktf.stringToTerraform(struct!.type),
+    value: cdktf.stringToTerraform(struct!.value),
+  }
+}
+
+
+export function recommendationHardwareExpansionRequestTagsToHclTerraform(struct?: RecommendationHardwareExpansionRequestTags | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ancestor_definitions: {
+      value: cdktf.listMapperHcl(recommendationHardwareExpansionRequestTagsAncestorDefinitionsToHclTerraform, false)(struct!.ancestorDefinitions),
+      isBlock: true,
+      type: "list",
+      storageClassType: "RecommendationHardwareExpansionRequestTagsAncestorDefinitionsList",
+    },
+    definition: {
+      value: cdktf.listMapperHcl(recommendationHardwareExpansionRequestTagsDefinitionToHclTerraform, false)(struct!.definition),
+      isBlock: true,
+      type: "list",
+      storageClassType: "RecommendationHardwareExpansionRequestTagsDefinitionList",
+    },
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    propagated: {
+      value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktf.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RecommendationHardwareExpansionRequestTagsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): RecommendationHardwareExpansionRequestTags | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._ancestorDefinitions?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ancestorDefinitions = this._ancestorDefinitions?.internalValue;
+    }
+    if (this._definition?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.definition = this._definition?.internalValue;
+    }
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._propagated !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.propagated = this._propagated;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RecommendationHardwareExpansionRequestTags | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._additionalProperties = undefined;
+      this._ancestorDefinitions.internalValue = undefined;
+      this._definition.internalValue = undefined;
+      this._key = undefined;
+      this._propagated = undefined;
+      this._type = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._additionalProperties = value.additionalProperties;
+      this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
+      this._definition.internalValue = value.definition;
+      this._key = value.key;
+      this._propagated = value.propagated;
+      this._type = value.type;
+      this._value = value.value;
+    }
+  }
+
+  // additional_properties - computed: true, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // ancestor_definitions - computed: true, optional: true, required: false
+  private _ancestorDefinitions = new RecommendationHardwareExpansionRequestTagsAncestorDefinitionsList(this, "ancestor_definitions", false);
+  public get ancestorDefinitions() {
+    return this._ancestorDefinitions;
+  }
+  public putAncestorDefinitions(value: RecommendationHardwareExpansionRequestTagsAncestorDefinitions[] | cdktf.IResolvable) {
+    this._ancestorDefinitions.internalValue = value;
+  }
+  public resetAncestorDefinitions() {
+    this._ancestorDefinitions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ancestorDefinitionsInput() {
+    return this._ancestorDefinitions.internalValue;
+  }
+
+  // definition - computed: true, optional: true, required: false
+  private _definition = new RecommendationHardwareExpansionRequestTagsDefinitionList(this, "definition", false);
+  public get definition() {
+    return this._definition;
+  }
+  public putDefinition(value: RecommendationHardwareExpansionRequestTagsDefinition[] | cdktf.IResolvable) {
+    this._definition.internalValue = value;
+  }
+  public resetDefinition() {
+    this._definition.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get definitionInput() {
+    return this._definition.internalValue;
+  }
+
+  // key - computed: true, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // propagated - computed: true, optional: true, required: false
+  private _propagated?: boolean | cdktf.IResolvable; 
+  public get propagated() {
+    return this.getBooleanAttribute('propagated');
+  }
+  public set propagated(value: boolean | cdktf.IResolvable) {
+    this._propagated = value;
+  }
+  public resetPropagated() {
+    this._propagated = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get propagatedInput() {
+    return this._propagated;
+  }
+
+  // type - computed: true, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // value - computed: true, optional: true, required: false
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class RecommendationHardwareExpansionRequestTagsList extends cdktf.ComplexList {
+  public internalValue? : RecommendationHardwareExpansionRequestTags[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): RecommendationHardwareExpansionRequestTagsOutputReference {
+    return new RecommendationHardwareExpansionRequestTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface RecommendationHardwareExpansionRequestVersionContextInterestedMos {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
+  */
+  readonly moid?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
+  */
+  readonly objectType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
+  */
+  readonly selector?: string;
+}
+
+export function recommendationHardwareExpansionRequestVersionContextInterestedMosToTerraform(struct?: RecommendationHardwareExpansionRequestVersionContextInterestedMos | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    class_id: cdktf.stringToTerraform(struct!.classId),
+    moid: cdktf.stringToTerraform(struct!.moid),
+    object_type: cdktf.stringToTerraform(struct!.objectType),
+    selector: cdktf.stringToTerraform(struct!.selector),
+  }
+}
+
+
+export function recommendationHardwareExpansionRequestVersionContextInterestedMosToHclTerraform(struct?: RecommendationHardwareExpansionRequestVersionContextInterestedMos | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    class_id: {
+      value: cdktf.stringToHclTerraform(struct!.classId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    moid: {
+      value: cdktf.stringToHclTerraform(struct!.moid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    object_type: {
+      value: cdktf.stringToHclTerraform(struct!.objectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    selector: {
+      value: cdktf.stringToHclTerraform(struct!.selector),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RecommendationHardwareExpansionRequestVersionContextInterestedMosOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): RecommendationHardwareExpansionRequestVersionContextInterestedMos | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._classId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classId = this._classId;
+    }
+    if (this._moid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.moid = this._moid;
+    }
+    if (this._objectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectType = this._objectType;
+    }
+    if (this._selector !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.selector = this._selector;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RecommendationHardwareExpansionRequestVersionContextInterestedMos | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._additionalProperties = undefined;
+      this._classId = undefined;
+      this._moid = undefined;
+      this._objectType = undefined;
+      this._selector = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._additionalProperties = value.additionalProperties;
+      this._classId = value.classId;
+      this._moid = value.moid;
+      this._objectType = value.objectType;
+      this._selector = value.selector;
+    }
+  }
+
+  // additional_properties - computed: true, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // class_id - computed: true, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // moid - computed: true, optional: true, required: false
+  private _moid?: string; 
+  public get moid() {
+    return this.getStringAttribute('moid');
+  }
+  public set moid(value: string) {
+    this._moid = value;
+  }
+  public resetMoid() {
+    this._moid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get moidInput() {
+    return this._moid;
+  }
+
+  // object_type - computed: true, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+
+  // selector - computed: true, optional: true, required: false
+  private _selector?: string; 
+  public get selector() {
+    return this.getStringAttribute('selector');
+  }
+  public set selector(value: string) {
+    this._selector = value;
+  }
+  public resetSelector() {
+    this._selector = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get selectorInput() {
+    return this._selector;
+  }
+}
+
+export class RecommendationHardwareExpansionRequestVersionContextInterestedMosList extends cdktf.ComplexList {
+  public internalValue? : RecommendationHardwareExpansionRequestVersionContextInterestedMos[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): RecommendationHardwareExpansionRequestVersionContextInterestedMosOutputReference {
+    return new RecommendationHardwareExpansionRequestVersionContextInterestedMosOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface RecommendationHardwareExpansionRequestVersionContextRefMo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
+  */
+  readonly moid?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
+  */
+  readonly objectType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
+  */
+  readonly selector?: string;
+}
+
+export function recommendationHardwareExpansionRequestVersionContextRefMoToTerraform(struct?: RecommendationHardwareExpansionRequestVersionContextRefMo | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    class_id: cdktf.stringToTerraform(struct!.classId),
+    moid: cdktf.stringToTerraform(struct!.moid),
+    object_type: cdktf.stringToTerraform(struct!.objectType),
+    selector: cdktf.stringToTerraform(struct!.selector),
+  }
+}
+
+
+export function recommendationHardwareExpansionRequestVersionContextRefMoToHclTerraform(struct?: RecommendationHardwareExpansionRequestVersionContextRefMo | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    class_id: {
+      value: cdktf.stringToHclTerraform(struct!.classId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    moid: {
+      value: cdktf.stringToHclTerraform(struct!.moid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    object_type: {
+      value: cdktf.stringToHclTerraform(struct!.objectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    selector: {
+      value: cdktf.stringToHclTerraform(struct!.selector),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RecommendationHardwareExpansionRequestVersionContextRefMoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): RecommendationHardwareExpansionRequestVersionContextRefMo | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._classId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classId = this._classId;
+    }
+    if (this._moid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.moid = this._moid;
+    }
+    if (this._objectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectType = this._objectType;
+    }
+    if (this._selector !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.selector = this._selector;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RecommendationHardwareExpansionRequestVersionContextRefMo | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._additionalProperties = undefined;
+      this._classId = undefined;
+      this._moid = undefined;
+      this._objectType = undefined;
+      this._selector = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._additionalProperties = value.additionalProperties;
+      this._classId = value.classId;
+      this._moid = value.moid;
+      this._objectType = value.objectType;
+      this._selector = value.selector;
+    }
+  }
+
+  // additional_properties - computed: true, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // class_id - computed: true, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // moid - computed: true, optional: true, required: false
+  private _moid?: string; 
+  public get moid() {
+    return this.getStringAttribute('moid');
+  }
+  public set moid(value: string) {
+    this._moid = value;
+  }
+  public resetMoid() {
+    this._moid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get moidInput() {
+    return this._moid;
+  }
+
+  // object_type - computed: true, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+
+  // selector - computed: true, optional: true, required: false
+  private _selector?: string; 
+  public get selector() {
+    return this.getStringAttribute('selector');
+  }
+  public set selector(value: string) {
+    this._selector = value;
+  }
+  public resetSelector() {
+    this._selector = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get selectorInput() {
+    return this._selector;
+  }
+}
+
+export class RecommendationHardwareExpansionRequestVersionContextRefMoList extends cdktf.ComplexList {
+  public internalValue? : RecommendationHardwareExpansionRequestVersionContextRefMo[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): RecommendationHardwareExpansionRequestVersionContextRefMoOutputReference {
+    return new RecommendationHardwareExpansionRequestVersionContextRefMoOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface RecommendationHardwareExpansionRequestVersionContext {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#interested_mos RecommendationHardwareExpansionRequest#interested_mos}
+  */
+  readonly interestedMos?: RecommendationHardwareExpansionRequestVersionContextInterestedMos[] | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#marked_for_deletion RecommendationHardwareExpansionRequest#marked_for_deletion}
+  */
+  readonly markedForDeletion?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#nr_version RecommendationHardwareExpansionRequest#nr_version}
+  */
+  readonly nrVersion?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
+  */
+  readonly objectType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#ref_mo RecommendationHardwareExpansionRequest#ref_mo}
+  */
+  readonly refMo?: RecommendationHardwareExpansionRequestVersionContextRefMo[] | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#timestamp RecommendationHardwareExpansionRequest#timestamp}
+  */
+  readonly timestamp?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#version_type RecommendationHardwareExpansionRequest#version_type}
+  */
+  readonly versionType?: string;
+}
+
+export function recommendationHardwareExpansionRequestVersionContextToTerraform(struct?: RecommendationHardwareExpansionRequestVersionContext | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    class_id: cdktf.stringToTerraform(struct!.classId),
+    interested_mos: cdktf.listMapper(recommendationHardwareExpansionRequestVersionContextInterestedMosToTerraform, false)(struct!.interestedMos),
+    marked_for_deletion: cdktf.booleanToTerraform(struct!.markedForDeletion),
+    nr_version: cdktf.stringToTerraform(struct!.nrVersion),
+    object_type: cdktf.stringToTerraform(struct!.objectType),
+    ref_mo: cdktf.listMapper(recommendationHardwareExpansionRequestVersionContextRefMoToTerraform, false)(struct!.refMo),
+    timestamp: cdktf.stringToTerraform(struct!.timestamp),
+    version_type: cdktf.stringToTerraform(struct!.versionType),
+  }
+}
+
+
+export function recommendationHardwareExpansionRequestVersionContextToHclTerraform(struct?: RecommendationHardwareExpansionRequestVersionContext | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    class_id: {
+      value: cdktf.stringToHclTerraform(struct!.classId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    interested_mos: {
+      value: cdktf.listMapperHcl(recommendationHardwareExpansionRequestVersionContextInterestedMosToHclTerraform, false)(struct!.interestedMos),
+      isBlock: true,
+      type: "list",
+      storageClassType: "RecommendationHardwareExpansionRequestVersionContextInterestedMosList",
+    },
+    marked_for_deletion: {
+      value: cdktf.booleanToHclTerraform(struct!.markedForDeletion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    nr_version: {
+      value: cdktf.stringToHclTerraform(struct!.nrVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    object_type: {
+      value: cdktf.stringToHclTerraform(struct!.objectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ref_mo: {
+      value: cdktf.listMapperHcl(recommendationHardwareExpansionRequestVersionContextRefMoToHclTerraform, false)(struct!.refMo),
+      isBlock: true,
+      type: "list",
+      storageClassType: "RecommendationHardwareExpansionRequestVersionContextRefMoList",
+    },
+    timestamp: {
+      value: cdktf.stringToHclTerraform(struct!.timestamp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version_type: {
+      value: cdktf.stringToHclTerraform(struct!.versionType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RecommendationHardwareExpansionRequestVersionContextOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): RecommendationHardwareExpansionRequestVersionContext | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._classId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classId = this._classId;
+    }
+    if (this._interestedMos?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interestedMos = this._interestedMos?.internalValue;
+    }
+    if (this._markedForDeletion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.markedForDeletion = this._markedForDeletion;
+    }
+    if (this._nrVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nrVersion = this._nrVersion;
+    }
+    if (this._objectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectType = this._objectType;
+    }
+    if (this._refMo?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.refMo = this._refMo?.internalValue;
+    }
+    if (this._timestamp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.timestamp = this._timestamp;
+    }
+    if (this._versionType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.versionType = this._versionType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RecommendationHardwareExpansionRequestVersionContext | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._additionalProperties = undefined;
+      this._classId = undefined;
+      this._interestedMos.internalValue = undefined;
+      this._markedForDeletion = undefined;
+      this._nrVersion = undefined;
+      this._objectType = undefined;
+      this._refMo.internalValue = undefined;
+      this._timestamp = undefined;
+      this._versionType = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._additionalProperties = value.additionalProperties;
+      this._classId = value.classId;
+      this._interestedMos.internalValue = value.interestedMos;
+      this._markedForDeletion = value.markedForDeletion;
+      this._nrVersion = value.nrVersion;
+      this._objectType = value.objectType;
+      this._refMo.internalValue = value.refMo;
+      this._timestamp = value.timestamp;
+      this._versionType = value.versionType;
+    }
+  }
+
+  // additional_properties - computed: true, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // class_id - computed: true, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // interested_mos - computed: true, optional: true, required: false
+  private _interestedMos = new RecommendationHardwareExpansionRequestVersionContextInterestedMosList(this, "interested_mos", false);
+  public get interestedMos() {
+    return this._interestedMos;
+  }
+  public putInterestedMos(value: RecommendationHardwareExpansionRequestVersionContextInterestedMos[] | cdktf.IResolvable) {
+    this._interestedMos.internalValue = value;
+  }
+  public resetInterestedMos() {
+    this._interestedMos.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interestedMosInput() {
+    return this._interestedMos.internalValue;
+  }
+
+  // marked_for_deletion - computed: true, optional: true, required: false
+  private _markedForDeletion?: boolean | cdktf.IResolvable; 
+  public get markedForDeletion() {
+    return this.getBooleanAttribute('marked_for_deletion');
+  }
+  public set markedForDeletion(value: boolean | cdktf.IResolvable) {
+    this._markedForDeletion = value;
+  }
+  public resetMarkedForDeletion() {
+    this._markedForDeletion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get markedForDeletionInput() {
+    return this._markedForDeletion;
+  }
+
+  // nr_version - computed: true, optional: true, required: false
+  private _nrVersion?: string; 
+  public get nrVersion() {
+    return this.getStringAttribute('nr_version');
+  }
+  public set nrVersion(value: string) {
+    this._nrVersion = value;
+  }
+  public resetNrVersion() {
+    this._nrVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nrVersionInput() {
+    return this._nrVersion;
+  }
+
+  // object_type - computed: true, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+
+  // ref_mo - computed: true, optional: true, required: false
+  private _refMo = new RecommendationHardwareExpansionRequestVersionContextRefMoList(this, "ref_mo", false);
+  public get refMo() {
+    return this._refMo;
+  }
+  public putRefMo(value: RecommendationHardwareExpansionRequestVersionContextRefMo[] | cdktf.IResolvable) {
+    this._refMo.internalValue = value;
+  }
+  public resetRefMo() {
+    this._refMo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get refMoInput() {
+    return this._refMo.internalValue;
+  }
+
+  // timestamp - computed: true, optional: true, required: false
+  private _timestamp?: string; 
+  public get timestamp() {
+    return this.getStringAttribute('timestamp');
+  }
+  public set timestamp(value: string) {
+    this._timestamp = value;
+  }
+  public resetTimestamp() {
+    this._timestamp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timestampInput() {
+    return this._timestamp;
+  }
+
+  // version_type - computed: true, optional: true, required: false
+  private _versionType?: string; 
+  public get versionType() {
+    return this.getStringAttribute('version_type');
+  }
+  public set versionType(value: string) {
+    this._versionType = value;
+  }
+  public resetVersionType() {
+    this._versionType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionTypeInput() {
+    return this._versionType;
+  }
+}
+
+export class RecommendationHardwareExpansionRequestVersionContextList extends cdktf.ComplexList {
+  public internalValue? : RecommendationHardwareExpansionRequestVersionContext[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): RecommendationHardwareExpansionRequestVersionContextOutputReference {
+    return new RecommendationHardwareExpansionRequestVersionContextOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request intersight_recommendation_hardware_expansion_request}
+*/
+export class RecommendationHardwareExpansionRequest extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "intersight_recommendation_hardware_expansion_request";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a RecommendationHardwareExpansionRequest resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the RecommendationHardwareExpansionRequest to import
+  * @param importFromId The id of the existing RecommendationHardwareExpansionRequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the RecommendationHardwareExpansionRequest to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "intersight_recommendation_hardware_expansion_request", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recommendation_hardware_expansion_request intersight_recommendation_hardware_expansion_request} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options RecommendationHardwareExpansionRequestConfig = {}
+  */
+  public constructor(scope: Construct, id: string, config: RecommendationHardwareExpansionRequestConfig = {}) {
+    super(scope, id, {
+      terraformResourceType: 'intersight_recommendation_hardware_expansion_request',
+      terraformGeneratorMetadata: {
+        providerName: 'intersight',
+        providerVersion: '1.0.72'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._accountMoid = config.accountMoid;
+    this._action = config.action;
+    this._additionalProperties = config.additionalProperties;
+    this._ancestors.internalValue = config.ancestors;
+    this._classId = config.classId;
+    this._createTime = config.createTime;
+    this._domainGroupMoid = config.domainGroupMoid;
+    this._hwExpansionRequestItems.internalValue = config.hwExpansionRequestItems;
+    this._id = config.id;
+    this._message = config.message;
+    this._modTime = config.modTime;
+    this._moid = config.moid;
+    this._name = config.name;
+    this._objectType = config.objectType;
+    this._owners = config.owners;
+    this._parent.internalValue = config.parent;
+    this._permissionResources.internalValue = config.permissionResources;
+    this._registeredDevice.internalValue = config.registeredDevice;
+    this._requestTime = config.requestTime;
+    this._sharedScope = config.sharedScope;
+    this._status = config.status;
+    this._tags.internalValue = config.tags;
+    this._versionContext.internalValue = config.versionContext;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // account_moid - computed: true, optional: true, required: false
+  private _accountMoid?: string; 
+  public get accountMoid() {
+    return this.getStringAttribute('account_moid');
+  }
+  public set accountMoid(value: string) {
+    this._accountMoid = value;
+  }
+  public resetAccountMoid() {
+    this._accountMoid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get accountMoidInput() {
+    return this._accountMoid;
+  }
+
+  // action - computed: false, optional: true, required: false
+  private _action?: string; 
+  public get action() {
+    return this.getStringAttribute('action');
+  }
+  public set action(value: string) {
+    this._action = value;
+  }
+  public resetAction() {
+    this._action = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get actionInput() {
+    return this._action;
+  }
+
+  // additional_properties - computed: false, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // ancestors - computed: true, optional: true, required: false
+  private _ancestors = new RecommendationHardwareExpansionRequestAncestorsList(this, "ancestors", false);
+  public get ancestors() {
+    return this._ancestors;
+  }
+  public putAncestors(value: RecommendationHardwareExpansionRequestAncestors[] | cdktf.IResolvable) {
+    this._ancestors.internalValue = value;
+  }
+  public resetAncestors() {
+    this._ancestors.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ancestorsInput() {
+    return this._ancestors.internalValue;
+  }
+
+  // class_id - computed: false, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // create_time - computed: true, optional: true, required: false
+  private _createTime?: string; 
+  public get createTime() {
+    return this.getStringAttribute('create_time');
+  }
+  public set createTime(value: string) {
+    this._createTime = value;
+  }
+  public resetCreateTime() {
+    this._createTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get createTimeInput() {
+    return this._createTime;
+  }
+
+  // domain_group_moid - computed: true, optional: true, required: false
+  private _domainGroupMoid?: string; 
+  public get domainGroupMoid() {
+    return this.getStringAttribute('domain_group_moid');
+  }
+  public set domainGroupMoid(value: string) {
+    this._domainGroupMoid = value;
+  }
+  public resetDomainGroupMoid() {
+    this._domainGroupMoid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get domainGroupMoidInput() {
+    return this._domainGroupMoid;
+  }
+
+  // hw_expansion_request_items - computed: true, optional: true, required: false
+  private _hwExpansionRequestItems = new RecommendationHardwareExpansionRequestHwExpansionRequestItemsList(this, "hw_expansion_request_items", false);
+  public get hwExpansionRequestItems() {
+    return this._hwExpansionRequestItems;
+  }
+  public putHwExpansionRequestItems(value: RecommendationHardwareExpansionRequestHwExpansionRequestItems[] | cdktf.IResolvable) {
+    this._hwExpansionRequestItems.internalValue = value;
+  }
+  public resetHwExpansionRequestItems() {
+    this._hwExpansionRequestItems.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hwExpansionRequestItemsInput() {
+    return this._hwExpansionRequestItems.internalValue;
+  }
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // message - computed: true, optional: true, required: false
+  private _message?: string; 
+  public get message() {
+    return this.getStringAttribute('message');
+  }
+  public set message(value: string) {
+    this._message = value;
+  }
+  public resetMessage() {
+    this._message = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get messageInput() {
+    return this._message;
+  }
+
+  // mod_time - computed: true, optional: true, required: false
+  private _modTime?: string; 
+  public get modTime() {
+    return this.getStringAttribute('mod_time');
+  }
+  public set modTime(value: string) {
+    this._modTime = value;
+  }
+  public resetModTime() {
+    this._modTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get modTimeInput() {
+    return this._modTime;
+  }
+
+  // moid - computed: true, optional: true, required: false
+  private _moid?: string; 
+  public get moid() {
+    return this.getStringAttribute('moid');
+  }
+  public set moid(value: string) {
+    this._moid = value;
+  }
+  public resetMoid() {
+    this._moid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get moidInput() {
+    return this._moid;
+  }
+
+  // name - computed: true, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // object_type - computed: false, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+
+  // owners - computed: true, optional: true, required: false
+  private _owners?: string[]; 
+  public get owners() {
+    return this.getListAttribute('owners');
+  }
+  public set owners(value: string[]) {
+    this._owners = value;
+  }
+  public resetOwners() {
+    this._owners = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ownersInput() {
+    return this._owners;
+  }
+
+  // parent - computed: true, optional: true, required: false
+  private _parent = new RecommendationHardwareExpansionRequestParentList(this, "parent", false);
+  public get parent() {
+    return this._parent;
+  }
+  public putParent(value: RecommendationHardwareExpansionRequestParent[] | cdktf.IResolvable) {
+    this._parent.internalValue = value;
+  }
+  public resetParent() {
+    this._parent.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get parentInput() {
+    return this._parent.internalValue;
+  }
+
+  // permission_resources - computed: true, optional: true, required: false
+  private _permissionResources = new RecommendationHardwareExpansionRequestPermissionResourcesList(this, "permission_resources", false);
+  public get permissionResources() {
+    return this._permissionResources;
+  }
+  public putPermissionResources(value: RecommendationHardwareExpansionRequestPermissionResources[] | cdktf.IResolvable) {
+    this._permissionResources.internalValue = value;
+  }
+  public resetPermissionResources() {
+    this._permissionResources.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get permissionResourcesInput() {
+    return this._permissionResources.internalValue;
+  }
+
+  // registered_device - computed: true, optional: true, required: false
+  private _registeredDevice = new RecommendationHardwareExpansionRequestRegisteredDeviceList(this, "registered_device", false);
+  public get registeredDevice() {
+    return this._registeredDevice;
+  }
+  public putRegisteredDevice(value: RecommendationHardwareExpansionRequestRegisteredDevice[] | cdktf.IResolvable) {
+    this._registeredDevice.internalValue = value;
+  }
+  public resetRegisteredDevice() {
+    this._registeredDevice.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get registeredDeviceInput() {
+    return this._registeredDevice.internalValue;
+  }
+
+  // request_time - computed: true, optional: true, required: false
+  private _requestTime?: string; 
+  public get requestTime() {
+    return this.getStringAttribute('request_time');
+  }
+  public set requestTime(value: string) {
+    this._requestTime = value;
+  }
+  public resetRequestTime() {
+    this._requestTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requestTimeInput() {
+    return this._requestTime;
+  }
+
+  // shared_scope - computed: true, optional: true, required: false
+  private _sharedScope?: string; 
+  public get sharedScope() {
+    return this.getStringAttribute('shared_scope');
+  }
+  public set sharedScope(value: string) {
+    this._sharedScope = value;
+  }
+  public resetSharedScope() {
+    this._sharedScope = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sharedScopeInput() {
+    return this._sharedScope;
+  }
+
+  // status - computed: true, optional: true, required: false
+  private _status?: string; 
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+  public set status(value: string) {
+    this._status = value;
+  }
+  public resetStatus() {
+    this._status = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statusInput() {
+    return this._status;
+  }
+
+  // tags - computed: true, optional: true, required: false
+  private _tags = new RecommendationHardwareExpansionRequestTagsList(this, "tags", false);
+  public get tags() {
+    return this._tags;
+  }
+  public putTags(value: RecommendationHardwareExpansionRequestTags[] | cdktf.IResolvable) {
+    this._tags.internalValue = value;
+  }
+  public resetTags() {
+    this._tags.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagsInput() {
+    return this._tags.internalValue;
+  }
+
+  // version_context - computed: true, optional: true, required: false
+  private _versionContext = new RecommendationHardwareExpansionRequestVersionContextList(this, "version_context", false);
+  public get versionContext() {
+    return this._versionContext;
+  }
+  public putVersionContext(value: RecommendationHardwareExpansionRequestVersionContext[] | cdktf.IResolvable) {
+    this._versionContext.internalValue = value;
+  }
+  public resetVersionContext() {
+    this._versionContext.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionContextInput() {
+    return this._versionContext.internalValue;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      account_moid: cdktf.stringToTerraform(this._accountMoid),
+      action: cdktf.stringToTerraform(this._action),
+      additional_properties: cdktf.stringToTerraform(this._additionalProperties),
+      ancestors: cdktf.listMapper(recommendationHardwareExpansionRequestAncestorsToTerraform, false)(this._ancestors.internalValue),
+      class_id: cdktf.stringToTerraform(this._classId),
+      create_time: cdktf.stringToTerraform(this._createTime),
+      domain_group_moid: cdktf.stringToTerraform(this._domainGroupMoid),
+      hw_expansion_request_items: cdktf.listMapper(recommendationHardwareExpansionRequestHwExpansionRequestItemsToTerraform, false)(this._hwExpansionRequestItems.internalValue),
+      id: cdktf.stringToTerraform(this._id),
+      message: cdktf.stringToTerraform(this._message),
+      mod_time: cdktf.stringToTerraform(this._modTime),
+      moid: cdktf.stringToTerraform(this._moid),
+      name: cdktf.stringToTerraform(this._name),
+      object_type: cdktf.stringToTerraform(this._objectType),
+      owners: cdktf.listMapper(cdktf.stringToTerraform, false)(this._owners),
+      parent: cdktf.listMapper(recommendationHardwareExpansionRequestParentToTerraform, false)(this._parent.internalValue),
+      permission_resources: cdktf.listMapper(recommendationHardwareExpansionRequestPermissionResourcesToTerraform, false)(this._permissionResources.internalValue),
+      registered_device: cdktf.listMapper(recommendationHardwareExpansionRequestRegisteredDeviceToTerraform, false)(this._registeredDevice.internalValue),
+      request_time: cdktf.stringToTerraform(this._requestTime),
+      shared_scope: cdktf.stringToTerraform(this._sharedScope),
+      status: cdktf.stringToTerraform(this._status),
+      tags: cdktf.listMapper(recommendationHardwareExpansionRequestTagsToTerraform, false)(this._tags.internalValue),
+      version_context: cdktf.listMapper(recommendationHardwareExpansionRequestVersionContextToTerraform, false)(this._versionContext.internalValue),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      account_moid: {
+        value: cdktf.stringToHclTerraform(this._accountMoid),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      action: {
+        value: cdktf.stringToHclTerraform(this._action),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      additional_properties: {
+        value: cdktf.stringToHclTerraform(this._additionalProperties),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ancestors: {
+        value: cdktf.listMapperHcl(recommendationHardwareExpansionRequestAncestorsToHclTerraform, false)(this._ancestors.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "RecommendationHardwareExpansionRequestAncestorsList",
+      },
+      class_id: {
+        value: cdktf.stringToHclTerraform(this._classId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      create_time: {
+        value: cdktf.stringToHclTerraform(this._createTime),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      domain_group_moid: {
+        value: cdktf.stringToHclTerraform(this._domainGroupMoid),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      hw_expansion_request_items: {
+        value: cdktf.listMapperHcl(recommendationHardwareExpansionRequestHwExpansionRequestItemsToHclTerraform, false)(this._hwExpansionRequestItems.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "RecommendationHardwareExpansionRequestHwExpansionRequestItemsList",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      message: {
+        value: cdktf.stringToHclTerraform(this._message),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      mod_time: {
+        value: cdktf.stringToHclTerraform(this._modTime),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      moid: {
+        value: cdktf.stringToHclTerraform(this._moid),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      object_type: {
+        value: cdktf.stringToHclTerraform(this._objectType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      owners: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._owners),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      parent: {
+        value: cdktf.listMapperHcl(recommendationHardwareExpansionRequestParentToHclTerraform, false)(this._parent.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "RecommendationHardwareExpansionRequestParentList",
+      },
+      permission_resources: {
+        value: cdktf.listMapperHcl(recommendationHardwareExpansionRequestPermissionResourcesToHclTerraform, false)(this._permissionResources.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "RecommendationHardwareExpansionRequestPermissionResourcesList",
+      },
+      registered_device: {
+        value: cdktf.listMapperHcl(recommendationHardwareExpansionRequestRegisteredDeviceToHclTerraform, false)(this._registeredDevice.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "RecommendationHardwareExpansionRequestRegisteredDeviceList",
+      },
+      request_time: {
+        value: cdktf.stringToHclTerraform(this._requestTime),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      shared_scope: {
+        value: cdktf.stringToHclTerraform(this._sharedScope),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      status: {
+        value: cdktf.stringToHclTerraform(this._status),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      tags: {
+        value: cdktf.listMapperHcl(recommendationHardwareExpansionRequestTagsToHclTerraform, false)(this._tags.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "RecommendationHardwareExpansionRequestTagsList",
+      },
+      version_context: {
+        value: cdktf.listMapperHcl(recommendationHardwareExpansionRequestVersionContextToHclTerraform, false)(this._versionContext.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "RecommendationHardwareExpansionRequestVersionContextList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

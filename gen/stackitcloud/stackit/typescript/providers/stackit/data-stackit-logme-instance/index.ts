@@ -1,0 +1,353 @@
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/logme_instance
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface DataStackitLogmeInstanceConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * ID of the LogMe instance.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/logme_instance#instance_id DataStackitLogmeInstance#instance_id}
+  */
+  readonly instanceId: string;
+  /**
+  * STACKIT Project ID to which the instance is associated.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/logme_instance#project_id DataStackitLogmeInstance#project_id}
+  */
+  readonly projectId: string;
+}
+export interface DataStackitLogmeInstanceParameters {
+}
+
+export function dataStackitLogmeInstanceParametersToTerraform(struct?: DataStackitLogmeInstanceParameters): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataStackitLogmeInstanceParametersToHclTerraform(struct?: DataStackitLogmeInstanceParameters): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataStackitLogmeInstanceParametersOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataStackitLogmeInstanceParameters | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataStackitLogmeInstanceParameters | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // enable_monitoring - computed: true, optional: false, required: false
+  public get enableMonitoring() {
+    return this.getBooleanAttribute('enable_monitoring');
+  }
+
+  // fluentd_tcp - computed: true, optional: false, required: false
+  public get fluentdTcp() {
+    return this.getNumberAttribute('fluentd_tcp');
+  }
+
+  // fluentd_tls - computed: true, optional: false, required: false
+  public get fluentdTls() {
+    return this.getNumberAttribute('fluentd_tls');
+  }
+
+  // fluentd_tls_ciphers - computed: true, optional: false, required: false
+  public get fluentdTlsCiphers() {
+    return this.getStringAttribute('fluentd_tls_ciphers');
+  }
+
+  // fluentd_tls_max_version - computed: true, optional: false, required: false
+  public get fluentdTlsMaxVersion() {
+    return this.getStringAttribute('fluentd_tls_max_version');
+  }
+
+  // fluentd_tls_min_version - computed: true, optional: false, required: false
+  public get fluentdTlsMinVersion() {
+    return this.getStringAttribute('fluentd_tls_min_version');
+  }
+
+  // fluentd_tls_version - computed: true, optional: false, required: false
+  public get fluentdTlsVersion() {
+    return this.getStringAttribute('fluentd_tls_version');
+  }
+
+  // fluentd_udp - computed: true, optional: false, required: false
+  public get fluentdUdp() {
+    return this.getNumberAttribute('fluentd_udp');
+  }
+
+  // graphite - computed: true, optional: false, required: false
+  public get graphite() {
+    return this.getStringAttribute('graphite');
+  }
+
+  // ism_deletion_after - computed: true, optional: false, required: false
+  public get ismDeletionAfter() {
+    return this.getStringAttribute('ism_deletion_after');
+  }
+
+  // ism_jitter - computed: true, optional: false, required: false
+  public get ismJitter() {
+    return this.getNumberAttribute('ism_jitter');
+  }
+
+  // ism_job_interval - computed: true, optional: false, required: false
+  public get ismJobInterval() {
+    return this.getNumberAttribute('ism_job_interval');
+  }
+
+  // java_heapspace - computed: true, optional: false, required: false
+  public get javaHeapspace() {
+    return this.getNumberAttribute('java_heapspace');
+  }
+
+  // java_maxmetaspace - computed: true, optional: false, required: false
+  public get javaMaxmetaspace() {
+    return this.getNumberAttribute('java_maxmetaspace');
+  }
+
+  // max_disk_threshold - computed: true, optional: false, required: false
+  public get maxDiskThreshold() {
+    return this.getNumberAttribute('max_disk_threshold');
+  }
+
+  // metrics_frequency - computed: true, optional: false, required: false
+  public get metricsFrequency() {
+    return this.getNumberAttribute('metrics_frequency');
+  }
+
+  // metrics_prefix - computed: true, optional: false, required: false
+  public get metricsPrefix() {
+    return this.getStringAttribute('metrics_prefix');
+  }
+
+  // monitoring_instance_id - computed: true, optional: false, required: false
+  public get monitoringInstanceId() {
+    return this.getStringAttribute('monitoring_instance_id');
+  }
+
+  // opensearch_tls_ciphers - computed: true, optional: false, required: false
+  public get opensearchTlsCiphers() {
+    return this.getListAttribute('opensearch_tls_ciphers');
+  }
+
+  // opensearch_tls_protocols - computed: true, optional: false, required: false
+  public get opensearchTlsProtocols() {
+    return this.getListAttribute('opensearch_tls_protocols');
+  }
+
+  // sgw_acl - computed: true, optional: false, required: false
+  public get sgwAcl() {
+    return this.getStringAttribute('sgw_acl');
+  }
+
+  // syslog - computed: true, optional: false, required: false
+  public get syslog() {
+    return this.getListAttribute('syslog');
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/logme_instance stackit_logme_instance}
+*/
+export class DataStackitLogmeInstance extends cdktf.TerraformDataSource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "stackit_logme_instance";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a DataStackitLogmeInstance resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the DataStackitLogmeInstance to import
+  * @param importFromId The id of the existing DataStackitLogmeInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/logme_instance#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the DataStackitLogmeInstance to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "stackit_logme_instance", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/logme_instance stackit_logme_instance} Data Source
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options DataStackitLogmeInstanceConfig
+  */
+  public constructor(scope: Construct, id: string, config: DataStackitLogmeInstanceConfig) {
+    super(scope, id, {
+      terraformResourceType: 'stackit_logme_instance',
+      terraformGeneratorMetadata: {
+        providerName: 'stackit',
+        providerVersion: '0.69.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._instanceId = config.instanceId;
+    this._projectId = config.projectId;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // cf_guid - computed: true, optional: false, required: false
+  public get cfGuid() {
+    return this.getStringAttribute('cf_guid');
+  }
+
+  // cf_organization_guid - computed: true, optional: false, required: false
+  public get cfOrganizationGuid() {
+    return this.getStringAttribute('cf_organization_guid');
+  }
+
+  // cf_space_guid - computed: true, optional: false, required: false
+  public get cfSpaceGuid() {
+    return this.getStringAttribute('cf_space_guid');
+  }
+
+  // dashboard_url - computed: true, optional: false, required: false
+  public get dashboardUrl() {
+    return this.getStringAttribute('dashboard_url');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // image_url - computed: true, optional: false, required: false
+  public get imageUrl() {
+    return this.getStringAttribute('image_url');
+  }
+
+  // instance_id - computed: false, optional: false, required: true
+  private _instanceId?: string; 
+  public get instanceId() {
+    return this.getStringAttribute('instance_id');
+  }
+  public set instanceId(value: string) {
+    this._instanceId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceIdInput() {
+    return this._instanceId;
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // parameters - computed: true, optional: false, required: false
+  private _parameters = new DataStackitLogmeInstanceParametersOutputReference(this, "parameters");
+  public get parameters() {
+    return this._parameters;
+  }
+
+  // plan_id - computed: true, optional: false, required: false
+  public get planId() {
+    return this.getStringAttribute('plan_id');
+  }
+
+  // plan_name - computed: true, optional: false, required: false
+  public get planName() {
+    return this.getStringAttribute('plan_name');
+  }
+
+  // project_id - computed: false, optional: false, required: true
+  private _projectId?: string; 
+  public get projectId() {
+    return this.getStringAttribute('project_id');
+  }
+  public set projectId(value: string) {
+    this._projectId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get projectIdInput() {
+    return this._projectId;
+  }
+
+  // version - computed: true, optional: false, required: false
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      instance_id: cdktf.stringToTerraform(this._instanceId),
+      project_id: cdktf.stringToTerraform(this._projectId),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      instance_id: {
+        value: cdktf.stringToHclTerraform(this._instanceId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      project_id: {
+        value: cdktf.stringToHclTerraform(this._projectId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

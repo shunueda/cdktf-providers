@@ -1,0 +1,3 @@
+# `dnacenter_lan_automation_delete`
+
+Refer to the Terraform Registry for docs: [`dnacenter_lan_automation_delete`](https://registry.terraform.io/providers/cisco-en-programmability/dnacenter/1.1.21/docs/resources/lan_automation_delete).

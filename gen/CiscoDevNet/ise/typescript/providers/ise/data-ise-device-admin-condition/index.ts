@@ -1,0 +1,439 @@
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/data-sources/device_admin_condition
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface DataIseDeviceAdminConditionConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * The id of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/data-sources/device_admin_condition#id DataIseDeviceAdminCondition#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * Condition name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/data-sources/device_admin_condition#name DataIseDeviceAdminCondition#name}
+  */
+  readonly name?: string;
+}
+export interface DataIseDeviceAdminConditionChildrenChildren {
+}
+
+export function dataIseDeviceAdminConditionChildrenChildrenToTerraform(struct?: DataIseDeviceAdminConditionChildrenChildren): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataIseDeviceAdminConditionChildrenChildrenToHclTerraform(struct?: DataIseDeviceAdminConditionChildrenChildren): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataIseDeviceAdminConditionChildrenChildrenOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIseDeviceAdminConditionChildrenChildren | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIseDeviceAdminConditionChildrenChildren | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // attribute_name - computed: true, optional: false, required: false
+  public get attributeName() {
+    return this.getStringAttribute('attribute_name');
+  }
+
+  // attribute_value - computed: true, optional: false, required: false
+  public get attributeValue() {
+    return this.getStringAttribute('attribute_value');
+  }
+
+  // condition_type - computed: true, optional: false, required: false
+  public get conditionType() {
+    return this.getStringAttribute('condition_type');
+  }
+
+  // description - computed: true, optional: false, required: false
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+
+  // dictionary_name - computed: true, optional: false, required: false
+  public get dictionaryName() {
+    return this.getStringAttribute('dictionary_name');
+  }
+
+  // dictionary_value - computed: true, optional: false, required: false
+  public get dictionaryValue() {
+    return this.getStringAttribute('dictionary_value');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // is_negate - computed: true, optional: false, required: false
+  public get isNegate() {
+    return this.getBooleanAttribute('is_negate');
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // operator - computed: true, optional: false, required: false
+  public get operator() {
+    return this.getStringAttribute('operator');
+  }
+}
+
+export class DataIseDeviceAdminConditionChildrenChildrenList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIseDeviceAdminConditionChildrenChildrenOutputReference {
+    return new DataIseDeviceAdminConditionChildrenChildrenOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataIseDeviceAdminConditionChildren {
+}
+
+export function dataIseDeviceAdminConditionChildrenToTerraform(struct?: DataIseDeviceAdminConditionChildren): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataIseDeviceAdminConditionChildrenToHclTerraform(struct?: DataIseDeviceAdminConditionChildren): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataIseDeviceAdminConditionChildrenOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIseDeviceAdminConditionChildren | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIseDeviceAdminConditionChildren | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // attribute_name - computed: true, optional: false, required: false
+  public get attributeName() {
+    return this.getStringAttribute('attribute_name');
+  }
+
+  // attribute_value - computed: true, optional: false, required: false
+  public get attributeValue() {
+    return this.getStringAttribute('attribute_value');
+  }
+
+  // children - computed: true, optional: false, required: false
+  private _children = new DataIseDeviceAdminConditionChildrenChildrenList(this, "children", true);
+  public get children() {
+    return this._children;
+  }
+
+  // condition_type - computed: true, optional: false, required: false
+  public get conditionType() {
+    return this.getStringAttribute('condition_type');
+  }
+
+  // description - computed: true, optional: false, required: false
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+
+  // dictionary_name - computed: true, optional: false, required: false
+  public get dictionaryName() {
+    return this.getStringAttribute('dictionary_name');
+  }
+
+  // dictionary_value - computed: true, optional: false, required: false
+  public get dictionaryValue() {
+    return this.getStringAttribute('dictionary_value');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // is_negate - computed: true, optional: false, required: false
+  public get isNegate() {
+    return this.getBooleanAttribute('is_negate');
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // operator - computed: true, optional: false, required: false
+  public get operator() {
+    return this.getStringAttribute('operator');
+  }
+}
+
+export class DataIseDeviceAdminConditionChildrenList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIseDeviceAdminConditionChildrenOutputReference {
+    return new DataIseDeviceAdminConditionChildrenOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/data-sources/device_admin_condition ise_device_admin_condition}
+*/
+export class DataIseDeviceAdminCondition extends cdktf.TerraformDataSource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "ise_device_admin_condition";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a DataIseDeviceAdminCondition resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the DataIseDeviceAdminCondition to import
+  * @param importFromId The id of the existing DataIseDeviceAdminCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/data-sources/device_admin_condition#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the DataIseDeviceAdminCondition to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "ise_device_admin_condition", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/data-sources/device_admin_condition ise_device_admin_condition} Data Source
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options DataIseDeviceAdminConditionConfig = {}
+  */
+  public constructor(scope: Construct, id: string, config: DataIseDeviceAdminConditionConfig = {}) {
+    super(scope, id, {
+      terraformResourceType: 'ise_device_admin_condition',
+      terraformGeneratorMetadata: {
+        providerName: 'ise',
+        providerVersion: '0.2.12'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._id = config.id;
+    this._name = config.name;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // attribute_name - computed: true, optional: false, required: false
+  public get attributeName() {
+    return this.getStringAttribute('attribute_name');
+  }
+
+  // attribute_value - computed: true, optional: false, required: false
+  public get attributeValue() {
+    return this.getStringAttribute('attribute_value');
+  }
+
+  // children - computed: true, optional: false, required: false
+  private _children = new DataIseDeviceAdminConditionChildrenList(this, "children", true);
+  public get children() {
+    return this._children;
+  }
+
+  // condition_type - computed: true, optional: false, required: false
+  public get conditionType() {
+    return this.getStringAttribute('condition_type');
+  }
+
+  // description - computed: true, optional: false, required: false
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+
+  // dictionary_name - computed: true, optional: false, required: false
+  public get dictionaryName() {
+    return this.getStringAttribute('dictionary_name');
+  }
+
+  // dictionary_value - computed: true, optional: false, required: false
+  public get dictionaryValue() {
+    return this.getStringAttribute('dictionary_value');
+  }
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // is_negate - computed: true, optional: false, required: false
+  public get isNegate() {
+    return this.getBooleanAttribute('is_negate');
+  }
+
+  // name - computed: true, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // operator - computed: true, optional: false, required: false
+  public get operator() {
+    return this.getStringAttribute('operator');
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      id: cdktf.stringToTerraform(this._id),
+      name: cdktf.stringToTerraform(this._name),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}
