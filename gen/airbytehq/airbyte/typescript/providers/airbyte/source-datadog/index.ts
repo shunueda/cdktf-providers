@@ -1,0 +1,1056 @@
+// https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_datadog
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface SourceDatadogConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_datadog#configuration SourceDatadog#configuration}
+  */
+  readonly configuration: SourceDatadogConfiguration;
+  /**
+  * The UUID of the connector definition. One of configuration.sourceType or definitionId must be provided. Requires replacement if changed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_datadog#definition_id SourceDatadog#definition_id}
+  */
+  readonly definitionId?: string;
+  /**
+  * Name of the source e.g. dev-mysql-instance.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_datadog#name SourceDatadog#name}
+  */
+  readonly name: string;
+  /**
+  * Optional secretID obtained through the public API OAuth redirect flow. Requires replacement if changed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_datadog#secret_id SourceDatadog#secret_id}
+  */
+  readonly secretId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_datadog#workspace_id SourceDatadog#workspace_id}
+  */
+  readonly workspaceId: string;
+}
+export interface SourceDatadogConfigurationQueries {
+  /**
+  * A data source that is powered by the platform. must be one of ["metrics", "cloud_cost", "logs", "rum"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_datadog#data_source SourceDatadog#data_source}
+  */
+  readonly dataSource: string;
+  /**
+  * The variable name for use in queries.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_datadog#name SourceDatadog#name}
+  */
+  readonly name: string;
+  /**
+  * A classic query string.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_datadog#query SourceDatadog#query}
+  */
+  readonly query: string;
+}
+
+export function sourceDatadogConfigurationQueriesToTerraform(struct?: SourceDatadogConfigurationQueries | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    data_source: cdktf.stringToTerraform(struct!.dataSource),
+    name: cdktf.stringToTerraform(struct!.name),
+    query: cdktf.stringToTerraform(struct!.query),
+  }
+}
+
+
+export function sourceDatadogConfigurationQueriesToHclTerraform(struct?: SourceDatadogConfigurationQueries | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    data_source: {
+      value: cdktf.stringToHclTerraform(struct!.dataSource),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    query: {
+      value: cdktf.stringToHclTerraform(struct!.query),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SourceDatadogConfigurationQueriesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SourceDatadogConfigurationQueries | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dataSource !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dataSource = this._dataSource;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._query !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.query = this._query;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SourceDatadogConfigurationQueries | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._dataSource = undefined;
+      this._name = undefined;
+      this._query = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._dataSource = value.dataSource;
+      this._name = value.name;
+      this._query = value.query;
+    }
+  }
+
+  // data_source - computed: false, optional: false, required: true
+  private _dataSource?: string; 
+  public get dataSource() {
+    return this.getStringAttribute('data_source');
+  }
+  public set dataSource(value: string) {
+    this._dataSource = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dataSourceInput() {
+    return this._dataSource;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // query - computed: false, optional: false, required: true
+  private _query?: string; 
+  public get query() {
+    return this.getStringAttribute('query');
+  }
+  public set query(value: string) {
+    this._query = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get queryInput() {
+    return this._query;
+  }
+}
+
+export class SourceDatadogConfigurationQueriesList extends cdktf.ComplexList {
+  public internalValue? : SourceDatadogConfigurationQueries[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SourceDatadogConfigurationQueriesOutputReference {
+    return new SourceDatadogConfigurationQueriesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SourceDatadogConfiguration {
+  /**
+  * Datadog API key
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_datadog#api_key SourceDatadog#api_key}
+  */
+  readonly apiKey: string;
+  /**
+  * Datadog application key
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_datadog#application_key SourceDatadog#application_key}
+  */
+  readonly applicationKey: string;
+  /**
+  * UTC date and time in the format 2017-01-25T00:00:00Z. Data after this date will  not be replicated. An empty value will represent the current datetime for each  execution. This just applies to Incremental syncs.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_datadog#end_date SourceDatadog#end_date}
+  */
+  readonly endDate?: string;
+  /**
+  * Maximum number of records to collect per request. Default: 5000
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_datadog#max_records_per_request SourceDatadog#max_records_per_request}
+  */
+  readonly maxRecordsPerRequest?: number;
+  /**
+  * List of queries to be run and used as inputs.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_datadog#queries SourceDatadog#queries}
+  */
+  readonly queries?: SourceDatadogConfigurationQueries[] | cdktf.IResolvable;
+  /**
+  * The search query. This just applies to Incremental syncs. If empty, it'll collect all logs.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_datadog#query SourceDatadog#query}
+  */
+  readonly query?: string;
+  /**
+  * The site where Datadog data resides in. Default: "datadoghq.com"; must be one of ["datadoghq.com", "us3.datadoghq.com", "us5.datadoghq.com", "datadoghq.eu", "ddog-gov.com"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_datadog#site SourceDatadog#site}
+  */
+  readonly site?: string;
+  /**
+  * UTC date and time in the format 2017-01-25T00:00:00Z. Any data before this date will not be replicated. This just applies to Incremental syncs. Default: "2023-12-01T00:00:00Z"
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_datadog#start_date SourceDatadog#start_date}
+  */
+  readonly startDate?: string;
+}
+
+export function sourceDatadogConfigurationToTerraform(struct?: SourceDatadogConfiguration | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    api_key: cdktf.stringToTerraform(struct!.apiKey),
+    application_key: cdktf.stringToTerraform(struct!.applicationKey),
+    end_date: cdktf.stringToTerraform(struct!.endDate),
+    max_records_per_request: cdktf.numberToTerraform(struct!.maxRecordsPerRequest),
+    queries: cdktf.listMapper(sourceDatadogConfigurationQueriesToTerraform, false)(struct!.queries),
+    query: cdktf.stringToTerraform(struct!.query),
+    site: cdktf.stringToTerraform(struct!.site),
+    start_date: cdktf.stringToTerraform(struct!.startDate),
+  }
+}
+
+
+export function sourceDatadogConfigurationToHclTerraform(struct?: SourceDatadogConfiguration | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    api_key: {
+      value: cdktf.stringToHclTerraform(struct!.apiKey),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    application_key: {
+      value: cdktf.stringToHclTerraform(struct!.applicationKey),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    end_date: {
+      value: cdktf.stringToHclTerraform(struct!.endDate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    max_records_per_request: {
+      value: cdktf.numberToHclTerraform(struct!.maxRecordsPerRequest),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    queries: {
+      value: cdktf.listMapperHcl(sourceDatadogConfigurationQueriesToHclTerraform, false)(struct!.queries),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SourceDatadogConfigurationQueriesList",
+    },
+    query: {
+      value: cdktf.stringToHclTerraform(struct!.query),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    site: {
+      value: cdktf.stringToHclTerraform(struct!.site),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    start_date: {
+      value: cdktf.stringToHclTerraform(struct!.startDate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SourceDatadogConfigurationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SourceDatadogConfiguration | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._apiKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.apiKey = this._apiKey;
+    }
+    if (this._applicationKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.applicationKey = this._applicationKey;
+    }
+    if (this._endDate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.endDate = this._endDate;
+    }
+    if (this._maxRecordsPerRequest !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxRecordsPerRequest = this._maxRecordsPerRequest;
+    }
+    if (this._queries?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.queries = this._queries?.internalValue;
+    }
+    if (this._query !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.query = this._query;
+    }
+    if (this._site !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.site = this._site;
+    }
+    if (this._startDate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startDate = this._startDate;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SourceDatadogConfiguration | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._apiKey = undefined;
+      this._applicationKey = undefined;
+      this._endDate = undefined;
+      this._maxRecordsPerRequest = undefined;
+      this._queries.internalValue = undefined;
+      this._query = undefined;
+      this._site = undefined;
+      this._startDate = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._apiKey = value.apiKey;
+      this._applicationKey = value.applicationKey;
+      this._endDate = value.endDate;
+      this._maxRecordsPerRequest = value.maxRecordsPerRequest;
+      this._queries.internalValue = value.queries;
+      this._query = value.query;
+      this._site = value.site;
+      this._startDate = value.startDate;
+    }
+  }
+
+  // api_key - computed: false, optional: false, required: true
+  private _apiKey?: string; 
+  public get apiKey() {
+    return this.getStringAttribute('api_key');
+  }
+  public set apiKey(value: string) {
+    this._apiKey = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get apiKeyInput() {
+    return this._apiKey;
+  }
+
+  // application_key - computed: false, optional: false, required: true
+  private _applicationKey?: string; 
+  public get applicationKey() {
+    return this.getStringAttribute('application_key');
+  }
+  public set applicationKey(value: string) {
+    this._applicationKey = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get applicationKeyInput() {
+    return this._applicationKey;
+  }
+
+  // end_date - computed: false, optional: true, required: false
+  private _endDate?: string; 
+  public get endDate() {
+    return this.getStringAttribute('end_date');
+  }
+  public set endDate(value: string) {
+    this._endDate = value;
+  }
+  public resetEndDate() {
+    this._endDate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endDateInput() {
+    return this._endDate;
+  }
+
+  // max_records_per_request - computed: true, optional: true, required: false
+  private _maxRecordsPerRequest?: number; 
+  public get maxRecordsPerRequest() {
+    return this.getNumberAttribute('max_records_per_request');
+  }
+  public set maxRecordsPerRequest(value: number) {
+    this._maxRecordsPerRequest = value;
+  }
+  public resetMaxRecordsPerRequest() {
+    this._maxRecordsPerRequest = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxRecordsPerRequestInput() {
+    return this._maxRecordsPerRequest;
+  }
+
+  // queries - computed: false, optional: true, required: false
+  private _queries = new SourceDatadogConfigurationQueriesList(this, "queries", false);
+  public get queries() {
+    return this._queries;
+  }
+  public putQueries(value: SourceDatadogConfigurationQueries[] | cdktf.IResolvable) {
+    this._queries.internalValue = value;
+  }
+  public resetQueries() {
+    this._queries.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get queriesInput() {
+    return this._queries.internalValue;
+  }
+
+  // query - computed: false, optional: true, required: false
+  private _query?: string; 
+  public get query() {
+    return this.getStringAttribute('query');
+  }
+  public set query(value: string) {
+    this._query = value;
+  }
+  public resetQuery() {
+    this._query = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get queryInput() {
+    return this._query;
+  }
+
+  // site - computed: true, optional: true, required: false
+  private _site?: string; 
+  public get site() {
+    return this.getStringAttribute('site');
+  }
+  public set site(value: string) {
+    this._site = value;
+  }
+  public resetSite() {
+    this._site = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get siteInput() {
+    return this._site;
+  }
+
+  // start_date - computed: true, optional: true, required: false
+  private _startDate?: string; 
+  public get startDate() {
+    return this.getStringAttribute('start_date');
+  }
+  public set startDate(value: string) {
+    this._startDate = value;
+  }
+  public resetStartDate() {
+    this._startDate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startDateInput() {
+    return this._startDate;
+  }
+}
+export interface SourceDatadogResourceAllocationDefault {
+}
+
+export function sourceDatadogResourceAllocationDefaultToTerraform(struct?: SourceDatadogResourceAllocationDefault): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function sourceDatadogResourceAllocationDefaultToHclTerraform(struct?: SourceDatadogResourceAllocationDefault): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class SourceDatadogResourceAllocationDefaultOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SourceDatadogResourceAllocationDefault | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SourceDatadogResourceAllocationDefault | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // cpu_limit - computed: true, optional: false, required: false
+  public get cpuLimit() {
+    return this.getStringAttribute('cpu_limit');
+  }
+
+  // cpu_request - computed: true, optional: false, required: false
+  public get cpuRequest() {
+    return this.getStringAttribute('cpu_request');
+  }
+
+  // ephemeral_storage_limit - computed: true, optional: false, required: false
+  public get ephemeralStorageLimit() {
+    return this.getStringAttribute('ephemeral_storage_limit');
+  }
+
+  // ephemeral_storage_request - computed: true, optional: false, required: false
+  public get ephemeralStorageRequest() {
+    return this.getStringAttribute('ephemeral_storage_request');
+  }
+
+  // memory_limit - computed: true, optional: false, required: false
+  public get memoryLimit() {
+    return this.getStringAttribute('memory_limit');
+  }
+
+  // memory_request - computed: true, optional: false, required: false
+  public get memoryRequest() {
+    return this.getStringAttribute('memory_request');
+  }
+}
+export interface SourceDatadogResourceAllocationJobSpecificResourceRequirements {
+}
+
+export function sourceDatadogResourceAllocationJobSpecificResourceRequirementsToTerraform(struct?: SourceDatadogResourceAllocationJobSpecificResourceRequirements): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function sourceDatadogResourceAllocationJobSpecificResourceRequirementsToHclTerraform(struct?: SourceDatadogResourceAllocationJobSpecificResourceRequirements): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class SourceDatadogResourceAllocationJobSpecificResourceRequirementsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SourceDatadogResourceAllocationJobSpecificResourceRequirements | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SourceDatadogResourceAllocationJobSpecificResourceRequirements | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // cpu_limit - computed: true, optional: false, required: false
+  public get cpuLimit() {
+    return this.getStringAttribute('cpu_limit');
+  }
+
+  // cpu_request - computed: true, optional: false, required: false
+  public get cpuRequest() {
+    return this.getStringAttribute('cpu_request');
+  }
+
+  // ephemeral_storage_limit - computed: true, optional: false, required: false
+  public get ephemeralStorageLimit() {
+    return this.getStringAttribute('ephemeral_storage_limit');
+  }
+
+  // ephemeral_storage_request - computed: true, optional: false, required: false
+  public get ephemeralStorageRequest() {
+    return this.getStringAttribute('ephemeral_storage_request');
+  }
+
+  // memory_limit - computed: true, optional: false, required: false
+  public get memoryLimit() {
+    return this.getStringAttribute('memory_limit');
+  }
+
+  // memory_request - computed: true, optional: false, required: false
+  public get memoryRequest() {
+    return this.getStringAttribute('memory_request');
+  }
+}
+export interface SourceDatadogResourceAllocationJobSpecific {
+}
+
+export function sourceDatadogResourceAllocationJobSpecificToTerraform(struct?: SourceDatadogResourceAllocationJobSpecific): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function sourceDatadogResourceAllocationJobSpecificToHclTerraform(struct?: SourceDatadogResourceAllocationJobSpecific): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class SourceDatadogResourceAllocationJobSpecificOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SourceDatadogResourceAllocationJobSpecific | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SourceDatadogResourceAllocationJobSpecific | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // job_type - computed: true, optional: false, required: false
+  public get jobType() {
+    return this.getStringAttribute('job_type');
+  }
+
+  // resource_requirements - computed: true, optional: false, required: false
+  private _resourceRequirements = new SourceDatadogResourceAllocationJobSpecificResourceRequirementsOutputReference(this, "resource_requirements");
+  public get resourceRequirements() {
+    return this._resourceRequirements;
+  }
+}
+
+export class SourceDatadogResourceAllocationJobSpecificList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SourceDatadogResourceAllocationJobSpecificOutputReference {
+    return new SourceDatadogResourceAllocationJobSpecificOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SourceDatadogResourceAllocation {
+}
+
+export function sourceDatadogResourceAllocationToTerraform(struct?: SourceDatadogResourceAllocation): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function sourceDatadogResourceAllocationToHclTerraform(struct?: SourceDatadogResourceAllocation): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class SourceDatadogResourceAllocationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SourceDatadogResourceAllocation | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SourceDatadogResourceAllocation | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // default - computed: true, optional: false, required: false
+  private _default = new SourceDatadogResourceAllocationDefaultOutputReference(this, "default");
+  public get default() {
+    return this._default;
+  }
+
+  // job_specific - computed: true, optional: false, required: false
+  private _jobSpecific = new SourceDatadogResourceAllocationJobSpecificList(this, "job_specific", false);
+  public get jobSpecific() {
+    return this._jobSpecific;
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_datadog airbyte_source_datadog}
+*/
+export class SourceDatadog extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "airbyte_source_datadog";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a SourceDatadog resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the SourceDatadog to import
+  * @param importFromId The id of the existing SourceDatadog that should be imported. Refer to the {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_datadog#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the SourceDatadog to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "airbyte_source_datadog", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_datadog airbyte_source_datadog} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options SourceDatadogConfig
+  */
+  public constructor(scope: Construct, id: string, config: SourceDatadogConfig) {
+    super(scope, id, {
+      terraformResourceType: 'airbyte_source_datadog',
+      terraformGeneratorMetadata: {
+        providerName: 'airbyte',
+        providerVersion: '0.13.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._configuration.internalValue = config.configuration;
+    this._definitionId = config.definitionId;
+    this._name = config.name;
+    this._secretId = config.secretId;
+    this._workspaceId = config.workspaceId;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // configuration - computed: false, optional: false, required: true
+  private _configuration = new SourceDatadogConfigurationOutputReference(this, "configuration");
+  public get configuration() {
+    return this._configuration;
+  }
+  public putConfiguration(value: SourceDatadogConfiguration) {
+    this._configuration.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configurationInput() {
+    return this._configuration.internalValue;
+  }
+
+  // created_at - computed: true, optional: false, required: false
+  public get createdAt() {
+    return this.getNumberAttribute('created_at');
+  }
+
+  // definition_id - computed: true, optional: true, required: false
+  private _definitionId?: string; 
+  public get definitionId() {
+    return this.getStringAttribute('definition_id');
+  }
+  public set definitionId(value: string) {
+    this._definitionId = value;
+  }
+  public resetDefinitionId() {
+    this._definitionId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get definitionIdInput() {
+    return this._definitionId;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // resource_allocation - computed: true, optional: false, required: false
+  private _resourceAllocation = new SourceDatadogResourceAllocationOutputReference(this, "resource_allocation");
+  public get resourceAllocation() {
+    return this._resourceAllocation;
+  }
+
+  // secret_id - computed: false, optional: true, required: false
+  private _secretId?: string; 
+  public get secretId() {
+    return this.getStringAttribute('secret_id');
+  }
+  public set secretId(value: string) {
+    this._secretId = value;
+  }
+  public resetSecretId() {
+    this._secretId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretIdInput() {
+    return this._secretId;
+  }
+
+  // source_id - computed: true, optional: false, required: false
+  public get sourceId() {
+    return this.getStringAttribute('source_id');
+  }
+
+  // source_type - computed: true, optional: false, required: false
+  public get sourceType() {
+    return this.getStringAttribute('source_type');
+  }
+
+  // workspace_id - computed: false, optional: false, required: true
+  private _workspaceId?: string; 
+  public get workspaceId() {
+    return this.getStringAttribute('workspace_id');
+  }
+  public set workspaceId(value: string) {
+    this._workspaceId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get workspaceIdInput() {
+    return this._workspaceId;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      configuration: sourceDatadogConfigurationToTerraform(this._configuration.internalValue),
+      definition_id: cdktf.stringToTerraform(this._definitionId),
+      name: cdktf.stringToTerraform(this._name),
+      secret_id: cdktf.stringToTerraform(this._secretId),
+      workspace_id: cdktf.stringToTerraform(this._workspaceId),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      configuration: {
+        value: sourceDatadogConfigurationToHclTerraform(this._configuration.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "SourceDatadogConfiguration",
+      },
+      definition_id: {
+        value: cdktf.stringToHclTerraform(this._definitionId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      secret_id: {
+        value: cdktf.stringToHclTerraform(this._secretId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      workspace_id: {
+        value: cdktf.stringToHclTerraform(this._workspaceId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

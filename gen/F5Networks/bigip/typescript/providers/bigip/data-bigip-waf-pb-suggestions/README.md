@@ -1,0 +1,3 @@
+# `data_bigip_waf_pb_suggestions`
+
+Refer to the Terraform Registry for docs: [`data_bigip_waf_pb_suggestions`](https://registry.terraform.io/providers/f5networks/bigip/1.24.1/docs/data-sources/waf_pb_suggestions).

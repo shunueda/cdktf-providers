@@ -1,0 +1,3 @@
+# `powerflex_mdm_cluster`
+
+Refer to the Terraform Registry for docs: [`powerflex_mdm_cluster`](https://registry.terraform.io/providers/dell/powerflex/1.8.0/docs/resources/mdm_cluster).

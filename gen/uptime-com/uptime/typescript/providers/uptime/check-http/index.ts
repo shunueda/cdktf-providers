@@ -1,0 +1,930 @@
+// https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface CheckHttpConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * A valid URL with a required scheme (e.g., 'https://example.com', 'http://192.168.1.1:8080').
+  * Must include protocol scheme and valid hostname or IP address. Port numbers are optional.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#address CheckHttp#address}
+  */
+  readonly address: string;
+  /**
+  * List of contact group names to receive notifications. 
+  * Each contact group can contain multiple contacts (email addresses, phone numbers, or integrations) 
+  * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#contact_groups CheckHttp#contact_groups}
+  */
+  readonly contactGroups?: string[];
+  /**
+  * Whether to verify SSL/TLS certificates
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#encryption CheckHttp#encryption}
+  */
+  readonly encryption?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#expect_string CheckHttp#expect_string}
+  */
+  readonly expectString?: string;
+  /**
+  * Valid values for this property are: "STRING" - exact match, "REGEX" - match by regular expression, "INVERSE_REGEX" - fail if the regular expression matches
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#expect_string_type CheckHttp#expect_string_type}
+  */
+  readonly expectStringType?: string;
+  /**
+  * A map of HTTP headers where each header name maps to a list of values. 
+  * Header names are case-insensitive. Multiple values for the same header are supported 
+  * (e.g., { 'Accept': ['application/json', 'text/plain'] }). Defaults to an empty map if not specified.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#headers CheckHttp#headers}
+  */
+  readonly headers?: { [key: string]: string[] } | cdktf.IResolvable;
+  /**
+  * Include this check in uptime/response time calculations for the dashboard and status pages
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#include_in_global_metrics CheckHttp#include_in_global_metrics}
+  */
+  readonly includeInGlobalMetrics?: boolean | cdktf.IResolvable;
+  /**
+  * The interval between checks in minutes
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#interval CheckHttp#interval}
+  */
+  readonly interval?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#is_paused CheckHttp#is_paused}
+  */
+  readonly isPaused?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#locations CheckHttp#locations}
+  */
+  readonly locations?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#name CheckHttp#name}
+  */
+  readonly name: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#notes CheckHttp#notes}
+  */
+  readonly notes?: string;
+  /**
+  * How many times the check should be retried before a location is considered down
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#num_retries CheckHttp#num_retries}
+  */
+  readonly numRetries?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#password CheckHttp#password}
+  */
+  readonly password?: string;
+  /**
+  * The `Port` value is mandatory if the address URL contains a custom, non-standard port. It should be set to the same value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#port CheckHttp#port}
+  */
+  readonly port?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#proxy CheckHttp#proxy}
+  */
+  readonly proxy?: string;
+  /**
+  * String to post
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#send_string CheckHttp#send_string}
+  */
+  readonly sendString?: string;
+  /**
+  * How many locations should be down before an alert is sent
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#sensitivity CheckHttp#sensitivity}
+  */
+  readonly sensitivity?: number;
+  /**
+  * SLA related attributes
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#sla CheckHttp#sla}
+  */
+  readonly sla?: CheckHttpSla;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#status_code CheckHttp#status_code}
+  */
+  readonly statusCode?: string;
+  /**
+  * List of tags to organize and filter monitoring checks. 
+  * Each account can have up to 3,000 unique tags, with a 100-character limit per tag. 
+  * Tags help categorize resources for filtering in Dashboards, Public Status Pages, and SLA Reports. 
+  * Common use cases include tagging by team ('dev-team', 'ops'), environment ('production', 'staging'), 
+  * or purpose ('api', 'customer-facing'). Defaults to an empty list if not specified.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#tags CheckHttp#tags}
+  */
+  readonly tags?: string[];
+  /**
+  * A timeout alert will be issued if the check takes longer than this many seconds to complete
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#threshold CheckHttp#threshold}
+  */
+  readonly threshold?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#username CheckHttp#username}
+  */
+  readonly username?: string;
+  /**
+  * Check version to use. Keep default value unless you are absolutely sure you need to change it
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#version CheckHttp#version}
+  */
+  readonly version?: number;
+}
+export interface CheckHttpSla {
+  /**
+  * The maximum average response time. Unit is mandatory (e.g. 1500ms or 1.5s or 1s500ms).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#latency CheckHttp#latency}
+  */
+  readonly latency?: string;
+  /**
+  * The minimum uptime percentage. \nMust be a fraction with exactly 4 decimal places (e.g. 0.9995 for 99.95% uptime)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#uptime CheckHttp#uptime}
+  */
+  readonly uptime?: string;
+}
+
+export function checkHttpSlaToTerraform(struct?: CheckHttpSla | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    latency: cdktf.stringToTerraform(struct!.latency),
+    uptime: cdktf.stringToTerraform(struct!.uptime),
+  }
+}
+
+
+export function checkHttpSlaToHclTerraform(struct?: CheckHttpSla | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    latency: {
+      value: cdktf.stringToHclTerraform(struct!.latency),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uptime: {
+      value: cdktf.stringToHclTerraform(struct!.uptime),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class CheckHttpSlaOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): CheckHttpSla | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._latency !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.latency = this._latency;
+    }
+    if (this._uptime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uptime = this._uptime;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: CheckHttpSla | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._latency = undefined;
+      this._uptime = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._latency = value.latency;
+      this._uptime = value.uptime;
+    }
+  }
+
+  // latency - computed: true, optional: true, required: false
+  private _latency?: string; 
+  public get latency() {
+    return this.getStringAttribute('latency');
+  }
+  public set latency(value: string) {
+    this._latency = value;
+  }
+  public resetLatency() {
+    this._latency = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get latencyInput() {
+    return this._latency;
+  }
+
+  // uptime - computed: true, optional: true, required: false
+  private _uptime?: string; 
+  public get uptime() {
+    return this.getStringAttribute('uptime');
+  }
+  public set uptime(value: string) {
+    this._uptime = value;
+  }
+  public resetUptime() {
+    this._uptime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uptimeInput() {
+    return this._uptime;
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http uptime_check_http}
+*/
+export class CheckHttp extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "uptime_check_http";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a CheckHttp resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the CheckHttp to import
+  * @param importFromId The id of the existing CheckHttp that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the CheckHttp to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "uptime_check_http", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.16.0/docs/resources/check_http uptime_check_http} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options CheckHttpConfig
+  */
+  public constructor(scope: Construct, id: string, config: CheckHttpConfig) {
+    super(scope, id, {
+      terraformResourceType: 'uptime_check_http',
+      terraformGeneratorMetadata: {
+        providerName: 'uptime',
+        providerVersion: '2.16.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._address = config.address;
+    this._contactGroups = config.contactGroups;
+    this._encryption = config.encryption;
+    this._expectString = config.expectString;
+    this._expectStringType = config.expectStringType;
+    this._headers = config.headers;
+    this._includeInGlobalMetrics = config.includeInGlobalMetrics;
+    this._interval = config.interval;
+    this._isPaused = config.isPaused;
+    this._locations = config.locations;
+    this._name = config.name;
+    this._notes = config.notes;
+    this._numRetries = config.numRetries;
+    this._password = config.password;
+    this._port = config.port;
+    this._proxy = config.proxy;
+    this._sendString = config.sendString;
+    this._sensitivity = config.sensitivity;
+    this._sla.internalValue = config.sla;
+    this._statusCode = config.statusCode;
+    this._tags = config.tags;
+    this._threshold = config.threshold;
+    this._username = config.username;
+    this._version = config.version;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // address - computed: false, optional: false, required: true
+  private _address?: string; 
+  public get address() {
+    return this.getStringAttribute('address');
+  }
+  public set address(value: string) {
+    this._address = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addressInput() {
+    return this._address;
+  }
+
+  // contact_groups - computed: true, optional: true, required: false
+  private _contactGroups?: string[]; 
+  public get contactGroups() {
+    return cdktf.Fn.tolist(this.getListAttribute('contact_groups'));
+  }
+  public set contactGroups(value: string[]) {
+    this._contactGroups = value;
+  }
+  public resetContactGroups() {
+    this._contactGroups = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get contactGroupsInput() {
+    return this._contactGroups;
+  }
+
+  // encryption - computed: true, optional: true, required: false
+  private _encryption?: string; 
+  public get encryption() {
+    return this.getStringAttribute('encryption');
+  }
+  public set encryption(value: string) {
+    this._encryption = value;
+  }
+  public resetEncryption() {
+    this._encryption = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get encryptionInput() {
+    return this._encryption;
+  }
+
+  // expect_string - computed: true, optional: true, required: false
+  private _expectString?: string; 
+  public get expectString() {
+    return this.getStringAttribute('expect_string');
+  }
+  public set expectString(value: string) {
+    this._expectString = value;
+  }
+  public resetExpectString() {
+    this._expectString = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get expectStringInput() {
+    return this._expectString;
+  }
+
+  // expect_string_type - computed: true, optional: true, required: false
+  private _expectStringType?: string; 
+  public get expectStringType() {
+    return this.getStringAttribute('expect_string_type');
+  }
+  public set expectStringType(value: string) {
+    this._expectStringType = value;
+  }
+  public resetExpectStringType() {
+    this._expectStringType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get expectStringTypeInput() {
+    return this._expectStringType;
+  }
+
+  // headers - computed: true, optional: true, required: false
+  private _headers?: { [key: string]: string[] } | cdktf.IResolvable; 
+  public get headers() {
+    return this.interpolationForAttribute('headers');
+  }
+  public set headers(value: { [key: string]: string[] } | cdktf.IResolvable) {
+    this._headers = value;
+  }
+  public resetHeaders() {
+    this._headers = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get headersInput() {
+    return this._headers;
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // include_in_global_metrics - computed: true, optional: true, required: false
+  private _includeInGlobalMetrics?: boolean | cdktf.IResolvable; 
+  public get includeInGlobalMetrics() {
+    return this.getBooleanAttribute('include_in_global_metrics');
+  }
+  public set includeInGlobalMetrics(value: boolean | cdktf.IResolvable) {
+    this._includeInGlobalMetrics = value;
+  }
+  public resetIncludeInGlobalMetrics() {
+    this._includeInGlobalMetrics = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get includeInGlobalMetricsInput() {
+    return this._includeInGlobalMetrics;
+  }
+
+  // interval - computed: true, optional: true, required: false
+  private _interval?: number; 
+  public get interval() {
+    return this.getNumberAttribute('interval');
+  }
+  public set interval(value: number) {
+    this._interval = value;
+  }
+  public resetInterval() {
+    this._interval = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get intervalInput() {
+    return this._interval;
+  }
+
+  // is_paused - computed: true, optional: true, required: false
+  private _isPaused?: boolean | cdktf.IResolvable; 
+  public get isPaused() {
+    return this.getBooleanAttribute('is_paused');
+  }
+  public set isPaused(value: boolean | cdktf.IResolvable) {
+    this._isPaused = value;
+  }
+  public resetIsPaused() {
+    this._isPaused = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isPausedInput() {
+    return this._isPaused;
+  }
+
+  // locations - computed: true, optional: true, required: false
+  private _locations?: string[]; 
+  public get locations() {
+    return cdktf.Fn.tolist(this.getListAttribute('locations'));
+  }
+  public set locations(value: string[]) {
+    this._locations = value;
+  }
+  public resetLocations() {
+    this._locations = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationsInput() {
+    return this._locations;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // notes - computed: true, optional: true, required: false
+  private _notes?: string; 
+  public get notes() {
+    return this.getStringAttribute('notes');
+  }
+  public set notes(value: string) {
+    this._notes = value;
+  }
+  public resetNotes() {
+    this._notes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get notesInput() {
+    return this._notes;
+  }
+
+  // num_retries - computed: true, optional: true, required: false
+  private _numRetries?: number; 
+  public get numRetries() {
+    return this.getNumberAttribute('num_retries');
+  }
+  public set numRetries(value: number) {
+    this._numRetries = value;
+  }
+  public resetNumRetries() {
+    this._numRetries = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get numRetriesInput() {
+    return this._numRetries;
+  }
+
+  // password - computed: true, optional: true, required: false
+  private _password?: string; 
+  public get password() {
+    return this.getStringAttribute('password');
+  }
+  public set password(value: string) {
+    this._password = value;
+  }
+  public resetPassword() {
+    this._password = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get passwordInput() {
+    return this._password;
+  }
+
+  // port - computed: true, optional: true, required: false
+  private _port?: number; 
+  public get port() {
+    return this.getNumberAttribute('port');
+  }
+  public set port(value: number) {
+    this._port = value;
+  }
+  public resetPort() {
+    this._port = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portInput() {
+    return this._port;
+  }
+
+  // proxy - computed: true, optional: true, required: false
+  private _proxy?: string; 
+  public get proxy() {
+    return this.getStringAttribute('proxy');
+  }
+  public set proxy(value: string) {
+    this._proxy = value;
+  }
+  public resetProxy() {
+    this._proxy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get proxyInput() {
+    return this._proxy;
+  }
+
+  // send_string - computed: true, optional: true, required: false
+  private _sendString?: string; 
+  public get sendString() {
+    return this.getStringAttribute('send_string');
+  }
+  public set sendString(value: string) {
+    this._sendString = value;
+  }
+  public resetSendString() {
+    this._sendString = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sendStringInput() {
+    return this._sendString;
+  }
+
+  // sensitivity - computed: true, optional: true, required: false
+  private _sensitivity?: number; 
+  public get sensitivity() {
+    return this.getNumberAttribute('sensitivity');
+  }
+  public set sensitivity(value: number) {
+    this._sensitivity = value;
+  }
+  public resetSensitivity() {
+    this._sensitivity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sensitivityInput() {
+    return this._sensitivity;
+  }
+
+  // sla - computed: true, optional: true, required: false
+  private _sla = new CheckHttpSlaOutputReference(this, "sla");
+  public get sla() {
+    return this._sla;
+  }
+  public putSla(value: CheckHttpSla) {
+    this._sla.internalValue = value;
+  }
+  public resetSla() {
+    this._sla.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get slaInput() {
+    return this._sla.internalValue;
+  }
+
+  // status_code - computed: true, optional: true, required: false
+  private _statusCode?: string; 
+  public get statusCode() {
+    return this.getStringAttribute('status_code');
+  }
+  public set statusCode(value: string) {
+    this._statusCode = value;
+  }
+  public resetStatusCode() {
+    this._statusCode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statusCodeInput() {
+    return this._statusCode;
+  }
+
+  // tags - computed: true, optional: true, required: false
+  private _tags?: string[]; 
+  public get tags() {
+    return cdktf.Fn.tolist(this.getListAttribute('tags'));
+  }
+  public set tags(value: string[]) {
+    this._tags = value;
+  }
+  public resetTags() {
+    this._tags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagsInput() {
+    return this._tags;
+  }
+
+  // threshold - computed: true, optional: true, required: false
+  private _threshold?: number; 
+  public get threshold() {
+    return this.getNumberAttribute('threshold');
+  }
+  public set threshold(value: number) {
+    this._threshold = value;
+  }
+  public resetThreshold() {
+    this._threshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdInput() {
+    return this._threshold;
+  }
+
+  // url - computed: true, optional: false, required: false
+  public get url() {
+    return this.getStringAttribute('url');
+  }
+
+  // username - computed: true, optional: true, required: false
+  private _username?: string; 
+  public get username() {
+    return this.getStringAttribute('username');
+  }
+  public set username(value: string) {
+    this._username = value;
+  }
+  public resetUsername() {
+    this._username = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get usernameInput() {
+    return this._username;
+  }
+
+  // version - computed: true, optional: true, required: false
+  private _version?: number; 
+  public get version() {
+    return this.getNumberAttribute('version');
+  }
+  public set version(value: number) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      address: cdktf.stringToTerraform(this._address),
+      contact_groups: cdktf.listMapper(cdktf.stringToTerraform, false)(this._contactGroups),
+      encryption: cdktf.stringToTerraform(this._encryption),
+      expect_string: cdktf.stringToTerraform(this._expectString),
+      expect_string_type: cdktf.stringToTerraform(this._expectStringType),
+      headers: cdktf.hashMapper(cdktf.listMapper(cdktf.stringToTerraform, false))(this._headers),
+      include_in_global_metrics: cdktf.booleanToTerraform(this._includeInGlobalMetrics),
+      interval: cdktf.numberToTerraform(this._interval),
+      is_paused: cdktf.booleanToTerraform(this._isPaused),
+      locations: cdktf.listMapper(cdktf.stringToTerraform, false)(this._locations),
+      name: cdktf.stringToTerraform(this._name),
+      notes: cdktf.stringToTerraform(this._notes),
+      num_retries: cdktf.numberToTerraform(this._numRetries),
+      password: cdktf.stringToTerraform(this._password),
+      port: cdktf.numberToTerraform(this._port),
+      proxy: cdktf.stringToTerraform(this._proxy),
+      send_string: cdktf.stringToTerraform(this._sendString),
+      sensitivity: cdktf.numberToTerraform(this._sensitivity),
+      sla: checkHttpSlaToTerraform(this._sla.internalValue),
+      status_code: cdktf.stringToTerraform(this._statusCode),
+      tags: cdktf.listMapper(cdktf.stringToTerraform, false)(this._tags),
+      threshold: cdktf.numberToTerraform(this._threshold),
+      username: cdktf.stringToTerraform(this._username),
+      version: cdktf.numberToTerraform(this._version),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      address: {
+        value: cdktf.stringToHclTerraform(this._address),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      contact_groups: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._contactGroups),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      encryption: {
+        value: cdktf.stringToHclTerraform(this._encryption),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      expect_string: {
+        value: cdktf.stringToHclTerraform(this._expectString),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      expect_string_type: {
+        value: cdktf.stringToHclTerraform(this._expectStringType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      headers: {
+        value: cdktf.hashMapperHcl(cdktf.listMapperHcl(cdktf.stringToHclTerraform, false))(this._headers),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringListMap",
+      },
+      include_in_global_metrics: {
+        value: cdktf.booleanToHclTerraform(this._includeInGlobalMetrics),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      interval: {
+        value: cdktf.numberToHclTerraform(this._interval),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      is_paused: {
+        value: cdktf.booleanToHclTerraform(this._isPaused),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      locations: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._locations),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      notes: {
+        value: cdktf.stringToHclTerraform(this._notes),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      num_retries: {
+        value: cdktf.numberToHclTerraform(this._numRetries),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      password: {
+        value: cdktf.stringToHclTerraform(this._password),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      port: {
+        value: cdktf.numberToHclTerraform(this._port),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      proxy: {
+        value: cdktf.stringToHclTerraform(this._proxy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      send_string: {
+        value: cdktf.stringToHclTerraform(this._sendString),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      sensitivity: {
+        value: cdktf.numberToHclTerraform(this._sensitivity),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      sla: {
+        value: checkHttpSlaToHclTerraform(this._sla.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "CheckHttpSla",
+      },
+      status_code: {
+        value: cdktf.stringToHclTerraform(this._statusCode),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      tags: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._tags),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      threshold: {
+        value: cdktf.numberToHclTerraform(this._threshold),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      username: {
+        value: cdktf.stringToHclTerraform(this._username),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      version: {
+        value: cdktf.numberToHclTerraform(this._version),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

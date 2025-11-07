@@ -1,0 +1,220 @@
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_aws_data_center_server
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface DataCheckpointManagementAwsDataCenterServerConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_aws_data_center_server#id DataCheckpointManagementAwsDataCenterServer#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * Object name. Must be unique in the domain.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_aws_data_center_server#name DataCheckpointManagementAwsDataCenterServer#name}
+  */
+  readonly name?: string;
+  /**
+  * Object unique identifier.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_aws_data_center_server#uid DataCheckpointManagementAwsDataCenterServer#uid}
+  */
+  readonly uid?: string;
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_aws_data_center_server checkpoint_management_aws_data_center_server}
+*/
+export class DataCheckpointManagementAwsDataCenterServer extends cdktf.TerraformDataSource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "checkpoint_management_aws_data_center_server";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a DataCheckpointManagementAwsDataCenterServer resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the DataCheckpointManagementAwsDataCenterServer to import
+  * @param importFromId The id of the existing DataCheckpointManagementAwsDataCenterServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_aws_data_center_server#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the DataCheckpointManagementAwsDataCenterServer to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "checkpoint_management_aws_data_center_server", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_aws_data_center_server checkpoint_management_aws_data_center_server} Data Source
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options DataCheckpointManagementAwsDataCenterServerConfig = {}
+  */
+  public constructor(scope: Construct, id: string, config: DataCheckpointManagementAwsDataCenterServerConfig = {}) {
+    super(scope, id, {
+      terraformResourceType: 'checkpoint_management_aws_data_center_server',
+      terraformGeneratorMetadata: {
+        providerName: 'checkpoint',
+        providerVersion: '2.11.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._id = config.id;
+    this._name = config.name;
+    this._uid = config.uid;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // access_key_id - computed: true, optional: false, required: false
+  public get accessKeyId() {
+    return this.getStringAttribute('access_key_id');
+  }
+
+  // authentication_method - computed: true, optional: false, required: false
+  public get authenticationMethod() {
+    return this.getStringAttribute('authentication_method');
+  }
+
+  // color - computed: true, optional: false, required: false
+  public get color() {
+    return this.getStringAttribute('color');
+  }
+
+  // comments - computed: true, optional: false, required: false
+  public get comments() {
+    return this.getStringAttribute('comments');
+  }
+
+  // enable_sts_assume_role - computed: true, optional: false, required: false
+  public get enableStsAssumeRole() {
+    return this.getBooleanAttribute('enable_sts_assume_role');
+  }
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // region - computed: true, optional: false, required: false
+  public get region() {
+    return this.getStringAttribute('region');
+  }
+
+  // sts_external_id - computed: true, optional: false, required: false
+  public get stsExternalId() {
+    return this.getStringAttribute('sts_external_id');
+  }
+
+  // sts_role - computed: true, optional: false, required: false
+  public get stsRole() {
+    return this.getStringAttribute('sts_role');
+  }
+
+  // tags - computed: true, optional: false, required: false
+  public get tags() {
+    return cdktf.Fn.tolist(this.getListAttribute('tags'));
+  }
+
+  // uid - computed: false, optional: true, required: false
+  private _uid?: string; 
+  public get uid() {
+    return this.getStringAttribute('uid');
+  }
+  public set uid(value: string) {
+    this._uid = value;
+  }
+  public resetUid() {
+    this._uid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uidInput() {
+    return this._uid;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      id: cdktf.stringToTerraform(this._id),
+      name: cdktf.stringToTerraform(this._name),
+      uid: cdktf.stringToTerraform(this._uid),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      uid: {
+        value: cdktf.stringToHclTerraform(this._uid),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

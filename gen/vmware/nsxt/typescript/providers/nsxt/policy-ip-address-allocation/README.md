@@ -1,0 +1,3 @@
+# `nsxt_policy_ip_address_allocation`
+
+Refer to the Terraform Registry for docs: [`nsxt_policy_ip_address_allocation`](https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_address_allocation).

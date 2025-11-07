@@ -1,0 +1,480 @@
+// https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/transfer_user
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface TransferUserConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/transfer_user#home_directory TransferUser#home_directory}
+  */
+  readonly homeDirectory?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/transfer_user#home_directory_type TransferUser#home_directory_type}
+  */
+  readonly homeDirectoryType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/transfer_user#id TransferUser#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/transfer_user#policy TransferUser#policy}
+  */
+  readonly policy?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/transfer_user#role TransferUser#role}
+  */
+  readonly role: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/transfer_user#server_id TransferUser#server_id}
+  */
+  readonly serverId: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/transfer_user#tags TransferUser#tags}
+  */
+  readonly tags?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/transfer_user#user_name TransferUser#user_name}
+  */
+  readonly userName: string;
+  /**
+  * home_directory_mappings block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/transfer_user#home_directory_mappings TransferUser#home_directory_mappings}
+  */
+  readonly homeDirectoryMappings?: TransferUserHomeDirectoryMappings[] | cdktf.IResolvable;
+}
+export interface TransferUserHomeDirectoryMappings {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/transfer_user#entry TransferUser#entry}
+  */
+  readonly entry: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/transfer_user#target TransferUser#target}
+  */
+  readonly target: string;
+}
+
+export function transferUserHomeDirectoryMappingsToTerraform(struct?: TransferUserHomeDirectoryMappings | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    entry: cdktf.stringToTerraform(struct!.entry),
+    target: cdktf.stringToTerraform(struct!.target),
+  }
+}
+
+
+export function transferUserHomeDirectoryMappingsToHclTerraform(struct?: TransferUserHomeDirectoryMappings | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    entry: {
+      value: cdktf.stringToHclTerraform(struct!.entry),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    target: {
+      value: cdktf.stringToHclTerraform(struct!.target),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class TransferUserHomeDirectoryMappingsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): TransferUserHomeDirectoryMappings | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._entry !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.entry = this._entry;
+    }
+    if (this._target !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.target = this._target;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: TransferUserHomeDirectoryMappings | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._entry = undefined;
+      this._target = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._entry = value.entry;
+      this._target = value.target;
+    }
+  }
+
+  // entry - computed: false, optional: false, required: true
+  private _entry?: string; 
+  public get entry() {
+    return this.getStringAttribute('entry');
+  }
+  public set entry(value: string) {
+    this._entry = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get entryInput() {
+    return this._entry;
+  }
+
+  // target - computed: false, optional: false, required: true
+  private _target?: string; 
+  public get target() {
+    return this.getStringAttribute('target');
+  }
+  public set target(value: string) {
+    this._target = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetInput() {
+    return this._target;
+  }
+}
+
+export class TransferUserHomeDirectoryMappingsList extends cdktf.ComplexList {
+  public internalValue? : TransferUserHomeDirectoryMappings[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): TransferUserHomeDirectoryMappingsOutputReference {
+    return new TransferUserHomeDirectoryMappingsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/transfer_user aws_transfer_user}
+*/
+export class TransferUser extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "aws_transfer_user";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a TransferUser resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the TransferUser to import
+  * @param importFromId The id of the existing TransferUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/transfer_user#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the TransferUser to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "aws_transfer_user", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/transfer_user aws_transfer_user} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options TransferUserConfig
+  */
+  public constructor(scope: Construct, id: string, config: TransferUserConfig) {
+    super(scope, id, {
+      terraformResourceType: 'aws_transfer_user',
+      terraformGeneratorMetadata: {
+        providerName: 'aws',
+        providerVersion: '3.29.6'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._homeDirectory = config.homeDirectory;
+    this._homeDirectoryType = config.homeDirectoryType;
+    this._id = config.id;
+    this._policy = config.policy;
+    this._role = config.role;
+    this._serverId = config.serverId;
+    this._tags = config.tags;
+    this._userName = config.userName;
+    this._homeDirectoryMappings.internalValue = config.homeDirectoryMappings;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // arn - computed: true, optional: false, required: false
+  public get arn() {
+    return this.getStringAttribute('arn');
+  }
+
+  // home_directory - computed: false, optional: true, required: false
+  private _homeDirectory?: string; 
+  public get homeDirectory() {
+    return this.getStringAttribute('home_directory');
+  }
+  public set homeDirectory(value: string) {
+    this._homeDirectory = value;
+  }
+  public resetHomeDirectory() {
+    this._homeDirectory = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get homeDirectoryInput() {
+    return this._homeDirectory;
+  }
+
+  // home_directory_type - computed: false, optional: true, required: false
+  private _homeDirectoryType?: string; 
+  public get homeDirectoryType() {
+    return this.getStringAttribute('home_directory_type');
+  }
+  public set homeDirectoryType(value: string) {
+    this._homeDirectoryType = value;
+  }
+  public resetHomeDirectoryType() {
+    this._homeDirectoryType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get homeDirectoryTypeInput() {
+    return this._homeDirectoryType;
+  }
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // policy - computed: false, optional: true, required: false
+  private _policy?: string; 
+  public get policy() {
+    return this.getStringAttribute('policy');
+  }
+  public set policy(value: string) {
+    this._policy = value;
+  }
+  public resetPolicy() {
+    this._policy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyInput() {
+    return this._policy;
+  }
+
+  // role - computed: false, optional: false, required: true
+  private _role?: string; 
+  public get role() {
+    return this.getStringAttribute('role');
+  }
+  public set role(value: string) {
+    this._role = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get roleInput() {
+    return this._role;
+  }
+
+  // server_id - computed: false, optional: false, required: true
+  private _serverId?: string; 
+  public get serverId() {
+    return this.getStringAttribute('server_id');
+  }
+  public set serverId(value: string) {
+    this._serverId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serverIdInput() {
+    return this._serverId;
+  }
+
+  // tags - computed: false, optional: true, required: false
+  private _tags?: { [key: string]: string }; 
+  public get tags() {
+    return this.getStringMapAttribute('tags');
+  }
+  public set tags(value: { [key: string]: string }) {
+    this._tags = value;
+  }
+  public resetTags() {
+    this._tags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagsInput() {
+    return this._tags;
+  }
+
+  // user_name - computed: false, optional: false, required: true
+  private _userName?: string; 
+  public get userName() {
+    return this.getStringAttribute('user_name');
+  }
+  public set userName(value: string) {
+    this._userName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userNameInput() {
+    return this._userName;
+  }
+
+  // home_directory_mappings - computed: false, optional: true, required: false
+  private _homeDirectoryMappings = new TransferUserHomeDirectoryMappingsList(this, "home_directory_mappings", false);
+  public get homeDirectoryMappings() {
+    return this._homeDirectoryMappings;
+  }
+  public putHomeDirectoryMappings(value: TransferUserHomeDirectoryMappings[] | cdktf.IResolvable) {
+    this._homeDirectoryMappings.internalValue = value;
+  }
+  public resetHomeDirectoryMappings() {
+    this._homeDirectoryMappings.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get homeDirectoryMappingsInput() {
+    return this._homeDirectoryMappings.internalValue;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      home_directory: cdktf.stringToTerraform(this._homeDirectory),
+      home_directory_type: cdktf.stringToTerraform(this._homeDirectoryType),
+      id: cdktf.stringToTerraform(this._id),
+      policy: cdktf.stringToTerraform(this._policy),
+      role: cdktf.stringToTerraform(this._role),
+      server_id: cdktf.stringToTerraform(this._serverId),
+      tags: cdktf.hashMapper(cdktf.stringToTerraform)(this._tags),
+      user_name: cdktf.stringToTerraform(this._userName),
+      home_directory_mappings: cdktf.listMapper(transferUserHomeDirectoryMappingsToTerraform, true)(this._homeDirectoryMappings.internalValue),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      home_directory: {
+        value: cdktf.stringToHclTerraform(this._homeDirectory),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      home_directory_type: {
+        value: cdktf.stringToHclTerraform(this._homeDirectoryType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      policy: {
+        value: cdktf.stringToHclTerraform(this._policy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      role: {
+        value: cdktf.stringToHclTerraform(this._role),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      server_id: {
+        value: cdktf.stringToHclTerraform(this._serverId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      tags: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._tags),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
+      },
+      user_name: {
+        value: cdktf.stringToHclTerraform(this._userName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      home_directory_mappings: {
+        value: cdktf.listMapperHcl(transferUserHomeDirectoryMappingsToHclTerraform, true)(this._homeDirectoryMappings.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "TransferUserHomeDirectoryMappingsList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

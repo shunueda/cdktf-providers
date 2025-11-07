@@ -1,0 +1,3 @@
+# `cloudfoundry_org`
+
+Refer to the Terraform Registry for docs: [`cloudfoundry_org`](https://registry.terraform.io/providers/cloudfoundry-community/cloudfoundry/0.53.1/docs/resources/org).

@@ -1,0 +1,3 @@
+# `zabbix_lld_trapper`
+
+Refer to the Terraform Registry for docs: [`zabbix_lld_trapper`](https://registry.terraform.io/providers/tpretz/zabbix/0.17.0/docs/resources/lld_trapper).

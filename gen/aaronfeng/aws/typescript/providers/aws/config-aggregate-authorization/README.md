@@ -1,0 +1,3 @@
+# `aws_config_aggregate_authorization`
+
+Refer to the Terraform Registry for docs: [`aws_config_aggregate_authorization`](https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/config_aggregate_authorization).

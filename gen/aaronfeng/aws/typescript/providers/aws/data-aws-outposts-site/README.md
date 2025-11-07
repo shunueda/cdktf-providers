@@ -1,0 +1,3 @@
+# `data_aws_outposts_site`
+
+Refer to the Terraform Registry for docs: [`data_aws_outposts_site`](https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/data-sources/outposts_site).

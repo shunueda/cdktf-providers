@@ -1,0 +1,950 @@
+// https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_survey_sparrow
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface SourceSurveySparrowConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_survey_sparrow#configuration SourceSurveySparrow#configuration}
+  */
+  readonly configuration: SourceSurveySparrowConfiguration;
+  /**
+  * The UUID of the connector definition. One of configuration.sourceType or definitionId must be provided. Requires replacement if changed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_survey_sparrow#definition_id SourceSurveySparrow#definition_id}
+  */
+  readonly definitionId?: string;
+  /**
+  * Name of the source e.g. dev-mysql-instance.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_survey_sparrow#name SourceSurveySparrow#name}
+  */
+  readonly name: string;
+  /**
+  * Optional secretID obtained through the public API OAuth redirect flow. Requires replacement if changed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_survey_sparrow#secret_id SourceSurveySparrow#secret_id}
+  */
+  readonly secretId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_survey_sparrow#workspace_id SourceSurveySparrow#workspace_id}
+  */
+  readonly workspaceId: string;
+}
+export interface SourceSurveySparrowConfigurationRegionEuBasedAccount {
+}
+
+export function sourceSurveySparrowConfigurationRegionEuBasedAccountToTerraform(struct?: SourceSurveySparrowConfigurationRegionEuBasedAccount | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function sourceSurveySparrowConfigurationRegionEuBasedAccountToHclTerraform(struct?: SourceSurveySparrowConfigurationRegionEuBasedAccount | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class SourceSurveySparrowConfigurationRegionEuBasedAccountOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SourceSurveySparrowConfigurationRegionEuBasedAccount | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SourceSurveySparrowConfigurationRegionEuBasedAccount | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+    }
+  }
+}
+export interface SourceSurveySparrowConfigurationRegionGlobalAccount {
+}
+
+export function sourceSurveySparrowConfigurationRegionGlobalAccountToTerraform(struct?: SourceSurveySparrowConfigurationRegionGlobalAccount | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function sourceSurveySparrowConfigurationRegionGlobalAccountToHclTerraform(struct?: SourceSurveySparrowConfigurationRegionGlobalAccount | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class SourceSurveySparrowConfigurationRegionGlobalAccountOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SourceSurveySparrowConfigurationRegionGlobalAccount | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SourceSurveySparrowConfigurationRegionGlobalAccount | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+    }
+  }
+}
+export interface SourceSurveySparrowConfigurationRegion {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_survey_sparrow#eu_based_account SourceSurveySparrow#eu_based_account}
+  */
+  readonly euBasedAccount?: SourceSurveySparrowConfigurationRegionEuBasedAccount;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_survey_sparrow#global_account SourceSurveySparrow#global_account}
+  */
+  readonly globalAccount?: SourceSurveySparrowConfigurationRegionGlobalAccount;
+}
+
+export function sourceSurveySparrowConfigurationRegionToTerraform(struct?: SourceSurveySparrowConfigurationRegion | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    eu_based_account: sourceSurveySparrowConfigurationRegionEuBasedAccountToTerraform(struct!.euBasedAccount),
+    global_account: sourceSurveySparrowConfigurationRegionGlobalAccountToTerraform(struct!.globalAccount),
+  }
+}
+
+
+export function sourceSurveySparrowConfigurationRegionToHclTerraform(struct?: SourceSurveySparrowConfigurationRegion | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    eu_based_account: {
+      value: sourceSurveySparrowConfigurationRegionEuBasedAccountToHclTerraform(struct!.euBasedAccount),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "SourceSurveySparrowConfigurationRegionEuBasedAccount",
+    },
+    global_account: {
+      value: sourceSurveySparrowConfigurationRegionGlobalAccountToHclTerraform(struct!.globalAccount),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "SourceSurveySparrowConfigurationRegionGlobalAccount",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SourceSurveySparrowConfigurationRegionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SourceSurveySparrowConfigurationRegion | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._euBasedAccount?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.euBasedAccount = this._euBasedAccount?.internalValue;
+    }
+    if (this._globalAccount?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.globalAccount = this._globalAccount?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SourceSurveySparrowConfigurationRegion | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._euBasedAccount.internalValue = undefined;
+      this._globalAccount.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._euBasedAccount.internalValue = value.euBasedAccount;
+      this._globalAccount.internalValue = value.globalAccount;
+    }
+  }
+
+  // eu_based_account - computed: false, optional: true, required: false
+  private _euBasedAccount = new SourceSurveySparrowConfigurationRegionEuBasedAccountOutputReference(this, "eu_based_account");
+  public get euBasedAccount() {
+    return this._euBasedAccount;
+  }
+  public putEuBasedAccount(value: SourceSurveySparrowConfigurationRegionEuBasedAccount) {
+    this._euBasedAccount.internalValue = value;
+  }
+  public resetEuBasedAccount() {
+    this._euBasedAccount.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get euBasedAccountInput() {
+    return this._euBasedAccount.internalValue;
+  }
+
+  // global_account - computed: false, optional: true, required: false
+  private _globalAccount = new SourceSurveySparrowConfigurationRegionGlobalAccountOutputReference(this, "global_account");
+  public get globalAccount() {
+    return this._globalAccount;
+  }
+  public putGlobalAccount(value: SourceSurveySparrowConfigurationRegionGlobalAccount) {
+    this._globalAccount.internalValue = value;
+  }
+  public resetGlobalAccount() {
+    this._globalAccount.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get globalAccountInput() {
+    return this._globalAccount.internalValue;
+  }
+}
+export interface SourceSurveySparrowConfiguration {
+  /**
+  * Your access token. See <a href="https://developers.surveysparrow.com/rest-apis#authentication">here</a>. The key is case sensitive.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_survey_sparrow#access_token SourceSurveySparrow#access_token}
+  */
+  readonly accessToken: string;
+  /**
+  * Is your account location is EU based? If yes, the base url to retrieve data will be different.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_survey_sparrow#region SourceSurveySparrow#region}
+  */
+  readonly region?: SourceSurveySparrowConfigurationRegion;
+  /**
+  * A List of your survey ids for survey-specific stream
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_survey_sparrow#survey_id SourceSurveySparrow#survey_id}
+  */
+  readonly surveyId?: string[];
+}
+
+export function sourceSurveySparrowConfigurationToTerraform(struct?: SourceSurveySparrowConfiguration | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    access_token: cdktf.stringToTerraform(struct!.accessToken),
+    region: sourceSurveySparrowConfigurationRegionToTerraform(struct!.region),
+    survey_id: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.surveyId),
+  }
+}
+
+
+export function sourceSurveySparrowConfigurationToHclTerraform(struct?: SourceSurveySparrowConfiguration | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    access_token: {
+      value: cdktf.stringToHclTerraform(struct!.accessToken),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    region: {
+      value: sourceSurveySparrowConfigurationRegionToHclTerraform(struct!.region),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "SourceSurveySparrowConfigurationRegion",
+    },
+    survey_id: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.surveyId),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SourceSurveySparrowConfigurationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SourceSurveySparrowConfiguration | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._accessToken !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.accessToken = this._accessToken;
+    }
+    if (this._region?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.region = this._region?.internalValue;
+    }
+    if (this._surveyId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.surveyId = this._surveyId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SourceSurveySparrowConfiguration | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._accessToken = undefined;
+      this._region.internalValue = undefined;
+      this._surveyId = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._accessToken = value.accessToken;
+      this._region.internalValue = value.region;
+      this._surveyId = value.surveyId;
+    }
+  }
+
+  // access_token - computed: false, optional: false, required: true
+  private _accessToken?: string; 
+  public get accessToken() {
+    return this.getStringAttribute('access_token');
+  }
+  public set accessToken(value: string) {
+    this._accessToken = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get accessTokenInput() {
+    return this._accessToken;
+  }
+
+  // region - computed: false, optional: true, required: false
+  private _region = new SourceSurveySparrowConfigurationRegionOutputReference(this, "region");
+  public get region() {
+    return this._region;
+  }
+  public putRegion(value: SourceSurveySparrowConfigurationRegion) {
+    this._region.internalValue = value;
+  }
+  public resetRegion() {
+    this._region.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regionInput() {
+    return this._region.internalValue;
+  }
+
+  // survey_id - computed: false, optional: true, required: false
+  private _surveyId?: string[]; 
+  public get surveyId() {
+    return this.getListAttribute('survey_id');
+  }
+  public set surveyId(value: string[]) {
+    this._surveyId = value;
+  }
+  public resetSurveyId() {
+    this._surveyId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get surveyIdInput() {
+    return this._surveyId;
+  }
+}
+export interface SourceSurveySparrowResourceAllocationDefault {
+}
+
+export function sourceSurveySparrowResourceAllocationDefaultToTerraform(struct?: SourceSurveySparrowResourceAllocationDefault): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function sourceSurveySparrowResourceAllocationDefaultToHclTerraform(struct?: SourceSurveySparrowResourceAllocationDefault): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class SourceSurveySparrowResourceAllocationDefaultOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SourceSurveySparrowResourceAllocationDefault | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SourceSurveySparrowResourceAllocationDefault | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // cpu_limit - computed: true, optional: false, required: false
+  public get cpuLimit() {
+    return this.getStringAttribute('cpu_limit');
+  }
+
+  // cpu_request - computed: true, optional: false, required: false
+  public get cpuRequest() {
+    return this.getStringAttribute('cpu_request');
+  }
+
+  // ephemeral_storage_limit - computed: true, optional: false, required: false
+  public get ephemeralStorageLimit() {
+    return this.getStringAttribute('ephemeral_storage_limit');
+  }
+
+  // ephemeral_storage_request - computed: true, optional: false, required: false
+  public get ephemeralStorageRequest() {
+    return this.getStringAttribute('ephemeral_storage_request');
+  }
+
+  // memory_limit - computed: true, optional: false, required: false
+  public get memoryLimit() {
+    return this.getStringAttribute('memory_limit');
+  }
+
+  // memory_request - computed: true, optional: false, required: false
+  public get memoryRequest() {
+    return this.getStringAttribute('memory_request');
+  }
+}
+export interface SourceSurveySparrowResourceAllocationJobSpecificResourceRequirements {
+}
+
+export function sourceSurveySparrowResourceAllocationJobSpecificResourceRequirementsToTerraform(struct?: SourceSurveySparrowResourceAllocationJobSpecificResourceRequirements): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function sourceSurveySparrowResourceAllocationJobSpecificResourceRequirementsToHclTerraform(struct?: SourceSurveySparrowResourceAllocationJobSpecificResourceRequirements): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class SourceSurveySparrowResourceAllocationJobSpecificResourceRequirementsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SourceSurveySparrowResourceAllocationJobSpecificResourceRequirements | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SourceSurveySparrowResourceAllocationJobSpecificResourceRequirements | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // cpu_limit - computed: true, optional: false, required: false
+  public get cpuLimit() {
+    return this.getStringAttribute('cpu_limit');
+  }
+
+  // cpu_request - computed: true, optional: false, required: false
+  public get cpuRequest() {
+    return this.getStringAttribute('cpu_request');
+  }
+
+  // ephemeral_storage_limit - computed: true, optional: false, required: false
+  public get ephemeralStorageLimit() {
+    return this.getStringAttribute('ephemeral_storage_limit');
+  }
+
+  // ephemeral_storage_request - computed: true, optional: false, required: false
+  public get ephemeralStorageRequest() {
+    return this.getStringAttribute('ephemeral_storage_request');
+  }
+
+  // memory_limit - computed: true, optional: false, required: false
+  public get memoryLimit() {
+    return this.getStringAttribute('memory_limit');
+  }
+
+  // memory_request - computed: true, optional: false, required: false
+  public get memoryRequest() {
+    return this.getStringAttribute('memory_request');
+  }
+}
+export interface SourceSurveySparrowResourceAllocationJobSpecific {
+}
+
+export function sourceSurveySparrowResourceAllocationJobSpecificToTerraform(struct?: SourceSurveySparrowResourceAllocationJobSpecific): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function sourceSurveySparrowResourceAllocationJobSpecificToHclTerraform(struct?: SourceSurveySparrowResourceAllocationJobSpecific): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class SourceSurveySparrowResourceAllocationJobSpecificOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SourceSurveySparrowResourceAllocationJobSpecific | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SourceSurveySparrowResourceAllocationJobSpecific | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // job_type - computed: true, optional: false, required: false
+  public get jobType() {
+    return this.getStringAttribute('job_type');
+  }
+
+  // resource_requirements - computed: true, optional: false, required: false
+  private _resourceRequirements = new SourceSurveySparrowResourceAllocationJobSpecificResourceRequirementsOutputReference(this, "resource_requirements");
+  public get resourceRequirements() {
+    return this._resourceRequirements;
+  }
+}
+
+export class SourceSurveySparrowResourceAllocationJobSpecificList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SourceSurveySparrowResourceAllocationJobSpecificOutputReference {
+    return new SourceSurveySparrowResourceAllocationJobSpecificOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SourceSurveySparrowResourceAllocation {
+}
+
+export function sourceSurveySparrowResourceAllocationToTerraform(struct?: SourceSurveySparrowResourceAllocation): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function sourceSurveySparrowResourceAllocationToHclTerraform(struct?: SourceSurveySparrowResourceAllocation): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class SourceSurveySparrowResourceAllocationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SourceSurveySparrowResourceAllocation | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SourceSurveySparrowResourceAllocation | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // default - computed: true, optional: false, required: false
+  private _default = new SourceSurveySparrowResourceAllocationDefaultOutputReference(this, "default");
+  public get default() {
+    return this._default;
+  }
+
+  // job_specific - computed: true, optional: false, required: false
+  private _jobSpecific = new SourceSurveySparrowResourceAllocationJobSpecificList(this, "job_specific", false);
+  public get jobSpecific() {
+    return this._jobSpecific;
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_survey_sparrow airbyte_source_survey_sparrow}
+*/
+export class SourceSurveySparrow extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "airbyte_source_survey_sparrow";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a SourceSurveySparrow resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the SourceSurveySparrow to import
+  * @param importFromId The id of the existing SourceSurveySparrow that should be imported. Refer to the {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_survey_sparrow#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the SourceSurveySparrow to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "airbyte_source_survey_sparrow", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/airbytehq/airbyte/0.13.0/docs/resources/source_survey_sparrow airbyte_source_survey_sparrow} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options SourceSurveySparrowConfig
+  */
+  public constructor(scope: Construct, id: string, config: SourceSurveySparrowConfig) {
+    super(scope, id, {
+      terraformResourceType: 'airbyte_source_survey_sparrow',
+      terraformGeneratorMetadata: {
+        providerName: 'airbyte',
+        providerVersion: '0.13.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._configuration.internalValue = config.configuration;
+    this._definitionId = config.definitionId;
+    this._name = config.name;
+    this._secretId = config.secretId;
+    this._workspaceId = config.workspaceId;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // configuration - computed: false, optional: false, required: true
+  private _configuration = new SourceSurveySparrowConfigurationOutputReference(this, "configuration");
+  public get configuration() {
+    return this._configuration;
+  }
+  public putConfiguration(value: SourceSurveySparrowConfiguration) {
+    this._configuration.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configurationInput() {
+    return this._configuration.internalValue;
+  }
+
+  // created_at - computed: true, optional: false, required: false
+  public get createdAt() {
+    return this.getNumberAttribute('created_at');
+  }
+
+  // definition_id - computed: true, optional: true, required: false
+  private _definitionId?: string; 
+  public get definitionId() {
+    return this.getStringAttribute('definition_id');
+  }
+  public set definitionId(value: string) {
+    this._definitionId = value;
+  }
+  public resetDefinitionId() {
+    this._definitionId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get definitionIdInput() {
+    return this._definitionId;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // resource_allocation - computed: true, optional: false, required: false
+  private _resourceAllocation = new SourceSurveySparrowResourceAllocationOutputReference(this, "resource_allocation");
+  public get resourceAllocation() {
+    return this._resourceAllocation;
+  }
+
+  // secret_id - computed: false, optional: true, required: false
+  private _secretId?: string; 
+  public get secretId() {
+    return this.getStringAttribute('secret_id');
+  }
+  public set secretId(value: string) {
+    this._secretId = value;
+  }
+  public resetSecretId() {
+    this._secretId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretIdInput() {
+    return this._secretId;
+  }
+
+  // source_id - computed: true, optional: false, required: false
+  public get sourceId() {
+    return this.getStringAttribute('source_id');
+  }
+
+  // source_type - computed: true, optional: false, required: false
+  public get sourceType() {
+    return this.getStringAttribute('source_type');
+  }
+
+  // workspace_id - computed: false, optional: false, required: true
+  private _workspaceId?: string; 
+  public get workspaceId() {
+    return this.getStringAttribute('workspace_id');
+  }
+  public set workspaceId(value: string) {
+    this._workspaceId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get workspaceIdInput() {
+    return this._workspaceId;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      configuration: sourceSurveySparrowConfigurationToTerraform(this._configuration.internalValue),
+      definition_id: cdktf.stringToTerraform(this._definitionId),
+      name: cdktf.stringToTerraform(this._name),
+      secret_id: cdktf.stringToTerraform(this._secretId),
+      workspace_id: cdktf.stringToTerraform(this._workspaceId),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      configuration: {
+        value: sourceSurveySparrowConfigurationToHclTerraform(this._configuration.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "SourceSurveySparrowConfiguration",
+      },
+      definition_id: {
+        value: cdktf.stringToHclTerraform(this._definitionId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      secret_id: {
+        value: cdktf.stringToHclTerraform(this._secretId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      workspace_id: {
+        value: cdktf.stringToHclTerraform(this._workspaceId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

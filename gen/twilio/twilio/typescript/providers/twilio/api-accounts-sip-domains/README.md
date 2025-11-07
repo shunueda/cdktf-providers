@@ -1,0 +1,3 @@
+# `twilio_api_accounts_sip_domains`
+
+Refer to the Terraform Registry for docs: [`twilio_api_accounts_sip_domains`](https://registry.terraform.io/providers/twilio/twilio/0.18.46/docs/resources/api_accounts_sip_domains).

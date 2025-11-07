@@ -1,0 +1,3 @@
+# `tencentcloud_dlc_upgrade_data_engine_image_operation`
+
+Refer to the Terraform Registry for docs: [`tencentcloud_dlc_upgrade_data_engine_image_operation`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dlc_upgrade_data_engine_image_operation).

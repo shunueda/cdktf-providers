@@ -1,0 +1,116 @@
+// https://registry.terraform.io/providers/nsbno/vy/0.5.0/docs/resources/environment_account
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface EnvironmentAccountConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * The deployment account that owns this account. Aka the service account.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/0.5.0/docs/resources/environment_account#owner_account_id EnvironmentAccount#owner_account_id}
+  */
+  readonly ownerAccountId: string;
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/nsbno/vy/0.5.0/docs/resources/environment_account vy_environment_account}
+*/
+export class EnvironmentAccount extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "vy_environment_account";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a EnvironmentAccount resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the EnvironmentAccount to import
+  * @param importFromId The id of the existing EnvironmentAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/nsbno/vy/0.5.0/docs/resources/environment_account#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the EnvironmentAccount to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "vy_environment_account", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/nsbno/vy/0.5.0/docs/resources/environment_account vy_environment_account} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options EnvironmentAccountConfig
+  */
+  public constructor(scope: Construct, id: string, config: EnvironmentAccountConfig) {
+    super(scope, id, {
+      terraformResourceType: 'vy_environment_account',
+      terraformGeneratorMetadata: {
+        providerName: 'vy',
+        providerVersion: '0.5.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._ownerAccountId = config.ownerAccountId;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // owner_account_id - computed: false, optional: false, required: true
+  private _ownerAccountId?: string; 
+  public get ownerAccountId() {
+    return this.getStringAttribute('owner_account_id');
+  }
+  public set ownerAccountId(value: string) {
+    this._ownerAccountId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ownerAccountIdInput() {
+    return this._ownerAccountId;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      owner_account_id: cdktf.stringToTerraform(this._ownerAccountId),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      owner_account_id: {
+        value: cdktf.stringToHclTerraform(this._ownerAccountId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

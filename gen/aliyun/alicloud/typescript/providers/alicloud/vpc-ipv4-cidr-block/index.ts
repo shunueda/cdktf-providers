@@ -1,0 +1,419 @@
+// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipv4_cidr_block
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface VpcIpv4CidrBlockConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipv4_cidr_block#id VpcIpv4CidrBlock#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipv4_cidr_block#ipv4_ipam_pool_id VpcIpv4CidrBlock#ipv4_ipam_pool_id}
+  */
+  readonly ipv4IpamPoolId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipv4_cidr_block#secondary_cidr_block VpcIpv4CidrBlock#secondary_cidr_block}
+  */
+  readonly secondaryCidrBlock?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipv4_cidr_block#secondary_cidr_mask VpcIpv4CidrBlock#secondary_cidr_mask}
+  */
+  readonly secondaryCidrMask?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipv4_cidr_block#vpc_id VpcIpv4CidrBlock#vpc_id}
+  */
+  readonly vpcId: string;
+  /**
+  * timeouts block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipv4_cidr_block#timeouts VpcIpv4CidrBlock#timeouts}
+  */
+  readonly timeouts?: VpcIpv4CidrBlockTimeouts;
+}
+export interface VpcIpv4CidrBlockTimeouts {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipv4_cidr_block#create VpcIpv4CidrBlock#create}
+  */
+  readonly create?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipv4_cidr_block#delete VpcIpv4CidrBlock#delete}
+  */
+  readonly delete?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipv4_cidr_block#update VpcIpv4CidrBlock#update}
+  */
+  readonly update?: string;
+}
+
+export function vpcIpv4CidrBlockTimeoutsToTerraform(struct?: VpcIpv4CidrBlockTimeouts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    create: cdktf.stringToTerraform(struct!.create),
+    delete: cdktf.stringToTerraform(struct!.delete),
+    update: cdktf.stringToTerraform(struct!.update),
+  }
+}
+
+
+export function vpcIpv4CidrBlockTimeoutsToHclTerraform(struct?: VpcIpv4CidrBlockTimeouts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    create: {
+      value: cdktf.stringToHclTerraform(struct!.create),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    delete: {
+      value: cdktf.stringToHclTerraform(struct!.delete),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    update: {
+      value: cdktf.stringToHclTerraform(struct!.update),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VpcIpv4CidrBlockTimeoutsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): VpcIpv4CidrBlockTimeouts | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._create !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.create = this._create;
+    }
+    if (this._delete !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.delete = this._delete;
+    }
+    if (this._update !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.update = this._update;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VpcIpv4CidrBlockTimeouts | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._create = undefined;
+      this._delete = undefined;
+      this._update = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._create = value.create;
+      this._delete = value.delete;
+      this._update = value.update;
+    }
+  }
+
+  // create - computed: false, optional: true, required: false
+  private _create?: string; 
+  public get create() {
+    return this.getStringAttribute('create');
+  }
+  public set create(value: string) {
+    this._create = value;
+  }
+  public resetCreate() {
+    this._create = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get createInput() {
+    return this._create;
+  }
+
+  // delete - computed: false, optional: true, required: false
+  private _delete?: string; 
+  public get delete() {
+    return this.getStringAttribute('delete');
+  }
+  public set delete(value: string) {
+    this._delete = value;
+  }
+  public resetDelete() {
+    this._delete = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deleteInput() {
+    return this._delete;
+  }
+
+  // update - computed: false, optional: true, required: false
+  private _update?: string; 
+  public get update() {
+    return this.getStringAttribute('update');
+  }
+  public set update(value: string) {
+    this._update = value;
+  }
+  public resetUpdate() {
+    this._update = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get updateInput() {
+    return this._update;
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipv4_cidr_block alicloud_vpc_ipv4_cidr_block}
+*/
+export class VpcIpv4CidrBlock extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "alicloud_vpc_ipv4_cidr_block";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a VpcIpv4CidrBlock resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the VpcIpv4CidrBlock to import
+  * @param importFromId The id of the existing VpcIpv4CidrBlock that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipv4_cidr_block#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the VpcIpv4CidrBlock to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "alicloud_vpc_ipv4_cidr_block", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/resources/vpc_ipv4_cidr_block alicloud_vpc_ipv4_cidr_block} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options VpcIpv4CidrBlockConfig
+  */
+  public constructor(scope: Construct, id: string, config: VpcIpv4CidrBlockConfig) {
+    super(scope, id, {
+      terraformResourceType: 'alicloud_vpc_ipv4_cidr_block',
+      terraformGeneratorMetadata: {
+        providerName: 'alicloud',
+        providerVersion: '1.262.1'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._id = config.id;
+    this._ipv4IpamPoolId = config.ipv4IpamPoolId;
+    this._secondaryCidrBlock = config.secondaryCidrBlock;
+    this._secondaryCidrMask = config.secondaryCidrMask;
+    this._vpcId = config.vpcId;
+    this._timeouts.internalValue = config.timeouts;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // ipv4_ipam_pool_id - computed: false, optional: true, required: false
+  private _ipv4IpamPoolId?: string; 
+  public get ipv4IpamPoolId() {
+    return this.getStringAttribute('ipv4_ipam_pool_id');
+  }
+  public set ipv4IpamPoolId(value: string) {
+    this._ipv4IpamPoolId = value;
+  }
+  public resetIpv4IpamPoolId() {
+    this._ipv4IpamPoolId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv4IpamPoolIdInput() {
+    return this._ipv4IpamPoolId;
+  }
+
+  // region_id - computed: true, optional: false, required: false
+  public get regionId() {
+    return this.getStringAttribute('region_id');
+  }
+
+  // secondary_cidr_block - computed: true, optional: true, required: false
+  private _secondaryCidrBlock?: string; 
+  public get secondaryCidrBlock() {
+    return this.getStringAttribute('secondary_cidr_block');
+  }
+  public set secondaryCidrBlock(value: string) {
+    this._secondaryCidrBlock = value;
+  }
+  public resetSecondaryCidrBlock() {
+    this._secondaryCidrBlock = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secondaryCidrBlockInput() {
+    return this._secondaryCidrBlock;
+  }
+
+  // secondary_cidr_mask - computed: false, optional: true, required: false
+  private _secondaryCidrMask?: number; 
+  public get secondaryCidrMask() {
+    return this.getNumberAttribute('secondary_cidr_mask');
+  }
+  public set secondaryCidrMask(value: number) {
+    this._secondaryCidrMask = value;
+  }
+  public resetSecondaryCidrMask() {
+    this._secondaryCidrMask = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secondaryCidrMaskInput() {
+    return this._secondaryCidrMask;
+  }
+
+  // vpc_id - computed: false, optional: false, required: true
+  private _vpcId?: string; 
+  public get vpcId() {
+    return this.getStringAttribute('vpc_id');
+  }
+  public set vpcId(value: string) {
+    this._vpcId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vpcIdInput() {
+    return this._vpcId;
+  }
+
+  // timeouts - computed: false, optional: true, required: false
+  private _timeouts = new VpcIpv4CidrBlockTimeoutsOutputReference(this, "timeouts");
+  public get timeouts() {
+    return this._timeouts;
+  }
+  public putTimeouts(value: VpcIpv4CidrBlockTimeouts) {
+    this._timeouts.internalValue = value;
+  }
+  public resetTimeouts() {
+    this._timeouts.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timeoutsInput() {
+    return this._timeouts.internalValue;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      id: cdktf.stringToTerraform(this._id),
+      ipv4_ipam_pool_id: cdktf.stringToTerraform(this._ipv4IpamPoolId),
+      secondary_cidr_block: cdktf.stringToTerraform(this._secondaryCidrBlock),
+      secondary_cidr_mask: cdktf.numberToTerraform(this._secondaryCidrMask),
+      vpc_id: cdktf.stringToTerraform(this._vpcId),
+      timeouts: vpcIpv4CidrBlockTimeoutsToTerraform(this._timeouts.internalValue),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ipv4_ipam_pool_id: {
+        value: cdktf.stringToHclTerraform(this._ipv4IpamPoolId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      secondary_cidr_block: {
+        value: cdktf.stringToHclTerraform(this._secondaryCidrBlock),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      secondary_cidr_mask: {
+        value: cdktf.numberToHclTerraform(this._secondaryCidrMask),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      vpc_id: {
+        value: cdktf.stringToHclTerraform(this._vpcId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      timeouts: {
+        value: vpcIpv4CidrBlockTimeoutsToHclTerraform(this._timeouts.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "VpcIpv4CidrBlockTimeouts",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

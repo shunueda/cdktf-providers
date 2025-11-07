@@ -1,0 +1,570 @@
+// https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/api_gateway_stage
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface ApiGatewayStageConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/api_gateway_stage#cache_cluster_enabled ApiGatewayStage#cache_cluster_enabled}
+  */
+  readonly cacheClusterEnabled?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/api_gateway_stage#cache_cluster_size ApiGatewayStage#cache_cluster_size}
+  */
+  readonly cacheClusterSize?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/api_gateway_stage#client_certificate_id ApiGatewayStage#client_certificate_id}
+  */
+  readonly clientCertificateId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/api_gateway_stage#deployment_id ApiGatewayStage#deployment_id}
+  */
+  readonly deploymentId: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/api_gateway_stage#description ApiGatewayStage#description}
+  */
+  readonly description?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/api_gateway_stage#documentation_version ApiGatewayStage#documentation_version}
+  */
+  readonly documentationVersion?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/api_gateway_stage#id ApiGatewayStage#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/api_gateway_stage#rest_api_id ApiGatewayStage#rest_api_id}
+  */
+  readonly restApiId: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/api_gateway_stage#stage_name ApiGatewayStage#stage_name}
+  */
+  readonly stageName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/api_gateway_stage#tags ApiGatewayStage#tags}
+  */
+  readonly tags?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/api_gateway_stage#variables ApiGatewayStage#variables}
+  */
+  readonly variables?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/api_gateway_stage#xray_tracing_enabled ApiGatewayStage#xray_tracing_enabled}
+  */
+  readonly xrayTracingEnabled?: boolean | cdktf.IResolvable;
+  /**
+  * access_log_settings block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/api_gateway_stage#access_log_settings ApiGatewayStage#access_log_settings}
+  */
+  readonly accessLogSettings?: ApiGatewayStageAccessLogSettings;
+}
+export interface ApiGatewayStageAccessLogSettings {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/api_gateway_stage#destination_arn ApiGatewayStage#destination_arn}
+  */
+  readonly destinationArn: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/api_gateway_stage#format ApiGatewayStage#format}
+  */
+  readonly format: string;
+}
+
+export function apiGatewayStageAccessLogSettingsToTerraform(struct?: ApiGatewayStageAccessLogSettingsOutputReference | ApiGatewayStageAccessLogSettings): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    destination_arn: cdktf.stringToTerraform(struct!.destinationArn),
+    format: cdktf.stringToTerraform(struct!.format),
+  }
+}
+
+
+export function apiGatewayStageAccessLogSettingsToHclTerraform(struct?: ApiGatewayStageAccessLogSettingsOutputReference | ApiGatewayStageAccessLogSettings): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    destination_arn: {
+      value: cdktf.stringToHclTerraform(struct!.destinationArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    format: {
+      value: cdktf.stringToHclTerraform(struct!.format),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ApiGatewayStageAccessLogSettingsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ApiGatewayStageAccessLogSettings | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._destinationArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.destinationArn = this._destinationArn;
+    }
+    if (this._format !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.format = this._format;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ApiGatewayStageAccessLogSettings | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._destinationArn = undefined;
+      this._format = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._destinationArn = value.destinationArn;
+      this._format = value.format;
+    }
+  }
+
+  // destination_arn - computed: false, optional: false, required: true
+  private _destinationArn?: string; 
+  public get destinationArn() {
+    return this.getStringAttribute('destination_arn');
+  }
+  public set destinationArn(value: string) {
+    this._destinationArn = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get destinationArnInput() {
+    return this._destinationArn;
+  }
+
+  // format - computed: false, optional: false, required: true
+  private _format?: string; 
+  public get format() {
+    return this.getStringAttribute('format');
+  }
+  public set format(value: string) {
+    this._format = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get formatInput() {
+    return this._format;
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/api_gateway_stage aws_api_gateway_stage}
+*/
+export class ApiGatewayStage extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "aws_api_gateway_stage";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a ApiGatewayStage resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the ApiGatewayStage to import
+  * @param importFromId The id of the existing ApiGatewayStage that should be imported. Refer to the {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/api_gateway_stage#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the ApiGatewayStage to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "aws_api_gateway_stage", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/aaronfeng/aws/3.29.6/docs/resources/api_gateway_stage aws_api_gateway_stage} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options ApiGatewayStageConfig
+  */
+  public constructor(scope: Construct, id: string, config: ApiGatewayStageConfig) {
+    super(scope, id, {
+      terraformResourceType: 'aws_api_gateway_stage',
+      terraformGeneratorMetadata: {
+        providerName: 'aws',
+        providerVersion: '3.29.6'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._cacheClusterEnabled = config.cacheClusterEnabled;
+    this._cacheClusterSize = config.cacheClusterSize;
+    this._clientCertificateId = config.clientCertificateId;
+    this._deploymentId = config.deploymentId;
+    this._description = config.description;
+    this._documentationVersion = config.documentationVersion;
+    this._id = config.id;
+    this._restApiId = config.restApiId;
+    this._stageName = config.stageName;
+    this._tags = config.tags;
+    this._variables = config.variables;
+    this._xrayTracingEnabled = config.xrayTracingEnabled;
+    this._accessLogSettings.internalValue = config.accessLogSettings;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // arn - computed: true, optional: false, required: false
+  public get arn() {
+    return this.getStringAttribute('arn');
+  }
+
+  // cache_cluster_enabled - computed: false, optional: true, required: false
+  private _cacheClusterEnabled?: boolean | cdktf.IResolvable; 
+  public get cacheClusterEnabled() {
+    return this.getBooleanAttribute('cache_cluster_enabled');
+  }
+  public set cacheClusterEnabled(value: boolean | cdktf.IResolvable) {
+    this._cacheClusterEnabled = value;
+  }
+  public resetCacheClusterEnabled() {
+    this._cacheClusterEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cacheClusterEnabledInput() {
+    return this._cacheClusterEnabled;
+  }
+
+  // cache_cluster_size - computed: false, optional: true, required: false
+  private _cacheClusterSize?: string; 
+  public get cacheClusterSize() {
+    return this.getStringAttribute('cache_cluster_size');
+  }
+  public set cacheClusterSize(value: string) {
+    this._cacheClusterSize = value;
+  }
+  public resetCacheClusterSize() {
+    this._cacheClusterSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cacheClusterSizeInput() {
+    return this._cacheClusterSize;
+  }
+
+  // client_certificate_id - computed: false, optional: true, required: false
+  private _clientCertificateId?: string; 
+  public get clientCertificateId() {
+    return this.getStringAttribute('client_certificate_id');
+  }
+  public set clientCertificateId(value: string) {
+    this._clientCertificateId = value;
+  }
+  public resetClientCertificateId() {
+    this._clientCertificateId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clientCertificateIdInput() {
+    return this._clientCertificateId;
+  }
+
+  // deployment_id - computed: false, optional: false, required: true
+  private _deploymentId?: string; 
+  public get deploymentId() {
+    return this.getStringAttribute('deployment_id');
+  }
+  public set deploymentId(value: string) {
+    this._deploymentId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deploymentIdInput() {
+    return this._deploymentId;
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // documentation_version - computed: false, optional: true, required: false
+  private _documentationVersion?: string; 
+  public get documentationVersion() {
+    return this.getStringAttribute('documentation_version');
+  }
+  public set documentationVersion(value: string) {
+    this._documentationVersion = value;
+  }
+  public resetDocumentationVersion() {
+    this._documentationVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get documentationVersionInput() {
+    return this._documentationVersion;
+  }
+
+  // execution_arn - computed: true, optional: false, required: false
+  public get executionArn() {
+    return this.getStringAttribute('execution_arn');
+  }
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // invoke_url - computed: true, optional: false, required: false
+  public get invokeUrl() {
+    return this.getStringAttribute('invoke_url');
+  }
+
+  // rest_api_id - computed: false, optional: false, required: true
+  private _restApiId?: string; 
+  public get restApiId() {
+    return this.getStringAttribute('rest_api_id');
+  }
+  public set restApiId(value: string) {
+    this._restApiId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get restApiIdInput() {
+    return this._restApiId;
+  }
+
+  // stage_name - computed: false, optional: false, required: true
+  private _stageName?: string; 
+  public get stageName() {
+    return this.getStringAttribute('stage_name');
+  }
+  public set stageName(value: string) {
+    this._stageName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stageNameInput() {
+    return this._stageName;
+  }
+
+  // tags - computed: false, optional: true, required: false
+  private _tags?: { [key: string]: string }; 
+  public get tags() {
+    return this.getStringMapAttribute('tags');
+  }
+  public set tags(value: { [key: string]: string }) {
+    this._tags = value;
+  }
+  public resetTags() {
+    this._tags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagsInput() {
+    return this._tags;
+  }
+
+  // variables - computed: false, optional: true, required: false
+  private _variables?: { [key: string]: string }; 
+  public get variables() {
+    return this.getStringMapAttribute('variables');
+  }
+  public set variables(value: { [key: string]: string }) {
+    this._variables = value;
+  }
+  public resetVariables() {
+    this._variables = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get variablesInput() {
+    return this._variables;
+  }
+
+  // xray_tracing_enabled - computed: false, optional: true, required: false
+  private _xrayTracingEnabled?: boolean | cdktf.IResolvable; 
+  public get xrayTracingEnabled() {
+    return this.getBooleanAttribute('xray_tracing_enabled');
+  }
+  public set xrayTracingEnabled(value: boolean | cdktf.IResolvable) {
+    this._xrayTracingEnabled = value;
+  }
+  public resetXrayTracingEnabled() {
+    this._xrayTracingEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get xrayTracingEnabledInput() {
+    return this._xrayTracingEnabled;
+  }
+
+  // access_log_settings - computed: false, optional: true, required: false
+  private _accessLogSettings = new ApiGatewayStageAccessLogSettingsOutputReference(this, "access_log_settings");
+  public get accessLogSettings() {
+    return this._accessLogSettings;
+  }
+  public putAccessLogSettings(value: ApiGatewayStageAccessLogSettings) {
+    this._accessLogSettings.internalValue = value;
+  }
+  public resetAccessLogSettings() {
+    this._accessLogSettings.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get accessLogSettingsInput() {
+    return this._accessLogSettings.internalValue;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      cache_cluster_enabled: cdktf.booleanToTerraform(this._cacheClusterEnabled),
+      cache_cluster_size: cdktf.stringToTerraform(this._cacheClusterSize),
+      client_certificate_id: cdktf.stringToTerraform(this._clientCertificateId),
+      deployment_id: cdktf.stringToTerraform(this._deploymentId),
+      description: cdktf.stringToTerraform(this._description),
+      documentation_version: cdktf.stringToTerraform(this._documentationVersion),
+      id: cdktf.stringToTerraform(this._id),
+      rest_api_id: cdktf.stringToTerraform(this._restApiId),
+      stage_name: cdktf.stringToTerraform(this._stageName),
+      tags: cdktf.hashMapper(cdktf.stringToTerraform)(this._tags),
+      variables: cdktf.hashMapper(cdktf.stringToTerraform)(this._variables),
+      xray_tracing_enabled: cdktf.booleanToTerraform(this._xrayTracingEnabled),
+      access_log_settings: apiGatewayStageAccessLogSettingsToTerraform(this._accessLogSettings.internalValue),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      cache_cluster_enabled: {
+        value: cdktf.booleanToHclTerraform(this._cacheClusterEnabled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      cache_cluster_size: {
+        value: cdktf.stringToHclTerraform(this._cacheClusterSize),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      client_certificate_id: {
+        value: cdktf.stringToHclTerraform(this._clientCertificateId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      deployment_id: {
+        value: cdktf.stringToHclTerraform(this._deploymentId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      description: {
+        value: cdktf.stringToHclTerraform(this._description),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      documentation_version: {
+        value: cdktf.stringToHclTerraform(this._documentationVersion),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      rest_api_id: {
+        value: cdktf.stringToHclTerraform(this._restApiId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      stage_name: {
+        value: cdktf.stringToHclTerraform(this._stageName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      tags: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._tags),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
+      },
+      variables: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._variables),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
+      },
+      xray_tracing_enabled: {
+        value: cdktf.booleanToHclTerraform(this._xrayTracingEnabled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      access_log_settings: {
+        value: apiGatewayStageAccessLogSettingsToHclTerraform(this._accessLogSettings.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ApiGatewayStageAccessLogSettingsList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

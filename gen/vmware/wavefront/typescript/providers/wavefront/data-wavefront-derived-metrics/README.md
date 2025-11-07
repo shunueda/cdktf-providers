@@ -1,0 +1,3 @@
+# `data_wavefront_derived_metrics`
+
+Refer to the Terraform Registry for docs: [`data_wavefront_derived_metrics`](https://registry.terraform.io/providers/vmware/wavefront/5.1.0/docs/data-sources/derived_metrics).

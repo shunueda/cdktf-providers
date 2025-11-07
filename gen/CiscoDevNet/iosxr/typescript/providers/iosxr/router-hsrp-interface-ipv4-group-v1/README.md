@@ -1,0 +1,3 @@
+# `iosxr_router_hsrp_interface_ipv4_group_v1`
+
+Refer to the Terraform Registry for docs: [`iosxr_router_hsrp_interface_ipv4_group_v1`](https://registry.terraform.io/providers/ciscodevnet/iosxr/0.6.0/docs/resources/router_hsrp_interface_ipv4_group_v1).

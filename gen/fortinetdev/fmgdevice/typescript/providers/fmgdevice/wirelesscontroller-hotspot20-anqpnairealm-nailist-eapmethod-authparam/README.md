@@ -1,0 +1,3 @@
+# `fmgdevice_wirelesscontroller_hotspot20_anqpnairealm_nailist_eapmethod_authparam`
+
+Refer to the Terraform Registry for docs: [`fmgdevice_wirelesscontroller_hotspot20_anqpnairealm_nailist_eapmethod_authparam`](https://registry.terraform.io/providers/fortinetdev/fmgdevice/1.2.1/docs/resources/wirelesscontroller_hotspot20_anqpnairealm_nailist_eapmethod_authparam).

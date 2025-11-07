@@ -1,0 +1,3 @@
+# `data_clumio_s3_bucket`
+
+Refer to the Terraform Registry for docs: [`data_clumio_s3_bucket`](https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/s3_bucket).

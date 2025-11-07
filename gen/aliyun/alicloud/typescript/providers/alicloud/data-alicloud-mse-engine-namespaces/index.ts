@@ -1,0 +1,371 @@
+// https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/mse_engine_namespaces
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface DataAlicloudMseEngineNamespacesConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/mse_engine_namespaces#accept_language DataAlicloudMseEngineNamespaces#accept_language}
+  */
+  readonly acceptLanguage?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/mse_engine_namespaces#cluster_id DataAlicloudMseEngineNamespaces#cluster_id}
+  */
+  readonly clusterId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/mse_engine_namespaces#id DataAlicloudMseEngineNamespaces#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/mse_engine_namespaces#ids DataAlicloudMseEngineNamespaces#ids}
+  */
+  readonly ids?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/mse_engine_namespaces#instance_id DataAlicloudMseEngineNamespaces#instance_id}
+  */
+  readonly instanceId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/mse_engine_namespaces#output_file DataAlicloudMseEngineNamespaces#output_file}
+  */
+  readonly outputFile?: string;
+}
+export interface DataAlicloudMseEngineNamespacesNamespaces {
+}
+
+export function dataAlicloudMseEngineNamespacesNamespacesToTerraform(struct?: DataAlicloudMseEngineNamespacesNamespaces): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAlicloudMseEngineNamespacesNamespacesToHclTerraform(struct?: DataAlicloudMseEngineNamespacesNamespaces): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAlicloudMseEngineNamespacesNamespacesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAlicloudMseEngineNamespacesNamespaces | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAlicloudMseEngineNamespacesNamespaces | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // config_count - computed: true, optional: false, required: false
+  public get configCount() {
+    return this.getNumberAttribute('config_count');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // namespace_desc - computed: true, optional: false, required: false
+  public get namespaceDesc() {
+    return this.getStringAttribute('namespace_desc');
+  }
+
+  // namespace_id - computed: true, optional: false, required: false
+  public get namespaceId() {
+    return this.getStringAttribute('namespace_id');
+  }
+
+  // namespace_show_name - computed: true, optional: false, required: false
+  public get namespaceShowName() {
+    return this.getStringAttribute('namespace_show_name');
+  }
+
+  // quota - computed: true, optional: false, required: false
+  public get quota() {
+    return this.getNumberAttribute('quota');
+  }
+
+  // service_count - computed: true, optional: false, required: false
+  public get serviceCount() {
+    return this.getStringAttribute('service_count');
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getNumberAttribute('type');
+  }
+}
+
+export class DataAlicloudMseEngineNamespacesNamespacesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAlicloudMseEngineNamespacesNamespacesOutputReference {
+    return new DataAlicloudMseEngineNamespacesNamespacesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/mse_engine_namespaces alicloud_mse_engine_namespaces}
+*/
+export class DataAlicloudMseEngineNamespaces extends cdktf.TerraformDataSource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "alicloud_mse_engine_namespaces";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a DataAlicloudMseEngineNamespaces resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the DataAlicloudMseEngineNamespaces to import
+  * @param importFromId The id of the existing DataAlicloudMseEngineNamespaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/mse_engine_namespaces#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the DataAlicloudMseEngineNamespaces to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "alicloud_mse_engine_namespaces", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.262.1/docs/data-sources/mse_engine_namespaces alicloud_mse_engine_namespaces} Data Source
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options DataAlicloudMseEngineNamespacesConfig = {}
+  */
+  public constructor(scope: Construct, id: string, config: DataAlicloudMseEngineNamespacesConfig = {}) {
+    super(scope, id, {
+      terraformResourceType: 'alicloud_mse_engine_namespaces',
+      terraformGeneratorMetadata: {
+        providerName: 'alicloud',
+        providerVersion: '1.262.1'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._acceptLanguage = config.acceptLanguage;
+    this._clusterId = config.clusterId;
+    this._id = config.id;
+    this._ids = config.ids;
+    this._instanceId = config.instanceId;
+    this._outputFile = config.outputFile;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // accept_language - computed: false, optional: true, required: false
+  private _acceptLanguage?: string; 
+  public get acceptLanguage() {
+    return this.getStringAttribute('accept_language');
+  }
+  public set acceptLanguage(value: string) {
+    this._acceptLanguage = value;
+  }
+  public resetAcceptLanguage() {
+    this._acceptLanguage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get acceptLanguageInput() {
+    return this._acceptLanguage;
+  }
+
+  // cluster_id - computed: false, optional: true, required: false
+  private _clusterId?: string; 
+  public get clusterId() {
+    return this.getStringAttribute('cluster_id');
+  }
+  public set clusterId(value: string) {
+    this._clusterId = value;
+  }
+  public resetClusterId() {
+    this._clusterId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clusterIdInput() {
+    return this._clusterId;
+  }
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // ids - computed: true, optional: true, required: false
+  private _ids?: string[]; 
+  public get ids() {
+    return this.getListAttribute('ids');
+  }
+  public set ids(value: string[]) {
+    this._ids = value;
+  }
+  public resetIds() {
+    this._ids = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idsInput() {
+    return this._ids;
+  }
+
+  // instance_id - computed: false, optional: true, required: false
+  private _instanceId?: string; 
+  public get instanceId() {
+    return this.getStringAttribute('instance_id');
+  }
+  public set instanceId(value: string) {
+    this._instanceId = value;
+  }
+  public resetInstanceId() {
+    this._instanceId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceIdInput() {
+    return this._instanceId;
+  }
+
+  // namespaces - computed: true, optional: false, required: false
+  private _namespaces = new DataAlicloudMseEngineNamespacesNamespacesList(this, "namespaces", false);
+  public get namespaces() {
+    return this._namespaces;
+  }
+
+  // output_file - computed: false, optional: true, required: false
+  private _outputFile?: string; 
+  public get outputFile() {
+    return this.getStringAttribute('output_file');
+  }
+  public set outputFile(value: string) {
+    this._outputFile = value;
+  }
+  public resetOutputFile() {
+    this._outputFile = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get outputFileInput() {
+    return this._outputFile;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      accept_language: cdktf.stringToTerraform(this._acceptLanguage),
+      cluster_id: cdktf.stringToTerraform(this._clusterId),
+      id: cdktf.stringToTerraform(this._id),
+      ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._ids),
+      instance_id: cdktf.stringToTerraform(this._instanceId),
+      output_file: cdktf.stringToTerraform(this._outputFile),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      accept_language: {
+        value: cdktf.stringToHclTerraform(this._acceptLanguage),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      cluster_id: {
+        value: cdktf.stringToHclTerraform(this._clusterId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ids: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._ids),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      instance_id: {
+        value: cdktf.stringToHclTerraform(this._instanceId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      output_file: {
+        value: cdktf.stringToHclTerraform(this._outputFile),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

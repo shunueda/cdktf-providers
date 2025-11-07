@@ -1,0 +1,878 @@
+// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface DataPowerplatformDataRecordsConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Apply the aggregation function to the data records. 
+  * 
+  * More information on (OData Apply)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#aggregate-data]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#apply DataPowerplatformDataRecords#apply}
+  */
+  readonly apply?: string;
+  /**
+  * Value of the enitiy (collection of the query)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#entity-collections]. Example:
+  * 
+  *  * $metadata#systemusers 
+  * 
+  * *systemusers 
+  * 
+  * *systemusers(<GUID>) 
+  * 
+  * *systemusers(<GUID>)/systemuserroles_association 
+  * 
+  * *contacts(firstname='Joe',emailaddress1='joe@contoso.com') when using (alternate key(s))[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/use-alternate-key-reference-record?tabs=webapi] for single record retrieval
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#entity_collection DataPowerplatformDataRecords#entity_collection}
+  */
+  readonly entityCollection: string;
+  /**
+  * Id of the Power Platform environment
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#environment_id DataPowerplatformDataRecords#environment_id}
+  */
+  readonly environmentId: string;
+  /**
+  * Expand the navigation property of the entity collection. 
+  * 
+  * More information on (OData Expand)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#join-tables]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#expand DataPowerplatformDataRecords#expand}
+  */
+  readonly expand?: DataPowerplatformDataRecordsExpand[] | cdktf.IResolvable;
+  /**
+  * Filter the data records. 
+  * 
+  * More information on (OData Filter)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#filter-rows]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#filter DataPowerplatformDataRecords#filter}
+  */
+  readonly filter?: string;
+  /**
+  * Order the data records. 
+  * 
+  * More information on (OData Order By)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#order-rows]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#order_by DataPowerplatformDataRecords#order_by}
+  */
+  readonly orderBy?: string;
+  /**
+  * Should total records count be also retrived. 
+  * 
+  * More information on (OData Count)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#count-number-of-rows]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#return_total_rows_count DataPowerplatformDataRecords#return_total_rows_count}
+  */
+  readonly returnTotalRowsCount?: boolean | cdktf.IResolvable;
+  /**
+  * predefined saved query to be used for filtering the data records. 
+  * 
+  * More information on (Saved Query)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/retrieve-and-execute-predefined-queries]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#saved_query DataPowerplatformDataRecords#saved_query}
+  */
+  readonly savedQuery?: string;
+  /**
+  * List of columns to be selected from record(s) defined in entity collection. 
+  * 
+  * More information on (OData Select)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#select-columns]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#select DataPowerplatformDataRecords#select}
+  */
+  readonly select?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#timeouts DataPowerplatformDataRecords#timeouts}
+  */
+  readonly timeouts?: DataPowerplatformDataRecordsTimeouts;
+  /**
+  * Number of records to be retrieved. 
+  * 
+  * More information on (OData Top)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#odata-query-options]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#top DataPowerplatformDataRecords#top}
+  */
+  readonly top?: number;
+  /**
+  * Predefined user query to be used for filtering the data records. 
+  * 
+  * More information on (Saved Query)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/retrieve-and-execute-predefined-queries]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#user_query DataPowerplatformDataRecords#user_query}
+  */
+  readonly userQuery?: string;
+}
+export interface DataPowerplatformDataRecordsExpand {
+  /**
+  * Expand the navigation property of the entity collection. 
+  * 
+  * More information on (OData Expand)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#join-tables]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#expand DataPowerplatformDataRecords#expand}
+  */
+  readonly expand?: DataPowerplatformDataRecordsExpand[] | cdktf.IResolvable;
+  /**
+  * Filter the data records. 
+  * 
+  * More information on (OData Filter)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#filter-rows]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#filter DataPowerplatformDataRecords#filter}
+  */
+  readonly filter?: string;
+  /**
+  * Navigation property of the entity collection. 
+  * 
+  * More information on (OData Navigation)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#expand-collection-valued-navigation-properties]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#navigation_property DataPowerplatformDataRecords#navigation_property}
+  */
+  readonly navigationProperty: string;
+  /**
+  * Order the data records. 
+  * 
+  * More information on (OData Order By)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#order-rows]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#order_by DataPowerplatformDataRecords#order_by}
+  */
+  readonly orderBy?: string;
+  /**
+  * List of columns to be selected from record(s) defined in entity collection. 
+  * 
+  * More information on (OData Select)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#select-columns]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#select DataPowerplatformDataRecords#select}
+  */
+  readonly select?: string[];
+  /**
+  * Number of records to be retrieved. 
+  * 
+  * More information on (OData Top)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#odata-query-options]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#top DataPowerplatformDataRecords#top}
+  */
+  readonly top?: number;
+}
+
+export function dataPowerplatformDataRecordsExpandToTerraform(struct?: DataPowerplatformDataRecordsExpand | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    expand: cdktf.listMapper(dataPowerplatformDataRecordsExpandToTerraform, false)(struct!.expand),
+    filter: cdktf.stringToTerraform(struct!.filter),
+    navigation_property: cdktf.stringToTerraform(struct!.navigationProperty),
+    order_by: cdktf.stringToTerraform(struct!.orderBy),
+    select: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.select),
+    top: cdktf.numberToTerraform(struct!.top),
+  }
+}
+
+
+export function dataPowerplatformDataRecordsExpandToHclTerraform(struct?: DataPowerplatformDataRecordsExpand | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    expand: {
+      value: cdktf.listMapperHcl(dataPowerplatformDataRecordsExpandToHclTerraform, false)(struct!.expand),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataPowerplatformDataRecordsExpandList",
+    },
+    filter: {
+      value: cdktf.stringToHclTerraform(struct!.filter),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    navigation_property: {
+      value: cdktf.stringToHclTerraform(struct!.navigationProperty),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    order_by: {
+      value: cdktf.stringToHclTerraform(struct!.orderBy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    select: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.select),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    top: {
+      value: cdktf.numberToHclTerraform(struct!.top),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataPowerplatformDataRecordsExpandOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataPowerplatformDataRecordsExpand | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._expand?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.expand = this._expand?.internalValue;
+    }
+    if (this._filter !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.filter = this._filter;
+    }
+    if (this._navigationProperty !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.navigationProperty = this._navigationProperty;
+    }
+    if (this._orderBy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.orderBy = this._orderBy;
+    }
+    if (this._select !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.select = this._select;
+    }
+    if (this._top !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.top = this._top;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataPowerplatformDataRecordsExpand | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._expand.internalValue = undefined;
+      this._filter = undefined;
+      this._navigationProperty = undefined;
+      this._orderBy = undefined;
+      this._select = undefined;
+      this._top = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._expand.internalValue = value.expand;
+      this._filter = value.filter;
+      this._navigationProperty = value.navigationProperty;
+      this._orderBy = value.orderBy;
+      this._select = value.select;
+      this._top = value.top;
+    }
+  }
+
+  // expand - computed: false, optional: true, required: false
+  private _expand = new DataPowerplatformDataRecordsExpandList(this, "expand", false);
+  public get expand() {
+    return this._expand;
+  }
+  public putExpand(value: DataPowerplatformDataRecordsExpand[] | cdktf.IResolvable) {
+    this._expand.internalValue = value;
+  }
+  public resetExpand() {
+    this._expand.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get expandInput() {
+    return this._expand.internalValue;
+  }
+
+  // filter - computed: false, optional: true, required: false
+  private _filter?: string; 
+  public get filter() {
+    return this.getStringAttribute('filter');
+  }
+  public set filter(value: string) {
+    this._filter = value;
+  }
+  public resetFilter() {
+    this._filter = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get filterInput() {
+    return this._filter;
+  }
+
+  // navigation_property - computed: false, optional: false, required: true
+  private _navigationProperty?: string; 
+  public get navigationProperty() {
+    return this.getStringAttribute('navigation_property');
+  }
+  public set navigationProperty(value: string) {
+    this._navigationProperty = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get navigationPropertyInput() {
+    return this._navigationProperty;
+  }
+
+  // order_by - computed: false, optional: true, required: false
+  private _orderBy?: string; 
+  public get orderBy() {
+    return this.getStringAttribute('order_by');
+  }
+  public set orderBy(value: string) {
+    this._orderBy = value;
+  }
+  public resetOrderBy() {
+    this._orderBy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get orderByInput() {
+    return this._orderBy;
+  }
+
+  // select - computed: false, optional: true, required: false
+  private _select?: string[]; 
+  public get select() {
+    return this.getListAttribute('select');
+  }
+  public set select(value: string[]) {
+    this._select = value;
+  }
+  public resetSelect() {
+    this._select = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get selectInput() {
+    return this._select;
+  }
+
+  // top - computed: false, optional: true, required: false
+  private _top?: number; 
+  public get top() {
+    return this.getNumberAttribute('top');
+  }
+  public set top(value: number) {
+    this._top = value;
+  }
+  public resetTop() {
+    this._top = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get topInput() {
+    return this._top;
+  }
+}
+
+export class DataPowerplatformDataRecordsExpandList extends cdktf.ComplexList {
+  public internalValue? : DataPowerplatformDataRecordsExpand[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataPowerplatformDataRecordsExpandOutputReference {
+    return new DataPowerplatformDataRecordsExpandOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataPowerplatformDataRecordsTimeouts {
+  /**
+  * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#read DataPowerplatformDataRecords#read}
+  */
+  readonly read?: string;
+}
+
+export function dataPowerplatformDataRecordsTimeoutsToTerraform(struct?: DataPowerplatformDataRecordsTimeouts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    read: cdktf.stringToTerraform(struct!.read),
+  }
+}
+
+
+export function dataPowerplatformDataRecordsTimeoutsToHclTerraform(struct?: DataPowerplatformDataRecordsTimeouts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    read: {
+      value: cdktf.stringToHclTerraform(struct!.read),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataPowerplatformDataRecordsTimeoutsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataPowerplatformDataRecordsTimeouts | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._read !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.read = this._read;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataPowerplatformDataRecordsTimeouts | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._read = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._read = value.read;
+    }
+  }
+
+  // read - computed: false, optional: true, required: false
+  private _read?: string; 
+  public get read() {
+    return this.getStringAttribute('read');
+  }
+  public set read(value: string) {
+    this._read = value;
+  }
+  public resetRead() {
+    this._read = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get readInput() {
+    return this._read;
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records powerplatform_data_records}
+*/
+export class DataPowerplatformDataRecords extends cdktf.TerraformDataSource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "powerplatform_data_records";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a DataPowerplatformDataRecords resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the DataPowerplatformDataRecords to import
+  * @param importFromId The id of the existing DataPowerplatformDataRecords that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the DataPowerplatformDataRecords to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "powerplatform_data_records", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records powerplatform_data_records} Data Source
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options DataPowerplatformDataRecordsConfig
+  */
+  public constructor(scope: Construct, id: string, config: DataPowerplatformDataRecordsConfig) {
+    super(scope, id, {
+      terraformResourceType: 'powerplatform_data_records',
+      terraformGeneratorMetadata: {
+        providerName: 'power-platform',
+        providerVersion: '3.9.1'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._apply = config.apply;
+    this._entityCollection = config.entityCollection;
+    this._environmentId = config.environmentId;
+    this._expand.internalValue = config.expand;
+    this._filter = config.filter;
+    this._orderBy = config.orderBy;
+    this._returnTotalRowsCount = config.returnTotalRowsCount;
+    this._savedQuery = config.savedQuery;
+    this._select = config.select;
+    this._timeouts.internalValue = config.timeouts;
+    this._top = config.top;
+    this._userQuery = config.userQuery;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // apply - computed: false, optional: true, required: false
+  private _apply?: string; 
+  public get apply() {
+    return this.getStringAttribute('apply');
+  }
+  public set apply(value: string) {
+    this._apply = value;
+  }
+  public resetApply() {
+    this._apply = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get applyInput() {
+    return this._apply;
+  }
+
+  // entity_collection - computed: false, optional: false, required: true
+  private _entityCollection?: string; 
+  public get entityCollection() {
+    return this.getStringAttribute('entity_collection');
+  }
+  public set entityCollection(value: string) {
+    this._entityCollection = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get entityCollectionInput() {
+    return this._entityCollection;
+  }
+
+  // environment_id - computed: false, optional: false, required: true
+  private _environmentId?: string; 
+  public get environmentId() {
+    return this.getStringAttribute('environment_id');
+  }
+  public set environmentId(value: string) {
+    this._environmentId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get environmentIdInput() {
+    return this._environmentId;
+  }
+
+  // expand - computed: false, optional: true, required: false
+  private _expand = new DataPowerplatformDataRecordsExpandList(this, "expand", false);
+  public get expand() {
+    return this._expand;
+  }
+  public putExpand(value: DataPowerplatformDataRecordsExpand[] | cdktf.IResolvable) {
+    this._expand.internalValue = value;
+  }
+  public resetExpand() {
+    this._expand.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get expandInput() {
+    return this._expand.internalValue;
+  }
+
+  // filter - computed: false, optional: true, required: false
+  private _filter?: string; 
+  public get filter() {
+    return this.getStringAttribute('filter');
+  }
+  public set filter(value: string) {
+    this._filter = value;
+  }
+  public resetFilter() {
+    this._filter = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get filterInput() {
+    return this._filter;
+  }
+
+  // order_by - computed: false, optional: true, required: false
+  private _orderBy?: string; 
+  public get orderBy() {
+    return this.getStringAttribute('order_by');
+  }
+  public set orderBy(value: string) {
+    this._orderBy = value;
+  }
+  public resetOrderBy() {
+    this._orderBy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get orderByInput() {
+    return this._orderBy;
+  }
+
+  // return_total_rows_count - computed: false, optional: true, required: false
+  private _returnTotalRowsCount?: boolean | cdktf.IResolvable; 
+  public get returnTotalRowsCount() {
+    return this.getBooleanAttribute('return_total_rows_count');
+  }
+  public set returnTotalRowsCount(value: boolean | cdktf.IResolvable) {
+    this._returnTotalRowsCount = value;
+  }
+  public resetReturnTotalRowsCount() {
+    this._returnTotalRowsCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get returnTotalRowsCountInput() {
+    return this._returnTotalRowsCount;
+  }
+
+  // rows - computed: true, optional: false, required: false
+  private _rows = new cdktf.AnyMap(this, "rows");
+  public get rows() {
+    return this._rows;
+  }
+
+  // saved_query - computed: false, optional: true, required: false
+  private _savedQuery?: string; 
+  public get savedQuery() {
+    return this.getStringAttribute('saved_query');
+  }
+  public set savedQuery(value: string) {
+    this._savedQuery = value;
+  }
+  public resetSavedQuery() {
+    this._savedQuery = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get savedQueryInput() {
+    return this._savedQuery;
+  }
+
+  // select - computed: false, optional: true, required: false
+  private _select?: string[]; 
+  public get select() {
+    return this.getListAttribute('select');
+  }
+  public set select(value: string[]) {
+    this._select = value;
+  }
+  public resetSelect() {
+    this._select = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get selectInput() {
+    return this._select;
+  }
+
+  // timeouts - computed: false, optional: true, required: false
+  private _timeouts = new DataPowerplatformDataRecordsTimeoutsOutputReference(this, "timeouts");
+  public get timeouts() {
+    return this._timeouts;
+  }
+  public putTimeouts(value: DataPowerplatformDataRecordsTimeouts) {
+    this._timeouts.internalValue = value;
+  }
+  public resetTimeouts() {
+    this._timeouts.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timeoutsInput() {
+    return this._timeouts.internalValue;
+  }
+
+  // top - computed: false, optional: true, required: false
+  private _top?: number; 
+  public get top() {
+    return this.getNumberAttribute('top');
+  }
+  public set top(value: number) {
+    this._top = value;
+  }
+  public resetTop() {
+    this._top = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get topInput() {
+    return this._top;
+  }
+
+  // total_rows_count - computed: true, optional: false, required: false
+  public get totalRowsCount() {
+    return this.getNumberAttribute('total_rows_count');
+  }
+
+  // total_rows_count_limit_exceeded - computed: true, optional: false, required: false
+  public get totalRowsCountLimitExceeded() {
+    return this.getBooleanAttribute('total_rows_count_limit_exceeded');
+  }
+
+  // user_query - computed: false, optional: true, required: false
+  private _userQuery?: string; 
+  public get userQuery() {
+    return this.getStringAttribute('user_query');
+  }
+  public set userQuery(value: string) {
+    this._userQuery = value;
+  }
+  public resetUserQuery() {
+    this._userQuery = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userQueryInput() {
+    return this._userQuery;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      apply: cdktf.stringToTerraform(this._apply),
+      entity_collection: cdktf.stringToTerraform(this._entityCollection),
+      environment_id: cdktf.stringToTerraform(this._environmentId),
+      expand: cdktf.listMapper(dataPowerplatformDataRecordsExpandToTerraform, false)(this._expand.internalValue),
+      filter: cdktf.stringToTerraform(this._filter),
+      order_by: cdktf.stringToTerraform(this._orderBy),
+      return_total_rows_count: cdktf.booleanToTerraform(this._returnTotalRowsCount),
+      saved_query: cdktf.stringToTerraform(this._savedQuery),
+      select: cdktf.listMapper(cdktf.stringToTerraform, false)(this._select),
+      timeouts: dataPowerplatformDataRecordsTimeoutsToTerraform(this._timeouts.internalValue),
+      top: cdktf.numberToTerraform(this._top),
+      user_query: cdktf.stringToTerraform(this._userQuery),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      apply: {
+        value: cdktf.stringToHclTerraform(this._apply),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      entity_collection: {
+        value: cdktf.stringToHclTerraform(this._entityCollection),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      environment_id: {
+        value: cdktf.stringToHclTerraform(this._environmentId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      expand: {
+        value: cdktf.listMapperHcl(dataPowerplatformDataRecordsExpandToHclTerraform, false)(this._expand.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "DataPowerplatformDataRecordsExpandList",
+      },
+      filter: {
+        value: cdktf.stringToHclTerraform(this._filter),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      order_by: {
+        value: cdktf.stringToHclTerraform(this._orderBy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      return_total_rows_count: {
+        value: cdktf.booleanToHclTerraform(this._returnTotalRowsCount),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      saved_query: {
+        value: cdktf.stringToHclTerraform(this._savedQuery),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      select: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._select),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      timeouts: {
+        value: dataPowerplatformDataRecordsTimeoutsToHclTerraform(this._timeouts.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "DataPowerplatformDataRecordsTimeouts",
+      },
+      top: {
+        value: cdktf.numberToHclTerraform(this._top),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      user_query: {
+        value: cdktf.stringToHclTerraform(this._userQuery),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

@@ -1,0 +1,3 @@
+# `dynatrace_openpipeline_user_sessions`
+
+Refer to the Terraform Registry for docs: [`dynatrace_openpipeline_user_sessions`](https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions).

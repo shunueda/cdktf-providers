@@ -1,0 +1,202 @@
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cam_group_membership
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface CamGroupMembershipConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * ID of CAM group.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cam_group_membership#group_id CamGroupMembership#group_id}
+  */
+  readonly groupId: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cam_group_membership#id CamGroupMembership#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * ID set of the CAM group members.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cam_group_membership#user_ids CamGroupMembership#user_ids}
+  */
+  readonly userIds?: string[];
+  /**
+  * User name set as ID of the CAM group members.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cam_group_membership#user_names CamGroupMembership#user_names}
+  */
+  readonly userNames?: string[];
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cam_group_membership tencentcloud_cam_group_membership}
+*/
+export class CamGroupMembership extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "tencentcloud_cam_group_membership";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a CamGroupMembership resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the CamGroupMembership to import
+  * @param importFromId The id of the existing CamGroupMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cam_group_membership#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the CamGroupMembership to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "tencentcloud_cam_group_membership", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cam_group_membership tencentcloud_cam_group_membership} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options CamGroupMembershipConfig
+  */
+  public constructor(scope: Construct, id: string, config: CamGroupMembershipConfig) {
+    super(scope, id, {
+      terraformResourceType: 'tencentcloud_cam_group_membership',
+      terraformGeneratorMetadata: {
+        providerName: 'tencentcloud',
+        providerVersion: '1.82.35'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._groupId = config.groupId;
+    this._id = config.id;
+    this._userIds = config.userIds;
+    this._userNames = config.userNames;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // group_id - computed: false, optional: false, required: true
+  private _groupId?: string; 
+  public get groupId() {
+    return this.getStringAttribute('group_id');
+  }
+  public set groupId(value: string) {
+    this._groupId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get groupIdInput() {
+    return this._groupId;
+  }
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // user_ids - computed: false, optional: true, required: false
+  private _userIds?: string[]; 
+  public get userIds() {
+    return cdktf.Fn.tolist(this.getListAttribute('user_ids'));
+  }
+  public set userIds(value: string[]) {
+    this._userIds = value;
+  }
+  public resetUserIds() {
+    this._userIds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userIdsInput() {
+    return this._userIds;
+  }
+
+  // user_names - computed: false, optional: true, required: false
+  private _userNames?: string[]; 
+  public get userNames() {
+    return cdktf.Fn.tolist(this.getListAttribute('user_names'));
+  }
+  public set userNames(value: string[]) {
+    this._userNames = value;
+  }
+  public resetUserNames() {
+    this._userNames = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userNamesInput() {
+    return this._userNames;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      group_id: cdktf.stringToTerraform(this._groupId),
+      id: cdktf.stringToTerraform(this._id),
+      user_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._userIds),
+      user_names: cdktf.listMapper(cdktf.stringToTerraform, false)(this._userNames),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      group_id: {
+        value: cdktf.stringToHclTerraform(this._groupId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      user_ids: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._userIds),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      user_names: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._userNames),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

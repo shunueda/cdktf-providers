@@ -1,0 +1,641 @@
+// https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peers_resource
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface SvmPeersResourceConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * SVMPeering applications
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peers_resource#applications SvmPeersResource#applications}
+  */
+  readonly applications: string[];
+  /**
+  * Connection profile name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peers_resource#cx_profile_name SvmPeersResource#cx_profile_name}
+  */
+  readonly cxProfileName: string;
+  /**
+  * Peer details for SVMPeer
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peers_resource#peer SvmPeersResource#peer}
+  */
+  readonly peer: SvmPeersResourcePeer;
+  /**
+  * SVM details for SVMPeer
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peers_resource#svm SvmPeersResource#svm}
+  */
+  readonly svm: SvmPeersResourceSvm;
+}
+export interface SvmPeersResourcePeerCluster {
+  /**
+  * name of the peer Cluster
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peers_resource#name SvmPeersResource#name}
+  */
+  readonly name: string;
+}
+
+export function svmPeersResourcePeerClusterToTerraform(struct?: SvmPeersResourcePeerCluster | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function svmPeersResourcePeerClusterToHclTerraform(struct?: SvmPeersResourcePeerCluster | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SvmPeersResourcePeerClusterOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SvmPeersResourcePeerCluster | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SvmPeersResourcePeerCluster | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+export interface SvmPeersResourcePeerSvm {
+  /**
+  * name of the peer SVM
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peers_resource#name SvmPeersResource#name}
+  */
+  readonly name: string;
+}
+
+export function svmPeersResourcePeerSvmToTerraform(struct?: SvmPeersResourcePeerSvm | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function svmPeersResourcePeerSvmToHclTerraform(struct?: SvmPeersResourcePeerSvm | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SvmPeersResourcePeerSvmOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SvmPeersResourcePeerSvm | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SvmPeersResourcePeerSvm | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+export interface SvmPeersResourcePeer {
+  /**
+  * peer Cluster details for SVMPeer
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peers_resource#cluster SvmPeersResource#cluster}
+  */
+  readonly cluster: SvmPeersResourcePeerCluster;
+  /**
+  * Peer connection profile name, if not provided, status will be only initiated and need to be accepted from peer side to make the status peered
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peers_resource#peer_cx_profile_name SvmPeersResource#peer_cx_profile_name}
+  */
+  readonly peerCxProfileName?: string;
+  /**
+  * peer SVM details for SVMPeer
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peers_resource#svm SvmPeersResource#svm}
+  */
+  readonly svm: SvmPeersResourcePeerSvm;
+}
+
+export function svmPeersResourcePeerToTerraform(struct?: SvmPeersResourcePeer | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    cluster: svmPeersResourcePeerClusterToTerraform(struct!.cluster),
+    peer_cx_profile_name: cdktf.stringToTerraform(struct!.peerCxProfileName),
+    svm: svmPeersResourcePeerSvmToTerraform(struct!.svm),
+  }
+}
+
+
+export function svmPeersResourcePeerToHclTerraform(struct?: SvmPeersResourcePeer | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cluster: {
+      value: svmPeersResourcePeerClusterToHclTerraform(struct!.cluster),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "SvmPeersResourcePeerCluster",
+    },
+    peer_cx_profile_name: {
+      value: cdktf.stringToHclTerraform(struct!.peerCxProfileName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    svm: {
+      value: svmPeersResourcePeerSvmToHclTerraform(struct!.svm),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "SvmPeersResourcePeerSvm",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SvmPeersResourcePeerOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SvmPeersResourcePeer | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cluster?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cluster = this._cluster?.internalValue;
+    }
+    if (this._peerCxProfileName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.peerCxProfileName = this._peerCxProfileName;
+    }
+    if (this._svm?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.svm = this._svm?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SvmPeersResourcePeer | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._cluster.internalValue = undefined;
+      this._peerCxProfileName = undefined;
+      this._svm.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._cluster.internalValue = value.cluster;
+      this._peerCxProfileName = value.peerCxProfileName;
+      this._svm.internalValue = value.svm;
+    }
+  }
+
+  // cluster - computed: false, optional: false, required: true
+  private _cluster = new SvmPeersResourcePeerClusterOutputReference(this, "cluster");
+  public get cluster() {
+    return this._cluster;
+  }
+  public putCluster(value: SvmPeersResourcePeerCluster) {
+    this._cluster.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clusterInput() {
+    return this._cluster.internalValue;
+  }
+
+  // peer_cx_profile_name - computed: false, optional: true, required: false
+  private _peerCxProfileName?: string; 
+  public get peerCxProfileName() {
+    return this.getStringAttribute('peer_cx_profile_name');
+  }
+  public set peerCxProfileName(value: string) {
+    this._peerCxProfileName = value;
+  }
+  public resetPeerCxProfileName() {
+    this._peerCxProfileName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get peerCxProfileNameInput() {
+    return this._peerCxProfileName;
+  }
+
+  // svm - computed: false, optional: false, required: true
+  private _svm = new SvmPeersResourcePeerSvmOutputReference(this, "svm");
+  public get svm() {
+    return this._svm;
+  }
+  public putSvm(value: SvmPeersResourcePeerSvm) {
+    this._svm.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get svmInput() {
+    return this._svm.internalValue;
+  }
+}
+export interface SvmPeersResourceSvm {
+  /**
+  * name of the SVM
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peers_resource#name SvmPeersResource#name}
+  */
+  readonly name: string;
+}
+
+export function svmPeersResourceSvmToTerraform(struct?: SvmPeersResourceSvm | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function svmPeersResourceSvmToHclTerraform(struct?: SvmPeersResourceSvm | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SvmPeersResourceSvmOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SvmPeersResourceSvm | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SvmPeersResourceSvm | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peers_resource netapp-ontap_svm_peers_resource}
+*/
+export class SvmPeersResource extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "netapp-ontap_svm_peers_resource";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a SvmPeersResource resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the SvmPeersResource to import
+  * @param importFromId The id of the existing SvmPeersResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peers_resource#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the SvmPeersResource to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "netapp-ontap_svm_peers_resource", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-ontap/2.3.0/docs/resources/svm_peers_resource netapp-ontap_svm_peers_resource} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options SvmPeersResourceConfig
+  */
+  public constructor(scope: Construct, id: string, config: SvmPeersResourceConfig) {
+    super(scope, id, {
+      terraformResourceType: 'netapp-ontap_svm_peers_resource',
+      terraformGeneratorMetadata: {
+        providerName: 'netapp-ontap',
+        providerVersion: '2.3.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._applications = config.applications;
+    this._cxProfileName = config.cxProfileName;
+    this._peer.internalValue = config.peer;
+    this._svm.internalValue = config.svm;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // applications - computed: false, optional: false, required: true
+  private _applications?: string[]; 
+  public get applications() {
+    return cdktf.Fn.tolist(this.getListAttribute('applications'));
+  }
+  public set applications(value: string[]) {
+    this._applications = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get applicationsInput() {
+    return this._applications;
+  }
+
+  // cx_profile_name - computed: false, optional: false, required: true
+  private _cxProfileName?: string; 
+  public get cxProfileName() {
+    return this.getStringAttribute('cx_profile_name');
+  }
+  public set cxProfileName(value: string) {
+    this._cxProfileName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cxProfileNameInput() {
+    return this._cxProfileName;
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // peer - computed: false, optional: false, required: true
+  private _peer = new SvmPeersResourcePeerOutputReference(this, "peer");
+  public get peer() {
+    return this._peer;
+  }
+  public putPeer(value: SvmPeersResourcePeer) {
+    this._peer.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get peerInput() {
+    return this._peer.internalValue;
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+
+  // svm - computed: false, optional: false, required: true
+  private _svm = new SvmPeersResourceSvmOutputReference(this, "svm");
+  public get svm() {
+    return this._svm;
+  }
+  public putSvm(value: SvmPeersResourceSvm) {
+    this._svm.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get svmInput() {
+    return this._svm.internalValue;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      applications: cdktf.listMapper(cdktf.stringToTerraform, false)(this._applications),
+      cx_profile_name: cdktf.stringToTerraform(this._cxProfileName),
+      peer: svmPeersResourcePeerToTerraform(this._peer.internalValue),
+      svm: svmPeersResourceSvmToTerraform(this._svm.internalValue),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      applications: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._applications),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      cx_profile_name: {
+        value: cdktf.stringToHclTerraform(this._cxProfileName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      peer: {
+        value: svmPeersResourcePeerToHclTerraform(this._peer.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "SvmPeersResourcePeer",
+      },
+      svm: {
+        value: svmPeersResourceSvmToHclTerraform(this._svm.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "SvmPeersResourceSvm",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

@@ -1,0 +1,372 @@
+// https://registry.terraform.io/providers/sonatype-nexus-community/sonatypeiq/0.12.1/docs/resources/config_saml
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface ConfigSamlConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * IdP field mappings for user's email
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sonatype-nexus-community/sonatypeiq/0.12.1/docs/resources/config_saml#email_attribute ConfigSaml#email_attribute}
+  */
+  readonly emailAttribute?: string;
+  /**
+  * SAML Entity ID (typically a URI)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sonatype-nexus-community/sonatypeiq/0.12.1/docs/resources/config_saml#entity_id ConfigSaml#entity_id}
+  */
+  readonly entityId: string;
+  /**
+  * IdP field mappings for user's given name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sonatype-nexus-community/sonatypeiq/0.12.1/docs/resources/config_saml#first_name_attribute ConfigSaml#first_name_attribute}
+  */
+  readonly firstNameAttribute?: string;
+  /**
+  * IdP field mappings for user's groups
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sonatype-nexus-community/sonatypeiq/0.12.1/docs/resources/config_saml#groups_attribute ConfigSaml#groups_attribute}
+  */
+  readonly groupsAttribute?: string;
+  /**
+  * The name of the Identity Provider that is displayed on the login page when SAML is configured
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sonatype-nexus-community/sonatypeiq/0.12.1/docs/resources/config_saml#identity_provider_name ConfigSaml#identity_provider_name}
+  */
+  readonly identityProviderName: string;
+  /**
+  * SAML Identity Provider Metadata XML
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sonatype-nexus-community/sonatypeiq/0.12.1/docs/resources/config_saml#idp_metadata ConfigSaml#idp_metadata}
+  */
+  readonly idpMetadata: string;
+  /**
+  * IdP field mappings for user's family name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sonatype-nexus-community/sonatypeiq/0.12.1/docs/resources/config_saml#last_name_attribute ConfigSaml#last_name_attribute}
+  */
+  readonly lastNameAttribute?: string;
+  /**
+  * IdP field mappings for username
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sonatype-nexus-community/sonatypeiq/0.12.1/docs/resources/config_saml#username_attribute ConfigSaml#username_attribute}
+  */
+  readonly usernameAttribute: string;
+  /**
+  * By default, if a signing key is found in the IdP metadata, then Sonatype Nexus Repository Manager will attempt to validate signatures on the assertions.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sonatype-nexus-community/sonatypeiq/0.12.1/docs/resources/config_saml#validate_assertion_signature ConfigSaml#validate_assertion_signature}
+  */
+  readonly validateAssertionSignature?: boolean | cdktf.IResolvable;
+  /**
+  * Validate SAML response signature
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sonatype-nexus-community/sonatypeiq/0.12.1/docs/resources/config_saml#validate_response_signature ConfigSaml#validate_response_signature}
+  */
+  readonly validateResponseSignature?: boolean | cdktf.IResolvable;
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/sonatype-nexus-community/sonatypeiq/0.12.1/docs/resources/config_saml sonatypeiq_config_saml}
+*/
+export class ConfigSaml extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "sonatypeiq_config_saml";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a ConfigSaml resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the ConfigSaml to import
+  * @param importFromId The id of the existing ConfigSaml that should be imported. Refer to the {@link https://registry.terraform.io/providers/sonatype-nexus-community/sonatypeiq/0.12.1/docs/resources/config_saml#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the ConfigSaml to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "sonatypeiq_config_saml", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/sonatype-nexus-community/sonatypeiq/0.12.1/docs/resources/config_saml sonatypeiq_config_saml} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options ConfigSamlConfig
+  */
+  public constructor(scope: Construct, id: string, config: ConfigSamlConfig) {
+    super(scope, id, {
+      terraformResourceType: 'sonatypeiq_config_saml',
+      terraformGeneratorMetadata: {
+        providerName: 'sonatypeiq',
+        providerVersion: '0.12.1'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._emailAttribute = config.emailAttribute;
+    this._entityId = config.entityId;
+    this._firstNameAttribute = config.firstNameAttribute;
+    this._groupsAttribute = config.groupsAttribute;
+    this._identityProviderName = config.identityProviderName;
+    this._idpMetadata = config.idpMetadata;
+    this._lastNameAttribute = config.lastNameAttribute;
+    this._usernameAttribute = config.usernameAttribute;
+    this._validateAssertionSignature = config.validateAssertionSignature;
+    this._validateResponseSignature = config.validateResponseSignature;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // email_attribute - computed: true, optional: true, required: false
+  private _emailAttribute?: string; 
+  public get emailAttribute() {
+    return this.getStringAttribute('email_attribute');
+  }
+  public set emailAttribute(value: string) {
+    this._emailAttribute = value;
+  }
+  public resetEmailAttribute() {
+    this._emailAttribute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get emailAttributeInput() {
+    return this._emailAttribute;
+  }
+
+  // entity_id - computed: false, optional: false, required: true
+  private _entityId?: string; 
+  public get entityId() {
+    return this.getStringAttribute('entity_id');
+  }
+  public set entityId(value: string) {
+    this._entityId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get entityIdInput() {
+    return this._entityId;
+  }
+
+  // first_name_attribute - computed: true, optional: true, required: false
+  private _firstNameAttribute?: string; 
+  public get firstNameAttribute() {
+    return this.getStringAttribute('first_name_attribute');
+  }
+  public set firstNameAttribute(value: string) {
+    this._firstNameAttribute = value;
+  }
+  public resetFirstNameAttribute() {
+    this._firstNameAttribute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get firstNameAttributeInput() {
+    return this._firstNameAttribute;
+  }
+
+  // groups_attribute - computed: true, optional: true, required: false
+  private _groupsAttribute?: string; 
+  public get groupsAttribute() {
+    return this.getStringAttribute('groups_attribute');
+  }
+  public set groupsAttribute(value: string) {
+    this._groupsAttribute = value;
+  }
+  public resetGroupsAttribute() {
+    this._groupsAttribute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get groupsAttributeInput() {
+    return this._groupsAttribute;
+  }
+
+  // identity_provider_name - computed: false, optional: false, required: true
+  private _identityProviderName?: string; 
+  public get identityProviderName() {
+    return this.getStringAttribute('identity_provider_name');
+  }
+  public set identityProviderName(value: string) {
+    this._identityProviderName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get identityProviderNameInput() {
+    return this._identityProviderName;
+  }
+
+  // idp_metadata - computed: false, optional: false, required: true
+  private _idpMetadata?: string; 
+  public get idpMetadata() {
+    return this.getStringAttribute('idp_metadata');
+  }
+  public set idpMetadata(value: string) {
+    this._idpMetadata = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idpMetadataInput() {
+    return this._idpMetadata;
+  }
+
+  // last_name_attribute - computed: true, optional: true, required: false
+  private _lastNameAttribute?: string; 
+  public get lastNameAttribute() {
+    return this.getStringAttribute('last_name_attribute');
+  }
+  public set lastNameAttribute(value: string) {
+    this._lastNameAttribute = value;
+  }
+  public resetLastNameAttribute() {
+    this._lastNameAttribute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lastNameAttributeInput() {
+    return this._lastNameAttribute;
+  }
+
+  // username_attribute - computed: false, optional: false, required: true
+  private _usernameAttribute?: string; 
+  public get usernameAttribute() {
+    return this.getStringAttribute('username_attribute');
+  }
+  public set usernameAttribute(value: string) {
+    this._usernameAttribute = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get usernameAttributeInput() {
+    return this._usernameAttribute;
+  }
+
+  // validate_assertion_signature - computed: false, optional: true, required: false
+  private _validateAssertionSignature?: boolean | cdktf.IResolvable; 
+  public get validateAssertionSignature() {
+    return this.getBooleanAttribute('validate_assertion_signature');
+  }
+  public set validateAssertionSignature(value: boolean | cdktf.IResolvable) {
+    this._validateAssertionSignature = value;
+  }
+  public resetValidateAssertionSignature() {
+    this._validateAssertionSignature = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get validateAssertionSignatureInput() {
+    return this._validateAssertionSignature;
+  }
+
+  // validate_response_signature - computed: false, optional: true, required: false
+  private _validateResponseSignature?: boolean | cdktf.IResolvable; 
+  public get validateResponseSignature() {
+    return this.getBooleanAttribute('validate_response_signature');
+  }
+  public set validateResponseSignature(value: boolean | cdktf.IResolvable) {
+    this._validateResponseSignature = value;
+  }
+  public resetValidateResponseSignature() {
+    this._validateResponseSignature = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get validateResponseSignatureInput() {
+    return this._validateResponseSignature;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      email_attribute: cdktf.stringToTerraform(this._emailAttribute),
+      entity_id: cdktf.stringToTerraform(this._entityId),
+      first_name_attribute: cdktf.stringToTerraform(this._firstNameAttribute),
+      groups_attribute: cdktf.stringToTerraform(this._groupsAttribute),
+      identity_provider_name: cdktf.stringToTerraform(this._identityProviderName),
+      idp_metadata: cdktf.stringToTerraform(this._idpMetadata),
+      last_name_attribute: cdktf.stringToTerraform(this._lastNameAttribute),
+      username_attribute: cdktf.stringToTerraform(this._usernameAttribute),
+      validate_assertion_signature: cdktf.booleanToTerraform(this._validateAssertionSignature),
+      validate_response_signature: cdktf.booleanToTerraform(this._validateResponseSignature),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      email_attribute: {
+        value: cdktf.stringToHclTerraform(this._emailAttribute),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      entity_id: {
+        value: cdktf.stringToHclTerraform(this._entityId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      first_name_attribute: {
+        value: cdktf.stringToHclTerraform(this._firstNameAttribute),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      groups_attribute: {
+        value: cdktf.stringToHclTerraform(this._groupsAttribute),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      identity_provider_name: {
+        value: cdktf.stringToHclTerraform(this._identityProviderName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      idp_metadata: {
+        value: cdktf.stringToHclTerraform(this._idpMetadata),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      last_name_attribute: {
+        value: cdktf.stringToHclTerraform(this._lastNameAttribute),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      username_attribute: {
+        value: cdktf.stringToHclTerraform(this._usernameAttribute),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      validate_assertion_signature: {
+        value: cdktf.booleanToHclTerraform(this._validateAssertionSignature),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      validate_response_signature: {
+        value: cdktf.booleanToHclTerraform(this._validateResponseSignature),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

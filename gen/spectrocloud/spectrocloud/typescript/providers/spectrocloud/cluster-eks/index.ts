@@ -1,0 +1,5061 @@
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface ClusterEksConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * The setting to apply the cluster profile. `DownloadAndInstall` will download and install packs in one action. `DownloadAndInstallLater` will only download artifact and postpone install for later. Default value is `DownloadAndInstall`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#apply_setting ClusterEks#apply_setting}
+  */
+  readonly applySetting?: string;
+  /**
+  * The AWS cloud account id to use for this cluster.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#cloud_account_id ClusterEks#cloud_account_id}
+  */
+  readonly cloudAccountId: string;
+  /**
+  * `cluster_meta_attribute` can be used to set additional cluster metadata information, eg `{'nic_name': 'test', 'env': 'stage'}`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#cluster_meta_attribute ClusterEks#cluster_meta_attribute}
+  */
+  readonly clusterMetaAttribute?: string;
+  /**
+  * The context of the EKS cluster. Allowed values are `project` or `tenant`. Default is `project`. If  the `project` context is specified, the project name will sourced from the provider configuration parameter [`project_name`](https://registry.terraform.io/providers/spectrocloud/spectrocloud/latest/docs#schema).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#context ClusterEks#context}
+  */
+  readonly context?: string;
+  /**
+  * The description of the cluster. Default value is empty string.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#description ClusterEks#description}
+  */
+  readonly description?: string;
+  /**
+  * If set to `true`, the cluster will be force deleted and user has to manually clean up the provisioned cloud resources.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#force_delete ClusterEks#force_delete}
+  */
+  readonly forceDelete?: boolean | cdktf.IResolvable;
+  /**
+  * Delay duration in minutes to before invoking cluster force delete. Default and minimum is 20.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#force_delete_delay ClusterEks#force_delete_delay}
+  */
+  readonly forceDeleteDelay?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#id ClusterEks#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * The name of the cluster.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#name ClusterEks#name}
+  */
+  readonly name: string;
+  /**
+  * Date and time after which to patch cluster `RFC3339: 2006-01-02T15:04:05Z07:00`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#os_patch_after ClusterEks#os_patch_after}
+  */
+  readonly osPatchAfter?: string;
+  /**
+  * Whether to apply OS patch on boot. Default is `false`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#os_patch_on_boot ClusterEks#os_patch_on_boot}
+  */
+  readonly osPatchOnBoot?: boolean | cdktf.IResolvable;
+  /**
+  * Cron schedule for OS patching. This must be in the form of `0 0 * * *`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#os_patch_schedule ClusterEks#os_patch_schedule}
+  */
+  readonly osPatchSchedule?: string;
+  /**
+  * The pause agent upgrades setting allows to control the automatic upgrade of the Palette component and agent for an individual cluster. The default value is `unlock`, meaning upgrades occur automatically. Setting it to `lock` pauses automatic agent upgrades for the cluster.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#pause_agent_upgrades ClusterEks#pause_agent_upgrades}
+  */
+  readonly pauseAgentUpgrades?: string;
+  /**
+  * To authorize the cluster repave, set the value to `Approved` for approval and `""` to decline. Default value is `""`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#review_repave_state ClusterEks#review_repave_state}
+  */
+  readonly reviewRepaveState?: string;
+  /**
+  * If `true`, the cluster will be created asynchronously. Default value is `false`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#skip_completion ClusterEks#skip_completion}
+  */
+  readonly skipCompletion?: boolean | cdktf.IResolvable;
+  /**
+  * A list of tags to be applied to the cluster. Tags must be in the form of `key:value`. The `tags` attribute will soon be deprecated. It is recommended to use `tags_map` instead.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#tags ClusterEks#tags}
+  */
+  readonly tags?: string[];
+  /**
+  * A map of tags to be applied to the cluster. tags and tags_map are mutually exclusive — only one should be used at a time
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#tags_map ClusterEks#tags_map}
+  */
+  readonly tagsMap?: { [key: string]: string };
+  /**
+  * backup_policy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#backup_policy ClusterEks#backup_policy}
+  */
+  readonly backupPolicy?: ClusterEksBackupPolicy;
+  /**
+  * cloud_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#cloud_config ClusterEks#cloud_config}
+  */
+  readonly cloudConfig: ClusterEksCloudConfig;
+  /**
+  * cluster_profile block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#cluster_profile ClusterEks#cluster_profile}
+  */
+  readonly clusterProfile?: ClusterEksClusterProfile[] | cdktf.IResolvable;
+  /**
+  * cluster_rbac_binding block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#cluster_rbac_binding ClusterEks#cluster_rbac_binding}
+  */
+  readonly clusterRbacBinding?: ClusterEksClusterRbacBinding[] | cdktf.IResolvable;
+  /**
+  * fargate_profile block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#fargate_profile ClusterEks#fargate_profile}
+  */
+  readonly fargateProfile?: ClusterEksFargateProfile[] | cdktf.IResolvable;
+  /**
+  * host_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#host_config ClusterEks#host_config}
+  */
+  readonly hostConfig?: ClusterEksHostConfig[] | cdktf.IResolvable;
+  /**
+  * machine_pool block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#machine_pool ClusterEks#machine_pool}
+  */
+  readonly machinePool: ClusterEksMachinePool[] | cdktf.IResolvable;
+  /**
+  * namespaces block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#namespaces ClusterEks#namespaces}
+  */
+  readonly namespaces?: ClusterEksNamespaces[] | cdktf.IResolvable;
+  /**
+  * scan_policy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#scan_policy ClusterEks#scan_policy}
+  */
+  readonly scanPolicy?: ClusterEksScanPolicy;
+  /**
+  * timeouts block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#timeouts ClusterEks#timeouts}
+  */
+  readonly timeouts?: ClusterEksTimeouts;
+}
+export interface ClusterEksLocationConfig {
+}
+
+export function clusterEksLocationConfigToTerraform(struct?: ClusterEksLocationConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function clusterEksLocationConfigToHclTerraform(struct?: ClusterEksLocationConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class ClusterEksLocationConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ClusterEksLocationConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClusterEksLocationConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // country_code - computed: true, optional: false, required: false
+  public get countryCode() {
+    return this.getStringAttribute('country_code');
+  }
+
+  // country_name - computed: true, optional: false, required: false
+  public get countryName() {
+    return this.getStringAttribute('country_name');
+  }
+
+  // latitude - computed: true, optional: false, required: false
+  public get latitude() {
+    return this.getNumberAttribute('latitude');
+  }
+
+  // longitude - computed: true, optional: false, required: false
+  public get longitude() {
+    return this.getNumberAttribute('longitude');
+  }
+
+  // region_code - computed: true, optional: false, required: false
+  public get regionCode() {
+    return this.getStringAttribute('region_code');
+  }
+
+  // region_name - computed: true, optional: false, required: false
+  public get regionName() {
+    return this.getStringAttribute('region_name');
+  }
+}
+
+export class ClusterEksLocationConfigList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ClusterEksLocationConfigOutputReference {
+    return new ClusterEksLocationConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ClusterEksBackupPolicy {
+  /**
+  * The ID of the backup location to use for the backup.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#backup_location_id ClusterEks#backup_location_id}
+  */
+  readonly backupLocationId: string;
+  /**
+  * The list of cluster UIDs to include in the backup. If `include_all_clusters` is set to `true`, then all clusters will be included.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#cluster_uids ClusterEks#cluster_uids}
+  */
+  readonly clusterUids?: string[];
+  /**
+  * The number of hours after which the backup will be deleted. For example, if the expiry is set to 24, the backup will be deleted after 24 hours.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#expiry_in_hour ClusterEks#expiry_in_hour}
+  */
+  readonly expiryInHour: number;
+  /**
+  * Whether to include all clusters in the backup. If set to false, only the clusters specified in `cluster_uids` will be included.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#include_all_clusters ClusterEks#include_all_clusters}
+  */
+  readonly includeAllClusters?: boolean | cdktf.IResolvable;
+  /**
+  * Indicates whether to include cluster resources in the backup. If set to false, only the cluster configuration and disks will be backed up. (Note: Starting with Palette version 4.6, the include_cluster_resources attribute will be deprecated, and a new attribute, include_cluster_resources_mode, will be introduced.)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#include_cluster_resources ClusterEks#include_cluster_resources}
+  */
+  readonly includeClusterResources?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether to include the cluster resources in the backup. Supported values are `always`, `never`, and `auto`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#include_cluster_resources_mode ClusterEks#include_cluster_resources_mode}
+  */
+  readonly includeClusterResourcesMode?: string;
+  /**
+  * Whether to include the disks in the backup. If set to false, only the cluster configuration will be backed up.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#include_disks ClusterEks#include_disks}
+  */
+  readonly includeDisks?: boolean | cdktf.IResolvable;
+  /**
+  * The list of Kubernetes namespaces to include in the backup. If not specified, all namespaces will be included.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#namespaces ClusterEks#namespaces}
+  */
+  readonly namespaces?: string[];
+  /**
+  * Prefix for the backup name. The backup name will be of the format <prefix>-<cluster-name>-<timestamp>.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#prefix ClusterEks#prefix}
+  */
+  readonly prefix: string;
+  /**
+  * The schedule for the backup. The schedule is specified in cron format. For example, to run the backup every day at 1:00 AM, the schedule should be set to `0 1 * * *`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#schedule ClusterEks#schedule}
+  */
+  readonly schedule: string;
+}
+
+export function clusterEksBackupPolicyToTerraform(struct?: ClusterEksBackupPolicyOutputReference | ClusterEksBackupPolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    backup_location_id: cdktf.stringToTerraform(struct!.backupLocationId),
+    cluster_uids: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.clusterUids),
+    expiry_in_hour: cdktf.numberToTerraform(struct!.expiryInHour),
+    include_all_clusters: cdktf.booleanToTerraform(struct!.includeAllClusters),
+    include_cluster_resources: cdktf.booleanToTerraform(struct!.includeClusterResources),
+    include_cluster_resources_mode: cdktf.stringToTerraform(struct!.includeClusterResourcesMode),
+    include_disks: cdktf.booleanToTerraform(struct!.includeDisks),
+    namespaces: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.namespaces),
+    prefix: cdktf.stringToTerraform(struct!.prefix),
+    schedule: cdktf.stringToTerraform(struct!.schedule),
+  }
+}
+
+
+export function clusterEksBackupPolicyToHclTerraform(struct?: ClusterEksBackupPolicyOutputReference | ClusterEksBackupPolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    backup_location_id: {
+      value: cdktf.stringToHclTerraform(struct!.backupLocationId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    cluster_uids: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.clusterUids),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    expiry_in_hour: {
+      value: cdktf.numberToHclTerraform(struct!.expiryInHour),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    include_all_clusters: {
+      value: cdktf.booleanToHclTerraform(struct!.includeAllClusters),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    include_cluster_resources: {
+      value: cdktf.booleanToHclTerraform(struct!.includeClusterResources),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    include_cluster_resources_mode: {
+      value: cdktf.stringToHclTerraform(struct!.includeClusterResourcesMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    include_disks: {
+      value: cdktf.booleanToHclTerraform(struct!.includeDisks),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    namespaces: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.namespaces),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    prefix: {
+      value: cdktf.stringToHclTerraform(struct!.prefix),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    schedule: {
+      value: cdktf.stringToHclTerraform(struct!.schedule),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClusterEksBackupPolicyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ClusterEksBackupPolicy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._backupLocationId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.backupLocationId = this._backupLocationId;
+    }
+    if (this._clusterUids !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clusterUids = this._clusterUids;
+    }
+    if (this._expiryInHour !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.expiryInHour = this._expiryInHour;
+    }
+    if (this._includeAllClusters !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.includeAllClusters = this._includeAllClusters;
+    }
+    if (this._includeClusterResources !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.includeClusterResources = this._includeClusterResources;
+    }
+    if (this._includeClusterResourcesMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.includeClusterResourcesMode = this._includeClusterResourcesMode;
+    }
+    if (this._includeDisks !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.includeDisks = this._includeDisks;
+    }
+    if (this._namespaces !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespaces = this._namespaces;
+    }
+    if (this._prefix !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.prefix = this._prefix;
+    }
+    if (this._schedule !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.schedule = this._schedule;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClusterEksBackupPolicy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._backupLocationId = undefined;
+      this._clusterUids = undefined;
+      this._expiryInHour = undefined;
+      this._includeAllClusters = undefined;
+      this._includeClusterResources = undefined;
+      this._includeClusterResourcesMode = undefined;
+      this._includeDisks = undefined;
+      this._namespaces = undefined;
+      this._prefix = undefined;
+      this._schedule = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._backupLocationId = value.backupLocationId;
+      this._clusterUids = value.clusterUids;
+      this._expiryInHour = value.expiryInHour;
+      this._includeAllClusters = value.includeAllClusters;
+      this._includeClusterResources = value.includeClusterResources;
+      this._includeClusterResourcesMode = value.includeClusterResourcesMode;
+      this._includeDisks = value.includeDisks;
+      this._namespaces = value.namespaces;
+      this._prefix = value.prefix;
+      this._schedule = value.schedule;
+    }
+  }
+
+  // backup_location_id - computed: false, optional: false, required: true
+  private _backupLocationId?: string; 
+  public get backupLocationId() {
+    return this.getStringAttribute('backup_location_id');
+  }
+  public set backupLocationId(value: string) {
+    this._backupLocationId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get backupLocationIdInput() {
+    return this._backupLocationId;
+  }
+
+  // cluster_uids - computed: false, optional: true, required: false
+  private _clusterUids?: string[]; 
+  public get clusterUids() {
+    return cdktf.Fn.tolist(this.getListAttribute('cluster_uids'));
+  }
+  public set clusterUids(value: string[]) {
+    this._clusterUids = value;
+  }
+  public resetClusterUids() {
+    this._clusterUids = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clusterUidsInput() {
+    return this._clusterUids;
+  }
+
+  // expiry_in_hour - computed: false, optional: false, required: true
+  private _expiryInHour?: number; 
+  public get expiryInHour() {
+    return this.getNumberAttribute('expiry_in_hour');
+  }
+  public set expiryInHour(value: number) {
+    this._expiryInHour = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get expiryInHourInput() {
+    return this._expiryInHour;
+  }
+
+  // include_all_clusters - computed: false, optional: true, required: false
+  private _includeAllClusters?: boolean | cdktf.IResolvable; 
+  public get includeAllClusters() {
+    return this.getBooleanAttribute('include_all_clusters');
+  }
+  public set includeAllClusters(value: boolean | cdktf.IResolvable) {
+    this._includeAllClusters = value;
+  }
+  public resetIncludeAllClusters() {
+    this._includeAllClusters = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get includeAllClustersInput() {
+    return this._includeAllClusters;
+  }
+
+  // include_cluster_resources - computed: false, optional: true, required: false
+  private _includeClusterResources?: boolean | cdktf.IResolvable; 
+  public get includeClusterResources() {
+    return this.getBooleanAttribute('include_cluster_resources');
+  }
+  public set includeClusterResources(value: boolean | cdktf.IResolvable) {
+    this._includeClusterResources = value;
+  }
+  public resetIncludeClusterResources() {
+    this._includeClusterResources = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get includeClusterResourcesInput() {
+    return this._includeClusterResources;
+  }
+
+  // include_cluster_resources_mode - computed: false, optional: true, required: false
+  private _includeClusterResourcesMode?: string; 
+  public get includeClusterResourcesMode() {
+    return this.getStringAttribute('include_cluster_resources_mode');
+  }
+  public set includeClusterResourcesMode(value: string) {
+    this._includeClusterResourcesMode = value;
+  }
+  public resetIncludeClusterResourcesMode() {
+    this._includeClusterResourcesMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get includeClusterResourcesModeInput() {
+    return this._includeClusterResourcesMode;
+  }
+
+  // include_disks - computed: false, optional: true, required: false
+  private _includeDisks?: boolean | cdktf.IResolvable; 
+  public get includeDisks() {
+    return this.getBooleanAttribute('include_disks');
+  }
+  public set includeDisks(value: boolean | cdktf.IResolvable) {
+    this._includeDisks = value;
+  }
+  public resetIncludeDisks() {
+    this._includeDisks = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get includeDisksInput() {
+    return this._includeDisks;
+  }
+
+  // namespaces - computed: false, optional: true, required: false
+  private _namespaces?: string[]; 
+  public get namespaces() {
+    return cdktf.Fn.tolist(this.getListAttribute('namespaces'));
+  }
+  public set namespaces(value: string[]) {
+    this._namespaces = value;
+  }
+  public resetNamespaces() {
+    this._namespaces = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespacesInput() {
+    return this._namespaces;
+  }
+
+  // prefix - computed: false, optional: false, required: true
+  private _prefix?: string; 
+  public get prefix() {
+    return this.getStringAttribute('prefix');
+  }
+  public set prefix(value: string) {
+    this._prefix = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get prefixInput() {
+    return this._prefix;
+  }
+
+  // schedule - computed: false, optional: false, required: true
+  private _schedule?: string; 
+  public get schedule() {
+    return this.getStringAttribute('schedule');
+  }
+  public set schedule(value: string) {
+    this._schedule = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scheduleInput() {
+    return this._schedule;
+  }
+}
+export interface ClusterEksCloudConfig {
+  /**
+  * Mutually exclusive with `azs`. Use for Static provisioning.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#az_subnets ClusterEks#az_subnets}
+  */
+  readonly azSubnets?: { [key: string]: string };
+  /**
+  * Mutually exclusive with `az_subnets`. Use for Dynamic provisioning.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#azs ClusterEks#azs}
+  */
+  readonly azs?: string[];
+  /**
+  * The ARN of the KMS encryption key to use for the cluster. Refer to the [Enable Secrets Encryption for EKS Cluster](https://docs.spectrocloud.com/clusters/public-cloud/aws/enable-secrets-encryption-kms-key/) for additional guidance.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#encryption_config_arn ClusterEks#encryption_config_arn}
+  */
+  readonly encryptionConfigArn?: string;
+  /**
+  * Choose between `private`, `public`, or `private_and_public` to define how communication is established with the endpoint for the managed Kubernetes API server and your cluster. The default value is `public`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#endpoint_access ClusterEks#endpoint_access}
+  */
+  readonly endpointAccess?: string;
+  /**
+  * List of CIDR blocks that define the allowed private access to the resource. Only requests originating from addresses within these CIDR blocks will be permitted to access the resource.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#private_access_cidrs ClusterEks#private_access_cidrs}
+  */
+  readonly privateAccessCidrs?: string[];
+  /**
+  * List of CIDR blocks that define the allowed public access to the resource. Requests originating from addresses within these CIDR blocks will be permitted to access the resource. All other addresses will be denied access.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#public_access_cidrs ClusterEks#public_access_cidrs}
+  */
+  readonly publicAccessCidrs?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#region ClusterEks#region}
+  */
+  readonly region: string;
+  /**
+  * Public SSH key to be used for the cluster nodes.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#ssh_key_name ClusterEks#ssh_key_name}
+  */
+  readonly sshKeyName?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#vpc_id ClusterEks#vpc_id}
+  */
+  readonly vpcId?: string;
+}
+
+export function clusterEksCloudConfigToTerraform(struct?: ClusterEksCloudConfigOutputReference | ClusterEksCloudConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    az_subnets: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.azSubnets),
+    azs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.azs),
+    encryption_config_arn: cdktf.stringToTerraform(struct!.encryptionConfigArn),
+    endpoint_access: cdktf.stringToTerraform(struct!.endpointAccess),
+    private_access_cidrs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.privateAccessCidrs),
+    public_access_cidrs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.publicAccessCidrs),
+    region: cdktf.stringToTerraform(struct!.region),
+    ssh_key_name: cdktf.stringToTerraform(struct!.sshKeyName),
+    vpc_id: cdktf.stringToTerraform(struct!.vpcId),
+  }
+}
+
+
+export function clusterEksCloudConfigToHclTerraform(struct?: ClusterEksCloudConfigOutputReference | ClusterEksCloudConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    az_subnets: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.azSubnets),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    azs: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.azs),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    encryption_config_arn: {
+      value: cdktf.stringToHclTerraform(struct!.encryptionConfigArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    endpoint_access: {
+      value: cdktf.stringToHclTerraform(struct!.endpointAccess),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    private_access_cidrs: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.privateAccessCidrs),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    public_access_cidrs: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.publicAccessCidrs),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    region: {
+      value: cdktf.stringToHclTerraform(struct!.region),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ssh_key_name: {
+      value: cdktf.stringToHclTerraform(struct!.sshKeyName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    vpc_id: {
+      value: cdktf.stringToHclTerraform(struct!.vpcId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClusterEksCloudConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ClusterEksCloudConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._azSubnets !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.azSubnets = this._azSubnets;
+    }
+    if (this._azs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.azs = this._azs;
+    }
+    if (this._encryptionConfigArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.encryptionConfigArn = this._encryptionConfigArn;
+    }
+    if (this._endpointAccess !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.endpointAccess = this._endpointAccess;
+    }
+    if (this._privateAccessCidrs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.privateAccessCidrs = this._privateAccessCidrs;
+    }
+    if (this._publicAccessCidrs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.publicAccessCidrs = this._publicAccessCidrs;
+    }
+    if (this._region !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.region = this._region;
+    }
+    if (this._sshKeyName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sshKeyName = this._sshKeyName;
+    }
+    if (this._vpcId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vpcId = this._vpcId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClusterEksCloudConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._azSubnets = undefined;
+      this._azs = undefined;
+      this._encryptionConfigArn = undefined;
+      this._endpointAccess = undefined;
+      this._privateAccessCidrs = undefined;
+      this._publicAccessCidrs = undefined;
+      this._region = undefined;
+      this._sshKeyName = undefined;
+      this._vpcId = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._azSubnets = value.azSubnets;
+      this._azs = value.azs;
+      this._encryptionConfigArn = value.encryptionConfigArn;
+      this._endpointAccess = value.endpointAccess;
+      this._privateAccessCidrs = value.privateAccessCidrs;
+      this._publicAccessCidrs = value.publicAccessCidrs;
+      this._region = value.region;
+      this._sshKeyName = value.sshKeyName;
+      this._vpcId = value.vpcId;
+    }
+  }
+
+  // az_subnets - computed: false, optional: true, required: false
+  private _azSubnets?: { [key: string]: string }; 
+  public get azSubnets() {
+    return this.getStringMapAttribute('az_subnets');
+  }
+  public set azSubnets(value: { [key: string]: string }) {
+    this._azSubnets = value;
+  }
+  public resetAzSubnets() {
+    this._azSubnets = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get azSubnetsInput() {
+    return this._azSubnets;
+  }
+
+  // azs - computed: false, optional: true, required: false
+  private _azs?: string[]; 
+  public get azs() {
+    return this.getListAttribute('azs');
+  }
+  public set azs(value: string[]) {
+    this._azs = value;
+  }
+  public resetAzs() {
+    this._azs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get azsInput() {
+    return this._azs;
+  }
+
+  // encryption_config_arn - computed: false, optional: true, required: false
+  private _encryptionConfigArn?: string; 
+  public get encryptionConfigArn() {
+    return this.getStringAttribute('encryption_config_arn');
+  }
+  public set encryptionConfigArn(value: string) {
+    this._encryptionConfigArn = value;
+  }
+  public resetEncryptionConfigArn() {
+    this._encryptionConfigArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get encryptionConfigArnInput() {
+    return this._encryptionConfigArn;
+  }
+
+  // endpoint_access - computed: false, optional: true, required: false
+  private _endpointAccess?: string; 
+  public get endpointAccess() {
+    return this.getStringAttribute('endpoint_access');
+  }
+  public set endpointAccess(value: string) {
+    this._endpointAccess = value;
+  }
+  public resetEndpointAccess() {
+    this._endpointAccess = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endpointAccessInput() {
+    return this._endpointAccess;
+  }
+
+  // private_access_cidrs - computed: false, optional: true, required: false
+  private _privateAccessCidrs?: string[]; 
+  public get privateAccessCidrs() {
+    return cdktf.Fn.tolist(this.getListAttribute('private_access_cidrs'));
+  }
+  public set privateAccessCidrs(value: string[]) {
+    this._privateAccessCidrs = value;
+  }
+  public resetPrivateAccessCidrs() {
+    this._privateAccessCidrs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get privateAccessCidrsInput() {
+    return this._privateAccessCidrs;
+  }
+
+  // public_access_cidrs - computed: false, optional: true, required: false
+  private _publicAccessCidrs?: string[]; 
+  public get publicAccessCidrs() {
+    return cdktf.Fn.tolist(this.getListAttribute('public_access_cidrs'));
+  }
+  public set publicAccessCidrs(value: string[]) {
+    this._publicAccessCidrs = value;
+  }
+  public resetPublicAccessCidrs() {
+    this._publicAccessCidrs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publicAccessCidrsInput() {
+    return this._publicAccessCidrs;
+  }
+
+  // region - computed: false, optional: false, required: true
+  private _region?: string; 
+  public get region() {
+    return this.getStringAttribute('region');
+  }
+  public set region(value: string) {
+    this._region = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regionInput() {
+    return this._region;
+  }
+
+  // ssh_key_name - computed: false, optional: true, required: false
+  private _sshKeyName?: string; 
+  public get sshKeyName() {
+    return this.getStringAttribute('ssh_key_name');
+  }
+  public set sshKeyName(value: string) {
+    this._sshKeyName = value;
+  }
+  public resetSshKeyName() {
+    this._sshKeyName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sshKeyNameInput() {
+    return this._sshKeyName;
+  }
+
+  // vpc_id - computed: false, optional: true, required: false
+  private _vpcId?: string; 
+  public get vpcId() {
+    return this.getStringAttribute('vpc_id');
+  }
+  public set vpcId(value: string) {
+    this._vpcId = value;
+  }
+  public resetVpcId() {
+    this._vpcId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vpcIdInput() {
+    return this._vpcId;
+  }
+}
+export interface ClusterEksClusterProfilePackManifest {
+  /**
+  * The content of the manifest. The content is the YAML content of the manifest. 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#content ClusterEks#content}
+  */
+  readonly content: string;
+  /**
+  * The name of the manifest. The name must be unique within the pack. 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#name ClusterEks#name}
+  */
+  readonly name: string;
+}
+
+export function clusterEksClusterProfilePackManifestToTerraform(struct?: ClusterEksClusterProfilePackManifest | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    content: cdktf.stringToTerraform(struct!.content),
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function clusterEksClusterProfilePackManifestToHclTerraform(struct?: ClusterEksClusterProfilePackManifest | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    content: {
+      value: cdktf.stringToHclTerraform(struct!.content),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClusterEksClusterProfilePackManifestOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ClusterEksClusterProfilePackManifest | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._content !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.content = this._content;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClusterEksClusterProfilePackManifest | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._content = undefined;
+      this._name = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._content = value.content;
+      this._name = value.name;
+    }
+  }
+
+  // content - computed: false, optional: false, required: true
+  private _content?: string; 
+  public get content() {
+    return this.getStringAttribute('content');
+  }
+  public set content(value: string) {
+    this._content = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get contentInput() {
+    return this._content;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // uid - computed: true, optional: false, required: false
+  public get uid() {
+    return this.getStringAttribute('uid');
+  }
+}
+
+export class ClusterEksClusterProfilePackManifestList extends cdktf.ComplexList {
+  public internalValue? : ClusterEksClusterProfilePackManifest[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ClusterEksClusterProfilePackManifestOutputReference {
+    return new ClusterEksClusterProfilePackManifestOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ClusterEksClusterProfilePack {
+  /**
+  * The name of the pack. The name must be unique within the cluster profile. 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#name ClusterEks#name}
+  */
+  readonly name: string;
+  /**
+  * The registry name of the pack. The registry name is the human-readable name of the registry. This attribute can be used instead of `registry_uid` for better readability. If `uid` is not provided, this field can be used along with `name` and `tag` to resolve the pack UID internally. Either `registry_uid` or `registry_name` can be specified, but not both.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#registry_name ClusterEks#registry_name}
+  */
+  readonly registryName?: string;
+  /**
+  * The registry UID of the pack. The registry UID is the unique identifier of the registry. This attribute is required if there is more than one registry that contains a pack with the same name. If `uid` is not provided, this field is required along with `name` and `tag` to resolve the pack UID internally. Either `registry_uid` or `registry_name` can be specified, but not both.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#registry_uid ClusterEks#registry_uid}
+  */
+  readonly registryUid?: string;
+  /**
+  * The tag of the pack. The tag is the version of the pack. This attribute is required if the pack type is `spectro` or `helm`. If `uid` is not provided, this field is required along with `name` and `registry_uid` (or `registry_name`) to resolve the pack UID internally.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#tag ClusterEks#tag}
+  */
+  readonly tag?: string;
+  /**
+  * The type of the pack. Allowed values are `spectro`, `manifest`, `helm`, or `oci`. The default value is spectro. If using an OCI registry for pack, set the type to `oci`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#type ClusterEks#type}
+  */
+  readonly type?: string;
+  /**
+  * The unique identifier of the pack. The value can be looked up using the [`spectrocloud_pack`](https://registry.terraform.io/providers/spectrocloud/spectrocloud/latest/docs/data-sources/pack) data source. This value is required if the pack type is `spectro` and for `helm` if the chart is from a public helm registry. If not provided, all of `name`, `tag`, and `registry_uid` must be specified to resolve the pack UID internally.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#uid ClusterEks#uid}
+  */
+  readonly uid?: string;
+  /**
+  * The values of the pack. The values are the configuration values of the pack. The values are specified in YAML format. 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#values ClusterEks#values}
+  */
+  readonly values?: string;
+  /**
+  * manifest block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#manifest ClusterEks#manifest}
+  */
+  readonly manifest?: ClusterEksClusterProfilePackManifest[] | cdktf.IResolvable;
+}
+
+export function clusterEksClusterProfilePackToTerraform(struct?: ClusterEksClusterProfilePack | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    registry_name: cdktf.stringToTerraform(struct!.registryName),
+    registry_uid: cdktf.stringToTerraform(struct!.registryUid),
+    tag: cdktf.stringToTerraform(struct!.tag),
+    type: cdktf.stringToTerraform(struct!.type),
+    uid: cdktf.stringToTerraform(struct!.uid),
+    values: cdktf.stringToTerraform(struct!.values),
+    manifest: cdktf.listMapper(clusterEksClusterProfilePackManifestToTerraform, true)(struct!.manifest),
+  }
+}
+
+
+export function clusterEksClusterProfilePackToHclTerraform(struct?: ClusterEksClusterProfilePack | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    registry_name: {
+      value: cdktf.stringToHclTerraform(struct!.registryName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    registry_uid: {
+      value: cdktf.stringToHclTerraform(struct!.registryUid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tag: {
+      value: cdktf.stringToHclTerraform(struct!.tag),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uid: {
+      value: cdktf.stringToHclTerraform(struct!.uid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    values: {
+      value: cdktf.stringToHclTerraform(struct!.values),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    manifest: {
+      value: cdktf.listMapperHcl(clusterEksClusterProfilePackManifestToHclTerraform, true)(struct!.manifest),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ClusterEksClusterProfilePackManifestList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClusterEksClusterProfilePackOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ClusterEksClusterProfilePack | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._registryName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.registryName = this._registryName;
+    }
+    if (this._registryUid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.registryUid = this._registryUid;
+    }
+    if (this._tag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tag = this._tag;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._uid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uid = this._uid;
+    }
+    if (this._values !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.values = this._values;
+    }
+    if (this._manifest?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.manifest = this._manifest?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClusterEksClusterProfilePack | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._registryName = undefined;
+      this._registryUid = undefined;
+      this._tag = undefined;
+      this._type = undefined;
+      this._uid = undefined;
+      this._values = undefined;
+      this._manifest.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._registryName = value.registryName;
+      this._registryUid = value.registryUid;
+      this._tag = value.tag;
+      this._type = value.type;
+      this._uid = value.uid;
+      this._values = value.values;
+      this._manifest.internalValue = value.manifest;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // registry_name - computed: false, optional: true, required: false
+  private _registryName?: string; 
+  public get registryName() {
+    return this.getStringAttribute('registry_name');
+  }
+  public set registryName(value: string) {
+    this._registryName = value;
+  }
+  public resetRegistryName() {
+    this._registryName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get registryNameInput() {
+    return this._registryName;
+  }
+
+  // registry_uid - computed: false, optional: true, required: false
+  private _registryUid?: string; 
+  public get registryUid() {
+    return this.getStringAttribute('registry_uid');
+  }
+  public set registryUid(value: string) {
+    this._registryUid = value;
+  }
+  public resetRegistryUid() {
+    this._registryUid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get registryUidInput() {
+    return this._registryUid;
+  }
+
+  // tag - computed: false, optional: true, required: false
+  private _tag?: string; 
+  public get tag() {
+    return this.getStringAttribute('tag');
+  }
+  public set tag(value: string) {
+    this._tag = value;
+  }
+  public resetTag() {
+    this._tag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagInput() {
+    return this._tag;
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // uid - computed: true, optional: true, required: false
+  private _uid?: string; 
+  public get uid() {
+    return this.getStringAttribute('uid');
+  }
+  public set uid(value: string) {
+    this._uid = value;
+  }
+  public resetUid() {
+    this._uid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uidInput() {
+    return this._uid;
+  }
+
+  // values - computed: false, optional: true, required: false
+  private _values?: string; 
+  public get values() {
+    return this.getStringAttribute('values');
+  }
+  public set values(value: string) {
+    this._values = value;
+  }
+  public resetValues() {
+    this._values = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valuesInput() {
+    return this._values;
+  }
+
+  // manifest - computed: false, optional: true, required: false
+  private _manifest = new ClusterEksClusterProfilePackManifestList(this, "manifest", false);
+  public get manifest() {
+    return this._manifest;
+  }
+  public putManifest(value: ClusterEksClusterProfilePackManifest[] | cdktf.IResolvable) {
+    this._manifest.internalValue = value;
+  }
+  public resetManifest() {
+    this._manifest.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get manifestInput() {
+    return this._manifest.internalValue;
+  }
+}
+
+export class ClusterEksClusterProfilePackList extends cdktf.ComplexList {
+  public internalValue? : ClusterEksClusterProfilePack[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ClusterEksClusterProfilePackOutputReference {
+    return new ClusterEksClusterProfilePackOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ClusterEksClusterProfile {
+  /**
+  * The ID of the cluster profile.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#id ClusterEks#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id: string;
+  /**
+  * A map of cluster profile variables, specified as key-value pairs. For example: `priority = "5"`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#variables ClusterEks#variables}
+  */
+  readonly variables?: { [key: string]: string };
+  /**
+  * pack block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#pack ClusterEks#pack}
+  */
+  readonly pack?: ClusterEksClusterProfilePack[] | cdktf.IResolvable;
+}
+
+export function clusterEksClusterProfileToTerraform(struct?: ClusterEksClusterProfile | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    id: cdktf.stringToTerraform(struct!.id),
+    variables: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.variables),
+    pack: cdktf.listMapper(clusterEksClusterProfilePackToTerraform, true)(struct!.pack),
+  }
+}
+
+
+export function clusterEksClusterProfileToHclTerraform(struct?: ClusterEksClusterProfile | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    id: {
+      value: cdktf.stringToHclTerraform(struct!.id),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    variables: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.variables),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    pack: {
+      value: cdktf.listMapperHcl(clusterEksClusterProfilePackToHclTerraform, true)(struct!.pack),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ClusterEksClusterProfilePackList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClusterEksClusterProfileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ClusterEksClusterProfile | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
+    if (this._variables !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.variables = this._variables;
+    }
+    if (this._pack?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.pack = this._pack?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClusterEksClusterProfile | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._id = undefined;
+      this._variables = undefined;
+      this._pack.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._id = value.id;
+      this._variables = value.variables;
+      this._pack.internalValue = value.pack;
+    }
+  }
+
+  // id - computed: false, optional: false, required: true
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // variables - computed: false, optional: true, required: false
+  private _variables?: { [key: string]: string }; 
+  public get variables() {
+    return this.getStringMapAttribute('variables');
+  }
+  public set variables(value: { [key: string]: string }) {
+    this._variables = value;
+  }
+  public resetVariables() {
+    this._variables = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get variablesInput() {
+    return this._variables;
+  }
+
+  // pack - computed: false, optional: true, required: false
+  private _pack = new ClusterEksClusterProfilePackList(this, "pack", false);
+  public get pack() {
+    return this._pack;
+  }
+  public putPack(value: ClusterEksClusterProfilePack[] | cdktf.IResolvable) {
+    this._pack.internalValue = value;
+  }
+  public resetPack() {
+    this._pack.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get packInput() {
+    return this._pack.internalValue;
+  }
+}
+
+export class ClusterEksClusterProfileList extends cdktf.ComplexList {
+  public internalValue? : ClusterEksClusterProfile[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ClusterEksClusterProfileOutputReference {
+    return new ClusterEksClusterProfileOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ClusterEksClusterRbacBindingSubjects {
+  /**
+  * The name of the subject. Required if 'type' is set to 'User' or 'Group'.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#name ClusterEks#name}
+  */
+  readonly name: string;
+  /**
+  * The Kubernetes namespace of the subject. Required if 'type' is set to 'ServiceAccount'.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#namespace ClusterEks#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * The type of the subject. Can be one of the following values: `User`, `Group`, or `ServiceAccount`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#type ClusterEks#type}
+  */
+  readonly type: string;
+}
+
+export function clusterEksClusterRbacBindingSubjectsToTerraform(struct?: ClusterEksClusterRbacBindingSubjects | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    type: cdktf.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function clusterEksClusterRbacBindingSubjectsToHclTerraform(struct?: ClusterEksClusterRbacBindingSubjects | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClusterEksClusterRbacBindingSubjectsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ClusterEksClusterRbacBindingSubjects | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClusterEksClusterRbacBindingSubjects | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._type = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._type = value.type;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class ClusterEksClusterRbacBindingSubjectsList extends cdktf.ComplexList {
+  public internalValue? : ClusterEksClusterRbacBindingSubjects[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ClusterEksClusterRbacBindingSubjectsOutputReference {
+    return new ClusterEksClusterRbacBindingSubjectsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ClusterEksClusterRbacBinding {
+  /**
+  * The Kubernetes namespace of the RBAC binding. Required if 'type' is set to 'RoleBinding'.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#namespace ClusterEks#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * The role of the RBAC binding. Required if 'type' is set to 'RoleBinding'.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#role ClusterEks#role}
+  */
+  readonly role?: { [key: string]: string };
+  /**
+  * The type of the RBAC binding. Can be one of the following values: `RoleBinding`, or `ClusterRoleBinding`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#type ClusterEks#type}
+  */
+  readonly type: string;
+  /**
+  * subjects block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#subjects ClusterEks#subjects}
+  */
+  readonly subjects?: ClusterEksClusterRbacBindingSubjects[] | cdktf.IResolvable;
+}
+
+export function clusterEksClusterRbacBindingToTerraform(struct?: ClusterEksClusterRbacBinding | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    role: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.role),
+    type: cdktf.stringToTerraform(struct!.type),
+    subjects: cdktf.listMapper(clusterEksClusterRbacBindingSubjectsToTerraform, true)(struct!.subjects),
+  }
+}
+
+
+export function clusterEksClusterRbacBindingToHclTerraform(struct?: ClusterEksClusterRbacBinding | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    role: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.role),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    subjects: {
+      value: cdktf.listMapperHcl(clusterEksClusterRbacBindingSubjectsToHclTerraform, true)(struct!.subjects),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ClusterEksClusterRbacBindingSubjectsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClusterEksClusterRbacBindingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ClusterEksClusterRbacBinding | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._role !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.role = this._role;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._subjects?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.subjects = this._subjects?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClusterEksClusterRbacBinding | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._namespace = undefined;
+      this._role = undefined;
+      this._type = undefined;
+      this._subjects.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._namespace = value.namespace;
+      this._role = value.role;
+      this._type = value.type;
+      this._subjects.internalValue = value.subjects;
+    }
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // role - computed: false, optional: true, required: false
+  private _role?: { [key: string]: string }; 
+  public get role() {
+    return this.getStringMapAttribute('role');
+  }
+  public set role(value: { [key: string]: string }) {
+    this._role = value;
+  }
+  public resetRole() {
+    this._role = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get roleInput() {
+    return this._role;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // subjects - computed: false, optional: true, required: false
+  private _subjects = new ClusterEksClusterRbacBindingSubjectsList(this, "subjects", false);
+  public get subjects() {
+    return this._subjects;
+  }
+  public putSubjects(value: ClusterEksClusterRbacBindingSubjects[] | cdktf.IResolvable) {
+    this._subjects.internalValue = value;
+  }
+  public resetSubjects() {
+    this._subjects.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subjectsInput() {
+    return this._subjects.internalValue;
+  }
+}
+
+export class ClusterEksClusterRbacBindingList extends cdktf.ComplexList {
+  public internalValue? : ClusterEksClusterRbacBinding[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ClusterEksClusterRbacBindingOutputReference {
+    return new ClusterEksClusterRbacBindingOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ClusterEksFargateProfileSelector {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#labels ClusterEks#labels}
+  */
+  readonly labels?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#namespace ClusterEks#namespace}
+  */
+  readonly namespace: string;
+}
+
+export function clusterEksFargateProfileSelectorToTerraform(struct?: ClusterEksFargateProfileSelector | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.labels),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+  }
+}
+
+
+export function clusterEksFargateProfileSelectorToHclTerraform(struct?: ClusterEksFargateProfileSelector | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    labels: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.labels),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClusterEksFargateProfileSelectorOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ClusterEksFargateProfileSelector | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._labels !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.labels = this._labels;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClusterEksFargateProfileSelector | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._labels = undefined;
+      this._namespace = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._labels = value.labels;
+      this._namespace = value.namespace;
+    }
+  }
+
+  // labels - computed: false, optional: true, required: false
+  private _labels?: { [key: string]: string }; 
+  public get labels() {
+    return this.getStringMapAttribute('labels');
+  }
+  public set labels(value: { [key: string]: string }) {
+    this._labels = value;
+  }
+  public resetLabels() {
+    this._labels = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelsInput() {
+    return this._labels;
+  }
+
+  // namespace - computed: false, optional: false, required: true
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+}
+
+export class ClusterEksFargateProfileSelectorList extends cdktf.ComplexList {
+  public internalValue? : ClusterEksFargateProfileSelector[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ClusterEksFargateProfileSelectorOutputReference {
+    return new ClusterEksFargateProfileSelectorOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ClusterEksFargateProfile {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#additional_tags ClusterEks#additional_tags}
+  */
+  readonly additionalTags?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#name ClusterEks#name}
+  */
+  readonly name: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#subnets ClusterEks#subnets}
+  */
+  readonly subnets?: string[];
+  /**
+  * selector block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#selector ClusterEks#selector}
+  */
+  readonly selector: ClusterEksFargateProfileSelector[] | cdktf.IResolvable;
+}
+
+export function clusterEksFargateProfileToTerraform(struct?: ClusterEksFargateProfile | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_tags: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.additionalTags),
+    name: cdktf.stringToTerraform(struct!.name),
+    subnets: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.subnets),
+    selector: cdktf.listMapper(clusterEksFargateProfileSelectorToTerraform, true)(struct!.selector),
+  }
+}
+
+
+export function clusterEksFargateProfileToHclTerraform(struct?: ClusterEksFargateProfile | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_tags: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.additionalTags),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    subnets: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.subnets),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    selector: {
+      value: cdktf.listMapperHcl(clusterEksFargateProfileSelectorToHclTerraform, true)(struct!.selector),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ClusterEksFargateProfileSelectorList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClusterEksFargateProfileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ClusterEksFargateProfile | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalTags !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalTags = this._additionalTags;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._subnets !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.subnets = this._subnets;
+    }
+    if (this._selector?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.selector = this._selector?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClusterEksFargateProfile | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._additionalTags = undefined;
+      this._name = undefined;
+      this._subnets = undefined;
+      this._selector.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._additionalTags = value.additionalTags;
+      this._name = value.name;
+      this._subnets = value.subnets;
+      this._selector.internalValue = value.selector;
+    }
+  }
+
+  // additional_tags - computed: false, optional: true, required: false
+  private _additionalTags?: { [key: string]: string }; 
+  public get additionalTags() {
+    return this.getStringMapAttribute('additional_tags');
+  }
+  public set additionalTags(value: { [key: string]: string }) {
+    this._additionalTags = value;
+  }
+  public resetAdditionalTags() {
+    this._additionalTags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalTagsInput() {
+    return this._additionalTags;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // subnets - computed: false, optional: true, required: false
+  private _subnets?: string[]; 
+  public get subnets() {
+    return this.getListAttribute('subnets');
+  }
+  public set subnets(value: string[]) {
+    this._subnets = value;
+  }
+  public resetSubnets() {
+    this._subnets = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subnetsInput() {
+    return this._subnets;
+  }
+
+  // selector - computed: false, optional: false, required: true
+  private _selector = new ClusterEksFargateProfileSelectorList(this, "selector", false);
+  public get selector() {
+    return this._selector;
+  }
+  public putSelector(value: ClusterEksFargateProfileSelector[] | cdktf.IResolvable) {
+    this._selector.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get selectorInput() {
+    return this._selector.internalValue;
+  }
+}
+
+export class ClusterEksFargateProfileList extends cdktf.ComplexList {
+  public internalValue? : ClusterEksFargateProfile[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ClusterEksFargateProfileOutputReference {
+    return new ClusterEksFargateProfileOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ClusterEksHostConfig {
+  /**
+  * The external traffic policy for the cluster.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#external_traffic_policy ClusterEks#external_traffic_policy}
+  */
+  readonly externalTrafficPolicy?: string;
+  /**
+  * The type of endpoint for the cluster. Can be either 'Ingress' or 'LoadBalancer'. The default is 'Ingress'.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#host_endpoint_type ClusterEks#host_endpoint_type}
+  */
+  readonly hostEndpointType?: string;
+  /**
+  * The host for the Ingress endpoint. Required if 'host_endpoint_type' is set to 'Ingress'.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#ingress_host ClusterEks#ingress_host}
+  */
+  readonly ingressHost?: string;
+  /**
+  * The source ranges for the load balancer. Required if 'host_endpoint_type' is set to 'LoadBalancer'.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#load_balancer_source_ranges ClusterEks#load_balancer_source_ranges}
+  */
+  readonly loadBalancerSourceRanges?: string;
+}
+
+export function clusterEksHostConfigToTerraform(struct?: ClusterEksHostConfig | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    external_traffic_policy: cdktf.stringToTerraform(struct!.externalTrafficPolicy),
+    host_endpoint_type: cdktf.stringToTerraform(struct!.hostEndpointType),
+    ingress_host: cdktf.stringToTerraform(struct!.ingressHost),
+    load_balancer_source_ranges: cdktf.stringToTerraform(struct!.loadBalancerSourceRanges),
+  }
+}
+
+
+export function clusterEksHostConfigToHclTerraform(struct?: ClusterEksHostConfig | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    external_traffic_policy: {
+      value: cdktf.stringToHclTerraform(struct!.externalTrafficPolicy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    host_endpoint_type: {
+      value: cdktf.stringToHclTerraform(struct!.hostEndpointType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ingress_host: {
+      value: cdktf.stringToHclTerraform(struct!.ingressHost),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    load_balancer_source_ranges: {
+      value: cdktf.stringToHclTerraform(struct!.loadBalancerSourceRanges),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClusterEksHostConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ClusterEksHostConfig | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._externalTrafficPolicy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.externalTrafficPolicy = this._externalTrafficPolicy;
+    }
+    if (this._hostEndpointType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hostEndpointType = this._hostEndpointType;
+    }
+    if (this._ingressHost !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ingressHost = this._ingressHost;
+    }
+    if (this._loadBalancerSourceRanges !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.loadBalancerSourceRanges = this._loadBalancerSourceRanges;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClusterEksHostConfig | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._externalTrafficPolicy = undefined;
+      this._hostEndpointType = undefined;
+      this._ingressHost = undefined;
+      this._loadBalancerSourceRanges = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._externalTrafficPolicy = value.externalTrafficPolicy;
+      this._hostEndpointType = value.hostEndpointType;
+      this._ingressHost = value.ingressHost;
+      this._loadBalancerSourceRanges = value.loadBalancerSourceRanges;
+    }
+  }
+
+  // external_traffic_policy - computed: false, optional: true, required: false
+  private _externalTrafficPolicy?: string; 
+  public get externalTrafficPolicy() {
+    return this.getStringAttribute('external_traffic_policy');
+  }
+  public set externalTrafficPolicy(value: string) {
+    this._externalTrafficPolicy = value;
+  }
+  public resetExternalTrafficPolicy() {
+    this._externalTrafficPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get externalTrafficPolicyInput() {
+    return this._externalTrafficPolicy;
+  }
+
+  // host_endpoint_type - computed: false, optional: true, required: false
+  private _hostEndpointType?: string; 
+  public get hostEndpointType() {
+    return this.getStringAttribute('host_endpoint_type');
+  }
+  public set hostEndpointType(value: string) {
+    this._hostEndpointType = value;
+  }
+  public resetHostEndpointType() {
+    this._hostEndpointType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hostEndpointTypeInput() {
+    return this._hostEndpointType;
+  }
+
+  // ingress_host - computed: false, optional: true, required: false
+  private _ingressHost?: string; 
+  public get ingressHost() {
+    return this.getStringAttribute('ingress_host');
+  }
+  public set ingressHost(value: string) {
+    this._ingressHost = value;
+  }
+  public resetIngressHost() {
+    this._ingressHost = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ingressHostInput() {
+    return this._ingressHost;
+  }
+
+  // load_balancer_source_ranges - computed: false, optional: true, required: false
+  private _loadBalancerSourceRanges?: string; 
+  public get loadBalancerSourceRanges() {
+    return this.getStringAttribute('load_balancer_source_ranges');
+  }
+  public set loadBalancerSourceRanges(value: string) {
+    this._loadBalancerSourceRanges = value;
+  }
+  public resetLoadBalancerSourceRanges() {
+    this._loadBalancerSourceRanges = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get loadBalancerSourceRangesInput() {
+    return this._loadBalancerSourceRanges;
+  }
+}
+
+export class ClusterEksHostConfigList extends cdktf.ComplexList {
+  public internalValue? : ClusterEksHostConfig[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ClusterEksHostConfigOutputReference {
+    return new ClusterEksHostConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ClusterEksMachinePoolEksLaunchTemplate {
+  /**
+  * Additional security groups to attach to the instance.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#additional_security_groups ClusterEks#additional_security_groups}
+  */
+  readonly additionalSecurityGroups?: string[];
+  /**
+  * The ID of the custom Amazon Machine Image (AMI). If you do not set an `ami_id`, Palette will repave the cluster when it automatically updates the EKS AMI.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#ami_id ClusterEks#ami_id}
+  */
+  readonly amiId?: string;
+  /**
+  * The number of input/output operations per second (IOPS) for the root volume.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#root_volume_iops ClusterEks#root_volume_iops}
+  */
+  readonly rootVolumeIops?: number;
+  /**
+  * The throughput of the root volume in MiB/s.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#root_volume_throughput ClusterEks#root_volume_throughput}
+  */
+  readonly rootVolumeThroughput?: number;
+  /**
+  * The type of the root volume.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#root_volume_type ClusterEks#root_volume_type}
+  */
+  readonly rootVolumeType?: string;
+}
+
+export function clusterEksMachinePoolEksLaunchTemplateToTerraform(struct?: ClusterEksMachinePoolEksLaunchTemplateOutputReference | ClusterEksMachinePoolEksLaunchTemplate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_security_groups: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.additionalSecurityGroups),
+    ami_id: cdktf.stringToTerraform(struct!.amiId),
+    root_volume_iops: cdktf.numberToTerraform(struct!.rootVolumeIops),
+    root_volume_throughput: cdktf.numberToTerraform(struct!.rootVolumeThroughput),
+    root_volume_type: cdktf.stringToTerraform(struct!.rootVolumeType),
+  }
+}
+
+
+export function clusterEksMachinePoolEksLaunchTemplateToHclTerraform(struct?: ClusterEksMachinePoolEksLaunchTemplateOutputReference | ClusterEksMachinePoolEksLaunchTemplate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_security_groups: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.additionalSecurityGroups),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    ami_id: {
+      value: cdktf.stringToHclTerraform(struct!.amiId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    root_volume_iops: {
+      value: cdktf.numberToHclTerraform(struct!.rootVolumeIops),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    root_volume_throughput: {
+      value: cdktf.numberToHclTerraform(struct!.rootVolumeThroughput),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    root_volume_type: {
+      value: cdktf.stringToHclTerraform(struct!.rootVolumeType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClusterEksMachinePoolEksLaunchTemplateOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ClusterEksMachinePoolEksLaunchTemplate | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalSecurityGroups !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalSecurityGroups = this._additionalSecurityGroups;
+    }
+    if (this._amiId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.amiId = this._amiId;
+    }
+    if (this._rootVolumeIops !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rootVolumeIops = this._rootVolumeIops;
+    }
+    if (this._rootVolumeThroughput !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rootVolumeThroughput = this._rootVolumeThroughput;
+    }
+    if (this._rootVolumeType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rootVolumeType = this._rootVolumeType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClusterEksMachinePoolEksLaunchTemplate | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._additionalSecurityGroups = undefined;
+      this._amiId = undefined;
+      this._rootVolumeIops = undefined;
+      this._rootVolumeThroughput = undefined;
+      this._rootVolumeType = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._additionalSecurityGroups = value.additionalSecurityGroups;
+      this._amiId = value.amiId;
+      this._rootVolumeIops = value.rootVolumeIops;
+      this._rootVolumeThroughput = value.rootVolumeThroughput;
+      this._rootVolumeType = value.rootVolumeType;
+    }
+  }
+
+  // additional_security_groups - computed: false, optional: true, required: false
+  private _additionalSecurityGroups?: string[]; 
+  public get additionalSecurityGroups() {
+    return cdktf.Fn.tolist(this.getListAttribute('additional_security_groups'));
+  }
+  public set additionalSecurityGroups(value: string[]) {
+    this._additionalSecurityGroups = value;
+  }
+  public resetAdditionalSecurityGroups() {
+    this._additionalSecurityGroups = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalSecurityGroupsInput() {
+    return this._additionalSecurityGroups;
+  }
+
+  // ami_id - computed: false, optional: true, required: false
+  private _amiId?: string; 
+  public get amiId() {
+    return this.getStringAttribute('ami_id');
+  }
+  public set amiId(value: string) {
+    this._amiId = value;
+  }
+  public resetAmiId() {
+    this._amiId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get amiIdInput() {
+    return this._amiId;
+  }
+
+  // root_volume_iops - computed: false, optional: true, required: false
+  private _rootVolumeIops?: number; 
+  public get rootVolumeIops() {
+    return this.getNumberAttribute('root_volume_iops');
+  }
+  public set rootVolumeIops(value: number) {
+    this._rootVolumeIops = value;
+  }
+  public resetRootVolumeIops() {
+    this._rootVolumeIops = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rootVolumeIopsInput() {
+    return this._rootVolumeIops;
+  }
+
+  // root_volume_throughput - computed: false, optional: true, required: false
+  private _rootVolumeThroughput?: number; 
+  public get rootVolumeThroughput() {
+    return this.getNumberAttribute('root_volume_throughput');
+  }
+  public set rootVolumeThroughput(value: number) {
+    this._rootVolumeThroughput = value;
+  }
+  public resetRootVolumeThroughput() {
+    this._rootVolumeThroughput = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rootVolumeThroughputInput() {
+    return this._rootVolumeThroughput;
+  }
+
+  // root_volume_type - computed: false, optional: true, required: false
+  private _rootVolumeType?: string; 
+  public get rootVolumeType() {
+    return this.getStringAttribute('root_volume_type');
+  }
+  public set rootVolumeType(value: string) {
+    this._rootVolumeType = value;
+  }
+  public resetRootVolumeType() {
+    this._rootVolumeType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rootVolumeTypeInput() {
+    return this._rootVolumeType;
+  }
+}
+export interface ClusterEksMachinePoolNode {
+  /**
+  * The action to perform on the node. Valid values are: `cordon`, `uncordon`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#action ClusterEks#action}
+  */
+  readonly action: string;
+  /**
+  * The node_id of the node, For example `i-07f899a33dee624f7`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#node_id ClusterEks#node_id}
+  */
+  readonly nodeId: string;
+}
+
+export function clusterEksMachinePoolNodeToTerraform(struct?: ClusterEksMachinePoolNode | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    action: cdktf.stringToTerraform(struct!.action),
+    node_id: cdktf.stringToTerraform(struct!.nodeId),
+  }
+}
+
+
+export function clusterEksMachinePoolNodeToHclTerraform(struct?: ClusterEksMachinePoolNode | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    action: {
+      value: cdktf.stringToHclTerraform(struct!.action),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    node_id: {
+      value: cdktf.stringToHclTerraform(struct!.nodeId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClusterEksMachinePoolNodeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ClusterEksMachinePoolNode | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._action !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.action = this._action;
+    }
+    if (this._nodeId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeId = this._nodeId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClusterEksMachinePoolNode | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._action = undefined;
+      this._nodeId = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._action = value.action;
+      this._nodeId = value.nodeId;
+    }
+  }
+
+  // action - computed: false, optional: false, required: true
+  private _action?: string; 
+  public get action() {
+    return this.getStringAttribute('action');
+  }
+  public set action(value: string) {
+    this._action = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get actionInput() {
+    return this._action;
+  }
+
+  // node_id - computed: false, optional: false, required: true
+  private _nodeId?: string; 
+  public get nodeId() {
+    return this.getStringAttribute('node_id');
+  }
+  public set nodeId(value: string) {
+    this._nodeId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeIdInput() {
+    return this._nodeId;
+  }
+}
+
+export class ClusterEksMachinePoolNodeList extends cdktf.ComplexList {
+  public internalValue? : ClusterEksMachinePoolNode[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ClusterEksMachinePoolNodeOutputReference {
+    return new ClusterEksMachinePoolNodeOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ClusterEksMachinePoolTaints {
+  /**
+  * The effect of the taint. Allowed values are: `NoSchedule`, `PreferNoSchedule` or `NoExecute`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#effect ClusterEks#effect}
+  */
+  readonly effect: string;
+  /**
+  * The key of the taint.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#key ClusterEks#key}
+  */
+  readonly key: string;
+  /**
+  * The value of the taint.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#value ClusterEks#value}
+  */
+  readonly value: string;
+}
+
+export function clusterEksMachinePoolTaintsToTerraform(struct?: ClusterEksMachinePoolTaints | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    effect: cdktf.stringToTerraform(struct!.effect),
+    key: cdktf.stringToTerraform(struct!.key),
+    value: cdktf.stringToTerraform(struct!.value),
+  }
+}
+
+
+export function clusterEksMachinePoolTaintsToHclTerraform(struct?: ClusterEksMachinePoolTaints | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    effect: {
+      value: cdktf.stringToHclTerraform(struct!.effect),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktf.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClusterEksMachinePoolTaintsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ClusterEksMachinePoolTaints | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._effect !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.effect = this._effect;
+    }
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClusterEksMachinePoolTaints | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._effect = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._effect = value.effect;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // effect - computed: false, optional: false, required: true
+  private _effect?: string; 
+  public get effect() {
+    return this.getStringAttribute('effect');
+  }
+  public set effect(value: string) {
+    this._effect = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get effectInput() {
+    return this._effect;
+  }
+
+  // key - computed: false, optional: false, required: true
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: false, optional: false, required: true
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class ClusterEksMachinePoolTaintsList extends cdktf.ComplexList {
+  public internalValue? : ClusterEksMachinePoolTaints[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ClusterEksMachinePoolTaintsOutputReference {
+    return new ClusterEksMachinePoolTaintsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ClusterEksMachinePool {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#additional_labels ClusterEks#additional_labels}
+  */
+  readonly additionalLabels?: { [key: string]: string };
+  /**
+  * Specifies the type of Amazon Machine Image (AMI) to use for the machine pool. Valid values are [`AL2_x86_64`, `AL2_x86_64_GPU`, `AL2023_x86_64_STANDARD`, `AL2023_x86_64_NEURON` and `AL2023_x86_64_NVIDIA`]. Defaults to `AL2_x86_64`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#ami_type ClusterEks#ami_type}
+  */
+  readonly amiType?: string;
+  /**
+  * Mutually exclusive with `azs`. Use for Static provisioning.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#az_subnets ClusterEks#az_subnets}
+  */
+  readonly azSubnets?: { [key: string]: string };
+  /**
+  * Mutually exclusive with `az_subnets`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#azs ClusterEks#azs}
+  */
+  readonly azs?: string[];
+  /**
+  * Capacity type is an instance type,  can be 'on-demand' or 'spot'. Defaults to 'on-demand'.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#capacity_type ClusterEks#capacity_type}
+  */
+  readonly capacityType?: string;
+  /**
+  * Number of nodes in the machine pool.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#count ClusterEks#count}
+  */
+  readonly count: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#disk_size_gb ClusterEks#disk_size_gb}
+  */
+  readonly diskSizeGb: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#instance_type ClusterEks#instance_type}
+  */
+  readonly instanceType: string;
+  /**
+  * Maximum number of nodes in the machine pool. This is used for autoscaling the machine pool.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#max ClusterEks#max}
+  */
+  readonly max?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#max_price ClusterEks#max_price}
+  */
+  readonly maxPrice?: string;
+  /**
+  * Minimum number of nodes in the machine pool. This is used for autoscaling the machine pool.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#min ClusterEks#min}
+  */
+  readonly min?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#name ClusterEks#name}
+  */
+  readonly name: string;
+  /**
+  * Update strategy for the machine pool. Valid values are `RollingUpdateScaleOut` and `RollingUpdateScaleIn`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#update_strategy ClusterEks#update_strategy}
+  */
+  readonly updateStrategy?: string;
+  /**
+  * eks_launch_template block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#eks_launch_template ClusterEks#eks_launch_template}
+  */
+  readonly eksLaunchTemplate?: ClusterEksMachinePoolEksLaunchTemplate;
+  /**
+  * node block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#node ClusterEks#node}
+  */
+  readonly nodeAttribute?: ClusterEksMachinePoolNode[] | cdktf.IResolvable;
+  /**
+  * taints block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#taints ClusterEks#taints}
+  */
+  readonly taints?: ClusterEksMachinePoolTaints[] | cdktf.IResolvable;
+}
+
+export function clusterEksMachinePoolToTerraform(struct?: ClusterEksMachinePool | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.additionalLabels),
+    ami_type: cdktf.stringToTerraform(struct!.amiType),
+    az_subnets: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.azSubnets),
+    azs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.azs),
+    capacity_type: cdktf.stringToTerraform(struct!.capacityType),
+    count: cdktf.numberToTerraform(struct!.count),
+    disk_size_gb: cdktf.numberToTerraform(struct!.diskSizeGb),
+    instance_type: cdktf.stringToTerraform(struct!.instanceType),
+    max: cdktf.numberToTerraform(struct!.max),
+    max_price: cdktf.stringToTerraform(struct!.maxPrice),
+    min: cdktf.numberToTerraform(struct!.min),
+    name: cdktf.stringToTerraform(struct!.name),
+    update_strategy: cdktf.stringToTerraform(struct!.updateStrategy),
+    eks_launch_template: clusterEksMachinePoolEksLaunchTemplateToTerraform(struct!.eksLaunchTemplate),
+    node: cdktf.listMapper(clusterEksMachinePoolNodeToTerraform, true)(struct!.nodeAttribute),
+    taints: cdktf.listMapper(clusterEksMachinePoolTaintsToTerraform, true)(struct!.taints),
+  }
+}
+
+
+export function clusterEksMachinePoolToHclTerraform(struct?: ClusterEksMachinePool | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_labels: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.additionalLabels),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    ami_type: {
+      value: cdktf.stringToHclTerraform(struct!.amiType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    az_subnets: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.azSubnets),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    azs: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.azs),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    capacity_type: {
+      value: cdktf.stringToHclTerraform(struct!.capacityType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    count: {
+      value: cdktf.numberToHclTerraform(struct!.count),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    disk_size_gb: {
+      value: cdktf.numberToHclTerraform(struct!.diskSizeGb),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    instance_type: {
+      value: cdktf.stringToHclTerraform(struct!.instanceType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    max: {
+      value: cdktf.numberToHclTerraform(struct!.max),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    max_price: {
+      value: cdktf.stringToHclTerraform(struct!.maxPrice),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    min: {
+      value: cdktf.numberToHclTerraform(struct!.min),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    update_strategy: {
+      value: cdktf.stringToHclTerraform(struct!.updateStrategy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    eks_launch_template: {
+      value: clusterEksMachinePoolEksLaunchTemplateToHclTerraform(struct!.eksLaunchTemplate),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ClusterEksMachinePoolEksLaunchTemplateList",
+    },
+    node: {
+      value: cdktf.listMapperHcl(clusterEksMachinePoolNodeToHclTerraform, true)(struct!.nodeAttribute),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ClusterEksMachinePoolNodeList",
+    },
+    taints: {
+      value: cdktf.listMapperHcl(clusterEksMachinePoolTaintsToHclTerraform, true)(struct!.taints),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ClusterEksMachinePoolTaintsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClusterEksMachinePoolOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ClusterEksMachinePool | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalLabels !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalLabels = this._additionalLabels;
+    }
+    if (this._amiType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.amiType = this._amiType;
+    }
+    if (this._azSubnets !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.azSubnets = this._azSubnets;
+    }
+    if (this._azs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.azs = this._azs;
+    }
+    if (this._capacityType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.capacityType = this._capacityType;
+    }
+    if (this._count !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.count = this._count;
+    }
+    if (this._diskSizeGb !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.diskSizeGb = this._diskSizeGb;
+    }
+    if (this._instanceType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instanceType = this._instanceType;
+    }
+    if (this._max !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.max = this._max;
+    }
+    if (this._maxPrice !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxPrice = this._maxPrice;
+    }
+    if (this._min !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.min = this._min;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._updateStrategy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.updateStrategy = this._updateStrategy;
+    }
+    if (this._eksLaunchTemplate?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.eksLaunchTemplate = this._eksLaunchTemplate?.internalValue;
+    }
+    if (this._node?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeAttribute = this._node?.internalValue;
+    }
+    if (this._taints?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.taints = this._taints?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClusterEksMachinePool | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._additionalLabels = undefined;
+      this._amiType = undefined;
+      this._azSubnets = undefined;
+      this._azs = undefined;
+      this._capacityType = undefined;
+      this._count = undefined;
+      this._diskSizeGb = undefined;
+      this._instanceType = undefined;
+      this._max = undefined;
+      this._maxPrice = undefined;
+      this._min = undefined;
+      this._name = undefined;
+      this._updateStrategy = undefined;
+      this._eksLaunchTemplate.internalValue = undefined;
+      this._node.internalValue = undefined;
+      this._taints.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._additionalLabels = value.additionalLabels;
+      this._amiType = value.amiType;
+      this._azSubnets = value.azSubnets;
+      this._azs = value.azs;
+      this._capacityType = value.capacityType;
+      this._count = value.count;
+      this._diskSizeGb = value.diskSizeGb;
+      this._instanceType = value.instanceType;
+      this._max = value.max;
+      this._maxPrice = value.maxPrice;
+      this._min = value.min;
+      this._name = value.name;
+      this._updateStrategy = value.updateStrategy;
+      this._eksLaunchTemplate.internalValue = value.eksLaunchTemplate;
+      this._node.internalValue = value.nodeAttribute;
+      this._taints.internalValue = value.taints;
+    }
+  }
+
+  // additional_labels - computed: false, optional: true, required: false
+  private _additionalLabels?: { [key: string]: string }; 
+  public get additionalLabels() {
+    return this.getStringMapAttribute('additional_labels');
+  }
+  public set additionalLabels(value: { [key: string]: string }) {
+    this._additionalLabels = value;
+  }
+  public resetAdditionalLabels() {
+    this._additionalLabels = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalLabelsInput() {
+    return this._additionalLabels;
+  }
+
+  // ami_type - computed: false, optional: true, required: false
+  private _amiType?: string; 
+  public get amiType() {
+    return this.getStringAttribute('ami_type');
+  }
+  public set amiType(value: string) {
+    this._amiType = value;
+  }
+  public resetAmiType() {
+    this._amiType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get amiTypeInput() {
+    return this._amiType;
+  }
+
+  // az_subnets - computed: false, optional: true, required: false
+  private _azSubnets?: { [key: string]: string }; 
+  public get azSubnets() {
+    return this.getStringMapAttribute('az_subnets');
+  }
+  public set azSubnets(value: { [key: string]: string }) {
+    this._azSubnets = value;
+  }
+  public resetAzSubnets() {
+    this._azSubnets = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get azSubnetsInput() {
+    return this._azSubnets;
+  }
+
+  // azs - computed: false, optional: true, required: false
+  private _azs?: string[]; 
+  public get azs() {
+    return this.getListAttribute('azs');
+  }
+  public set azs(value: string[]) {
+    this._azs = value;
+  }
+  public resetAzs() {
+    this._azs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get azsInput() {
+    return this._azs;
+  }
+
+  // capacity_type - computed: false, optional: true, required: false
+  private _capacityType?: string; 
+  public get capacityType() {
+    return this.getStringAttribute('capacity_type');
+  }
+  public set capacityType(value: string) {
+    this._capacityType = value;
+  }
+  public resetCapacityType() {
+    this._capacityType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get capacityTypeInput() {
+    return this._capacityType;
+  }
+
+  // count - computed: false, optional: false, required: true
+  private _count?: number; 
+  public get count() {
+    return this.getNumberAttribute('count');
+  }
+  public set count(value: number) {
+    this._count = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get countInput() {
+    return this._count;
+  }
+
+  // disk_size_gb - computed: false, optional: false, required: true
+  private _diskSizeGb?: number; 
+  public get diskSizeGb() {
+    return this.getNumberAttribute('disk_size_gb');
+  }
+  public set diskSizeGb(value: number) {
+    this._diskSizeGb = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get diskSizeGbInput() {
+    return this._diskSizeGb;
+  }
+
+  // instance_type - computed: false, optional: false, required: true
+  private _instanceType?: string; 
+  public get instanceType() {
+    return this.getStringAttribute('instance_type');
+  }
+  public set instanceType(value: string) {
+    this._instanceType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceTypeInput() {
+    return this._instanceType;
+  }
+
+  // max - computed: false, optional: true, required: false
+  private _max?: number; 
+  public get max() {
+    return this.getNumberAttribute('max');
+  }
+  public set max(value: number) {
+    this._max = value;
+  }
+  public resetMax() {
+    this._max = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxInput() {
+    return this._max;
+  }
+
+  // max_price - computed: false, optional: true, required: false
+  private _maxPrice?: string; 
+  public get maxPrice() {
+    return this.getStringAttribute('max_price');
+  }
+  public set maxPrice(value: string) {
+    this._maxPrice = value;
+  }
+  public resetMaxPrice() {
+    this._maxPrice = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxPriceInput() {
+    return this._maxPrice;
+  }
+
+  // min - computed: false, optional: true, required: false
+  private _min?: number; 
+  public get min() {
+    return this.getNumberAttribute('min');
+  }
+  public set min(value: number) {
+    this._min = value;
+  }
+  public resetMin() {
+    this._min = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minInput() {
+    return this._min;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // update_strategy - computed: false, optional: true, required: false
+  private _updateStrategy?: string; 
+  public get updateStrategy() {
+    return this.getStringAttribute('update_strategy');
+  }
+  public set updateStrategy(value: string) {
+    this._updateStrategy = value;
+  }
+  public resetUpdateStrategy() {
+    this._updateStrategy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get updateStrategyInput() {
+    return this._updateStrategy;
+  }
+
+  // eks_launch_template - computed: false, optional: true, required: false
+  private _eksLaunchTemplate = new ClusterEksMachinePoolEksLaunchTemplateOutputReference(this, "eks_launch_template");
+  public get eksLaunchTemplate() {
+    return this._eksLaunchTemplate;
+  }
+  public putEksLaunchTemplate(value: ClusterEksMachinePoolEksLaunchTemplate) {
+    this._eksLaunchTemplate.internalValue = value;
+  }
+  public resetEksLaunchTemplate() {
+    this._eksLaunchTemplate.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get eksLaunchTemplateInput() {
+    return this._eksLaunchTemplate.internalValue;
+  }
+
+  // node - computed: false, optional: true, required: false
+  private _node = new ClusterEksMachinePoolNodeList(this, "node", false);
+  public get nodeAttribute() {
+    return this._node;
+  }
+  public putNodeAttribute(value: ClusterEksMachinePoolNode[] | cdktf.IResolvable) {
+    this._node.internalValue = value;
+  }
+  public resetNodeAttribute() {
+    this._node.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeAttributeInput() {
+    return this._node.internalValue;
+  }
+
+  // taints - computed: false, optional: true, required: false
+  private _taints = new ClusterEksMachinePoolTaintsList(this, "taints", false);
+  public get taints() {
+    return this._taints;
+  }
+  public putTaints(value: ClusterEksMachinePoolTaints[] | cdktf.IResolvable) {
+    this._taints.internalValue = value;
+  }
+  public resetTaints() {
+    this._taints.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get taintsInput() {
+    return this._taints.internalValue;
+  }
+}
+
+export class ClusterEksMachinePoolList extends cdktf.ComplexList {
+  public internalValue? : ClusterEksMachinePool[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ClusterEksMachinePoolOutputReference {
+    return new ClusterEksMachinePoolOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ClusterEksNamespaces {
+  /**
+  * Name of the namespace. This is the name of the Kubernetes namespace in the cluster.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#name ClusterEks#name}
+  */
+  readonly name: string;
+  /**
+  * Resource allocation for the namespace. This is a map containing the resource type and the resource value. For example, `{cpu_cores: '2', memory_MiB: '2048', gpu_limit: '1', gpu_provider: 'nvidia'}`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#resource_allocation ClusterEks#resource_allocation}
+  */
+  readonly resourceAllocation: { [key: string]: string };
+}
+
+export function clusterEksNamespacesToTerraform(struct?: ClusterEksNamespaces | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    resource_allocation: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.resourceAllocation),
+  }
+}
+
+
+export function clusterEksNamespacesToHclTerraform(struct?: ClusterEksNamespaces | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    resource_allocation: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.resourceAllocation),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClusterEksNamespacesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ClusterEksNamespaces | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._resourceAllocation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resourceAllocation = this._resourceAllocation;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClusterEksNamespaces | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._resourceAllocation = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._resourceAllocation = value.resourceAllocation;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // resource_allocation - computed: false, optional: false, required: true
+  private _resourceAllocation?: { [key: string]: string }; 
+  public get resourceAllocation() {
+    return this.getStringMapAttribute('resource_allocation');
+  }
+  public set resourceAllocation(value: { [key: string]: string }) {
+    this._resourceAllocation = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceAllocationInput() {
+    return this._resourceAllocation;
+  }
+}
+
+export class ClusterEksNamespacesList extends cdktf.ComplexList {
+  public internalValue? : ClusterEksNamespaces[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ClusterEksNamespacesOutputReference {
+    return new ClusterEksNamespacesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ClusterEksScanPolicy {
+  /**
+  * The schedule for configuration scan.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#configuration_scan_schedule ClusterEks#configuration_scan_schedule}
+  */
+  readonly configurationScanSchedule: string;
+  /**
+  * The schedule for conformance scan.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#conformance_scan_schedule ClusterEks#conformance_scan_schedule}
+  */
+  readonly conformanceScanSchedule: string;
+  /**
+  * The schedule for penetration scan.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#penetration_scan_schedule ClusterEks#penetration_scan_schedule}
+  */
+  readonly penetrationScanSchedule: string;
+}
+
+export function clusterEksScanPolicyToTerraform(struct?: ClusterEksScanPolicyOutputReference | ClusterEksScanPolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    configuration_scan_schedule: cdktf.stringToTerraform(struct!.configurationScanSchedule),
+    conformance_scan_schedule: cdktf.stringToTerraform(struct!.conformanceScanSchedule),
+    penetration_scan_schedule: cdktf.stringToTerraform(struct!.penetrationScanSchedule),
+  }
+}
+
+
+export function clusterEksScanPolicyToHclTerraform(struct?: ClusterEksScanPolicyOutputReference | ClusterEksScanPolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    configuration_scan_schedule: {
+      value: cdktf.stringToHclTerraform(struct!.configurationScanSchedule),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    conformance_scan_schedule: {
+      value: cdktf.stringToHclTerraform(struct!.conformanceScanSchedule),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    penetration_scan_schedule: {
+      value: cdktf.stringToHclTerraform(struct!.penetrationScanSchedule),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClusterEksScanPolicyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ClusterEksScanPolicy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._configurationScanSchedule !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.configurationScanSchedule = this._configurationScanSchedule;
+    }
+    if (this._conformanceScanSchedule !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.conformanceScanSchedule = this._conformanceScanSchedule;
+    }
+    if (this._penetrationScanSchedule !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.penetrationScanSchedule = this._penetrationScanSchedule;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClusterEksScanPolicy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._configurationScanSchedule = undefined;
+      this._conformanceScanSchedule = undefined;
+      this._penetrationScanSchedule = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._configurationScanSchedule = value.configurationScanSchedule;
+      this._conformanceScanSchedule = value.conformanceScanSchedule;
+      this._penetrationScanSchedule = value.penetrationScanSchedule;
+    }
+  }
+
+  // configuration_scan_schedule - computed: false, optional: false, required: true
+  private _configurationScanSchedule?: string; 
+  public get configurationScanSchedule() {
+    return this.getStringAttribute('configuration_scan_schedule');
+  }
+  public set configurationScanSchedule(value: string) {
+    this._configurationScanSchedule = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configurationScanScheduleInput() {
+    return this._configurationScanSchedule;
+  }
+
+  // conformance_scan_schedule - computed: false, optional: false, required: true
+  private _conformanceScanSchedule?: string; 
+  public get conformanceScanSchedule() {
+    return this.getStringAttribute('conformance_scan_schedule');
+  }
+  public set conformanceScanSchedule(value: string) {
+    this._conformanceScanSchedule = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get conformanceScanScheduleInput() {
+    return this._conformanceScanSchedule;
+  }
+
+  // penetration_scan_schedule - computed: false, optional: false, required: true
+  private _penetrationScanSchedule?: string; 
+  public get penetrationScanSchedule() {
+    return this.getStringAttribute('penetration_scan_schedule');
+  }
+  public set penetrationScanSchedule(value: string) {
+    this._penetrationScanSchedule = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get penetrationScanScheduleInput() {
+    return this._penetrationScanSchedule;
+  }
+}
+export interface ClusterEksTimeouts {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#create ClusterEks#create}
+  */
+  readonly create?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#delete ClusterEks#delete}
+  */
+  readonly delete?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#update ClusterEks#update}
+  */
+  readonly update?: string;
+}
+
+export function clusterEksTimeoutsToTerraform(struct?: ClusterEksTimeouts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    create: cdktf.stringToTerraform(struct!.create),
+    delete: cdktf.stringToTerraform(struct!.delete),
+    update: cdktf.stringToTerraform(struct!.update),
+  }
+}
+
+
+export function clusterEksTimeoutsToHclTerraform(struct?: ClusterEksTimeouts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    create: {
+      value: cdktf.stringToHclTerraform(struct!.create),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    delete: {
+      value: cdktf.stringToHclTerraform(struct!.delete),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    update: {
+      value: cdktf.stringToHclTerraform(struct!.update),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClusterEksTimeoutsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): ClusterEksTimeouts | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._create !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.create = this._create;
+    }
+    if (this._delete !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.delete = this._delete;
+    }
+    if (this._update !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.update = this._update;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClusterEksTimeouts | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._create = undefined;
+      this._delete = undefined;
+      this._update = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._create = value.create;
+      this._delete = value.delete;
+      this._update = value.update;
+    }
+  }
+
+  // create - computed: false, optional: true, required: false
+  private _create?: string; 
+  public get create() {
+    return this.getStringAttribute('create');
+  }
+  public set create(value: string) {
+    this._create = value;
+  }
+  public resetCreate() {
+    this._create = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get createInput() {
+    return this._create;
+  }
+
+  // delete - computed: false, optional: true, required: false
+  private _delete?: string; 
+  public get delete() {
+    return this.getStringAttribute('delete');
+  }
+  public set delete(value: string) {
+    this._delete = value;
+  }
+  public resetDelete() {
+    this._delete = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deleteInput() {
+    return this._delete;
+  }
+
+  // update - computed: false, optional: true, required: false
+  private _update?: string; 
+  public get update() {
+    return this.getStringAttribute('update');
+  }
+  public set update(value: string) {
+    this._update = value;
+  }
+  public resetUpdate() {
+    this._update = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get updateInput() {
+    return this._update;
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks spectrocloud_cluster_eks}
+*/
+export class ClusterEks extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "spectrocloud_cluster_eks";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a ClusterEks resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the ClusterEks to import
+  * @param importFromId The id of the existing ClusterEks that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the ClusterEks to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "spectrocloud_cluster_eks", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.25.2/docs/resources/cluster_eks spectrocloud_cluster_eks} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options ClusterEksConfig
+  */
+  public constructor(scope: Construct, id: string, config: ClusterEksConfig) {
+    super(scope, id, {
+      terraformResourceType: 'spectrocloud_cluster_eks',
+      terraformGeneratorMetadata: {
+        providerName: 'spectrocloud',
+        providerVersion: '0.25.2'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._applySetting = config.applySetting;
+    this._cloudAccountId = config.cloudAccountId;
+    this._clusterMetaAttribute = config.clusterMetaAttribute;
+    this._context = config.context;
+    this._description = config.description;
+    this._forceDelete = config.forceDelete;
+    this._forceDeleteDelay = config.forceDeleteDelay;
+    this._id = config.id;
+    this._name = config.name;
+    this._osPatchAfter = config.osPatchAfter;
+    this._osPatchOnBoot = config.osPatchOnBoot;
+    this._osPatchSchedule = config.osPatchSchedule;
+    this._pauseAgentUpgrades = config.pauseAgentUpgrades;
+    this._reviewRepaveState = config.reviewRepaveState;
+    this._skipCompletion = config.skipCompletion;
+    this._tags = config.tags;
+    this._tagsMap = config.tagsMap;
+    this._backupPolicy.internalValue = config.backupPolicy;
+    this._cloudConfig.internalValue = config.cloudConfig;
+    this._clusterProfile.internalValue = config.clusterProfile;
+    this._clusterRbacBinding.internalValue = config.clusterRbacBinding;
+    this._fargateProfile.internalValue = config.fargateProfile;
+    this._hostConfig.internalValue = config.hostConfig;
+    this._machinePool.internalValue = config.machinePool;
+    this._namespaces.internalValue = config.namespaces;
+    this._scanPolicy.internalValue = config.scanPolicy;
+    this._timeouts.internalValue = config.timeouts;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // admin_kube_config - computed: true, optional: false, required: false
+  public get adminKubeConfig() {
+    return this.getStringAttribute('admin_kube_config');
+  }
+
+  // apply_setting - computed: false, optional: true, required: false
+  private _applySetting?: string; 
+  public get applySetting() {
+    return this.getStringAttribute('apply_setting');
+  }
+  public set applySetting(value: string) {
+    this._applySetting = value;
+  }
+  public resetApplySetting() {
+    this._applySetting = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get applySettingInput() {
+    return this._applySetting;
+  }
+
+  // cloud_account_id - computed: false, optional: false, required: true
+  private _cloudAccountId?: string; 
+  public get cloudAccountId() {
+    return this.getStringAttribute('cloud_account_id');
+  }
+  public set cloudAccountId(value: string) {
+    this._cloudAccountId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cloudAccountIdInput() {
+    return this._cloudAccountId;
+  }
+
+  // cloud_config_id - computed: true, optional: false, required: false
+  public get cloudConfigId() {
+    return this.getStringAttribute('cloud_config_id');
+  }
+
+  // cluster_meta_attribute - computed: false, optional: true, required: false
+  private _clusterMetaAttribute?: string; 
+  public get clusterMetaAttribute() {
+    return this.getStringAttribute('cluster_meta_attribute');
+  }
+  public set clusterMetaAttribute(value: string) {
+    this._clusterMetaAttribute = value;
+  }
+  public resetClusterMetaAttribute() {
+    this._clusterMetaAttribute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clusterMetaAttributeInput() {
+    return this._clusterMetaAttribute;
+  }
+
+  // context - computed: false, optional: true, required: false
+  private _context?: string; 
+  public get context() {
+    return this.getStringAttribute('context');
+  }
+  public set context(value: string) {
+    this._context = value;
+  }
+  public resetContext() {
+    this._context = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get contextInput() {
+    return this._context;
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // force_delete - computed: false, optional: true, required: false
+  private _forceDelete?: boolean | cdktf.IResolvable; 
+  public get forceDelete() {
+    return this.getBooleanAttribute('force_delete');
+  }
+  public set forceDelete(value: boolean | cdktf.IResolvable) {
+    this._forceDelete = value;
+  }
+  public resetForceDelete() {
+    this._forceDelete = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get forceDeleteInput() {
+    return this._forceDelete;
+  }
+
+  // force_delete_delay - computed: false, optional: true, required: false
+  private _forceDeleteDelay?: number; 
+  public get forceDeleteDelay() {
+    return this.getNumberAttribute('force_delete_delay');
+  }
+  public set forceDeleteDelay(value: number) {
+    this._forceDeleteDelay = value;
+  }
+  public resetForceDeleteDelay() {
+    this._forceDeleteDelay = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get forceDeleteDelayInput() {
+    return this._forceDeleteDelay;
+  }
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // kubeconfig - computed: true, optional: false, required: false
+  public get kubeconfig() {
+    return this.getStringAttribute('kubeconfig');
+  }
+
+  // location_config - computed: true, optional: false, required: false
+  private _locationConfig = new ClusterEksLocationConfigList(this, "location_config", false);
+  public get locationConfig() {
+    return this._locationConfig;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // os_patch_after - computed: false, optional: true, required: false
+  private _osPatchAfter?: string; 
+  public get osPatchAfter() {
+    return this.getStringAttribute('os_patch_after');
+  }
+  public set osPatchAfter(value: string) {
+    this._osPatchAfter = value;
+  }
+  public resetOsPatchAfter() {
+    this._osPatchAfter = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get osPatchAfterInput() {
+    return this._osPatchAfter;
+  }
+
+  // os_patch_on_boot - computed: false, optional: true, required: false
+  private _osPatchOnBoot?: boolean | cdktf.IResolvable; 
+  public get osPatchOnBoot() {
+    return this.getBooleanAttribute('os_patch_on_boot');
+  }
+  public set osPatchOnBoot(value: boolean | cdktf.IResolvable) {
+    this._osPatchOnBoot = value;
+  }
+  public resetOsPatchOnBoot() {
+    this._osPatchOnBoot = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get osPatchOnBootInput() {
+    return this._osPatchOnBoot;
+  }
+
+  // os_patch_schedule - computed: false, optional: true, required: false
+  private _osPatchSchedule?: string; 
+  public get osPatchSchedule() {
+    return this.getStringAttribute('os_patch_schedule');
+  }
+  public set osPatchSchedule(value: string) {
+    this._osPatchSchedule = value;
+  }
+  public resetOsPatchSchedule() {
+    this._osPatchSchedule = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get osPatchScheduleInput() {
+    return this._osPatchSchedule;
+  }
+
+  // pause_agent_upgrades - computed: false, optional: true, required: false
+  private _pauseAgentUpgrades?: string; 
+  public get pauseAgentUpgrades() {
+    return this.getStringAttribute('pause_agent_upgrades');
+  }
+  public set pauseAgentUpgrades(value: string) {
+    this._pauseAgentUpgrades = value;
+  }
+  public resetPauseAgentUpgrades() {
+    this._pauseAgentUpgrades = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pauseAgentUpgradesInput() {
+    return this._pauseAgentUpgrades;
+  }
+
+  // review_repave_state - computed: false, optional: true, required: false
+  private _reviewRepaveState?: string; 
+  public get reviewRepaveState() {
+    return this.getStringAttribute('review_repave_state');
+  }
+  public set reviewRepaveState(value: string) {
+    this._reviewRepaveState = value;
+  }
+  public resetReviewRepaveState() {
+    this._reviewRepaveState = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get reviewRepaveStateInput() {
+    return this._reviewRepaveState;
+  }
+
+  // skip_completion - computed: false, optional: true, required: false
+  private _skipCompletion?: boolean | cdktf.IResolvable; 
+  public get skipCompletion() {
+    return this.getBooleanAttribute('skip_completion');
+  }
+  public set skipCompletion(value: boolean | cdktf.IResolvable) {
+    this._skipCompletion = value;
+  }
+  public resetSkipCompletion() {
+    this._skipCompletion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get skipCompletionInput() {
+    return this._skipCompletion;
+  }
+
+  // tags - computed: false, optional: true, required: false
+  private _tags?: string[]; 
+  public get tags() {
+    return cdktf.Fn.tolist(this.getListAttribute('tags'));
+  }
+  public set tags(value: string[]) {
+    this._tags = value;
+  }
+  public resetTags() {
+    this._tags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagsInput() {
+    return this._tags;
+  }
+
+  // tags_map - computed: false, optional: true, required: false
+  private _tagsMap?: { [key: string]: string }; 
+  public get tagsMap() {
+    return this.getStringMapAttribute('tags_map');
+  }
+  public set tagsMap(value: { [key: string]: string }) {
+    this._tagsMap = value;
+  }
+  public resetTagsMap() {
+    this._tagsMap = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagsMapInput() {
+    return this._tagsMap;
+  }
+
+  // backup_policy - computed: false, optional: true, required: false
+  private _backupPolicy = new ClusterEksBackupPolicyOutputReference(this, "backup_policy");
+  public get backupPolicy() {
+    return this._backupPolicy;
+  }
+  public putBackupPolicy(value: ClusterEksBackupPolicy) {
+    this._backupPolicy.internalValue = value;
+  }
+  public resetBackupPolicy() {
+    this._backupPolicy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get backupPolicyInput() {
+    return this._backupPolicy.internalValue;
+  }
+
+  // cloud_config - computed: false, optional: false, required: true
+  private _cloudConfig = new ClusterEksCloudConfigOutputReference(this, "cloud_config");
+  public get cloudConfig() {
+    return this._cloudConfig;
+  }
+  public putCloudConfig(value: ClusterEksCloudConfig) {
+    this._cloudConfig.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cloudConfigInput() {
+    return this._cloudConfig.internalValue;
+  }
+
+  // cluster_profile - computed: false, optional: true, required: false
+  private _clusterProfile = new ClusterEksClusterProfileList(this, "cluster_profile", false);
+  public get clusterProfile() {
+    return this._clusterProfile;
+  }
+  public putClusterProfile(value: ClusterEksClusterProfile[] | cdktf.IResolvable) {
+    this._clusterProfile.internalValue = value;
+  }
+  public resetClusterProfile() {
+    this._clusterProfile.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clusterProfileInput() {
+    return this._clusterProfile.internalValue;
+  }
+
+  // cluster_rbac_binding - computed: false, optional: true, required: false
+  private _clusterRbacBinding = new ClusterEksClusterRbacBindingList(this, "cluster_rbac_binding", false);
+  public get clusterRbacBinding() {
+    return this._clusterRbacBinding;
+  }
+  public putClusterRbacBinding(value: ClusterEksClusterRbacBinding[] | cdktf.IResolvable) {
+    this._clusterRbacBinding.internalValue = value;
+  }
+  public resetClusterRbacBinding() {
+    this._clusterRbacBinding.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clusterRbacBindingInput() {
+    return this._clusterRbacBinding.internalValue;
+  }
+
+  // fargate_profile - computed: false, optional: true, required: false
+  private _fargateProfile = new ClusterEksFargateProfileList(this, "fargate_profile", false);
+  public get fargateProfile() {
+    return this._fargateProfile;
+  }
+  public putFargateProfile(value: ClusterEksFargateProfile[] | cdktf.IResolvable) {
+    this._fargateProfile.internalValue = value;
+  }
+  public resetFargateProfile() {
+    this._fargateProfile.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fargateProfileInput() {
+    return this._fargateProfile.internalValue;
+  }
+
+  // host_config - computed: false, optional: true, required: false
+  private _hostConfig = new ClusterEksHostConfigList(this, "host_config", false);
+  public get hostConfig() {
+    return this._hostConfig;
+  }
+  public putHostConfig(value: ClusterEksHostConfig[] | cdktf.IResolvable) {
+    this._hostConfig.internalValue = value;
+  }
+  public resetHostConfig() {
+    this._hostConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hostConfigInput() {
+    return this._hostConfig.internalValue;
+  }
+
+  // machine_pool - computed: false, optional: false, required: true
+  private _machinePool = new ClusterEksMachinePoolList(this, "machine_pool", true);
+  public get machinePool() {
+    return this._machinePool;
+  }
+  public putMachinePool(value: ClusterEksMachinePool[] | cdktf.IResolvable) {
+    this._machinePool.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get machinePoolInput() {
+    return this._machinePool.internalValue;
+  }
+
+  // namespaces - computed: false, optional: true, required: false
+  private _namespaces = new ClusterEksNamespacesList(this, "namespaces", false);
+  public get namespaces() {
+    return this._namespaces;
+  }
+  public putNamespaces(value: ClusterEksNamespaces[] | cdktf.IResolvable) {
+    this._namespaces.internalValue = value;
+  }
+  public resetNamespaces() {
+    this._namespaces.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespacesInput() {
+    return this._namespaces.internalValue;
+  }
+
+  // scan_policy - computed: false, optional: true, required: false
+  private _scanPolicy = new ClusterEksScanPolicyOutputReference(this, "scan_policy");
+  public get scanPolicy() {
+    return this._scanPolicy;
+  }
+  public putScanPolicy(value: ClusterEksScanPolicy) {
+    this._scanPolicy.internalValue = value;
+  }
+  public resetScanPolicy() {
+    this._scanPolicy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scanPolicyInput() {
+    return this._scanPolicy.internalValue;
+  }
+
+  // timeouts - computed: false, optional: true, required: false
+  private _timeouts = new ClusterEksTimeoutsOutputReference(this, "timeouts");
+  public get timeouts() {
+    return this._timeouts;
+  }
+  public putTimeouts(value: ClusterEksTimeouts) {
+    this._timeouts.internalValue = value;
+  }
+  public resetTimeouts() {
+    this._timeouts.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timeoutsInput() {
+    return this._timeouts.internalValue;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      apply_setting: cdktf.stringToTerraform(this._applySetting),
+      cloud_account_id: cdktf.stringToTerraform(this._cloudAccountId),
+      cluster_meta_attribute: cdktf.stringToTerraform(this._clusterMetaAttribute),
+      context: cdktf.stringToTerraform(this._context),
+      description: cdktf.stringToTerraform(this._description),
+      force_delete: cdktf.booleanToTerraform(this._forceDelete),
+      force_delete_delay: cdktf.numberToTerraform(this._forceDeleteDelay),
+      id: cdktf.stringToTerraform(this._id),
+      name: cdktf.stringToTerraform(this._name),
+      os_patch_after: cdktf.stringToTerraform(this._osPatchAfter),
+      os_patch_on_boot: cdktf.booleanToTerraform(this._osPatchOnBoot),
+      os_patch_schedule: cdktf.stringToTerraform(this._osPatchSchedule),
+      pause_agent_upgrades: cdktf.stringToTerraform(this._pauseAgentUpgrades),
+      review_repave_state: cdktf.stringToTerraform(this._reviewRepaveState),
+      skip_completion: cdktf.booleanToTerraform(this._skipCompletion),
+      tags: cdktf.listMapper(cdktf.stringToTerraform, false)(this._tags),
+      tags_map: cdktf.hashMapper(cdktf.stringToTerraform)(this._tagsMap),
+      backup_policy: clusterEksBackupPolicyToTerraform(this._backupPolicy.internalValue),
+      cloud_config: clusterEksCloudConfigToTerraform(this._cloudConfig.internalValue),
+      cluster_profile: cdktf.listMapper(clusterEksClusterProfileToTerraform, true)(this._clusterProfile.internalValue),
+      cluster_rbac_binding: cdktf.listMapper(clusterEksClusterRbacBindingToTerraform, true)(this._clusterRbacBinding.internalValue),
+      fargate_profile: cdktf.listMapper(clusterEksFargateProfileToTerraform, true)(this._fargateProfile.internalValue),
+      host_config: cdktf.listMapper(clusterEksHostConfigToTerraform, true)(this._hostConfig.internalValue),
+      machine_pool: cdktf.listMapper(clusterEksMachinePoolToTerraform, true)(this._machinePool.internalValue),
+      namespaces: cdktf.listMapper(clusterEksNamespacesToTerraform, true)(this._namespaces.internalValue),
+      scan_policy: clusterEksScanPolicyToTerraform(this._scanPolicy.internalValue),
+      timeouts: clusterEksTimeoutsToTerraform(this._timeouts.internalValue),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      apply_setting: {
+        value: cdktf.stringToHclTerraform(this._applySetting),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      cloud_account_id: {
+        value: cdktf.stringToHclTerraform(this._cloudAccountId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      cluster_meta_attribute: {
+        value: cdktf.stringToHclTerraform(this._clusterMetaAttribute),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      context: {
+        value: cdktf.stringToHclTerraform(this._context),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      description: {
+        value: cdktf.stringToHclTerraform(this._description),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      force_delete: {
+        value: cdktf.booleanToHclTerraform(this._forceDelete),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      force_delete_delay: {
+        value: cdktf.numberToHclTerraform(this._forceDeleteDelay),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      os_patch_after: {
+        value: cdktf.stringToHclTerraform(this._osPatchAfter),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      os_patch_on_boot: {
+        value: cdktf.booleanToHclTerraform(this._osPatchOnBoot),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      os_patch_schedule: {
+        value: cdktf.stringToHclTerraform(this._osPatchSchedule),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      pause_agent_upgrades: {
+        value: cdktf.stringToHclTerraform(this._pauseAgentUpgrades),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      review_repave_state: {
+        value: cdktf.stringToHclTerraform(this._reviewRepaveState),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      skip_completion: {
+        value: cdktf.booleanToHclTerraform(this._skipCompletion),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      tags: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._tags),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      tags_map: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._tagsMap),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
+      },
+      backup_policy: {
+        value: clusterEksBackupPolicyToHclTerraform(this._backupPolicy.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ClusterEksBackupPolicyList",
+      },
+      cloud_config: {
+        value: clusterEksCloudConfigToHclTerraform(this._cloudConfig.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ClusterEksCloudConfigList",
+      },
+      cluster_profile: {
+        value: cdktf.listMapperHcl(clusterEksClusterProfileToHclTerraform, true)(this._clusterProfile.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ClusterEksClusterProfileList",
+      },
+      cluster_rbac_binding: {
+        value: cdktf.listMapperHcl(clusterEksClusterRbacBindingToHclTerraform, true)(this._clusterRbacBinding.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ClusterEksClusterRbacBindingList",
+      },
+      fargate_profile: {
+        value: cdktf.listMapperHcl(clusterEksFargateProfileToHclTerraform, true)(this._fargateProfile.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ClusterEksFargateProfileList",
+      },
+      host_config: {
+        value: cdktf.listMapperHcl(clusterEksHostConfigToHclTerraform, true)(this._hostConfig.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ClusterEksHostConfigList",
+      },
+      machine_pool: {
+        value: cdktf.listMapperHcl(clusterEksMachinePoolToHclTerraform, true)(this._machinePool.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "ClusterEksMachinePoolList",
+      },
+      namespaces: {
+        value: cdktf.listMapperHcl(clusterEksNamespacesToHclTerraform, true)(this._namespaces.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ClusterEksNamespacesList",
+      },
+      scan_policy: {
+        value: clusterEksScanPolicyToHclTerraform(this._scanPolicy.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ClusterEksScanPolicyList",
+      },
+      timeouts: {
+        value: clusterEksTimeoutsToHclTerraform(this._timeouts.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "ClusterEksTimeouts",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

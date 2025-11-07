@@ -1,0 +1,3 @@
+# `iosxr_segment_routing_te_policy_candidate_path`
+
+Refer to the Terraform Registry for docs: [`iosxr_segment_routing_te_policy_candidate_path`](https://registry.terraform.io/providers/ciscodevnet/iosxr/0.6.0/docs/resources/segment_routing_te_policy_candidate_path).

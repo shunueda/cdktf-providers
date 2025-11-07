@@ -1,0 +1,21436 @@
+import * as cdktf from 'cdktf';
+export interface DataRafayAksClusterV3MetadataCreatedBy {
+  /**
+  * Id of the Person
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#id DataRafayAksClusterV3#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * Whether person is logged in using sso
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#is_sso_user DataRafayAksClusterV3#is_sso_user}
+  */
+  readonly isSsoUser?: boolean | cdktf.IResolvable;
+  /**
+  * Username fo the Person
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#username DataRafayAksClusterV3#username}
+  */
+  readonly username?: string;
+}
+
+export function dataRafayAksClusterV3MetadataCreatedByToTerraform(struct?: DataRafayAksClusterV3MetadataCreatedByOutputReference | DataRafayAksClusterV3MetadataCreatedBy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    id: cdktf.stringToTerraform(struct!.id),
+    is_sso_user: cdktf.booleanToTerraform(struct!.isSsoUser),
+    username: cdktf.stringToTerraform(struct!.username),
+  }
+}
+
+
+export function dataRafayAksClusterV3MetadataCreatedByToHclTerraform(struct?: DataRafayAksClusterV3MetadataCreatedByOutputReference | DataRafayAksClusterV3MetadataCreatedBy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    id: {
+      value: cdktf.stringToHclTerraform(struct!.id),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    is_sso_user: {
+      value: cdktf.booleanToHclTerraform(struct!.isSsoUser),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    username: {
+      value: cdktf.stringToHclTerraform(struct!.username),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3MetadataCreatedByOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3MetadataCreatedBy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
+    if (this._isSsoUser !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isSsoUser = this._isSsoUser;
+    }
+    if (this._username !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.username = this._username;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3MetadataCreatedBy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._id = undefined;
+      this._isSsoUser = undefined;
+      this._username = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._id = value.id;
+      this._isSsoUser = value.isSsoUser;
+      this._username = value.username;
+    }
+  }
+
+  // id - computed: false, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // is_sso_user - computed: false, optional: true, required: false
+  private _isSsoUser?: boolean | cdktf.IResolvable; 
+  public get isSsoUser() {
+    return this.getBooleanAttribute('is_sso_user');
+  }
+  public set isSsoUser(value: boolean | cdktf.IResolvable) {
+    this._isSsoUser = value;
+  }
+  public resetIsSsoUser() {
+    this._isSsoUser = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isSsoUserInput() {
+    return this._isSsoUser;
+  }
+
+  // username - computed: false, optional: true, required: false
+  private _username?: string; 
+  public get username() {
+    return this.getStringAttribute('username');
+  }
+  public set username(value: string) {
+    this._username = value;
+  }
+  public resetUsername() {
+    this._username = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get usernameInput() {
+    return this._username;
+  }
+}
+export interface DataRafayAksClusterV3MetadataModifiedBy {
+  /**
+  * Id of the Person
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#id DataRafayAksClusterV3#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * Whether person is logged in using sso
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#is_sso_user DataRafayAksClusterV3#is_sso_user}
+  */
+  readonly isSsoUser?: boolean | cdktf.IResolvable;
+  /**
+  * Username fo the Person
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#username DataRafayAksClusterV3#username}
+  */
+  readonly username?: string;
+}
+
+export function dataRafayAksClusterV3MetadataModifiedByToTerraform(struct?: DataRafayAksClusterV3MetadataModifiedByOutputReference | DataRafayAksClusterV3MetadataModifiedBy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    id: cdktf.stringToTerraform(struct!.id),
+    is_sso_user: cdktf.booleanToTerraform(struct!.isSsoUser),
+    username: cdktf.stringToTerraform(struct!.username),
+  }
+}
+
+
+export function dataRafayAksClusterV3MetadataModifiedByToHclTerraform(struct?: DataRafayAksClusterV3MetadataModifiedByOutputReference | DataRafayAksClusterV3MetadataModifiedBy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    id: {
+      value: cdktf.stringToHclTerraform(struct!.id),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    is_sso_user: {
+      value: cdktf.booleanToHclTerraform(struct!.isSsoUser),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    username: {
+      value: cdktf.stringToHclTerraform(struct!.username),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3MetadataModifiedByOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3MetadataModifiedBy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
+    if (this._isSsoUser !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isSsoUser = this._isSsoUser;
+    }
+    if (this._username !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.username = this._username;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3MetadataModifiedBy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._id = undefined;
+      this._isSsoUser = undefined;
+      this._username = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._id = value.id;
+      this._isSsoUser = value.isSsoUser;
+      this._username = value.username;
+    }
+  }
+
+  // id - computed: false, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // is_sso_user - computed: false, optional: true, required: false
+  private _isSsoUser?: boolean | cdktf.IResolvable; 
+  public get isSsoUser() {
+    return this.getBooleanAttribute('is_sso_user');
+  }
+  public set isSsoUser(value: boolean | cdktf.IResolvable) {
+    this._isSsoUser = value;
+  }
+  public resetIsSsoUser() {
+    this._isSsoUser = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isSsoUserInput() {
+    return this._isSsoUser;
+  }
+
+  // username - computed: false, optional: true, required: false
+  private _username?: string; 
+  public get username() {
+    return this.getStringAttribute('username');
+  }
+  public set username(value: string) {
+    this._username = value;
+  }
+  public resetUsername() {
+    this._username = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get usernameInput() {
+    return this._username;
+  }
+}
+export interface DataRafayAksClusterV3Metadata {
+  /**
+  * annotations of the resource
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#annotations DataRafayAksClusterV3#annotations}
+  */
+  readonly annotations?: { [key: string]: string };
+  /**
+  * description of the resource
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#description DataRafayAksClusterV3#description}
+  */
+  readonly description?: string;
+  /**
+  * Display Name of the resource
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#display_name DataRafayAksClusterV3#display_name}
+  */
+  readonly displayName?: string;
+  /**
+  * labels of the resource
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#labels DataRafayAksClusterV3#labels}
+  */
+  readonly labels?: { [key: string]: string };
+  /**
+  * name of the resource
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#name DataRafayAksClusterV3#name}
+  */
+  readonly name?: string;
+  /**
+  * Project of the resource
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#project DataRafayAksClusterV3#project}
+  */
+  readonly project?: string;
+  /**
+  * created_by block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#created_by DataRafayAksClusterV3#created_by}
+  */
+  readonly createdBy?: DataRafayAksClusterV3MetadataCreatedBy;
+  /**
+  * modified_by block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#modified_by DataRafayAksClusterV3#modified_by}
+  */
+  readonly modifiedBy?: DataRafayAksClusterV3MetadataModifiedBy;
+}
+
+export function dataRafayAksClusterV3MetadataToTerraform(struct?: DataRafayAksClusterV3MetadataOutputReference | DataRafayAksClusterV3Metadata): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    annotations: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.annotations),
+    description: cdktf.stringToTerraform(struct!.description),
+    display_name: cdktf.stringToTerraform(struct!.displayName),
+    labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.labels),
+    name: cdktf.stringToTerraform(struct!.name),
+    project: cdktf.stringToTerraform(struct!.project),
+    created_by: dataRafayAksClusterV3MetadataCreatedByToTerraform(struct!.createdBy),
+    modified_by: dataRafayAksClusterV3MetadataModifiedByToTerraform(struct!.modifiedBy),
+  }
+}
+
+
+export function dataRafayAksClusterV3MetadataToHclTerraform(struct?: DataRafayAksClusterV3MetadataOutputReference | DataRafayAksClusterV3Metadata): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    annotations: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.annotations),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    description: {
+      value: cdktf.stringToHclTerraform(struct!.description),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    display_name: {
+      value: cdktf.stringToHclTerraform(struct!.displayName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    labels: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.labels),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    project: {
+      value: cdktf.stringToHclTerraform(struct!.project),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    created_by: {
+      value: dataRafayAksClusterV3MetadataCreatedByToHclTerraform(struct!.createdBy),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3MetadataCreatedByList",
+    },
+    modified_by: {
+      value: dataRafayAksClusterV3MetadataModifiedByToHclTerraform(struct!.modifiedBy),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3MetadataModifiedByList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3MetadataOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3Metadata | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._annotations !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.annotations = this._annotations;
+    }
+    if (this._description !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.description = this._description;
+    }
+    if (this._displayName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.displayName = this._displayName;
+    }
+    if (this._labels !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.labels = this._labels;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._project !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.project = this._project;
+    }
+    if (this._createdBy?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.createdBy = this._createdBy?.internalValue;
+    }
+    if (this._modifiedBy?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.modifiedBy = this._modifiedBy?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3Metadata | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._annotations = undefined;
+      this._description = undefined;
+      this._displayName = undefined;
+      this._labels = undefined;
+      this._name = undefined;
+      this._project = undefined;
+      this._createdBy.internalValue = undefined;
+      this._modifiedBy.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._annotations = value.annotations;
+      this._description = value.description;
+      this._displayName = value.displayName;
+      this._labels = value.labels;
+      this._name = value.name;
+      this._project = value.project;
+      this._createdBy.internalValue = value.createdBy;
+      this._modifiedBy.internalValue = value.modifiedBy;
+    }
+  }
+
+  // annotations - computed: false, optional: true, required: false
+  private _annotations?: { [key: string]: string }; 
+  public get annotations() {
+    return this.getStringMapAttribute('annotations');
+  }
+  public set annotations(value: { [key: string]: string }) {
+    this._annotations = value;
+  }
+  public resetAnnotations() {
+    this._annotations = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get annotationsInput() {
+    return this._annotations;
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // display_name - computed: false, optional: true, required: false
+  private _displayName?: string; 
+  public get displayName() {
+    return this.getStringAttribute('display_name');
+  }
+  public set displayName(value: string) {
+    this._displayName = value;
+  }
+  public resetDisplayName() {
+    this._displayName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get displayNameInput() {
+    return this._displayName;
+  }
+
+  // labels - computed: false, optional: true, required: false
+  private _labels?: { [key: string]: string }; 
+  public get labels() {
+    return this.getStringMapAttribute('labels');
+  }
+  public set labels(value: { [key: string]: string }) {
+    this._labels = value;
+  }
+  public resetLabels() {
+    this._labels = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelsInput() {
+    return this._labels;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // project - computed: false, optional: true, required: false
+  private _project?: string; 
+  public get project() {
+    return this.getStringAttribute('project');
+  }
+  public set project(value: string) {
+    this._project = value;
+  }
+  public resetProject() {
+    this._project = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get projectInput() {
+    return this._project;
+  }
+
+  // created_by - computed: false, optional: true, required: false
+  private _createdBy = new DataRafayAksClusterV3MetadataCreatedByOutputReference(this, "created_by");
+  public get createdBy() {
+    return this._createdBy;
+  }
+  public putCreatedBy(value: DataRafayAksClusterV3MetadataCreatedBy) {
+    this._createdBy.internalValue = value;
+  }
+  public resetCreatedBy() {
+    this._createdBy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get createdByInput() {
+    return this._createdBy.internalValue;
+  }
+
+  // modified_by - computed: false, optional: true, required: false
+  private _modifiedBy = new DataRafayAksClusterV3MetadataModifiedByOutputReference(this, "modified_by");
+  public get modifiedBy() {
+    return this._modifiedBy;
+  }
+  public putModifiedBy(value: DataRafayAksClusterV3MetadataModifiedBy) {
+    this._modifiedBy.internalValue = value;
+  }
+  public resetModifiedBy() {
+    this._modifiedBy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get modifiedByInput() {
+    return this._modifiedBy.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecBlueprint {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#name DataRafayAksClusterV3#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#version DataRafayAksClusterV3#version}
+  */
+  readonly version?: string;
+}
+
+export function dataRafayAksClusterV3SpecBlueprintToTerraform(struct?: DataRafayAksClusterV3SpecBlueprintOutputReference | DataRafayAksClusterV3SpecBlueprint): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    version: cdktf.stringToTerraform(struct!.version),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecBlueprintToHclTerraform(struct?: DataRafayAksClusterV3SpecBlueprintOutputReference | DataRafayAksClusterV3SpecBlueprint): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.stringToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecBlueprintOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecBlueprint | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecBlueprint | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._version = value.version;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: string; 
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+  public set version(value: string) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface DataRafayAksClusterV3SpecBlueprintConfig {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#name DataRafayAksClusterV3#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#version DataRafayAksClusterV3#version}
+  */
+  readonly version?: string;
+}
+
+export function dataRafayAksClusterV3SpecBlueprintConfigToTerraform(struct?: DataRafayAksClusterV3SpecBlueprintConfigOutputReference | DataRafayAksClusterV3SpecBlueprintConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    version: cdktf.stringToTerraform(struct!.version),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecBlueprintConfigToHclTerraform(struct?: DataRafayAksClusterV3SpecBlueprintConfigOutputReference | DataRafayAksClusterV3SpecBlueprintConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.stringToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecBlueprintConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecBlueprintConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecBlueprintConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._version = value.version;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: string; 
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+  public set version(value: string) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFromSecret {
+  /**
+  * Key
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#key DataRafayAksClusterV3#key}
+  */
+  readonly key?: string;
+  /**
+  * Name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#name DataRafayAksClusterV3#name}
+  */
+  readonly name?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFromSecretToTerraform(struct?: DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFromSecretOutputReference | DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFromSecret): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFromSecretToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFromSecretOutputReference | DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFromSecret): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFromSecretOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFromSecret | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFromSecret | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._key = undefined;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._key = value.key;
+      this._name = value.name;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFrom {
+  /**
+  * secret block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#secret DataRafayAksClusterV3#secret}
+  */
+  readonly secret?: DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFromSecret;
+}
+
+export function dataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFromToTerraform(struct?: DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFromOutputReference | DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFrom): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    secret: dataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFromSecretToTerraform(struct!.secret),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFromToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFromOutputReference | DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFrom): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    secret: {
+      value: dataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFromSecretToHclTerraform(struct!.secret),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFromSecretList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFromOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFrom | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._secret?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secret = this._secret?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFrom | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._secret.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._secret.internalValue = value.secret;
+    }
+  }
+
+  // secret - computed: false, optional: true, required: false
+  private _secret = new DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFromSecretOutputReference(this, "secret");
+  public get secret() {
+    return this._secret;
+  }
+  public putSecret(value: DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFromSecret) {
+    this._secret.internalValue = value;
+  }
+  public resetSecret() {
+    this._secret.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretInput() {
+    return this._secret.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFiles {
+  /**
+  * Append to the file
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#append DataRafayAksClusterV3#append}
+  */
+  readonly append?: boolean | cdktf.IResolvable;
+  /**
+  * Content of the file
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#content DataRafayAksClusterV3#content}
+  */
+  readonly content?: string;
+  /**
+  * Encoding of the file
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#encoding DataRafayAksClusterV3#encoding}
+  */
+  readonly encoding?: string;
+  /**
+  * Owner of the file
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#owner DataRafayAksClusterV3#owner}
+  */
+  readonly owner?: string;
+  /**
+  * Path of the file
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#path DataRafayAksClusterV3#path}
+  */
+  readonly path?: string;
+  /**
+  * Permissions of the file
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#permissions DataRafayAksClusterV3#permissions}
+  */
+  readonly permissions?: string;
+  /**
+  * content_from block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#content_from DataRafayAksClusterV3#content_from}
+  */
+  readonly contentFrom?: DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFrom;
+}
+
+export function dataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesToTerraform(struct?: DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFiles | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    append: cdktf.booleanToTerraform(struct!.append),
+    content: cdktf.stringToTerraform(struct!.content),
+    encoding: cdktf.stringToTerraform(struct!.encoding),
+    owner: cdktf.stringToTerraform(struct!.owner),
+    path: cdktf.stringToTerraform(struct!.path),
+    permissions: cdktf.stringToTerraform(struct!.permissions),
+    content_from: dataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFromToTerraform(struct!.contentFrom),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFiles | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    append: {
+      value: cdktf.booleanToHclTerraform(struct!.append),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    content: {
+      value: cdktf.stringToHclTerraform(struct!.content),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    encoding: {
+      value: cdktf.stringToHclTerraform(struct!.encoding),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    owner: {
+      value: cdktf.stringToHclTerraform(struct!.owner),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    path: {
+      value: cdktf.stringToHclTerraform(struct!.path),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    permissions: {
+      value: cdktf.stringToHclTerraform(struct!.permissions),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    content_from: {
+      value: dataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFromToHclTerraform(struct!.contentFrom),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFromList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFiles | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._append !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.append = this._append;
+    }
+    if (this._content !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.content = this._content;
+    }
+    if (this._encoding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.encoding = this._encoding;
+    }
+    if (this._owner !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.owner = this._owner;
+    }
+    if (this._path !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.path = this._path;
+    }
+    if (this._permissions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.permissions = this._permissions;
+    }
+    if (this._contentFrom?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.contentFrom = this._contentFrom?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFiles | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._append = undefined;
+      this._content = undefined;
+      this._encoding = undefined;
+      this._owner = undefined;
+      this._path = undefined;
+      this._permissions = undefined;
+      this._contentFrom.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._append = value.append;
+      this._content = value.content;
+      this._encoding = value.encoding;
+      this._owner = value.owner;
+      this._path = value.path;
+      this._permissions = value.permissions;
+      this._contentFrom.internalValue = value.contentFrom;
+    }
+  }
+
+  // append - computed: false, optional: true, required: false
+  private _append?: boolean | cdktf.IResolvable; 
+  public get append() {
+    return this.getBooleanAttribute('append');
+  }
+  public set append(value: boolean | cdktf.IResolvable) {
+    this._append = value;
+  }
+  public resetAppend() {
+    this._append = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get appendInput() {
+    return this._append;
+  }
+
+  // content - computed: false, optional: true, required: false
+  private _content?: string; 
+  public get content() {
+    return this.getStringAttribute('content');
+  }
+  public set content(value: string) {
+    this._content = value;
+  }
+  public resetContent() {
+    this._content = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get contentInput() {
+    return this._content;
+  }
+
+  // encoding - computed: false, optional: true, required: false
+  private _encoding?: string; 
+  public get encoding() {
+    return this.getStringAttribute('encoding');
+  }
+  public set encoding(value: string) {
+    this._encoding = value;
+  }
+  public resetEncoding() {
+    this._encoding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get encodingInput() {
+    return this._encoding;
+  }
+
+  // owner - computed: false, optional: true, required: false
+  private _owner?: string; 
+  public get owner() {
+    return this.getStringAttribute('owner');
+  }
+  public set owner(value: string) {
+    this._owner = value;
+  }
+  public resetOwner() {
+    this._owner = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ownerInput() {
+    return this._owner;
+  }
+
+  // path - computed: false, optional: true, required: false
+  private _path?: string; 
+  public get path() {
+    return this.getStringAttribute('path');
+  }
+  public set path(value: string) {
+    this._path = value;
+  }
+  public resetPath() {
+    this._path = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pathInput() {
+    return this._path;
+  }
+
+  // permissions - computed: false, optional: true, required: false
+  private _permissions?: string; 
+  public get permissions() {
+    return this.getStringAttribute('permissions');
+  }
+  public set permissions(value: string) {
+    this._permissions = value;
+  }
+  public resetPermissions() {
+    this._permissions = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get permissionsInput() {
+    return this._permissions;
+  }
+
+  // content_from - computed: false, optional: true, required: false
+  private _contentFrom = new DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFromOutputReference(this, "content_from");
+  public get contentFrom() {
+    return this._contentFrom;
+  }
+  public putContentFrom(value: DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesContentFrom) {
+    this._contentFrom.internalValue = value;
+  }
+  public resetContentFrom() {
+    this._contentFrom.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get contentFromInput() {
+    return this._contentFrom.internalValue;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFiles[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesOutputReference {
+    return new DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpec {
+  /**
+  * Prekubeadmcommands to run on the nodepools
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#pre_kubeadm_commands DataRafayAksClusterV3#pre_kubeadm_commands}
+  */
+  readonly preKubeadmCommands?: string[];
+  /**
+  * files block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#files DataRafayAksClusterV3#files}
+  */
+  readonly files?: DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFiles[] | cdktf.IResolvable;
+}
+
+export function dataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecToTerraform(struct?: DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecOutputReference | DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpec): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    pre_kubeadm_commands: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.preKubeadmCommands),
+    files: cdktf.listMapper(dataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesToTerraform, true)(struct!.files),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecOutputReference | DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpec): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    pre_kubeadm_commands: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.preKubeadmCommands),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    files: {
+      value: cdktf.listMapperHcl(dataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesToHclTerraform, true)(struct!.files),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpec | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._preKubeadmCommands !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.preKubeadmCommands = this._preKubeadmCommands;
+    }
+    if (this._files?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.files = this._files?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpec | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._preKubeadmCommands = undefined;
+      this._files.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._preKubeadmCommands = value.preKubeadmCommands;
+      this._files.internalValue = value.files;
+    }
+  }
+
+  // pre_kubeadm_commands - computed: false, optional: true, required: false
+  private _preKubeadmCommands?: string[]; 
+  public get preKubeadmCommands() {
+    return this.getListAttribute('pre_kubeadm_commands');
+  }
+  public set preKubeadmCommands(value: string[]) {
+    this._preKubeadmCommands = value;
+  }
+  public resetPreKubeadmCommands() {
+    this._preKubeadmCommands = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get preKubeadmCommandsInput() {
+    return this._preKubeadmCommands;
+  }
+
+  // files - computed: false, optional: true, required: false
+  private _files = new DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFilesList(this, "files", false);
+  public get files() {
+    return this._files;
+  }
+  public putFiles(value: DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecFiles[] | cdktf.IResolvable) {
+    this._files.internalValue = value;
+  }
+  public resetFiles() {
+    this._files.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get filesInput() {
+    return this._files.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigControlPlane {
+  /**
+  * Hard Disk size of a node in GiB
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#disk_gi_b DataRafayAksClusterV3#disk_gi_b}
+  */
+  readonly diskGiB?: number;
+  /**
+  * Node count
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#machine_count DataRafayAksClusterV3#machine_count}
+  */
+  readonly machineCount?: number;
+  /**
+  * Memory size of a node in MiB
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#memory_mi_b DataRafayAksClusterV3#memory_mi_b}
+  */
+  readonly memoryMiB?: number;
+  /**
+  * Cpu count
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#num_cp_us DataRafayAksClusterV3#num_cp_us}
+  */
+  readonly numCpUs?: number;
+  /**
+  * Public key to configure remote SSH access to the nodes
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#ssh_authorized_keys DataRafayAksClusterV3#ssh_authorized_keys}
+  */
+  readonly sshAuthorizedKeys?: string[];
+  /**
+  * Kubernetes version of nodes
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#version DataRafayAksClusterV3#version}
+  */
+  readonly version?: string;
+  /**
+  * kubeadm_config_spec block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#kubeadm_config_spec DataRafayAksClusterV3#kubeadm_config_spec}
+  */
+  readonly kubeadmConfigSpec?: DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpec;
+}
+
+export function dataRafayAksClusterV3SpecConfigControlPlaneToTerraform(struct?: DataRafayAksClusterV3SpecConfigControlPlaneOutputReference | DataRafayAksClusterV3SpecConfigControlPlane): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    disk_gi_b: cdktf.numberToTerraform(struct!.diskGiB),
+    machine_count: cdktf.numberToTerraform(struct!.machineCount),
+    memory_mi_b: cdktf.numberToTerraform(struct!.memoryMiB),
+    num_cp_us: cdktf.numberToTerraform(struct!.numCpUs),
+    ssh_authorized_keys: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.sshAuthorizedKeys),
+    version: cdktf.stringToTerraform(struct!.version),
+    kubeadm_config_spec: dataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecToTerraform(struct!.kubeadmConfigSpec),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigControlPlaneToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigControlPlaneOutputReference | DataRafayAksClusterV3SpecConfigControlPlane): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    disk_gi_b: {
+      value: cdktf.numberToHclTerraform(struct!.diskGiB),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    machine_count: {
+      value: cdktf.numberToHclTerraform(struct!.machineCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    memory_mi_b: {
+      value: cdktf.numberToHclTerraform(struct!.memoryMiB),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    num_cp_us: {
+      value: cdktf.numberToHclTerraform(struct!.numCpUs),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ssh_authorized_keys: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.sshAuthorizedKeys),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    version: {
+      value: cdktf.stringToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    kubeadm_config_spec: {
+      value: dataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecToHclTerraform(struct!.kubeadmConfigSpec),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigControlPlaneOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigControlPlane | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._diskGiB !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.diskGiB = this._diskGiB;
+    }
+    if (this._machineCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.machineCount = this._machineCount;
+    }
+    if (this._memoryMiB !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.memoryMiB = this._memoryMiB;
+    }
+    if (this._numCpUs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.numCpUs = this._numCpUs;
+    }
+    if (this._sshAuthorizedKeys !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sshAuthorizedKeys = this._sshAuthorizedKeys;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    if (this._kubeadmConfigSpec?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.kubeadmConfigSpec = this._kubeadmConfigSpec?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigControlPlane | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._diskGiB = undefined;
+      this._machineCount = undefined;
+      this._memoryMiB = undefined;
+      this._numCpUs = undefined;
+      this._sshAuthorizedKeys = undefined;
+      this._version = undefined;
+      this._kubeadmConfigSpec.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._diskGiB = value.diskGiB;
+      this._machineCount = value.machineCount;
+      this._memoryMiB = value.memoryMiB;
+      this._numCpUs = value.numCpUs;
+      this._sshAuthorizedKeys = value.sshAuthorizedKeys;
+      this._version = value.version;
+      this._kubeadmConfigSpec.internalValue = value.kubeadmConfigSpec;
+    }
+  }
+
+  // disk_gi_b - computed: false, optional: true, required: false
+  private _diskGiB?: number; 
+  public get diskGiB() {
+    return this.getNumberAttribute('disk_gi_b');
+  }
+  public set diskGiB(value: number) {
+    this._diskGiB = value;
+  }
+  public resetDiskGiB() {
+    this._diskGiB = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get diskGiBInput() {
+    return this._diskGiB;
+  }
+
+  // machine_count - computed: false, optional: true, required: false
+  private _machineCount?: number; 
+  public get machineCount() {
+    return this.getNumberAttribute('machine_count');
+  }
+  public set machineCount(value: number) {
+    this._machineCount = value;
+  }
+  public resetMachineCount() {
+    this._machineCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get machineCountInput() {
+    return this._machineCount;
+  }
+
+  // memory_mi_b - computed: false, optional: true, required: false
+  private _memoryMiB?: number; 
+  public get memoryMiB() {
+    return this.getNumberAttribute('memory_mi_b');
+  }
+  public set memoryMiB(value: number) {
+    this._memoryMiB = value;
+  }
+  public resetMemoryMiB() {
+    this._memoryMiB = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get memoryMiBInput() {
+    return this._memoryMiB;
+  }
+
+  // num_cp_us - computed: false, optional: true, required: false
+  private _numCpUs?: number; 
+  public get numCpUs() {
+    return this.getNumberAttribute('num_cp_us');
+  }
+  public set numCpUs(value: number) {
+    this._numCpUs = value;
+  }
+  public resetNumCpUs() {
+    this._numCpUs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get numCpUsInput() {
+    return this._numCpUs;
+  }
+
+  // ssh_authorized_keys - computed: false, optional: true, required: false
+  private _sshAuthorizedKeys?: string[]; 
+  public get sshAuthorizedKeys() {
+    return this.getListAttribute('ssh_authorized_keys');
+  }
+  public set sshAuthorizedKeys(value: string[]) {
+    this._sshAuthorizedKeys = value;
+  }
+  public resetSshAuthorizedKeys() {
+    this._sshAuthorizedKeys = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sshAuthorizedKeysInput() {
+    return this._sshAuthorizedKeys;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: string; 
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+  public set version(value: string) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+
+  // kubeadm_config_spec - computed: false, optional: true, required: false
+  private _kubeadmConfigSpec = new DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpecOutputReference(this, "kubeadm_config_spec");
+  public get kubeadmConfigSpec() {
+    return this._kubeadmConfigSpec;
+  }
+  public putKubeadmConfigSpec(value: DataRafayAksClusterV3SpecConfigControlPlaneKubeadmConfigSpec) {
+    this._kubeadmConfigSpec.internalValue = value;
+  }
+  public resetKubeadmConfigSpec() {
+    this._kubeadmConfigSpec.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kubeadmConfigSpecInput() {
+    return this._kubeadmConfigSpec.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigEksaClusterConfigMetadata {
+  /**
+  * EKSA Cluster Annotations
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#annotations DataRafayAksClusterV3#annotations}
+  */
+  readonly annotations?: { [key: string]: string };
+  /**
+  * EKSA Cluster Labels
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#labels DataRafayAksClusterV3#labels}
+  */
+  readonly labels?: { [key: string]: string };
+  /**
+  * EKSA Cluster Name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#name DataRafayAksClusterV3#name}
+  */
+  readonly name?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigMetadataToTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigMetadataOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigMetadata): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    annotations: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.annotations),
+    labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.labels),
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigMetadataToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigMetadataOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigMetadata): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    annotations: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.annotations),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    labels: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.labels),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigEksaClusterConfigMetadataOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigEksaClusterConfigMetadata | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._annotations !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.annotations = this._annotations;
+    }
+    if (this._labels !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.labels = this._labels;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigMetadata | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._annotations = undefined;
+      this._labels = undefined;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._annotations = value.annotations;
+      this._labels = value.labels;
+      this._name = value.name;
+    }
+  }
+
+  // annotations - computed: false, optional: true, required: false
+  private _annotations?: { [key: string]: string }; 
+  public get annotations() {
+    return this.getStringMapAttribute('annotations');
+  }
+  public set annotations(value: { [key: string]: string }) {
+    this._annotations = value;
+  }
+  public resetAnnotations() {
+    this._annotations = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get annotationsInput() {
+    return this._annotations;
+  }
+
+  // labels - computed: false, optional: true, required: false
+  private _labels?: { [key: string]: string }; 
+  public get labels() {
+    return this.getStringMapAttribute('labels');
+  }
+  public set labels(value: { [key: string]: string }) {
+    this._labels = value;
+  }
+  public resetLabels() {
+    this._labels = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelsInput() {
+    return this._labels;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigCilium {
+  /**
+  * PolicyEnforcementMode
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#policy_enforcement_mode DataRafayAksClusterV3#policy_enforcement_mode}
+  */
+  readonly policyEnforcementMode?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigCiliumToTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigCiliumOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigCilium): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    policy_enforcement_mode: cdktf.stringToTerraform(struct!.policyEnforcementMode),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigCiliumToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigCiliumOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigCilium): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    policy_enforcement_mode: {
+      value: cdktf.stringToHclTerraform(struct!.policyEnforcementMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigCiliumOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigCilium | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._policyEnforcementMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.policyEnforcementMode = this._policyEnforcementMode;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigCilium | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._policyEnforcementMode = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._policyEnforcementMode = value.policyEnforcementMode;
+    }
+  }
+
+  // policy_enforcement_mode - computed: false, optional: true, required: false
+  private _policyEnforcementMode?: string; 
+  public get policyEnforcementMode() {
+    return this.getStringAttribute('policy_enforcement_mode');
+  }
+  public set policyEnforcementMode(value: string) {
+    this._policyEnforcementMode = value;
+  }
+  public resetPolicyEnforcementMode() {
+    this._policyEnforcementMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyEnforcementModeInput() {
+    return this._policyEnforcementMode;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigKindnetd {
+}
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigKindnetdToTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigKindnetdOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigKindnetd): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigKindnetdToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigKindnetdOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigKindnetd): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigKindnetdOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigKindnetd | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigKindnetd | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfig {
+  /**
+  * cilium block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#cilium DataRafayAksClusterV3#cilium}
+  */
+  readonly cilium?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigCilium;
+  /**
+  * kindnetd block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#kindnetd DataRafayAksClusterV3#kindnetd}
+  */
+  readonly kindnetd?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigKindnetd;
+}
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigToTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    cilium: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigCiliumToTerraform(struct!.cilium),
+    kindnetd: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigKindnetdToTerraform(struct!.kindnetd),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cilium: {
+      value: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigCiliumToHclTerraform(struct!.cilium),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigCiliumList",
+    },
+    kindnetd: {
+      value: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigKindnetdToHclTerraform(struct!.kindnetd),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigKindnetdList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cilium?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cilium = this._cilium?.internalValue;
+    }
+    if (this._kindnetd?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.kindnetd = this._kindnetd?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._cilium.internalValue = undefined;
+      this._kindnetd.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._cilium.internalValue = value.cilium;
+      this._kindnetd.internalValue = value.kindnetd;
+    }
+  }
+
+  // cilium - computed: false, optional: true, required: false
+  private _cilium = new DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigCiliumOutputReference(this, "cilium");
+  public get cilium() {
+    return this._cilium;
+  }
+  public putCilium(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigCilium) {
+    this._cilium.internalValue = value;
+  }
+  public resetCilium() {
+    this._cilium.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ciliumInput() {
+    return this._cilium.internalValue;
+  }
+
+  // kindnetd - computed: false, optional: true, required: false
+  private _kindnetd = new DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigKindnetdOutputReference(this, "kindnetd");
+  public get kindnetd() {
+    return this._kindnetd;
+  }
+  public putKindnetd(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigKindnetd) {
+    this._kindnetd.internalValue = value;
+  }
+  public resetKindnetd() {
+    this._kindnetd.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kindnetdInput() {
+    return this._kindnetd.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkNodes {
+  /**
+  * CidrMaskSize
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#cidr_mask_size DataRafayAksClusterV3#cidr_mask_size}
+  */
+  readonly cidrMaskSize?: number;
+}
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkNodesToTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkNodesOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkNodes): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    cidr_mask_size: cdktf.numberToTerraform(struct!.cidrMaskSize),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkNodesToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkNodesOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkNodes): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cidr_mask_size: {
+      value: cdktf.numberToHclTerraform(struct!.cidrMaskSize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkNodesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkNodes | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cidrMaskSize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cidrMaskSize = this._cidrMaskSize;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkNodes | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._cidrMaskSize = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._cidrMaskSize = value.cidrMaskSize;
+    }
+  }
+
+  // cidr_mask_size - computed: false, optional: true, required: false
+  private _cidrMaskSize?: number; 
+  public get cidrMaskSize() {
+    return this.getNumberAttribute('cidr_mask_size');
+  }
+  public set cidrMaskSize(value: number) {
+    this._cidrMaskSize = value;
+  }
+  public resetCidrMaskSize() {
+    this._cidrMaskSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cidrMaskSizeInput() {
+    return this._cidrMaskSize;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkPods {
+  /**
+  * Subnet used by pods in CIDR notation
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#cidr_blocks DataRafayAksClusterV3#cidr_blocks}
+  */
+  readonly cidrBlocks?: string[];
+}
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkPodsToTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkPodsOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkPods): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    cidr_blocks: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.cidrBlocks),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkPodsToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkPodsOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkPods): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cidr_blocks: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.cidrBlocks),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkPodsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkPods | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cidrBlocks !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cidrBlocks = this._cidrBlocks;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkPods | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._cidrBlocks = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._cidrBlocks = value.cidrBlocks;
+    }
+  }
+
+  // cidr_blocks - computed: false, optional: true, required: false
+  private _cidrBlocks?: string[]; 
+  public get cidrBlocks() {
+    return this.getListAttribute('cidr_blocks');
+  }
+  public set cidrBlocks(value: string[]) {
+    this._cidrBlocks = value;
+  }
+  public resetCidrBlocks() {
+    this._cidrBlocks = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cidrBlocksInput() {
+    return this._cidrBlocks;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkProxy {
+  /**
+  * AllowInsecureBootstrap
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#allow_insecure_bootstrap DataRafayAksClusterV3#allow_insecure_bootstrap}
+  */
+  readonly allowInsecureBootstrap?: boolean | cdktf.IResolvable;
+  /**
+  * BootStrapCA
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#boot_strap_ca DataRafayAksClusterV3#boot_strap_ca}
+  */
+  readonly bootStrapCa?: string;
+  /**
+  * Enabled
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enabled DataRafayAksClusterV3#enabled}
+  */
+  readonly enabled?: boolean | cdktf.IResolvable;
+  /**
+  * HttpProxy
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#http_proxy DataRafayAksClusterV3#http_proxy}
+  */
+  readonly httpProxy?: string;
+  /**
+  * HttpsProxy
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#https_proxy DataRafayAksClusterV3#https_proxy}
+  */
+  readonly httpsProxy?: string;
+  /**
+  * NoProxy
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#no_proxy DataRafayAksClusterV3#no_proxy}
+  */
+  readonly noProxy?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkProxyToTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkProxyOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkProxy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    allow_insecure_bootstrap: cdktf.booleanToTerraform(struct!.allowInsecureBootstrap),
+    boot_strap_ca: cdktf.stringToTerraform(struct!.bootStrapCa),
+    enabled: cdktf.booleanToTerraform(struct!.enabled),
+    http_proxy: cdktf.stringToTerraform(struct!.httpProxy),
+    https_proxy: cdktf.stringToTerraform(struct!.httpsProxy),
+    no_proxy: cdktf.stringToTerraform(struct!.noProxy),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkProxyToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkProxyOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkProxy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    allow_insecure_bootstrap: {
+      value: cdktf.booleanToHclTerraform(struct!.allowInsecureBootstrap),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    boot_strap_ca: {
+      value: cdktf.stringToHclTerraform(struct!.bootStrapCa),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    http_proxy: {
+      value: cdktf.stringToHclTerraform(struct!.httpProxy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    https_proxy: {
+      value: cdktf.stringToHclTerraform(struct!.httpsProxy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    no_proxy: {
+      value: cdktf.stringToHclTerraform(struct!.noProxy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkProxyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkProxy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._allowInsecureBootstrap !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allowInsecureBootstrap = this._allowInsecureBootstrap;
+    }
+    if (this._bootStrapCa !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bootStrapCa = this._bootStrapCa;
+    }
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    if (this._httpProxy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.httpProxy = this._httpProxy;
+    }
+    if (this._httpsProxy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.httpsProxy = this._httpsProxy;
+    }
+    if (this._noProxy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noProxy = this._noProxy;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkProxy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._allowInsecureBootstrap = undefined;
+      this._bootStrapCa = undefined;
+      this._enabled = undefined;
+      this._httpProxy = undefined;
+      this._httpsProxy = undefined;
+      this._noProxy = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._allowInsecureBootstrap = value.allowInsecureBootstrap;
+      this._bootStrapCa = value.bootStrapCa;
+      this._enabled = value.enabled;
+      this._httpProxy = value.httpProxy;
+      this._httpsProxy = value.httpsProxy;
+      this._noProxy = value.noProxy;
+    }
+  }
+
+  // allow_insecure_bootstrap - computed: false, optional: true, required: false
+  private _allowInsecureBootstrap?: boolean | cdktf.IResolvable; 
+  public get allowInsecureBootstrap() {
+    return this.getBooleanAttribute('allow_insecure_bootstrap');
+  }
+  public set allowInsecureBootstrap(value: boolean | cdktf.IResolvable) {
+    this._allowInsecureBootstrap = value;
+  }
+  public resetAllowInsecureBootstrap() {
+    this._allowInsecureBootstrap = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowInsecureBootstrapInput() {
+    return this._allowInsecureBootstrap;
+  }
+
+  // boot_strap_ca - computed: false, optional: true, required: false
+  private _bootStrapCa?: string; 
+  public get bootStrapCa() {
+    return this.getStringAttribute('boot_strap_ca');
+  }
+  public set bootStrapCa(value: string) {
+    this._bootStrapCa = value;
+  }
+  public resetBootStrapCa() {
+    this._bootStrapCa = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bootStrapCaInput() {
+    return this._bootStrapCa;
+  }
+
+  // enabled - computed: false, optional: true, required: false
+  private _enabled?: boolean | cdktf.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktf.IResolvable) {
+    this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+
+  // http_proxy - computed: false, optional: true, required: false
+  private _httpProxy?: string; 
+  public get httpProxy() {
+    return this.getStringAttribute('http_proxy');
+  }
+  public set httpProxy(value: string) {
+    this._httpProxy = value;
+  }
+  public resetHttpProxy() {
+    this._httpProxy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get httpProxyInput() {
+    return this._httpProxy;
+  }
+
+  // https_proxy - computed: false, optional: true, required: false
+  private _httpsProxy?: string; 
+  public get httpsProxy() {
+    return this.getStringAttribute('https_proxy');
+  }
+  public set httpsProxy(value: string) {
+    this._httpsProxy = value;
+  }
+  public resetHttpsProxy() {
+    this._httpsProxy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get httpsProxyInput() {
+    return this._httpsProxy;
+  }
+
+  // no_proxy - computed: false, optional: true, required: false
+  private _noProxy?: string; 
+  public get noProxy() {
+    return this.getStringAttribute('no_proxy');
+  }
+  public set noProxy(value: string) {
+    this._noProxy = value;
+  }
+  public resetNoProxy() {
+    this._noProxy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noProxyInput() {
+    return this._noProxy;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkServices {
+  /**
+  * Subnet used by pods in CIDR notation
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#cidr_blocks DataRafayAksClusterV3#cidr_blocks}
+  */
+  readonly cidrBlocks?: string[];
+}
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkServicesToTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkServicesOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkServices): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    cidr_blocks: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.cidrBlocks),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkServicesToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkServicesOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkServices): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cidr_blocks: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.cidrBlocks),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkServicesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkServices | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cidrBlocks !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cidrBlocks = this._cidrBlocks;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkServices | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._cidrBlocks = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._cidrBlocks = value.cidrBlocks;
+    }
+  }
+
+  // cidr_blocks - computed: false, optional: true, required: false
+  private _cidrBlocks?: string[]; 
+  public get cidrBlocks() {
+    return this.getListAttribute('cidr_blocks');
+  }
+  public set cidrBlocks(value: string[]) {
+    this._cidrBlocks = value;
+  }
+  public resetCidrBlocks() {
+    this._cidrBlocks = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cidrBlocksInput() {
+    return this._cidrBlocks;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetwork {
+  /**
+  * cni_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#cni_config DataRafayAksClusterV3#cni_config}
+  */
+  readonly cniConfig?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfig;
+  /**
+  * nodes block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#nodes DataRafayAksClusterV3#nodes}
+  */
+  readonly nodes?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkNodes;
+  /**
+  * pods block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#pods DataRafayAksClusterV3#pods}
+  */
+  readonly pods?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkPods;
+  /**
+  * proxy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#proxy DataRafayAksClusterV3#proxy}
+  */
+  readonly proxy?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkProxy;
+  /**
+  * services block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#services DataRafayAksClusterV3#services}
+  */
+  readonly services?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkServices;
+}
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkToTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetwork): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    cni_config: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigToTerraform(struct!.cniConfig),
+    nodes: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkNodesToTerraform(struct!.nodes),
+    pods: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkPodsToTerraform(struct!.pods),
+    proxy: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkProxyToTerraform(struct!.proxy),
+    services: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkServicesToTerraform(struct!.services),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetwork): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cni_config: {
+      value: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigToHclTerraform(struct!.cniConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigList",
+    },
+    nodes: {
+      value: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkNodesToHclTerraform(struct!.nodes),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkNodesList",
+    },
+    pods: {
+      value: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkPodsToHclTerraform(struct!.pods),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkPodsList",
+    },
+    proxy: {
+      value: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkProxyToHclTerraform(struct!.proxy),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkProxyList",
+    },
+    services: {
+      value: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkServicesToHclTerraform(struct!.services),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkServicesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetwork | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cniConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cniConfig = this._cniConfig?.internalValue;
+    }
+    if (this._nodes?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodes = this._nodes?.internalValue;
+    }
+    if (this._pods?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.pods = this._pods?.internalValue;
+    }
+    if (this._proxy?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.proxy = this._proxy?.internalValue;
+    }
+    if (this._services?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.services = this._services?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetwork | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._cniConfig.internalValue = undefined;
+      this._nodes.internalValue = undefined;
+      this._pods.internalValue = undefined;
+      this._proxy.internalValue = undefined;
+      this._services.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._cniConfig.internalValue = value.cniConfig;
+      this._nodes.internalValue = value.nodes;
+      this._pods.internalValue = value.pods;
+      this._proxy.internalValue = value.proxy;
+      this._services.internalValue = value.services;
+    }
+  }
+
+  // cni_config - computed: false, optional: true, required: false
+  private _cniConfig = new DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfigOutputReference(this, "cni_config");
+  public get cniConfig() {
+    return this._cniConfig;
+  }
+  public putCniConfig(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkCniConfig) {
+    this._cniConfig.internalValue = value;
+  }
+  public resetCniConfig() {
+    this._cniConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cniConfigInput() {
+    return this._cniConfig.internalValue;
+  }
+
+  // nodes - computed: false, optional: true, required: false
+  private _nodes = new DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkNodesOutputReference(this, "nodes");
+  public get nodes() {
+    return this._nodes;
+  }
+  public putNodes(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkNodes) {
+    this._nodes.internalValue = value;
+  }
+  public resetNodes() {
+    this._nodes.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodesInput() {
+    return this._nodes.internalValue;
+  }
+
+  // pods - computed: false, optional: true, required: false
+  private _pods = new DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkPodsOutputReference(this, "pods");
+  public get pods() {
+    return this._pods;
+  }
+  public putPods(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkPods) {
+    this._pods.internalValue = value;
+  }
+  public resetPods() {
+    this._pods.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get podsInput() {
+    return this._pods.internalValue;
+  }
+
+  // proxy - computed: false, optional: true, required: false
+  private _proxy = new DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkProxyOutputReference(this, "proxy");
+  public get proxy() {
+    return this._proxy;
+  }
+  public putProxy(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkProxy) {
+    this._proxy.internalValue = value;
+  }
+  public resetProxy() {
+    this._proxy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get proxyInput() {
+    return this._proxy.internalValue;
+  }
+
+  // services - computed: false, optional: true, required: false
+  private _services = new DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkServicesOutputReference(this, "services");
+  public get services() {
+    return this._services;
+  }
+  public putServices(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkServices) {
+    this._services.internalValue = value;
+  }
+  public resetServices() {
+    this._services.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get servicesInput() {
+    return this._services.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationEndpoint {
+  /**
+  * A unique IP you want to use for the control plane in your EKS Anywhere cluster. Choose an IP in your network range that does not conflict with other machines.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#host DataRafayAksClusterV3#host}
+  */
+  readonly host?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationEndpointToTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationEndpointOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationEndpoint): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    host: cdktf.stringToTerraform(struct!.host),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationEndpointToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationEndpointOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationEndpoint): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    host: {
+      value: cdktf.stringToHclTerraform(struct!.host),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationEndpointOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationEndpoint | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._host !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.host = this._host;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationEndpoint | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._host = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._host = value.host;
+    }
+  }
+
+  // host - computed: false, optional: true, required: false
+  private _host?: string; 
+  public get host() {
+    return this.getStringAttribute('host');
+  }
+  public set host(value: string) {
+    this._host = value;
+  }
+  public resetHost() {
+    this._host = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hostInput() {
+    return this._host;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationMachineGroupRef {
+  /**
+  * Refers to the kind of resource to be associated with.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#kind DataRafayAksClusterV3#kind}
+  */
+  readonly kind?: string;
+  /**
+  * Refers to the name of resource to be associated with of above kind.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#name DataRafayAksClusterV3#name}
+  */
+  readonly name?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationMachineGroupRefToTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationMachineGroupRefOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationMachineGroupRef): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    kind: cdktf.stringToTerraform(struct!.kind),
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationMachineGroupRefToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationMachineGroupRefOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationMachineGroupRef): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    kind: {
+      value: cdktf.stringToHclTerraform(struct!.kind),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationMachineGroupRefOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationMachineGroupRef | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._kind !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.kind = this._kind;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationMachineGroupRef | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._kind = undefined;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._kind = value.kind;
+      this._name = value.name;
+    }
+  }
+
+  // kind - computed: false, optional: true, required: false
+  private _kind?: string; 
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+  public set kind(value: string) {
+    this._kind = value;
+  }
+  public resetKind() {
+    this._kind = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kindInput() {
+    return this._kind;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategyRollingUpdate {
+  /**
+  * Maximum number of machines that can be scheduled above the desired number of machines - Default: 1.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#max_surge DataRafayAksClusterV3#max_surge}
+  */
+  readonly maxSurge?: number;
+}
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategyRollingUpdateToTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategyRollingUpdateOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategyRollingUpdate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    max_surge: cdktf.numberToTerraform(struct!.maxSurge),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategyRollingUpdateToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategyRollingUpdateOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategyRollingUpdate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    max_surge: {
+      value: cdktf.numberToHclTerraform(struct!.maxSurge),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategyRollingUpdateOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategyRollingUpdate | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._maxSurge !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxSurge = this._maxSurge;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategyRollingUpdate | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._maxSurge = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._maxSurge = value.maxSurge;
+    }
+  }
+
+  // max_surge - computed: false, optional: true, required: false
+  private _maxSurge?: number; 
+  public get maxSurge() {
+    return this.getNumberAttribute('max_surge');
+  }
+  public set maxSurge(value: number) {
+    this._maxSurge = value;
+  }
+  public resetMaxSurge() {
+    this._maxSurge = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxSurgeInput() {
+    return this._maxSurge;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategy {
+  /**
+  * Rollout strategy type - Default: 'RollingUpdate'.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#type DataRafayAksClusterV3#type}
+  */
+  readonly type?: string;
+  /**
+  * rolling_update block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#rolling_update DataRafayAksClusterV3#rolling_update}
+  */
+  readonly rollingUpdate?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategyRollingUpdate;
+}
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategyToTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategyOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    type: cdktf.stringToTerraform(struct!.type),
+    rolling_update: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategyRollingUpdateToTerraform(struct!.rollingUpdate),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategyToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategyOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    rolling_update: {
+      value: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategyRollingUpdateToHclTerraform(struct!.rollingUpdate),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategyRollingUpdateList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._rollingUpdate?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rollingUpdate = this._rollingUpdate?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._type = undefined;
+      this._rollingUpdate.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._type = value.type;
+      this._rollingUpdate.internalValue = value.rollingUpdate;
+    }
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // rolling_update - computed: false, optional: true, required: false
+  private _rollingUpdate = new DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategyRollingUpdateOutputReference(this, "rolling_update");
+  public get rollingUpdate() {
+    return this._rollingUpdate;
+  }
+  public putRollingUpdate(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategyRollingUpdate) {
+    this._rollingUpdate.internalValue = value;
+  }
+  public resetRollingUpdate() {
+    this._rollingUpdate.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rollingUpdateInput() {
+    return this._rollingUpdate.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfiguration {
+  /**
+  * Number of control plane nodes
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#count DataRafayAksClusterV3#count}
+  */
+  readonly count?: number;
+  /**
+  * A list of labels to apply to the control plane nodes of the cluster. This is in addition to the labels that EKS Anywhere will add by default
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#labels DataRafayAksClusterV3#labels}
+  */
+  readonly labels?: { [key: string]: string };
+  /**
+  * A list of taints to apply to the control plane nodes of the cluster
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#taints DataRafayAksClusterV3#taints}
+  */
+  readonly taints?: { [key: string]: string };
+  /**
+  * endpoint block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#endpoint DataRafayAksClusterV3#endpoint}
+  */
+  readonly endpoint?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationEndpoint;
+  /**
+  * machine_group_ref block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#machine_group_ref DataRafayAksClusterV3#machine_group_ref}
+  */
+  readonly machineGroupRef?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationMachineGroupRef;
+  /**
+  * rollout_strategy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#rollout_strategy DataRafayAksClusterV3#rollout_strategy}
+  */
+  readonly rolloutStrategy?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategy;
+}
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationToTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfiguration): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    count: cdktf.numberToTerraform(struct!.count),
+    labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.labels),
+    taints: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.taints),
+    endpoint: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationEndpointToTerraform(struct!.endpoint),
+    machine_group_ref: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationMachineGroupRefToTerraform(struct!.machineGroupRef),
+    rollout_strategy: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategyToTerraform(struct!.rolloutStrategy),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfiguration): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    count: {
+      value: cdktf.numberToHclTerraform(struct!.count),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    labels: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.labels),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    taints: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.taints),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    endpoint: {
+      value: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationEndpointToHclTerraform(struct!.endpoint),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationEndpointList",
+    },
+    machine_group_ref: {
+      value: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationMachineGroupRefToHclTerraform(struct!.machineGroupRef),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationMachineGroupRefList",
+    },
+    rollout_strategy: {
+      value: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategyToHclTerraform(struct!.rolloutStrategy),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategyList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._count !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.count = this._count;
+    }
+    if (this._labels !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.labels = this._labels;
+    }
+    if (this._taints !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.taints = this._taints;
+    }
+    if (this._endpoint?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.endpoint = this._endpoint?.internalValue;
+    }
+    if (this._machineGroupRef?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.machineGroupRef = this._machineGroupRef?.internalValue;
+    }
+    if (this._rolloutStrategy?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rolloutStrategy = this._rolloutStrategy?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._count = undefined;
+      this._labels = undefined;
+      this._taints = undefined;
+      this._endpoint.internalValue = undefined;
+      this._machineGroupRef.internalValue = undefined;
+      this._rolloutStrategy.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._count = value.count;
+      this._labels = value.labels;
+      this._taints = value.taints;
+      this._endpoint.internalValue = value.endpoint;
+      this._machineGroupRef.internalValue = value.machineGroupRef;
+      this._rolloutStrategy.internalValue = value.rolloutStrategy;
+    }
+  }
+
+  // count - computed: false, optional: true, required: false
+  private _count?: number; 
+  public get count() {
+    return this.getNumberAttribute('count');
+  }
+  public set count(value: number) {
+    this._count = value;
+  }
+  public resetCount() {
+    this._count = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get countInput() {
+    return this._count;
+  }
+
+  // labels - computed: false, optional: true, required: false
+  private _labels?: { [key: string]: string }; 
+  public get labels() {
+    return this.getStringMapAttribute('labels');
+  }
+  public set labels(value: { [key: string]: string }) {
+    this._labels = value;
+  }
+  public resetLabels() {
+    this._labels = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelsInput() {
+    return this._labels;
+  }
+
+  // taints - computed: false, optional: true, required: false
+  private _taints?: { [key: string]: string }; 
+  public get taints() {
+    return this.getStringMapAttribute('taints');
+  }
+  public set taints(value: { [key: string]: string }) {
+    this._taints = value;
+  }
+  public resetTaints() {
+    this._taints = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get taintsInput() {
+    return this._taints;
+  }
+
+  // endpoint - computed: false, optional: true, required: false
+  private _endpoint = new DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationEndpointOutputReference(this, "endpoint");
+  public get endpoint() {
+    return this._endpoint;
+  }
+  public putEndpoint(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationEndpoint) {
+    this._endpoint.internalValue = value;
+  }
+  public resetEndpoint() {
+    this._endpoint.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endpointInput() {
+    return this._endpoint.internalValue;
+  }
+
+  // machine_group_ref - computed: false, optional: true, required: false
+  private _machineGroupRef = new DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationMachineGroupRefOutputReference(this, "machine_group_ref");
+  public get machineGroupRef() {
+    return this._machineGroupRef;
+  }
+  public putMachineGroupRef(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationMachineGroupRef) {
+    this._machineGroupRef.internalValue = value;
+  }
+  public resetMachineGroupRef() {
+    this._machineGroupRef.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get machineGroupRefInput() {
+    return this._machineGroupRef.internalValue;
+  }
+
+  // rollout_strategy - computed: false, optional: true, required: false
+  private _rolloutStrategy = new DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategyOutputReference(this, "rollout_strategy");
+  public get rolloutStrategy() {
+    return this._rolloutStrategy;
+  }
+  public putRolloutStrategy(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationRolloutStrategy) {
+    this._rolloutStrategy.internalValue = value;
+  }
+  public resetRolloutStrategy() {
+    this._rolloutStrategy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rolloutStrategyInput() {
+    return this._rolloutStrategy.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecDataCenterRef {
+  /**
+  * Refers to the kind of resource to be associated with.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#kind DataRafayAksClusterV3#kind}
+  */
+  readonly kind?: string;
+  /**
+  * Refers to the name of resource to be associated with of above kind.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#name DataRafayAksClusterV3#name}
+  */
+  readonly name?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecDataCenterRefToTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecDataCenterRefOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecDataCenterRef): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    kind: cdktf.stringToTerraform(struct!.kind),
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecDataCenterRefToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecDataCenterRefOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecDataCenterRef): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    kind: {
+      value: cdktf.stringToHclTerraform(struct!.kind),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecDataCenterRefOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecDataCenterRef | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._kind !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.kind = this._kind;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecDataCenterRef | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._kind = undefined;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._kind = value.kind;
+      this._name = value.name;
+    }
+  }
+
+  // kind - computed: false, optional: true, required: false
+  private _kind?: string; 
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+  public set kind(value: string) {
+    this._kind = value;
+  }
+  public resetKind() {
+    this._kind = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kindInput() {
+    return this._kind;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecManagementCluster {
+  /**
+  * Identifies the name of the management cluster.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#name DataRafayAksClusterV3#name}
+  */
+  readonly name?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecManagementClusterToTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecManagementClusterOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecManagementCluster): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecManagementClusterToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecManagementClusterOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecManagementCluster): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecManagementClusterOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecManagementCluster | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecManagementCluster | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsMachineGroupRef {
+  /**
+  * Refers to the kind of resource to be associated with.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#kind DataRafayAksClusterV3#kind}
+  */
+  readonly kind?: string;
+  /**
+  * Refers to the name of resource to be associated with of above kind.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#name DataRafayAksClusterV3#name}
+  */
+  readonly name?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsMachineGroupRefToTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsMachineGroupRefOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsMachineGroupRef): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    kind: cdktf.stringToTerraform(struct!.kind),
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsMachineGroupRefToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsMachineGroupRefOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsMachineGroupRef): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    kind: {
+      value: cdktf.stringToHclTerraform(struct!.kind),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsMachineGroupRefOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsMachineGroupRef | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._kind !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.kind = this._kind;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsMachineGroupRef | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._kind = undefined;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._kind = value.kind;
+      this._name = value.name;
+    }
+  }
+
+  // kind - computed: false, optional: true, required: false
+  private _kind?: string; 
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+  public set kind(value: string) {
+    this._kind = value;
+  }
+  public resetKind() {
+    this._kind = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kindInput() {
+    return this._kind;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategyRollingUpdate {
+  /**
+  * Maximum number of machines that can be scheduled above the desired number of machines - Default: 1.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#max_surge DataRafayAksClusterV3#max_surge}
+  */
+  readonly maxSurge?: number;
+  /**
+  * Maximum number of machines that can be unavailable during the upgrade - Default: 0.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#max_unavailable DataRafayAksClusterV3#max_unavailable}
+  */
+  readonly maxUnavailable?: number;
+}
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategyRollingUpdateToTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategyRollingUpdateOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategyRollingUpdate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    max_surge: cdktf.numberToTerraform(struct!.maxSurge),
+    max_unavailable: cdktf.numberToTerraform(struct!.maxUnavailable),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategyRollingUpdateToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategyRollingUpdateOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategyRollingUpdate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    max_surge: {
+      value: cdktf.numberToHclTerraform(struct!.maxSurge),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    max_unavailable: {
+      value: cdktf.numberToHclTerraform(struct!.maxUnavailable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategyRollingUpdateOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategyRollingUpdate | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._maxSurge !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxSurge = this._maxSurge;
+    }
+    if (this._maxUnavailable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxUnavailable = this._maxUnavailable;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategyRollingUpdate | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._maxSurge = undefined;
+      this._maxUnavailable = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._maxSurge = value.maxSurge;
+      this._maxUnavailable = value.maxUnavailable;
+    }
+  }
+
+  // max_surge - computed: false, optional: true, required: false
+  private _maxSurge?: number; 
+  public get maxSurge() {
+    return this.getNumberAttribute('max_surge');
+  }
+  public set maxSurge(value: number) {
+    this._maxSurge = value;
+  }
+  public resetMaxSurge() {
+    this._maxSurge = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxSurgeInput() {
+    return this._maxSurge;
+  }
+
+  // max_unavailable - computed: false, optional: true, required: false
+  private _maxUnavailable?: number; 
+  public get maxUnavailable() {
+    return this.getNumberAttribute('max_unavailable');
+  }
+  public set maxUnavailable(value: number) {
+    this._maxUnavailable = value;
+  }
+  public resetMaxUnavailable() {
+    this._maxUnavailable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxUnavailableInput() {
+    return this._maxUnavailable;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategy {
+  /**
+  * Rollout strategy type - Default: 'RollingUpdate'.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#type DataRafayAksClusterV3#type}
+  */
+  readonly type?: string;
+  /**
+  * rolling_update block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#rolling_update DataRafayAksClusterV3#rolling_update}
+  */
+  readonly rollingUpdate?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategyRollingUpdate;
+}
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategyToTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategyOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    type: cdktf.stringToTerraform(struct!.type),
+    rolling_update: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategyRollingUpdateToTerraform(struct!.rollingUpdate),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategyToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategyOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    rolling_update: {
+      value: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategyRollingUpdateToHclTerraform(struct!.rollingUpdate),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategyRollingUpdateList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._rollingUpdate?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rollingUpdate = this._rollingUpdate?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._type = undefined;
+      this._rollingUpdate.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._type = value.type;
+      this._rollingUpdate.internalValue = value.rollingUpdate;
+    }
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // rolling_update - computed: false, optional: true, required: false
+  private _rollingUpdate = new DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategyRollingUpdateOutputReference(this, "rolling_update");
+  public get rollingUpdate() {
+    return this._rollingUpdate;
+  }
+  public putRollingUpdate(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategyRollingUpdate) {
+    this._rollingUpdate.internalValue = value;
+  }
+  public resetRollingUpdate() {
+    this._rollingUpdate.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rollingUpdateInput() {
+    return this._rollingUpdate.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurations {
+  /**
+  * Number of worker nodes
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#count DataRafayAksClusterV3#count}
+  */
+  readonly count?: number;
+  /**
+  * A list of labels to apply to the nodes in the worker node group. This is in addition to the labels that EKS Anywhere will add by default.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#labels DataRafayAksClusterV3#labels}
+  */
+  readonly labels?: { [key: string]: string };
+  /**
+  * Worker node group's name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#name DataRafayAksClusterV3#name}
+  */
+  readonly name?: string;
+  /**
+  * A list of taints to apply to the nodes in the worker node group. At least one node group must not have NoSchedule or NoExecute taints applied to it.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#taints DataRafayAksClusterV3#taints}
+  */
+  readonly taints?: { [key: string]: string };
+  /**
+  * machine_group_ref block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#machine_group_ref DataRafayAksClusterV3#machine_group_ref}
+  */
+  readonly machineGroupRef?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsMachineGroupRef;
+  /**
+  * rollout_strategy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#rollout_strategy DataRafayAksClusterV3#rollout_strategy}
+  */
+  readonly rolloutStrategy?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategy;
+}
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsToTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurations | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    count: cdktf.numberToTerraform(struct!.count),
+    labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.labels),
+    name: cdktf.stringToTerraform(struct!.name),
+    taints: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.taints),
+    machine_group_ref: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsMachineGroupRefToTerraform(struct!.machineGroupRef),
+    rollout_strategy: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategyToTerraform(struct!.rolloutStrategy),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurations | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    count: {
+      value: cdktf.numberToHclTerraform(struct!.count),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    labels: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.labels),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    taints: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.taints),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    machine_group_ref: {
+      value: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsMachineGroupRefToHclTerraform(struct!.machineGroupRef),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsMachineGroupRefList",
+    },
+    rollout_strategy: {
+      value: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategyToHclTerraform(struct!.rolloutStrategy),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategyList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurations | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._count !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.count = this._count;
+    }
+    if (this._labels !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.labels = this._labels;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._taints !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.taints = this._taints;
+    }
+    if (this._machineGroupRef?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.machineGroupRef = this._machineGroupRef?.internalValue;
+    }
+    if (this._rolloutStrategy?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rolloutStrategy = this._rolloutStrategy?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurations | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._count = undefined;
+      this._labels = undefined;
+      this._name = undefined;
+      this._taints = undefined;
+      this._machineGroupRef.internalValue = undefined;
+      this._rolloutStrategy.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._count = value.count;
+      this._labels = value.labels;
+      this._name = value.name;
+      this._taints = value.taints;
+      this._machineGroupRef.internalValue = value.machineGroupRef;
+      this._rolloutStrategy.internalValue = value.rolloutStrategy;
+    }
+  }
+
+  // count - computed: false, optional: true, required: false
+  private _count?: number; 
+  public get count() {
+    return this.getNumberAttribute('count');
+  }
+  public set count(value: number) {
+    this._count = value;
+  }
+  public resetCount() {
+    this._count = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get countInput() {
+    return this._count;
+  }
+
+  // labels - computed: false, optional: true, required: false
+  private _labels?: { [key: string]: string }; 
+  public get labels() {
+    return this.getStringMapAttribute('labels');
+  }
+  public set labels(value: { [key: string]: string }) {
+    this._labels = value;
+  }
+  public resetLabels() {
+    this._labels = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelsInput() {
+    return this._labels;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // taints - computed: false, optional: true, required: false
+  private _taints?: { [key: string]: string }; 
+  public get taints() {
+    return this.getStringMapAttribute('taints');
+  }
+  public set taints(value: { [key: string]: string }) {
+    this._taints = value;
+  }
+  public resetTaints() {
+    this._taints = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get taintsInput() {
+    return this._taints;
+  }
+
+  // machine_group_ref - computed: false, optional: true, required: false
+  private _machineGroupRef = new DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsMachineGroupRefOutputReference(this, "machine_group_ref");
+  public get machineGroupRef() {
+    return this._machineGroupRef;
+  }
+  public putMachineGroupRef(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsMachineGroupRef) {
+    this._machineGroupRef.internalValue = value;
+  }
+  public resetMachineGroupRef() {
+    this._machineGroupRef.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get machineGroupRefInput() {
+    return this._machineGroupRef.internalValue;
+  }
+
+  // rollout_strategy - computed: false, optional: true, required: false
+  private _rolloutStrategy = new DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategyOutputReference(this, "rollout_strategy");
+  public get rolloutStrategy() {
+    return this._rolloutStrategy;
+  }
+  public putRolloutStrategy(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsRolloutStrategy) {
+    this._rolloutStrategy.internalValue = value;
+  }
+  public resetRolloutStrategy() {
+    this._rolloutStrategy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rolloutStrategyInput() {
+    return this._rolloutStrategy.internalValue;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurations[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsOutputReference {
+    return new DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigEksaClusterConfigSpec {
+  /**
+  * The Kubernetes version you want to use for your cluster
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#kubernetes_version DataRafayAksClusterV3#kubernetes_version}
+  */
+  readonly kubernetesVersion?: string;
+  /**
+  * cluster_network block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#cluster_network DataRafayAksClusterV3#cluster_network}
+  */
+  readonly clusterNetwork?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetwork;
+  /**
+  * control_plane_configuration block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#control_plane_configuration DataRafayAksClusterV3#control_plane_configuration}
+  */
+  readonly controlPlaneConfiguration?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfiguration;
+  /**
+  * data_center_ref block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#data_center_ref DataRafayAksClusterV3#data_center_ref}
+  */
+  readonly dataCenterRef?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecDataCenterRef;
+  /**
+  * management_cluster block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#management_cluster DataRafayAksClusterV3#management_cluster}
+  */
+  readonly managementCluster?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecManagementCluster;
+  /**
+  * worker_node_group_configurations block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#worker_node_group_configurations DataRafayAksClusterV3#worker_node_group_configurations}
+  */
+  readonly workerNodeGroupConfigurations?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurations[] | cdktf.IResolvable;
+}
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecToTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpec): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    kubernetes_version: cdktf.stringToTerraform(struct!.kubernetesVersion),
+    cluster_network: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkToTerraform(struct!.clusterNetwork),
+    control_plane_configuration: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationToTerraform(struct!.controlPlaneConfiguration),
+    data_center_ref: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecDataCenterRefToTerraform(struct!.dataCenterRef),
+    management_cluster: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecManagementClusterToTerraform(struct!.managementCluster),
+    worker_node_group_configurations: cdktf.listMapper(dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsToTerraform, true)(struct!.workerNodeGroupConfigurations),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfigSpec): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    kubernetes_version: {
+      value: cdktf.stringToHclTerraform(struct!.kubernetesVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    cluster_network: {
+      value: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkToHclTerraform(struct!.clusterNetwork),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkList",
+    },
+    control_plane_configuration: {
+      value: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationToHclTerraform(struct!.controlPlaneConfiguration),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationList",
+    },
+    data_center_ref: {
+      value: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecDataCenterRefToHclTerraform(struct!.dataCenterRef),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecDataCenterRefList",
+    },
+    management_cluster: {
+      value: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecManagementClusterToHclTerraform(struct!.managementCluster),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecManagementClusterList",
+    },
+    worker_node_group_configurations: {
+      value: cdktf.listMapperHcl(dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsToHclTerraform, true)(struct!.workerNodeGroupConfigurations),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigEksaClusterConfigSpec | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._kubernetesVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.kubernetesVersion = this._kubernetesVersion;
+    }
+    if (this._clusterNetwork?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clusterNetwork = this._clusterNetwork?.internalValue;
+    }
+    if (this._controlPlaneConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.controlPlaneConfiguration = this._controlPlaneConfiguration?.internalValue;
+    }
+    if (this._dataCenterRef?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dataCenterRef = this._dataCenterRef?.internalValue;
+    }
+    if (this._managementCluster?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.managementCluster = this._managementCluster?.internalValue;
+    }
+    if (this._workerNodeGroupConfigurations?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.workerNodeGroupConfigurations = this._workerNodeGroupConfigurations?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpec | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._kubernetesVersion = undefined;
+      this._clusterNetwork.internalValue = undefined;
+      this._controlPlaneConfiguration.internalValue = undefined;
+      this._dataCenterRef.internalValue = undefined;
+      this._managementCluster.internalValue = undefined;
+      this._workerNodeGroupConfigurations.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._kubernetesVersion = value.kubernetesVersion;
+      this._clusterNetwork.internalValue = value.clusterNetwork;
+      this._controlPlaneConfiguration.internalValue = value.controlPlaneConfiguration;
+      this._dataCenterRef.internalValue = value.dataCenterRef;
+      this._managementCluster.internalValue = value.managementCluster;
+      this._workerNodeGroupConfigurations.internalValue = value.workerNodeGroupConfigurations;
+    }
+  }
+
+  // kubernetes_version - computed: false, optional: true, required: false
+  private _kubernetesVersion?: string; 
+  public get kubernetesVersion() {
+    return this.getStringAttribute('kubernetes_version');
+  }
+  public set kubernetesVersion(value: string) {
+    this._kubernetesVersion = value;
+  }
+  public resetKubernetesVersion() {
+    this._kubernetesVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kubernetesVersionInput() {
+    return this._kubernetesVersion;
+  }
+
+  // cluster_network - computed: false, optional: true, required: false
+  private _clusterNetwork = new DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetworkOutputReference(this, "cluster_network");
+  public get clusterNetwork() {
+    return this._clusterNetwork;
+  }
+  public putClusterNetwork(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecClusterNetwork) {
+    this._clusterNetwork.internalValue = value;
+  }
+  public resetClusterNetwork() {
+    this._clusterNetwork.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clusterNetworkInput() {
+    return this._clusterNetwork.internalValue;
+  }
+
+  // control_plane_configuration - computed: false, optional: true, required: false
+  private _controlPlaneConfiguration = new DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfigurationOutputReference(this, "control_plane_configuration");
+  public get controlPlaneConfiguration() {
+    return this._controlPlaneConfiguration;
+  }
+  public putControlPlaneConfiguration(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecControlPlaneConfiguration) {
+    this._controlPlaneConfiguration.internalValue = value;
+  }
+  public resetControlPlaneConfiguration() {
+    this._controlPlaneConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get controlPlaneConfigurationInput() {
+    return this._controlPlaneConfiguration.internalValue;
+  }
+
+  // data_center_ref - computed: false, optional: true, required: false
+  private _dataCenterRef = new DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecDataCenterRefOutputReference(this, "data_center_ref");
+  public get dataCenterRef() {
+    return this._dataCenterRef;
+  }
+  public putDataCenterRef(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecDataCenterRef) {
+    this._dataCenterRef.internalValue = value;
+  }
+  public resetDataCenterRef() {
+    this._dataCenterRef.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dataCenterRefInput() {
+    return this._dataCenterRef.internalValue;
+  }
+
+  // management_cluster - computed: false, optional: true, required: false
+  private _managementCluster = new DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecManagementClusterOutputReference(this, "management_cluster");
+  public get managementCluster() {
+    return this._managementCluster;
+  }
+  public putManagementCluster(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecManagementCluster) {
+    this._managementCluster.internalValue = value;
+  }
+  public resetManagementCluster() {
+    this._managementCluster.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get managementClusterInput() {
+    return this._managementCluster.internalValue;
+  }
+
+  // worker_node_group_configurations - computed: false, optional: true, required: false
+  private _workerNodeGroupConfigurations = new DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurationsList(this, "worker_node_group_configurations", false);
+  public get workerNodeGroupConfigurations() {
+    return this._workerNodeGroupConfigurations;
+  }
+  public putWorkerNodeGroupConfigurations(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecWorkerNodeGroupConfigurations[] | cdktf.IResolvable) {
+    this._workerNodeGroupConfigurations.internalValue = value;
+  }
+  public resetWorkerNodeGroupConfigurations() {
+    this._workerNodeGroupConfigurations.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get workerNodeGroupConfigurationsInput() {
+    return this._workerNodeGroupConfigurations.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigEksaClusterConfig {
+  /**
+  * Api version of EKSA cluster resource
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#api_version DataRafayAksClusterV3#api_version}
+  */
+  readonly apiVersion?: string;
+  /**
+  * Kind of EKSA cluster resource
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#kind DataRafayAksClusterV3#kind}
+  */
+  readonly kind?: string;
+  /**
+  * metadata block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#metadata DataRafayAksClusterV3#metadata}
+  */
+  readonly metadata?: DataRafayAksClusterV3SpecConfigEksaClusterConfigMetadata;
+  /**
+  * spec block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#spec DataRafayAksClusterV3#spec}
+  */
+  readonly spec?: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpec;
+}
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigToTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    api_version: cdktf.stringToTerraform(struct!.apiVersion),
+    kind: cdktf.stringToTerraform(struct!.kind),
+    metadata: dataRafayAksClusterV3SpecConfigEksaClusterConfigMetadataToTerraform(struct!.metadata),
+    spec: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecToTerraform(struct!.spec),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigEksaClusterConfigToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigEksaClusterConfigOutputReference | DataRafayAksClusterV3SpecConfigEksaClusterConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    api_version: {
+      value: cdktf.stringToHclTerraform(struct!.apiVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    kind: {
+      value: cdktf.stringToHclTerraform(struct!.kind),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    metadata: {
+      value: dataRafayAksClusterV3SpecConfigEksaClusterConfigMetadataToHclTerraform(struct!.metadata),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigEksaClusterConfigMetadataList",
+    },
+    spec: {
+      value: dataRafayAksClusterV3SpecConfigEksaClusterConfigSpecToHclTerraform(struct!.spec),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigEksaClusterConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigEksaClusterConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._apiVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.apiVersion = this._apiVersion;
+    }
+    if (this._kind !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.kind = this._kind;
+    }
+    if (this._metadata?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.metadata = this._metadata?.internalValue;
+    }
+    if (this._spec?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.spec = this._spec?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigEksaClusterConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._apiVersion = undefined;
+      this._kind = undefined;
+      this._metadata.internalValue = undefined;
+      this._spec.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._apiVersion = value.apiVersion;
+      this._kind = value.kind;
+      this._metadata.internalValue = value.metadata;
+      this._spec.internalValue = value.spec;
+    }
+  }
+
+  // api_version - computed: false, optional: true, required: false
+  private _apiVersion?: string; 
+  public get apiVersion() {
+    return this.getStringAttribute('api_version');
+  }
+  public set apiVersion(value: string) {
+    this._apiVersion = value;
+  }
+  public resetApiVersion() {
+    this._apiVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get apiVersionInput() {
+    return this._apiVersion;
+  }
+
+  // kind - computed: false, optional: true, required: false
+  private _kind?: string; 
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+  public set kind(value: string) {
+    this._kind = value;
+  }
+  public resetKind() {
+    this._kind = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kindInput() {
+    return this._kind;
+  }
+
+  // metadata - computed: false, optional: true, required: false
+  private _metadata = new DataRafayAksClusterV3SpecConfigEksaClusterConfigMetadataOutputReference(this, "metadata");
+  public get metadata() {
+    return this._metadata;
+  }
+  public putMetadata(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigMetadata) {
+    this._metadata.internalValue = value;
+  }
+  public resetMetadata() {
+    this._metadata.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metadataInput() {
+    return this._metadata.internalValue;
+  }
+
+  // spec - computed: false, optional: true, required: false
+  private _spec = new DataRafayAksClusterV3SpecConfigEksaClusterConfigSpecOutputReference(this, "spec");
+  public get spec() {
+    return this._spec;
+  }
+  public putSpec(value: DataRafayAksClusterV3SpecConfigEksaClusterConfigSpec) {
+    this._spec.internalValue = value;
+  }
+  public resetSpec() {
+    this._spec.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get specInput() {
+    return this._spec.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigFeatures {
+  /**
+  * List of components for cloud logging
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#cloud_logging_components DataRafayAksClusterV3#cloud_logging_components}
+  */
+  readonly cloudLoggingComponents?: string[];
+  /**
+  * List of components for cloud monitoring
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#cloud_monitoring_components DataRafayAksClusterV3#cloud_monitoring_components}
+  */
+  readonly cloudMonitoringComponents?: string[];
+  /**
+  * Application Manager is a GKE controller for managing the lifecycle of applications. It enables application delivery and updates following Kubernetes and GitOps best practices
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enable_application_manager_beta DataRafayAksClusterV3#enable_application_manager_beta}
+  */
+  readonly enableApplicationManagerBeta?: boolean | cdktf.IResolvable;
+  /**
+  * Backup for GKE allows you to back up and restore GKE workloads. There is no cost for enabling this feature, but you are charged for backups based on the size of the data and the number of pods you protect
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enable_backup_for_gke DataRafayAksClusterV3#enable_backup_for_gke}
+  */
+  readonly enableBackupForGke?: boolean | cdktf.IResolvable;
+  /**
+  * Logging collects logs emitted by your applications and by GKE infrastructure
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enable_cloud_logging DataRafayAksClusterV3#enable_cloud_logging}
+  */
+  readonly enableCloudLogging?: boolean | cdktf.IResolvable;
+  /**
+  * Monitoring collects metrics emitted by your applications and by GKE infrastructure
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enable_cloud_monitoring DataRafayAksClusterV3#enable_cloud_monitoring}
+  */
+  readonly enableCloudMonitoring?: boolean | cdktf.IResolvable;
+  /**
+  * Enable to automatically deploy and manage the Compute Engine Persistent Disk CSI Driver. This feature is an alternative to using the gcePersistentDisk in-tree volume plugin
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enable_compute_engine_persistent_disk_csi_driver DataRafayAksClusterV3#enable_compute_engine_persistent_disk_csi_driver}
+  */
+  readonly enableComputeEnginePersistentDiskCsiDriver?: boolean | cdktf.IResolvable;
+  /**
+  * Enable to automatically deploy and manage the Filestore CSI Driver
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enable_filestore_csi_driver DataRafayAksClusterV3#enable_filestore_csi_driver}
+  */
+  readonly enableFilestoreCsiDriver?: boolean | cdktf.IResolvable;
+  /**
+  * Image streaming allows your workloads to initialize without waiting for the entire image to download
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enable_image_streaming DataRafayAksClusterV3#enable_image_streaming}
+  */
+  readonly enableImageStreaming?: boolean | cdktf.IResolvable;
+  /**
+  * This option deploys managed collectors for Prometheus metrics within this cluster. These collectors must be configured using PodMonitoring resources. To enable Managed Service for Prometheus here, you'll need. Cluster version of 1.21.4-gke.300 or greater
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enable_managed_service_prometheus DataRafayAksClusterV3#enable_managed_service_prometheus}
+  */
+  readonly enableManagedServicePrometheus?: boolean | cdktf.IResolvable;
+}
+
+export function dataRafayAksClusterV3SpecConfigFeaturesToTerraform(struct?: DataRafayAksClusterV3SpecConfigFeaturesOutputReference | DataRafayAksClusterV3SpecConfigFeatures): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    cloud_logging_components: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.cloudLoggingComponents),
+    cloud_monitoring_components: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.cloudMonitoringComponents),
+    enable_application_manager_beta: cdktf.booleanToTerraform(struct!.enableApplicationManagerBeta),
+    enable_backup_for_gke: cdktf.booleanToTerraform(struct!.enableBackupForGke),
+    enable_cloud_logging: cdktf.booleanToTerraform(struct!.enableCloudLogging),
+    enable_cloud_monitoring: cdktf.booleanToTerraform(struct!.enableCloudMonitoring),
+    enable_compute_engine_persistent_disk_csi_driver: cdktf.booleanToTerraform(struct!.enableComputeEnginePersistentDiskCsiDriver),
+    enable_filestore_csi_driver: cdktf.booleanToTerraform(struct!.enableFilestoreCsiDriver),
+    enable_image_streaming: cdktf.booleanToTerraform(struct!.enableImageStreaming),
+    enable_managed_service_prometheus: cdktf.booleanToTerraform(struct!.enableManagedServicePrometheus),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigFeaturesToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigFeaturesOutputReference | DataRafayAksClusterV3SpecConfigFeatures): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cloud_logging_components: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.cloudLoggingComponents),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    cloud_monitoring_components: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.cloudMonitoringComponents),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    enable_application_manager_beta: {
+      value: cdktf.booleanToHclTerraform(struct!.enableApplicationManagerBeta),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_backup_for_gke: {
+      value: cdktf.booleanToHclTerraform(struct!.enableBackupForGke),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_cloud_logging: {
+      value: cdktf.booleanToHclTerraform(struct!.enableCloudLogging),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_cloud_monitoring: {
+      value: cdktf.booleanToHclTerraform(struct!.enableCloudMonitoring),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_compute_engine_persistent_disk_csi_driver: {
+      value: cdktf.booleanToHclTerraform(struct!.enableComputeEnginePersistentDiskCsiDriver),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_filestore_csi_driver: {
+      value: cdktf.booleanToHclTerraform(struct!.enableFilestoreCsiDriver),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_image_streaming: {
+      value: cdktf.booleanToHclTerraform(struct!.enableImageStreaming),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_managed_service_prometheus: {
+      value: cdktf.booleanToHclTerraform(struct!.enableManagedServicePrometheus),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigFeaturesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigFeatures | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cloudLoggingComponents !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cloudLoggingComponents = this._cloudLoggingComponents;
+    }
+    if (this._cloudMonitoringComponents !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cloudMonitoringComponents = this._cloudMonitoringComponents;
+    }
+    if (this._enableApplicationManagerBeta !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableApplicationManagerBeta = this._enableApplicationManagerBeta;
+    }
+    if (this._enableBackupForGke !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableBackupForGke = this._enableBackupForGke;
+    }
+    if (this._enableCloudLogging !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableCloudLogging = this._enableCloudLogging;
+    }
+    if (this._enableCloudMonitoring !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableCloudMonitoring = this._enableCloudMonitoring;
+    }
+    if (this._enableComputeEnginePersistentDiskCsiDriver !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableComputeEnginePersistentDiskCsiDriver = this._enableComputeEnginePersistentDiskCsiDriver;
+    }
+    if (this._enableFilestoreCsiDriver !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableFilestoreCsiDriver = this._enableFilestoreCsiDriver;
+    }
+    if (this._enableImageStreaming !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableImageStreaming = this._enableImageStreaming;
+    }
+    if (this._enableManagedServicePrometheus !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableManagedServicePrometheus = this._enableManagedServicePrometheus;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigFeatures | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._cloudLoggingComponents = undefined;
+      this._cloudMonitoringComponents = undefined;
+      this._enableApplicationManagerBeta = undefined;
+      this._enableBackupForGke = undefined;
+      this._enableCloudLogging = undefined;
+      this._enableCloudMonitoring = undefined;
+      this._enableComputeEnginePersistentDiskCsiDriver = undefined;
+      this._enableFilestoreCsiDriver = undefined;
+      this._enableImageStreaming = undefined;
+      this._enableManagedServicePrometheus = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._cloudLoggingComponents = value.cloudLoggingComponents;
+      this._cloudMonitoringComponents = value.cloudMonitoringComponents;
+      this._enableApplicationManagerBeta = value.enableApplicationManagerBeta;
+      this._enableBackupForGke = value.enableBackupForGke;
+      this._enableCloudLogging = value.enableCloudLogging;
+      this._enableCloudMonitoring = value.enableCloudMonitoring;
+      this._enableComputeEnginePersistentDiskCsiDriver = value.enableComputeEnginePersistentDiskCsiDriver;
+      this._enableFilestoreCsiDriver = value.enableFilestoreCsiDriver;
+      this._enableImageStreaming = value.enableImageStreaming;
+      this._enableManagedServicePrometheus = value.enableManagedServicePrometheus;
+    }
+  }
+
+  // cloud_logging_components - computed: false, optional: true, required: false
+  private _cloudLoggingComponents?: string[]; 
+  public get cloudLoggingComponents() {
+    return this.getListAttribute('cloud_logging_components');
+  }
+  public set cloudLoggingComponents(value: string[]) {
+    this._cloudLoggingComponents = value;
+  }
+  public resetCloudLoggingComponents() {
+    this._cloudLoggingComponents = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cloudLoggingComponentsInput() {
+    return this._cloudLoggingComponents;
+  }
+
+  // cloud_monitoring_components - computed: false, optional: true, required: false
+  private _cloudMonitoringComponents?: string[]; 
+  public get cloudMonitoringComponents() {
+    return this.getListAttribute('cloud_monitoring_components');
+  }
+  public set cloudMonitoringComponents(value: string[]) {
+    this._cloudMonitoringComponents = value;
+  }
+  public resetCloudMonitoringComponents() {
+    this._cloudMonitoringComponents = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cloudMonitoringComponentsInput() {
+    return this._cloudMonitoringComponents;
+  }
+
+  // enable_application_manager_beta - computed: false, optional: true, required: false
+  private _enableApplicationManagerBeta?: boolean | cdktf.IResolvable; 
+  public get enableApplicationManagerBeta() {
+    return this.getBooleanAttribute('enable_application_manager_beta');
+  }
+  public set enableApplicationManagerBeta(value: boolean | cdktf.IResolvable) {
+    this._enableApplicationManagerBeta = value;
+  }
+  public resetEnableApplicationManagerBeta() {
+    this._enableApplicationManagerBeta = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableApplicationManagerBetaInput() {
+    return this._enableApplicationManagerBeta;
+  }
+
+  // enable_backup_for_gke - computed: false, optional: true, required: false
+  private _enableBackupForGke?: boolean | cdktf.IResolvable; 
+  public get enableBackupForGke() {
+    return this.getBooleanAttribute('enable_backup_for_gke');
+  }
+  public set enableBackupForGke(value: boolean | cdktf.IResolvable) {
+    this._enableBackupForGke = value;
+  }
+  public resetEnableBackupForGke() {
+    this._enableBackupForGke = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableBackupForGkeInput() {
+    return this._enableBackupForGke;
+  }
+
+  // enable_cloud_logging - computed: false, optional: true, required: false
+  private _enableCloudLogging?: boolean | cdktf.IResolvable; 
+  public get enableCloudLogging() {
+    return this.getBooleanAttribute('enable_cloud_logging');
+  }
+  public set enableCloudLogging(value: boolean | cdktf.IResolvable) {
+    this._enableCloudLogging = value;
+  }
+  public resetEnableCloudLogging() {
+    this._enableCloudLogging = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableCloudLoggingInput() {
+    return this._enableCloudLogging;
+  }
+
+  // enable_cloud_monitoring - computed: false, optional: true, required: false
+  private _enableCloudMonitoring?: boolean | cdktf.IResolvable; 
+  public get enableCloudMonitoring() {
+    return this.getBooleanAttribute('enable_cloud_monitoring');
+  }
+  public set enableCloudMonitoring(value: boolean | cdktf.IResolvable) {
+    this._enableCloudMonitoring = value;
+  }
+  public resetEnableCloudMonitoring() {
+    this._enableCloudMonitoring = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableCloudMonitoringInput() {
+    return this._enableCloudMonitoring;
+  }
+
+  // enable_compute_engine_persistent_disk_csi_driver - computed: false, optional: true, required: false
+  private _enableComputeEnginePersistentDiskCsiDriver?: boolean | cdktf.IResolvable; 
+  public get enableComputeEnginePersistentDiskCsiDriver() {
+    return this.getBooleanAttribute('enable_compute_engine_persistent_disk_csi_driver');
+  }
+  public set enableComputeEnginePersistentDiskCsiDriver(value: boolean | cdktf.IResolvable) {
+    this._enableComputeEnginePersistentDiskCsiDriver = value;
+  }
+  public resetEnableComputeEnginePersistentDiskCsiDriver() {
+    this._enableComputeEnginePersistentDiskCsiDriver = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableComputeEnginePersistentDiskCsiDriverInput() {
+    return this._enableComputeEnginePersistentDiskCsiDriver;
+  }
+
+  // enable_filestore_csi_driver - computed: false, optional: true, required: false
+  private _enableFilestoreCsiDriver?: boolean | cdktf.IResolvable; 
+  public get enableFilestoreCsiDriver() {
+    return this.getBooleanAttribute('enable_filestore_csi_driver');
+  }
+  public set enableFilestoreCsiDriver(value: boolean | cdktf.IResolvable) {
+    this._enableFilestoreCsiDriver = value;
+  }
+  public resetEnableFilestoreCsiDriver() {
+    this._enableFilestoreCsiDriver = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableFilestoreCsiDriverInput() {
+    return this._enableFilestoreCsiDriver;
+  }
+
+  // enable_image_streaming - computed: false, optional: true, required: false
+  private _enableImageStreaming?: boolean | cdktf.IResolvable; 
+  public get enableImageStreaming() {
+    return this.getBooleanAttribute('enable_image_streaming');
+  }
+  public set enableImageStreaming(value: boolean | cdktf.IResolvable) {
+    this._enableImageStreaming = value;
+  }
+  public resetEnableImageStreaming() {
+    this._enableImageStreaming = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableImageStreamingInput() {
+    return this._enableImageStreaming;
+  }
+
+  // enable_managed_service_prometheus - computed: false, optional: true, required: false
+  private _enableManagedServicePrometheus?: boolean | cdktf.IResolvable; 
+  public get enableManagedServicePrometheus() {
+    return this.getBooleanAttribute('enable_managed_service_prometheus');
+  }
+  public set enableManagedServicePrometheus(value: boolean | cdktf.IResolvable) {
+    this._enableManagedServicePrometheus = value;
+  }
+  public resetEnableManagedServicePrometheus() {
+    this._enableManagedServicePrometheus = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableManagedServicePrometheusInput() {
+    return this._enableManagedServicePrometheus;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigLocationConfig {
+  /**
+  * Regional location in which the cluster's control plane and nodes are located
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#region DataRafayAksClusterV3#region}
+  */
+  readonly region?: string;
+  /**
+  * Zone in the region where bootstrap VM is created for cluster provisioning 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#zone DataRafayAksClusterV3#zone}
+  */
+  readonly zone?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigLocationConfigToTerraform(struct?: DataRafayAksClusterV3SpecConfigLocationConfigOutputReference | DataRafayAksClusterV3SpecConfigLocationConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    region: cdktf.stringToTerraform(struct!.region),
+    zone: cdktf.stringToTerraform(struct!.zone),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigLocationConfigToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigLocationConfigOutputReference | DataRafayAksClusterV3SpecConfigLocationConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    region: {
+      value: cdktf.stringToHclTerraform(struct!.region),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    zone: {
+      value: cdktf.stringToHclTerraform(struct!.zone),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigLocationConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigLocationConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._region !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.region = this._region;
+    }
+    if (this._zone !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.zone = this._zone;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigLocationConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._region = undefined;
+      this._zone = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._region = value.region;
+      this._zone = value.zone;
+    }
+  }
+
+  // region - computed: false, optional: true, required: false
+  private _region?: string; 
+  public get region() {
+    return this.getStringAttribute('region');
+  }
+  public set region(value: string) {
+    this._region = value;
+  }
+  public resetRegion() {
+    this._region = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regionInput() {
+    return this._region;
+  }
+
+  // zone - computed: false, optional: true, required: false
+  private _zone?: string; 
+  public get zone() {
+    return this.getStringAttribute('zone');
+  }
+  public set zone(value: string) {
+    this._zone = value;
+  }
+  public resetZone() {
+    this._zone = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zoneInput() {
+    return this._zone;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigLocationDefaultNodeLocations {
+  /**
+  * Enable providing default node locations
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enabled DataRafayAksClusterV3#enabled}
+  */
+  readonly enabled?: boolean | cdktf.IResolvable;
+  /**
+  * List of zones. Increase availability by providing more than one zone. The same number of nodes will be deployed to each zone in the list.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#zones DataRafayAksClusterV3#zones}
+  */
+  readonly zones?: string[];
+}
+
+export function dataRafayAksClusterV3SpecConfigLocationDefaultNodeLocationsToTerraform(struct?: DataRafayAksClusterV3SpecConfigLocationDefaultNodeLocationsOutputReference | DataRafayAksClusterV3SpecConfigLocationDefaultNodeLocations): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enabled: cdktf.booleanToTerraform(struct!.enabled),
+    zones: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.zones),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigLocationDefaultNodeLocationsToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigLocationDefaultNodeLocationsOutputReference | DataRafayAksClusterV3SpecConfigLocationDefaultNodeLocations): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    zones: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.zones),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigLocationDefaultNodeLocationsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigLocationDefaultNodeLocations | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    if (this._zones !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.zones = this._zones;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigLocationDefaultNodeLocations | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enabled = undefined;
+      this._zones = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enabled = value.enabled;
+      this._zones = value.zones;
+    }
+  }
+
+  // enabled - computed: false, optional: true, required: false
+  private _enabled?: boolean | cdktf.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktf.IResolvable) {
+    this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+
+  // zones - computed: false, optional: true, required: false
+  private _zones?: string[]; 
+  public get zones() {
+    return this.getListAttribute('zones');
+  }
+  public set zones(value: string[]) {
+    this._zones = value;
+  }
+  public resetZones() {
+    this._zones = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zonesInput() {
+    return this._zones;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigLocation {
+  /**
+  * GKE Cluster location can be either zonal or regional
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#type DataRafayAksClusterV3#type}
+  */
+  readonly type?: string;
+  /**
+  * config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#config DataRafayAksClusterV3#config}
+  */
+  readonly config?: DataRafayAksClusterV3SpecConfigLocationConfig;
+  /**
+  * default_node_locations block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#default_node_locations DataRafayAksClusterV3#default_node_locations}
+  */
+  readonly defaultNodeLocations?: DataRafayAksClusterV3SpecConfigLocationDefaultNodeLocations;
+}
+
+export function dataRafayAksClusterV3SpecConfigLocationToTerraform(struct?: DataRafayAksClusterV3SpecConfigLocationOutputReference | DataRafayAksClusterV3SpecConfigLocation): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    type: cdktf.stringToTerraform(struct!.type),
+    config: dataRafayAksClusterV3SpecConfigLocationConfigToTerraform(struct!.config),
+    default_node_locations: dataRafayAksClusterV3SpecConfigLocationDefaultNodeLocationsToTerraform(struct!.defaultNodeLocations),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigLocationToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigLocationOutputReference | DataRafayAksClusterV3SpecConfigLocation): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    config: {
+      value: dataRafayAksClusterV3SpecConfigLocationConfigToHclTerraform(struct!.config),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigLocationConfigList",
+    },
+    default_node_locations: {
+      value: dataRafayAksClusterV3SpecConfigLocationDefaultNodeLocationsToHclTerraform(struct!.defaultNodeLocations),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigLocationDefaultNodeLocationsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigLocationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigLocation | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._config?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.config = this._config?.internalValue;
+    }
+    if (this._defaultNodeLocations?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultNodeLocations = this._defaultNodeLocations?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigLocation | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._type = undefined;
+      this._config.internalValue = undefined;
+      this._defaultNodeLocations.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._type = value.type;
+      this._config.internalValue = value.config;
+      this._defaultNodeLocations.internalValue = value.defaultNodeLocations;
+    }
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // config - computed: false, optional: true, required: false
+  private _config = new DataRafayAksClusterV3SpecConfigLocationConfigOutputReference(this, "config");
+  public get config() {
+    return this._config;
+  }
+  public putConfig(value: DataRafayAksClusterV3SpecConfigLocationConfig) {
+    this._config.internalValue = value;
+  }
+  public resetConfig() {
+    this._config.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configInput() {
+    return this._config.internalValue;
+  }
+
+  // default_node_locations - computed: false, optional: true, required: false
+  private _defaultNodeLocations = new DataRafayAksClusterV3SpecConfigLocationDefaultNodeLocationsOutputReference(this, "default_node_locations");
+  public get defaultNodeLocations() {
+    return this._defaultNodeLocations;
+  }
+  public putDefaultNodeLocations(value: DataRafayAksClusterV3SpecConfigLocationDefaultNodeLocations) {
+    this._defaultNodeLocations.internalValue = value;
+  }
+  public resetDefaultNodeLocations() {
+    this._defaultNodeLocations.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultNodeLocationsInput() {
+    return this._defaultNodeLocations.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationStrategy {
+  /**
+  * MaxRetry is the maximum number of remediation attempts.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#max_retry DataRafayAksClusterV3#max_retry}
+  */
+  readonly maxRetry?: number;
+  /**
+  * MinHealthyPeriod is the minimum time to wait before remediation is attempted.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#min_healthy_period DataRafayAksClusterV3#min_healthy_period}
+  */
+  readonly minHealthyPeriod?: string;
+  /**
+  * RetryPeriod is the time to wait between remediation attempts.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#retry_period DataRafayAksClusterV3#retry_period}
+  */
+  readonly retryPeriod?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationStrategyToTerraform(struct?: DataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationStrategyOutputReference | DataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationStrategy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    max_retry: cdktf.numberToTerraform(struct!.maxRetry),
+    min_healthy_period: cdktf.stringToTerraform(struct!.minHealthyPeriod),
+    retry_period: cdktf.stringToTerraform(struct!.retryPeriod),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationStrategyToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationStrategyOutputReference | DataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationStrategy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    max_retry: {
+      value: cdktf.numberToHclTerraform(struct!.maxRetry),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    min_healthy_period: {
+      value: cdktf.stringToHclTerraform(struct!.minHealthyPeriod),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    retry_period: {
+      value: cdktf.stringToHclTerraform(struct!.retryPeriod),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationStrategyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationStrategy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._maxRetry !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxRetry = this._maxRetry;
+    }
+    if (this._minHealthyPeriod !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minHealthyPeriod = this._minHealthyPeriod;
+    }
+    if (this._retryPeriod !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.retryPeriod = this._retryPeriod;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationStrategy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._maxRetry = undefined;
+      this._minHealthyPeriod = undefined;
+      this._retryPeriod = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._maxRetry = value.maxRetry;
+      this._minHealthyPeriod = value.minHealthyPeriod;
+      this._retryPeriod = value.retryPeriod;
+    }
+  }
+
+  // max_retry - computed: false, optional: true, required: false
+  private _maxRetry?: number; 
+  public get maxRetry() {
+    return this.getNumberAttribute('max_retry');
+  }
+  public set maxRetry(value: number) {
+    this._maxRetry = value;
+  }
+  public resetMaxRetry() {
+    this._maxRetry = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxRetryInput() {
+    return this._maxRetry;
+  }
+
+  // min_healthy_period - computed: false, optional: true, required: false
+  private _minHealthyPeriod?: string; 
+  public get minHealthyPeriod() {
+    return this.getStringAttribute('min_healthy_period');
+  }
+  public set minHealthyPeriod(value: string) {
+    this._minHealthyPeriod = value;
+  }
+  public resetMinHealthyPeriod() {
+    this._minHealthyPeriod = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minHealthyPeriodInput() {
+    return this._minHealthyPeriod;
+  }
+
+  // retry_period - computed: false, optional: true, required: false
+  private _retryPeriod?: string; 
+  public get retryPeriod() {
+    return this.getStringAttribute('retry_period');
+  }
+  public set retryPeriod(value: string) {
+    this._retryPeriod = value;
+  }
+  public resetRetryPeriod() {
+    this._retryPeriod = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get retryPeriodInput() {
+    return this._retryPeriod;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationTemplate {
+  /**
+  * APIVersion defines the versioned schema of this representation of an object.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#api_version DataRafayAksClusterV3#api_version}
+  */
+  readonly apiVersion?: string;
+  /**
+  * FieldPath is the path of the field to select in the specified API version.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#field_path DataRafayAksClusterV3#field_path}
+  */
+  readonly fieldPath?: string;
+  /**
+  * Kind is a string value representing the REST resource this object represents.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#kind DataRafayAksClusterV3#kind}
+  */
+  readonly kind?: string;
+  /**
+  * Name of the referent.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#name DataRafayAksClusterV3#name}
+  */
+  readonly name?: string;
+  /**
+  * Namespace of the referent.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#namespace DataRafayAksClusterV3#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * ResourceVersion is an opaque identifier that is used to distinguish between multiple versions of a same resource.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#resource_version DataRafayAksClusterV3#resource_version}
+  */
+  readonly resourceVersion?: string;
+  /**
+  * UID is a unique id generated by the server on successful creation of a resource and is not propagated to the client.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#u_id DataRafayAksClusterV3#u_id}
+  */
+  readonly uId?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationTemplateToTerraform(struct?: DataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationTemplateOutputReference | DataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationTemplate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    api_version: cdktf.stringToTerraform(struct!.apiVersion),
+    field_path: cdktf.stringToTerraform(struct!.fieldPath),
+    kind: cdktf.stringToTerraform(struct!.kind),
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    resource_version: cdktf.stringToTerraform(struct!.resourceVersion),
+    u_id: cdktf.stringToTerraform(struct!.uId),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationTemplateToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationTemplateOutputReference | DataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationTemplate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    api_version: {
+      value: cdktf.stringToHclTerraform(struct!.apiVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    field_path: {
+      value: cdktf.stringToHclTerraform(struct!.fieldPath),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    kind: {
+      value: cdktf.stringToHclTerraform(struct!.kind),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    resource_version: {
+      value: cdktf.stringToHclTerraform(struct!.resourceVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    u_id: {
+      value: cdktf.stringToHclTerraform(struct!.uId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationTemplateOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationTemplate | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._apiVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.apiVersion = this._apiVersion;
+    }
+    if (this._fieldPath !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fieldPath = this._fieldPath;
+    }
+    if (this._kind !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.kind = this._kind;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._resourceVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resourceVersion = this._resourceVersion;
+    }
+    if (this._uId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uId = this._uId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationTemplate | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._apiVersion = undefined;
+      this._fieldPath = undefined;
+      this._kind = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._resourceVersion = undefined;
+      this._uId = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._apiVersion = value.apiVersion;
+      this._fieldPath = value.fieldPath;
+      this._kind = value.kind;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._resourceVersion = value.resourceVersion;
+      this._uId = value.uId;
+    }
+  }
+
+  // api_version - computed: false, optional: true, required: false
+  private _apiVersion?: string; 
+  public get apiVersion() {
+    return this.getStringAttribute('api_version');
+  }
+  public set apiVersion(value: string) {
+    this._apiVersion = value;
+  }
+  public resetApiVersion() {
+    this._apiVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get apiVersionInput() {
+    return this._apiVersion;
+  }
+
+  // field_path - computed: false, optional: true, required: false
+  private _fieldPath?: string; 
+  public get fieldPath() {
+    return this.getStringAttribute('field_path');
+  }
+  public set fieldPath(value: string) {
+    this._fieldPath = value;
+  }
+  public resetFieldPath() {
+    this._fieldPath = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fieldPathInput() {
+    return this._fieldPath;
+  }
+
+  // kind - computed: false, optional: true, required: false
+  private _kind?: string; 
+  public get kind() {
+    return this.getStringAttribute('kind');
+  }
+  public set kind(value: string) {
+    this._kind = value;
+  }
+  public resetKind() {
+    this._kind = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kindInput() {
+    return this._kind;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // resource_version - computed: false, optional: true, required: false
+  private _resourceVersion?: string; 
+  public get resourceVersion() {
+    return this.getStringAttribute('resource_version');
+  }
+  public set resourceVersion(value: string) {
+    this._resourceVersion = value;
+  }
+  public resetResourceVersion() {
+    this._resourceVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceVersionInput() {
+    return this._resourceVersion;
+  }
+
+  // u_id - computed: false, optional: true, required: false
+  private _uId?: string; 
+  public get uId() {
+    return this.getStringAttribute('u_id');
+  }
+  public set uId(value: string) {
+    this._uId = value;
+  }
+  public resetUId() {
+    this._uId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uIdInput() {
+    return this._uId;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorMatchExpressions {
+  /**
+  * Key is the label key that the selector applies to.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#key DataRafayAksClusterV3#key}
+  */
+  readonly key?: string;
+  /**
+  * Operator represents a key's relationship to a set of values.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#operator DataRafayAksClusterV3#operator}
+  */
+  readonly operator?: string;
+  /**
+  * Values is an array of string values.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#values DataRafayAksClusterV3#values}
+  */
+  readonly values?: string[];
+}
+
+export function dataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorMatchExpressionsToTerraform(struct?: DataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorMatchExpressions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    operator: cdktf.stringToTerraform(struct!.operator),
+    values: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.values),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorMatchExpressionsToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorMatchExpressions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    operator: {
+      value: cdktf.stringToHclTerraform(struct!.operator),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    values: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.values),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorMatchExpressionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorMatchExpressions | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._operator !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operator = this._operator;
+    }
+    if (this._values !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.values = this._values;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorMatchExpressions | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key = undefined;
+      this._operator = undefined;
+      this._values = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key = value.key;
+      this._operator = value.operator;
+      this._values = value.values;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // operator - computed: false, optional: true, required: false
+  private _operator?: string; 
+  public get operator() {
+    return this.getStringAttribute('operator');
+  }
+  public set operator(value: string) {
+    this._operator = value;
+  }
+  public resetOperator() {
+    this._operator = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operatorInput() {
+    return this._operator;
+  }
+
+  // values - computed: false, optional: true, required: false
+  private _values?: string[]; 
+  public get values() {
+    return this.getListAttribute('values');
+  }
+  public set values(value: string[]) {
+    this._values = value;
+  }
+  public resetValues() {
+    this._values = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valuesInput() {
+    return this._values;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorMatchExpressionsList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorMatchExpressions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorMatchExpressionsOutputReference {
+    return new DataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorMatchExpressionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigMachineHealthChecksSelector {
+  /**
+  * MatchLabels is a map of {key,value} pairs.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#match_labels DataRafayAksClusterV3#match_labels}
+  */
+  readonly matchLabels?: { [key: string]: string };
+  /**
+  * match_expressions block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#match_expressions DataRafayAksClusterV3#match_expressions}
+  */
+  readonly matchExpressions?: DataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorMatchExpressions[] | cdktf.IResolvable;
+}
+
+export function dataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorToTerraform(struct?: DataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorOutputReference | DataRafayAksClusterV3SpecConfigMachineHealthChecksSelector): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    match_labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.matchLabels),
+    match_expressions: cdktf.listMapper(dataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorMatchExpressionsToTerraform, true)(struct!.matchExpressions),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorOutputReference | DataRafayAksClusterV3SpecConfigMachineHealthChecksSelector): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    match_labels: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.matchLabels),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    match_expressions: {
+      value: cdktf.listMapperHcl(dataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorMatchExpressionsToHclTerraform, true)(struct!.matchExpressions),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorMatchExpressionsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigMachineHealthChecksSelector | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._matchLabels !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.matchLabels = this._matchLabels;
+    }
+    if (this._matchExpressions?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.matchExpressions = this._matchExpressions?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigMachineHealthChecksSelector | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._matchLabels = undefined;
+      this._matchExpressions.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._matchLabels = value.matchLabels;
+      this._matchExpressions.internalValue = value.matchExpressions;
+    }
+  }
+
+  // match_labels - computed: false, optional: true, required: false
+  private _matchLabels?: { [key: string]: string }; 
+  public get matchLabels() {
+    return this.getStringMapAttribute('match_labels');
+  }
+  public set matchLabels(value: { [key: string]: string }) {
+    this._matchLabels = value;
+  }
+  public resetMatchLabels() {
+    this._matchLabels = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchLabelsInput() {
+    return this._matchLabels;
+  }
+
+  // match_expressions - computed: false, optional: true, required: false
+  private _matchExpressions = new DataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorMatchExpressionsList(this, "match_expressions", false);
+  public get matchExpressions() {
+    return this._matchExpressions;
+  }
+  public putMatchExpressions(value: DataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorMatchExpressions[] | cdktf.IResolvable) {
+    this._matchExpressions.internalValue = value;
+  }
+  public resetMatchExpressions() {
+    this._matchExpressions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchExpressionsInput() {
+    return this._matchExpressions.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigMachineHealthChecksUnhealthyConditions {
+  /**
+  * Status indicates the state of the condition.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#status DataRafayAksClusterV3#status}
+  */
+  readonly status?: string;
+  /**
+  * Timeout for the condition.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#timeout DataRafayAksClusterV3#timeout}
+  */
+  readonly timeout?: string;
+  /**
+  * Type of the condition.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#type DataRafayAksClusterV3#type}
+  */
+  readonly type?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigMachineHealthChecksUnhealthyConditionsToTerraform(struct?: DataRafayAksClusterV3SpecConfigMachineHealthChecksUnhealthyConditions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    status: cdktf.stringToTerraform(struct!.status),
+    timeout: cdktf.stringToTerraform(struct!.timeout),
+    type: cdktf.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigMachineHealthChecksUnhealthyConditionsToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigMachineHealthChecksUnhealthyConditions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    status: {
+      value: cdktf.stringToHclTerraform(struct!.status),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    timeout: {
+      value: cdktf.stringToHclTerraform(struct!.timeout),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigMachineHealthChecksUnhealthyConditionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigMachineHealthChecksUnhealthyConditions | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._status !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.status = this._status;
+    }
+    if (this._timeout !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.timeout = this._timeout;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigMachineHealthChecksUnhealthyConditions | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._status = undefined;
+      this._timeout = undefined;
+      this._type = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._status = value.status;
+      this._timeout = value.timeout;
+      this._type = value.type;
+    }
+  }
+
+  // status - computed: false, optional: true, required: false
+  private _status?: string; 
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+  public set status(value: string) {
+    this._status = value;
+  }
+  public resetStatus() {
+    this._status = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statusInput() {
+    return this._status;
+  }
+
+  // timeout - computed: false, optional: true, required: false
+  private _timeout?: string; 
+  public get timeout() {
+    return this.getStringAttribute('timeout');
+  }
+  public set timeout(value: string) {
+    this._timeout = value;
+  }
+  public resetTimeout() {
+    this._timeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timeoutInput() {
+    return this._timeout;
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigMachineHealthChecksUnhealthyConditionsList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigMachineHealthChecksUnhealthyConditions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigMachineHealthChecksUnhealthyConditionsOutputReference {
+    return new DataRafayAksClusterV3SpecConfigMachineHealthChecksUnhealthyConditionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigMachineHealthChecks {
+  /**
+  * Machines selected by selector are not healthy.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#max_un_healthy DataRafayAksClusterV3#max_un_healthy}
+  */
+  readonly maxUnHealthy?: string;
+  /**
+  * Name of the MachineHealthCheck
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#name DataRafayAksClusterV3#name}
+  */
+  readonly name?: string;
+  /**
+  *  Machines older than this duration without a node will be considered to have failed and will be remediated.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#node_startup_timeout DataRafayAksClusterV3#node_startup_timeout}
+  */
+  readonly nodeStartupTimeout?: string;
+  /**
+  * UnhealthyRange specifies the range of machine health check failures that will be tolerated
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#unhealthy_range DataRafayAksClusterV3#unhealthy_range}
+  */
+  readonly unhealthyRange?: string;
+  /**
+  * remediation_strategy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#remediation_strategy DataRafayAksClusterV3#remediation_strategy}
+  */
+  readonly remediationStrategy?: DataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationStrategy;
+  /**
+  * remediation_template block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#remediation_template DataRafayAksClusterV3#remediation_template}
+  */
+  readonly remediationTemplate?: DataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationTemplate;
+  /**
+  * selector block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#selector DataRafayAksClusterV3#selector}
+  */
+  readonly selector?: DataRafayAksClusterV3SpecConfigMachineHealthChecksSelector;
+  /**
+  * unhealthy_conditions block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#unhealthy_conditions DataRafayAksClusterV3#unhealthy_conditions}
+  */
+  readonly unhealthyConditions?: DataRafayAksClusterV3SpecConfigMachineHealthChecksUnhealthyConditions[] | cdktf.IResolvable;
+}
+
+export function dataRafayAksClusterV3SpecConfigMachineHealthChecksToTerraform(struct?: DataRafayAksClusterV3SpecConfigMachineHealthChecks | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    max_un_healthy: cdktf.stringToTerraform(struct!.maxUnHealthy),
+    name: cdktf.stringToTerraform(struct!.name),
+    node_startup_timeout: cdktf.stringToTerraform(struct!.nodeStartupTimeout),
+    unhealthy_range: cdktf.stringToTerraform(struct!.unhealthyRange),
+    remediation_strategy: dataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationStrategyToTerraform(struct!.remediationStrategy),
+    remediation_template: dataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationTemplateToTerraform(struct!.remediationTemplate),
+    selector: dataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorToTerraform(struct!.selector),
+    unhealthy_conditions: cdktf.listMapper(dataRafayAksClusterV3SpecConfigMachineHealthChecksUnhealthyConditionsToTerraform, true)(struct!.unhealthyConditions),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigMachineHealthChecksToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigMachineHealthChecks | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    max_un_healthy: {
+      value: cdktf.stringToHclTerraform(struct!.maxUnHealthy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    node_startup_timeout: {
+      value: cdktf.stringToHclTerraform(struct!.nodeStartupTimeout),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    unhealthy_range: {
+      value: cdktf.stringToHclTerraform(struct!.unhealthyRange),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    remediation_strategy: {
+      value: dataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationStrategyToHclTerraform(struct!.remediationStrategy),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationStrategyList",
+    },
+    remediation_template: {
+      value: dataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationTemplateToHclTerraform(struct!.remediationTemplate),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationTemplateList",
+    },
+    selector: {
+      value: dataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorToHclTerraform(struct!.selector),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorList",
+    },
+    unhealthy_conditions: {
+      value: cdktf.listMapperHcl(dataRafayAksClusterV3SpecConfigMachineHealthChecksUnhealthyConditionsToHclTerraform, true)(struct!.unhealthyConditions),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigMachineHealthChecksUnhealthyConditionsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigMachineHealthChecksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigMachineHealthChecks | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._maxUnHealthy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxUnHealthy = this._maxUnHealthy;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._nodeStartupTimeout !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeStartupTimeout = this._nodeStartupTimeout;
+    }
+    if (this._unhealthyRange !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.unhealthyRange = this._unhealthyRange;
+    }
+    if (this._remediationStrategy?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.remediationStrategy = this._remediationStrategy?.internalValue;
+    }
+    if (this._remediationTemplate?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.remediationTemplate = this._remediationTemplate?.internalValue;
+    }
+    if (this._selector?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.selector = this._selector?.internalValue;
+    }
+    if (this._unhealthyConditions?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.unhealthyConditions = this._unhealthyConditions?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigMachineHealthChecks | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._maxUnHealthy = undefined;
+      this._name = undefined;
+      this._nodeStartupTimeout = undefined;
+      this._unhealthyRange = undefined;
+      this._remediationStrategy.internalValue = undefined;
+      this._remediationTemplate.internalValue = undefined;
+      this._selector.internalValue = undefined;
+      this._unhealthyConditions.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._maxUnHealthy = value.maxUnHealthy;
+      this._name = value.name;
+      this._nodeStartupTimeout = value.nodeStartupTimeout;
+      this._unhealthyRange = value.unhealthyRange;
+      this._remediationStrategy.internalValue = value.remediationStrategy;
+      this._remediationTemplate.internalValue = value.remediationTemplate;
+      this._selector.internalValue = value.selector;
+      this._unhealthyConditions.internalValue = value.unhealthyConditions;
+    }
+  }
+
+  // max_un_healthy - computed: false, optional: true, required: false
+  private _maxUnHealthy?: string; 
+  public get maxUnHealthy() {
+    return this.getStringAttribute('max_un_healthy');
+  }
+  public set maxUnHealthy(value: string) {
+    this._maxUnHealthy = value;
+  }
+  public resetMaxUnHealthy() {
+    this._maxUnHealthy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxUnHealthyInput() {
+    return this._maxUnHealthy;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // node_startup_timeout - computed: false, optional: true, required: false
+  private _nodeStartupTimeout?: string; 
+  public get nodeStartupTimeout() {
+    return this.getStringAttribute('node_startup_timeout');
+  }
+  public set nodeStartupTimeout(value: string) {
+    this._nodeStartupTimeout = value;
+  }
+  public resetNodeStartupTimeout() {
+    this._nodeStartupTimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeStartupTimeoutInput() {
+    return this._nodeStartupTimeout;
+  }
+
+  // unhealthy_range - computed: false, optional: true, required: false
+  private _unhealthyRange?: string; 
+  public get unhealthyRange() {
+    return this.getStringAttribute('unhealthy_range');
+  }
+  public set unhealthyRange(value: string) {
+    this._unhealthyRange = value;
+  }
+  public resetUnhealthyRange() {
+    this._unhealthyRange = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get unhealthyRangeInput() {
+    return this._unhealthyRange;
+  }
+
+  // remediation_strategy - computed: false, optional: true, required: false
+  private _remediationStrategy = new DataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationStrategyOutputReference(this, "remediation_strategy");
+  public get remediationStrategy() {
+    return this._remediationStrategy;
+  }
+  public putRemediationStrategy(value: DataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationStrategy) {
+    this._remediationStrategy.internalValue = value;
+  }
+  public resetRemediationStrategy() {
+    this._remediationStrategy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get remediationStrategyInput() {
+    return this._remediationStrategy.internalValue;
+  }
+
+  // remediation_template - computed: false, optional: true, required: false
+  private _remediationTemplate = new DataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationTemplateOutputReference(this, "remediation_template");
+  public get remediationTemplate() {
+    return this._remediationTemplate;
+  }
+  public putRemediationTemplate(value: DataRafayAksClusterV3SpecConfigMachineHealthChecksRemediationTemplate) {
+    this._remediationTemplate.internalValue = value;
+  }
+  public resetRemediationTemplate() {
+    this._remediationTemplate.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get remediationTemplateInput() {
+    return this._remediationTemplate.internalValue;
+  }
+
+  // selector - computed: false, optional: true, required: false
+  private _selector = new DataRafayAksClusterV3SpecConfigMachineHealthChecksSelectorOutputReference(this, "selector");
+  public get selector() {
+    return this._selector;
+  }
+  public putSelector(value: DataRafayAksClusterV3SpecConfigMachineHealthChecksSelector) {
+    this._selector.internalValue = value;
+  }
+  public resetSelector() {
+    this._selector.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get selectorInput() {
+    return this._selector.internalValue;
+  }
+
+  // unhealthy_conditions - computed: false, optional: true, required: false
+  private _unhealthyConditions = new DataRafayAksClusterV3SpecConfigMachineHealthChecksUnhealthyConditionsList(this, "unhealthy_conditions", false);
+  public get unhealthyConditions() {
+    return this._unhealthyConditions;
+  }
+  public putUnhealthyConditions(value: DataRafayAksClusterV3SpecConfigMachineHealthChecksUnhealthyConditions[] | cdktf.IResolvable) {
+    this._unhealthyConditions.internalValue = value;
+  }
+  public resetUnhealthyConditions() {
+    this._unhealthyConditions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get unhealthyConditionsInput() {
+    return this._unhealthyConditions.internalValue;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigMachineHealthChecksList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigMachineHealthChecks[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigMachineHealthChecksOutputReference {
+    return new DataRafayAksClusterV3SpecConfigMachineHealthChecksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigMetadata {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#name DataRafayAksClusterV3#name}
+  */
+  readonly name?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigMetadataToTerraform(struct?: DataRafayAksClusterV3SpecConfigMetadataOutputReference | DataRafayAksClusterV3SpecConfigMetadata): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigMetadataToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigMetadataOutputReference | DataRafayAksClusterV3SpecConfigMetadata): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigMetadataOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigMetadata | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigMetadata | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesRules {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#ports DataRafayAksClusterV3#ports}
+  */
+  readonly ports?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#protocol DataRafayAksClusterV3#protocol}
+  */
+  readonly protocol?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesRulesToTerraform(struct?: DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesRules | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    ports: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.ports),
+    protocol: cdktf.stringToTerraform(struct!.protocol),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesRulesToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesRules | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    ports: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.ports),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    protocol: {
+      value: cdktf.stringToHclTerraform(struct!.protocol),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesRulesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesRules | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._ports !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ports = this._ports;
+    }
+    if (this._protocol !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.protocol = this._protocol;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesRules | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._ports = undefined;
+      this._protocol = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._ports = value.ports;
+      this._protocol = value.protocol;
+    }
+  }
+
+  // ports - computed: false, optional: true, required: false
+  private _ports?: string[]; 
+  public get ports() {
+    return this.getListAttribute('ports');
+  }
+  public set ports(value: string[]) {
+    this._ports = value;
+  }
+  public resetPorts() {
+    this._ports = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portsInput() {
+    return this._ports;
+  }
+
+  // protocol - computed: false, optional: true, required: false
+  private _protocol?: string; 
+  public get protocol() {
+    return this.getStringAttribute('protocol');
+  }
+  public set protocol(value: string) {
+    this._protocol = value;
+  }
+  public resetProtocol() {
+    this._protocol = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get protocolInput() {
+    return this._protocol;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesRulesList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesRules[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesRulesOutputReference {
+    return new DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesRulesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRules {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#action DataRafayAksClusterV3#action}
+  */
+  readonly action?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#description DataRafayAksClusterV3#description}
+  */
+  readonly description?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#destination_ranges DataRafayAksClusterV3#destination_ranges}
+  */
+  readonly destinationRanges?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#direction DataRafayAksClusterV3#direction}
+  */
+  readonly direction?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#name DataRafayAksClusterV3#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#network DataRafayAksClusterV3#network}
+  */
+  readonly network?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#priority DataRafayAksClusterV3#priority}
+  */
+  readonly priority?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#source_ranges DataRafayAksClusterV3#source_ranges}
+  */
+  readonly sourceRanges?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#target_tags DataRafayAksClusterV3#target_tags}
+  */
+  readonly targetTags?: string[];
+  /**
+  * rules block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#rules DataRafayAksClusterV3#rules}
+  */
+  readonly rules?: DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesRules[] | cdktf.IResolvable;
+}
+
+export function dataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesToTerraform(struct?: DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRules | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    action: cdktf.stringToTerraform(struct!.action),
+    description: cdktf.stringToTerraform(struct!.description),
+    destination_ranges: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.destinationRanges),
+    direction: cdktf.stringToTerraform(struct!.direction),
+    name: cdktf.stringToTerraform(struct!.name),
+    network: cdktf.stringToTerraform(struct!.network),
+    priority: cdktf.numberToTerraform(struct!.priority),
+    source_ranges: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.sourceRanges),
+    target_tags: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.targetTags),
+    rules: cdktf.listMapper(dataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesRulesToTerraform, true)(struct!.rules),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRules | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    action: {
+      value: cdktf.stringToHclTerraform(struct!.action),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    description: {
+      value: cdktf.stringToHclTerraform(struct!.description),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    destination_ranges: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.destinationRanges),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    direction: {
+      value: cdktf.stringToHclTerraform(struct!.direction),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    network: {
+      value: cdktf.stringToHclTerraform(struct!.network),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    priority: {
+      value: cdktf.numberToHclTerraform(struct!.priority),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    source_ranges: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.sourceRanges),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    target_tags: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.targetTags),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    rules: {
+      value: cdktf.listMapperHcl(dataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesRulesToHclTerraform, true)(struct!.rules),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesRulesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRules | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._action !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.action = this._action;
+    }
+    if (this._description !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.description = this._description;
+    }
+    if (this._destinationRanges !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.destinationRanges = this._destinationRanges;
+    }
+    if (this._direction !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.direction = this._direction;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._network !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.network = this._network;
+    }
+    if (this._priority !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.priority = this._priority;
+    }
+    if (this._sourceRanges !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceRanges = this._sourceRanges;
+    }
+    if (this._targetTags !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.targetTags = this._targetTags;
+    }
+    if (this._rules?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rules = this._rules?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRules | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._action = undefined;
+      this._description = undefined;
+      this._destinationRanges = undefined;
+      this._direction = undefined;
+      this._name = undefined;
+      this._network = undefined;
+      this._priority = undefined;
+      this._sourceRanges = undefined;
+      this._targetTags = undefined;
+      this._rules.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._action = value.action;
+      this._description = value.description;
+      this._destinationRanges = value.destinationRanges;
+      this._direction = value.direction;
+      this._name = value.name;
+      this._network = value.network;
+      this._priority = value.priority;
+      this._sourceRanges = value.sourceRanges;
+      this._targetTags = value.targetTags;
+      this._rules.internalValue = value.rules;
+    }
+  }
+
+  // action - computed: false, optional: true, required: false
+  private _action?: string; 
+  public get action() {
+    return this.getStringAttribute('action');
+  }
+  public set action(value: string) {
+    this._action = value;
+  }
+  public resetAction() {
+    this._action = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get actionInput() {
+    return this._action;
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // destination_ranges - computed: false, optional: true, required: false
+  private _destinationRanges?: string[]; 
+  public get destinationRanges() {
+    return this.getListAttribute('destination_ranges');
+  }
+  public set destinationRanges(value: string[]) {
+    this._destinationRanges = value;
+  }
+  public resetDestinationRanges() {
+    this._destinationRanges = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get destinationRangesInput() {
+    return this._destinationRanges;
+  }
+
+  // direction - computed: false, optional: true, required: false
+  private _direction?: string; 
+  public get direction() {
+    return this.getStringAttribute('direction');
+  }
+  public set direction(value: string) {
+    this._direction = value;
+  }
+  public resetDirection() {
+    this._direction = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get directionInput() {
+    return this._direction;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // network - computed: false, optional: true, required: false
+  private _network?: string; 
+  public get network() {
+    return this.getStringAttribute('network');
+  }
+  public set network(value: string) {
+    this._network = value;
+  }
+  public resetNetwork() {
+    this._network = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkInput() {
+    return this._network;
+  }
+
+  // priority - computed: false, optional: true, required: false
+  private _priority?: number; 
+  public get priority() {
+    return this.getNumberAttribute('priority');
+  }
+  public set priority(value: number) {
+    this._priority = value;
+  }
+  public resetPriority() {
+    this._priority = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get priorityInput() {
+    return this._priority;
+  }
+
+  // source_ranges - computed: false, optional: true, required: false
+  private _sourceRanges?: string[]; 
+  public get sourceRanges() {
+    return this.getListAttribute('source_ranges');
+  }
+  public set sourceRanges(value: string[]) {
+    this._sourceRanges = value;
+  }
+  public resetSourceRanges() {
+    this._sourceRanges = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceRangesInput() {
+    return this._sourceRanges;
+  }
+
+  // target_tags - computed: false, optional: true, required: false
+  private _targetTags?: string[]; 
+  public get targetTags() {
+    return this.getListAttribute('target_tags');
+  }
+  public set targetTags(value: string[]) {
+    this._targetTags = value;
+  }
+  public resetTargetTags() {
+    this._targetTags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetTagsInput() {
+    return this._targetTags;
+  }
+
+  // rules - computed: false, optional: true, required: false
+  private _rules = new DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesRulesList(this, "rules", false);
+  public get rules() {
+    return this._rules;
+  }
+  public putRules(value: DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesRules[] | cdktf.IResolvable) {
+    this._rules.internalValue = value;
+  }
+  public resetRules() {
+    this._rules.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rulesInput() {
+    return this._rules.internalValue;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRules[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesOutputReference {
+    return new DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigNetworkAccessConfig {
+  /**
+  * Control plane IP range is for the control plane VPC. The control plane range must not overlap with any subnet in your cluster's VPC. The control plane and your cluster use VPC peering to communicate privately
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#control_plane_ip_range DataRafayAksClusterV3#control_plane_ip_range}
+  */
+  readonly controlPlaneIpRange?: string;
+  /**
+  * To use Privately Used Public IPs (PUPI) ranges, the default source NAT used for IP masquerading needs to be disabled
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#disable_snat DataRafayAksClusterV3#disable_snat}
+  */
+  readonly disableSnat?: boolean | cdktf.IResolvable;
+  /**
+  * Disabling this option locks down external access to the cluster control plane. There is still an external IP address used by Google for cluster management purposes, but the IP address is not accessible to anyone
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enable_access_control_plane_external_ip DataRafayAksClusterV3#enable_access_control_plane_external_ip}
+  */
+  readonly enableAccessControlPlaneExternalIp?: boolean | cdktf.IResolvable;
+  /**
+  * With control plane global access, you can access the control plane's private endpoint from any GCP region or on-premises environment no matter what the private cluster's region is
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enable_access_control_plane_global DataRafayAksClusterV3#enable_access_control_plane_global}
+  */
+  readonly enableAccessControlPlaneGlobal?: boolean | cdktf.IResolvable;
+  /**
+  * Whether nodes have internal IP addresses only. If enabled, all nodes are given only RFC 1918 private addresses and communicate with the master via private networking.If control plane cidr block is provided then enablePrivateNodes must be TRUE.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enable_private_nodes DataRafayAksClusterV3#enable_private_nodes}
+  */
+  readonly enablePrivateNodes?: boolean | cdktf.IResolvable;
+  /**
+  * Subnet to provision the master's private endpoint during cluster creation.If control plane cidr block is provided then PrivateEndpointSubnetwork must be unset.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#private_endpoint_subnetwork_name DataRafayAksClusterV3#private_endpoint_subnetwork_name}
+  */
+  readonly privateEndpointSubnetworkName?: string;
+  /**
+  * firewall_rules block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#firewall_rules DataRafayAksClusterV3#firewall_rules}
+  */
+  readonly firewallRules?: DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRules[] | cdktf.IResolvable;
+}
+
+export function dataRafayAksClusterV3SpecConfigNetworkAccessConfigToTerraform(struct?: DataRafayAksClusterV3SpecConfigNetworkAccessConfigOutputReference | DataRafayAksClusterV3SpecConfigNetworkAccessConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    control_plane_ip_range: cdktf.stringToTerraform(struct!.controlPlaneIpRange),
+    disable_snat: cdktf.booleanToTerraform(struct!.disableSnat),
+    enable_access_control_plane_external_ip: cdktf.booleanToTerraform(struct!.enableAccessControlPlaneExternalIp),
+    enable_access_control_plane_global: cdktf.booleanToTerraform(struct!.enableAccessControlPlaneGlobal),
+    enable_private_nodes: cdktf.booleanToTerraform(struct!.enablePrivateNodes),
+    private_endpoint_subnetwork_name: cdktf.stringToTerraform(struct!.privateEndpointSubnetworkName),
+    firewall_rules: cdktf.listMapper(dataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesToTerraform, true)(struct!.firewallRules),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigNetworkAccessConfigToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigNetworkAccessConfigOutputReference | DataRafayAksClusterV3SpecConfigNetworkAccessConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    control_plane_ip_range: {
+      value: cdktf.stringToHclTerraform(struct!.controlPlaneIpRange),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    disable_snat: {
+      value: cdktf.booleanToHclTerraform(struct!.disableSnat),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_access_control_plane_external_ip: {
+      value: cdktf.booleanToHclTerraform(struct!.enableAccessControlPlaneExternalIp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_access_control_plane_global: {
+      value: cdktf.booleanToHclTerraform(struct!.enableAccessControlPlaneGlobal),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_private_nodes: {
+      value: cdktf.booleanToHclTerraform(struct!.enablePrivateNodes),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    private_endpoint_subnetwork_name: {
+      value: cdktf.stringToHclTerraform(struct!.privateEndpointSubnetworkName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    firewall_rules: {
+      value: cdktf.listMapperHcl(dataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesToHclTerraform, true)(struct!.firewallRules),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigNetworkAccessConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigNetworkAccessConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._controlPlaneIpRange !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.controlPlaneIpRange = this._controlPlaneIpRange;
+    }
+    if (this._disableSnat !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableSnat = this._disableSnat;
+    }
+    if (this._enableAccessControlPlaneExternalIp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableAccessControlPlaneExternalIp = this._enableAccessControlPlaneExternalIp;
+    }
+    if (this._enableAccessControlPlaneGlobal !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableAccessControlPlaneGlobal = this._enableAccessControlPlaneGlobal;
+    }
+    if (this._enablePrivateNodes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enablePrivateNodes = this._enablePrivateNodes;
+    }
+    if (this._privateEndpointSubnetworkName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.privateEndpointSubnetworkName = this._privateEndpointSubnetworkName;
+    }
+    if (this._firewallRules?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.firewallRules = this._firewallRules?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigNetworkAccessConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._controlPlaneIpRange = undefined;
+      this._disableSnat = undefined;
+      this._enableAccessControlPlaneExternalIp = undefined;
+      this._enableAccessControlPlaneGlobal = undefined;
+      this._enablePrivateNodes = undefined;
+      this._privateEndpointSubnetworkName = undefined;
+      this._firewallRules.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._controlPlaneIpRange = value.controlPlaneIpRange;
+      this._disableSnat = value.disableSnat;
+      this._enableAccessControlPlaneExternalIp = value.enableAccessControlPlaneExternalIp;
+      this._enableAccessControlPlaneGlobal = value.enableAccessControlPlaneGlobal;
+      this._enablePrivateNodes = value.enablePrivateNodes;
+      this._privateEndpointSubnetworkName = value.privateEndpointSubnetworkName;
+      this._firewallRules.internalValue = value.firewallRules;
+    }
+  }
+
+  // control_plane_ip_range - computed: false, optional: true, required: false
+  private _controlPlaneIpRange?: string; 
+  public get controlPlaneIpRange() {
+    return this.getStringAttribute('control_plane_ip_range');
+  }
+  public set controlPlaneIpRange(value: string) {
+    this._controlPlaneIpRange = value;
+  }
+  public resetControlPlaneIpRange() {
+    this._controlPlaneIpRange = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get controlPlaneIpRangeInput() {
+    return this._controlPlaneIpRange;
+  }
+
+  // disable_snat - computed: false, optional: true, required: false
+  private _disableSnat?: boolean | cdktf.IResolvable; 
+  public get disableSnat() {
+    return this.getBooleanAttribute('disable_snat');
+  }
+  public set disableSnat(value: boolean | cdktf.IResolvable) {
+    this._disableSnat = value;
+  }
+  public resetDisableSnat() {
+    this._disableSnat = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableSnatInput() {
+    return this._disableSnat;
+  }
+
+  // enable_access_control_plane_external_ip - computed: false, optional: true, required: false
+  private _enableAccessControlPlaneExternalIp?: boolean | cdktf.IResolvable; 
+  public get enableAccessControlPlaneExternalIp() {
+    return this.getBooleanAttribute('enable_access_control_plane_external_ip');
+  }
+  public set enableAccessControlPlaneExternalIp(value: boolean | cdktf.IResolvable) {
+    this._enableAccessControlPlaneExternalIp = value;
+  }
+  public resetEnableAccessControlPlaneExternalIp() {
+    this._enableAccessControlPlaneExternalIp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableAccessControlPlaneExternalIpInput() {
+    return this._enableAccessControlPlaneExternalIp;
+  }
+
+  // enable_access_control_plane_global - computed: false, optional: true, required: false
+  private _enableAccessControlPlaneGlobal?: boolean | cdktf.IResolvable; 
+  public get enableAccessControlPlaneGlobal() {
+    return this.getBooleanAttribute('enable_access_control_plane_global');
+  }
+  public set enableAccessControlPlaneGlobal(value: boolean | cdktf.IResolvable) {
+    this._enableAccessControlPlaneGlobal = value;
+  }
+  public resetEnableAccessControlPlaneGlobal() {
+    this._enableAccessControlPlaneGlobal = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableAccessControlPlaneGlobalInput() {
+    return this._enableAccessControlPlaneGlobal;
+  }
+
+  // enable_private_nodes - computed: false, optional: true, required: false
+  private _enablePrivateNodes?: boolean | cdktf.IResolvable; 
+  public get enablePrivateNodes() {
+    return this.getBooleanAttribute('enable_private_nodes');
+  }
+  public set enablePrivateNodes(value: boolean | cdktf.IResolvable) {
+    this._enablePrivateNodes = value;
+  }
+  public resetEnablePrivateNodes() {
+    this._enablePrivateNodes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enablePrivateNodesInput() {
+    return this._enablePrivateNodes;
+  }
+
+  // private_endpoint_subnetwork_name - computed: false, optional: true, required: false
+  private _privateEndpointSubnetworkName?: string; 
+  public get privateEndpointSubnetworkName() {
+    return this.getStringAttribute('private_endpoint_subnetwork_name');
+  }
+  public set privateEndpointSubnetworkName(value: string) {
+    this._privateEndpointSubnetworkName = value;
+  }
+  public resetPrivateEndpointSubnetworkName() {
+    this._privateEndpointSubnetworkName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get privateEndpointSubnetworkNameInput() {
+    return this._privateEndpointSubnetworkName;
+  }
+
+  // firewall_rules - computed: false, optional: true, required: false
+  private _firewallRules = new DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRulesList(this, "firewall_rules", false);
+  public get firewallRules() {
+    return this._firewallRules;
+  }
+  public putFirewallRules(value: DataRafayAksClusterV3SpecConfigNetworkAccessConfigFirewallRules[] | cdktf.IResolvable) {
+    this._firewallRules.internalValue = value;
+  }
+  public resetFirewallRules() {
+    this._firewallRules.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get firewallRulesInput() {
+    return this._firewallRules.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigNetworkAccess {
+  /**
+  * Choose the type of network you want to allow to access your cluster's workloads. private or public
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#type DataRafayAksClusterV3#type}
+  */
+  readonly type?: string;
+  /**
+  * config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#config DataRafayAksClusterV3#config}
+  */
+  readonly config?: DataRafayAksClusterV3SpecConfigNetworkAccessConfig;
+}
+
+export function dataRafayAksClusterV3SpecConfigNetworkAccessToTerraform(struct?: DataRafayAksClusterV3SpecConfigNetworkAccessOutputReference | DataRafayAksClusterV3SpecConfigNetworkAccess): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    type: cdktf.stringToTerraform(struct!.type),
+    config: dataRafayAksClusterV3SpecConfigNetworkAccessConfigToTerraform(struct!.config),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigNetworkAccessToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigNetworkAccessOutputReference | DataRafayAksClusterV3SpecConfigNetworkAccess): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    config: {
+      value: dataRafayAksClusterV3SpecConfigNetworkAccessConfigToHclTerraform(struct!.config),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigNetworkAccessConfigList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigNetworkAccessOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigNetworkAccess | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._config?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.config = this._config?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigNetworkAccess | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._type = undefined;
+      this._config.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._type = value.type;
+      this._config.internalValue = value.config;
+    }
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // config - computed: false, optional: true, required: false
+  private _config = new DataRafayAksClusterV3SpecConfigNetworkAccessConfigOutputReference(this, "config");
+  public get config() {
+    return this._config;
+  }
+  public putConfig(value: DataRafayAksClusterV3SpecConfigNetworkAccessConfig) {
+    this._config.internalValue = value;
+  }
+  public resetConfig() {
+    this._config.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configInput() {
+    return this._config.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkAuthorizedNetwork {
+  /**
+  * CIDR Example: 198.51.100.0/24
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#cidr DataRafayAksClusterV3#cidr}
+  */
+  readonly cidr?: string;
+  /**
+  * Name of the Authorized Network Example: Corporate Office
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#name DataRafayAksClusterV3#name}
+  */
+  readonly name?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkAuthorizedNetworkToTerraform(struct?: DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkAuthorizedNetwork | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    cidr: cdktf.stringToTerraform(struct!.cidr),
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkAuthorizedNetworkToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkAuthorizedNetwork | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cidr: {
+      value: cdktf.stringToHclTerraform(struct!.cidr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkAuthorizedNetworkOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkAuthorizedNetwork | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cidr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cidr = this._cidr;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkAuthorizedNetwork | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._cidr = undefined;
+      this._name = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._cidr = value.cidr;
+      this._name = value.name;
+    }
+  }
+
+  // cidr - computed: false, optional: true, required: false
+  private _cidr?: string; 
+  public get cidr() {
+    return this.getStringAttribute('cidr');
+  }
+  public set cidr(value: string) {
+    this._cidr = value;
+  }
+  public resetCidr() {
+    this._cidr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cidrInput() {
+    return this._cidr;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkAuthorizedNetworkList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkAuthorizedNetwork[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkAuthorizedNetworkOutputReference {
+    return new DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkAuthorizedNetworkOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetwork {
+  /**
+  * Enable Control Plane Authorized Network. Configure the Networks now or later.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enabled DataRafayAksClusterV3#enabled}
+  */
+  readonly enabled?: boolean | cdktf.IResolvable;
+  /**
+  * authorized_network block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#authorized_network DataRafayAksClusterV3#authorized_network}
+  */
+  readonly authorizedNetwork?: DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkAuthorizedNetwork[] | cdktf.IResolvable;
+}
+
+export function dataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkToTerraform(struct?: DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkOutputReference | DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetwork): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enabled: cdktf.booleanToTerraform(struct!.enabled),
+    authorized_network: cdktf.listMapper(dataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkAuthorizedNetworkToTerraform, true)(struct!.authorizedNetwork),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkOutputReference | DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetwork): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    authorized_network: {
+      value: cdktf.listMapperHcl(dataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkAuthorizedNetworkToHclTerraform, true)(struct!.authorizedNetwork),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkAuthorizedNetworkList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetwork | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    if (this._authorizedNetwork?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.authorizedNetwork = this._authorizedNetwork?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetwork | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enabled = undefined;
+      this._authorizedNetwork.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enabled = value.enabled;
+      this._authorizedNetwork.internalValue = value.authorizedNetwork;
+    }
+  }
+
+  // enabled - computed: false, optional: true, required: false
+  private _enabled?: boolean | cdktf.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktf.IResolvable) {
+    this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+
+  // authorized_network - computed: false, optional: true, required: false
+  private _authorizedNetwork = new DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkAuthorizedNetworkList(this, "authorized_network", false);
+  public get authorizedNetwork() {
+    return this._authorizedNetwork;
+  }
+  public putAuthorizedNetwork(value: DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkAuthorizedNetwork[] | cdktf.IResolvable) {
+    this._authorizedNetwork.internalValue = value;
+  }
+  public resetAuthorizedNetwork() {
+    this._authorizedNetwork.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get authorizedNetworkInput() {
+    return this._authorizedNetwork.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigNetwork {
+  /**
+  * Dataplane V2 is optimized for Kubernetes networking kwhich is implemented using eBPF. Possible values: ADVANCED_DATAPATH.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#data_plane_v_2 DataRafayAksClusterV3#data_plane_v_2}
+  */
+  readonly dataPlaneV2?: string;
+  /**
+  * Dataplane V2 metrics brings better insight into the traffic between your Kubernetes workloads. Understand how your services communicate, identify issues with the network health, verify Kubernetes policies and more.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enable_data_plane_v_2_metrics DataRafayAksClusterV3#enable_data_plane_v_2_metrics}
+  */
+  readonly enableDataPlaneV2Metrics?: boolean | cdktf.IResolvable;
+  /**
+  * Dataplane V2 observability provides Managed Hubble CLI solution that lets you observe network flows between your Kubernetes workloads in real time.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enable_data_plane_v_2_observability DataRafayAksClusterV3#enable_data_plane_v_2_observability}
+  */
+  readonly enableDataPlaneV2Observability?: boolean | cdktf.IResolvable;
+  /**
+  * This feature uses alias IP and provides a more secure integration with Google Cloud Platform services
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enable_vpc_nativetraffic DataRafayAksClusterV3#enable_vpc_nativetraffic}
+  */
+  readonly enableVpcNativetraffic?: boolean | cdktf.IResolvable;
+  /**
+  * This value is used to optimize the partitioning of cluster's IP address range to sub-ranges at node level
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#max_pods_per_node DataRafayAksClusterV3#max_pods_per_node}
+  */
+  readonly maxPodsPerNode?: number;
+  /**
+  * Name of the network that the cluster is in. It determines which other Compute Engine resource it is able to communicate with
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#name DataRafayAksClusterV3#name}
+  */
+  readonly name?: string;
+  /**
+  * The Kubernetes Network Policy API allows the cluster administrator to specify what pods are allowed to communicate with each other. Possible values: CALICO
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#network_policy DataRafayAksClusterV3#network_policy}
+  */
+  readonly networkPolicy?: string;
+  /**
+  * Configuration for NetworkPolicy. This only tracks whether the addon is enabled or not on the Master,it does not track whether network policy is enabled for the nodes.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#network_policy_config DataRafayAksClusterV3#network_policy_config}
+  */
+  readonly networkPolicyConfig?: boolean | cdktf.IResolvable;
+  /**
+  * All pods in the cluster are assigned an IP address from this range. Enter a range (in CIDR notation) within a network range, a mask, or leave this field blank to use a default range.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#pod_address_range DataRafayAksClusterV3#pod_address_range}
+  */
+  readonly podAddressRange?: string;
+  /**
+  * Cluster pods are assigned an IP from the selected node subnet's secondary CIDR address range.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#pod_secondary_range_name DataRafayAksClusterV3#pod_secondary_range_name}
+  */
+  readonly podSecondaryRangeName?: string;
+  /**
+  * Cluster services will be assigned an IP address from this IP address range. Enter a range (in CIDR notation) within a network range, a mask, or leave this field blank to use a default range.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#service_address_range DataRafayAksClusterV3#service_address_range}
+  */
+  readonly serviceAddressRange?: string;
+  /**
+  * Cluster services are assigned an IP from the selected node subnetes secondary CIDR address range.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#service_secondary_range_name DataRafayAksClusterV3#service_secondary_range_name}
+  */
+  readonly serviceSecondaryRangeName?: string;
+  /**
+  * Subnetwork to which the Kubernetes cluster will belong. When VPC native is enabled, the subnetwork must contain at least two secondary ranges which are not used by other Kubernetes clusters. Subnet is permanent.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#subnet_name DataRafayAksClusterV3#subnet_name}
+  */
+  readonly subnetName?: string;
+  /**
+  * access block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#access DataRafayAksClusterV3#access}
+  */
+  readonly access?: DataRafayAksClusterV3SpecConfigNetworkAccess;
+  /**
+  * control_plane_authorized_network block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#control_plane_authorized_network DataRafayAksClusterV3#control_plane_authorized_network}
+  */
+  readonly controlPlaneAuthorizedNetwork?: DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetwork;
+}
+
+export function dataRafayAksClusterV3SpecConfigNetworkToTerraform(struct?: DataRafayAksClusterV3SpecConfigNetworkOutputReference | DataRafayAksClusterV3SpecConfigNetwork): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    data_plane_v_2: cdktf.stringToTerraform(struct!.dataPlaneV2),
+    enable_data_plane_v_2_metrics: cdktf.booleanToTerraform(struct!.enableDataPlaneV2Metrics),
+    enable_data_plane_v_2_observability: cdktf.booleanToTerraform(struct!.enableDataPlaneV2Observability),
+    enable_vpc_nativetraffic: cdktf.booleanToTerraform(struct!.enableVpcNativetraffic),
+    max_pods_per_node: cdktf.numberToTerraform(struct!.maxPodsPerNode),
+    name: cdktf.stringToTerraform(struct!.name),
+    network_policy: cdktf.stringToTerraform(struct!.networkPolicy),
+    network_policy_config: cdktf.booleanToTerraform(struct!.networkPolicyConfig),
+    pod_address_range: cdktf.stringToTerraform(struct!.podAddressRange),
+    pod_secondary_range_name: cdktf.stringToTerraform(struct!.podSecondaryRangeName),
+    service_address_range: cdktf.stringToTerraform(struct!.serviceAddressRange),
+    service_secondary_range_name: cdktf.stringToTerraform(struct!.serviceSecondaryRangeName),
+    subnet_name: cdktf.stringToTerraform(struct!.subnetName),
+    access: dataRafayAksClusterV3SpecConfigNetworkAccessToTerraform(struct!.access),
+    control_plane_authorized_network: dataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkToTerraform(struct!.controlPlaneAuthorizedNetwork),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigNetworkToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigNetworkOutputReference | DataRafayAksClusterV3SpecConfigNetwork): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    data_plane_v_2: {
+      value: cdktf.stringToHclTerraform(struct!.dataPlaneV2),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    enable_data_plane_v_2_metrics: {
+      value: cdktf.booleanToHclTerraform(struct!.enableDataPlaneV2Metrics),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_data_plane_v_2_observability: {
+      value: cdktf.booleanToHclTerraform(struct!.enableDataPlaneV2Observability),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_vpc_nativetraffic: {
+      value: cdktf.booleanToHclTerraform(struct!.enableVpcNativetraffic),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    max_pods_per_node: {
+      value: cdktf.numberToHclTerraform(struct!.maxPodsPerNode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    network_policy: {
+      value: cdktf.stringToHclTerraform(struct!.networkPolicy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    network_policy_config: {
+      value: cdktf.booleanToHclTerraform(struct!.networkPolicyConfig),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    pod_address_range: {
+      value: cdktf.stringToHclTerraform(struct!.podAddressRange),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    pod_secondary_range_name: {
+      value: cdktf.stringToHclTerraform(struct!.podSecondaryRangeName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    service_address_range: {
+      value: cdktf.stringToHclTerraform(struct!.serviceAddressRange),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    service_secondary_range_name: {
+      value: cdktf.stringToHclTerraform(struct!.serviceSecondaryRangeName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    subnet_name: {
+      value: cdktf.stringToHclTerraform(struct!.subnetName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    access: {
+      value: dataRafayAksClusterV3SpecConfigNetworkAccessToHclTerraform(struct!.access),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigNetworkAccessList",
+    },
+    control_plane_authorized_network: {
+      value: dataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkToHclTerraform(struct!.controlPlaneAuthorizedNetwork),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigNetworkOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigNetwork | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dataPlaneV2 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dataPlaneV2 = this._dataPlaneV2;
+    }
+    if (this._enableDataPlaneV2Metrics !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableDataPlaneV2Metrics = this._enableDataPlaneV2Metrics;
+    }
+    if (this._enableDataPlaneV2Observability !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableDataPlaneV2Observability = this._enableDataPlaneV2Observability;
+    }
+    if (this._enableVpcNativetraffic !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableVpcNativetraffic = this._enableVpcNativetraffic;
+    }
+    if (this._maxPodsPerNode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxPodsPerNode = this._maxPodsPerNode;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._networkPolicy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkPolicy = this._networkPolicy;
+    }
+    if (this._networkPolicyConfig !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkPolicyConfig = this._networkPolicyConfig;
+    }
+    if (this._podAddressRange !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.podAddressRange = this._podAddressRange;
+    }
+    if (this._podSecondaryRangeName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.podSecondaryRangeName = this._podSecondaryRangeName;
+    }
+    if (this._serviceAddressRange !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serviceAddressRange = this._serviceAddressRange;
+    }
+    if (this._serviceSecondaryRangeName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serviceSecondaryRangeName = this._serviceSecondaryRangeName;
+    }
+    if (this._subnetName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.subnetName = this._subnetName;
+    }
+    if (this._access?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.access = this._access?.internalValue;
+    }
+    if (this._controlPlaneAuthorizedNetwork?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.controlPlaneAuthorizedNetwork = this._controlPlaneAuthorizedNetwork?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigNetwork | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._dataPlaneV2 = undefined;
+      this._enableDataPlaneV2Metrics = undefined;
+      this._enableDataPlaneV2Observability = undefined;
+      this._enableVpcNativetraffic = undefined;
+      this._maxPodsPerNode = undefined;
+      this._name = undefined;
+      this._networkPolicy = undefined;
+      this._networkPolicyConfig = undefined;
+      this._podAddressRange = undefined;
+      this._podSecondaryRangeName = undefined;
+      this._serviceAddressRange = undefined;
+      this._serviceSecondaryRangeName = undefined;
+      this._subnetName = undefined;
+      this._access.internalValue = undefined;
+      this._controlPlaneAuthorizedNetwork.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._dataPlaneV2 = value.dataPlaneV2;
+      this._enableDataPlaneV2Metrics = value.enableDataPlaneV2Metrics;
+      this._enableDataPlaneV2Observability = value.enableDataPlaneV2Observability;
+      this._enableVpcNativetraffic = value.enableVpcNativetraffic;
+      this._maxPodsPerNode = value.maxPodsPerNode;
+      this._name = value.name;
+      this._networkPolicy = value.networkPolicy;
+      this._networkPolicyConfig = value.networkPolicyConfig;
+      this._podAddressRange = value.podAddressRange;
+      this._podSecondaryRangeName = value.podSecondaryRangeName;
+      this._serviceAddressRange = value.serviceAddressRange;
+      this._serviceSecondaryRangeName = value.serviceSecondaryRangeName;
+      this._subnetName = value.subnetName;
+      this._access.internalValue = value.access;
+      this._controlPlaneAuthorizedNetwork.internalValue = value.controlPlaneAuthorizedNetwork;
+    }
+  }
+
+  // data_plane_v_2 - computed: false, optional: true, required: false
+  private _dataPlaneV2?: string; 
+  public get dataPlaneV2() {
+    return this.getStringAttribute('data_plane_v_2');
+  }
+  public set dataPlaneV2(value: string) {
+    this._dataPlaneV2 = value;
+  }
+  public resetDataPlaneV2() {
+    this._dataPlaneV2 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dataPlaneV2Input() {
+    return this._dataPlaneV2;
+  }
+
+  // enable_data_plane_v_2_metrics - computed: false, optional: true, required: false
+  private _enableDataPlaneV2Metrics?: boolean | cdktf.IResolvable; 
+  public get enableDataPlaneV2Metrics() {
+    return this.getBooleanAttribute('enable_data_plane_v_2_metrics');
+  }
+  public set enableDataPlaneV2Metrics(value: boolean | cdktf.IResolvable) {
+    this._enableDataPlaneV2Metrics = value;
+  }
+  public resetEnableDataPlaneV2Metrics() {
+    this._enableDataPlaneV2Metrics = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableDataPlaneV2MetricsInput() {
+    return this._enableDataPlaneV2Metrics;
+  }
+
+  // enable_data_plane_v_2_observability - computed: false, optional: true, required: false
+  private _enableDataPlaneV2Observability?: boolean | cdktf.IResolvable; 
+  public get enableDataPlaneV2Observability() {
+    return this.getBooleanAttribute('enable_data_plane_v_2_observability');
+  }
+  public set enableDataPlaneV2Observability(value: boolean | cdktf.IResolvable) {
+    this._enableDataPlaneV2Observability = value;
+  }
+  public resetEnableDataPlaneV2Observability() {
+    this._enableDataPlaneV2Observability = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableDataPlaneV2ObservabilityInput() {
+    return this._enableDataPlaneV2Observability;
+  }
+
+  // enable_vpc_nativetraffic - computed: false, optional: true, required: false
+  private _enableVpcNativetraffic?: boolean | cdktf.IResolvable; 
+  public get enableVpcNativetraffic() {
+    return this.getBooleanAttribute('enable_vpc_nativetraffic');
+  }
+  public set enableVpcNativetraffic(value: boolean | cdktf.IResolvable) {
+    this._enableVpcNativetraffic = value;
+  }
+  public resetEnableVpcNativetraffic() {
+    this._enableVpcNativetraffic = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableVpcNativetrafficInput() {
+    return this._enableVpcNativetraffic;
+  }
+
+  // max_pods_per_node - computed: false, optional: true, required: false
+  private _maxPodsPerNode?: number; 
+  public get maxPodsPerNode() {
+    return this.getNumberAttribute('max_pods_per_node');
+  }
+  public set maxPodsPerNode(value: number) {
+    this._maxPodsPerNode = value;
+  }
+  public resetMaxPodsPerNode() {
+    this._maxPodsPerNode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxPodsPerNodeInput() {
+    return this._maxPodsPerNode;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // network_policy - computed: false, optional: true, required: false
+  private _networkPolicy?: string; 
+  public get networkPolicy() {
+    return this.getStringAttribute('network_policy');
+  }
+  public set networkPolicy(value: string) {
+    this._networkPolicy = value;
+  }
+  public resetNetworkPolicy() {
+    this._networkPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkPolicyInput() {
+    return this._networkPolicy;
+  }
+
+  // network_policy_config - computed: false, optional: true, required: false
+  private _networkPolicyConfig?: boolean | cdktf.IResolvable; 
+  public get networkPolicyConfig() {
+    return this.getBooleanAttribute('network_policy_config');
+  }
+  public set networkPolicyConfig(value: boolean | cdktf.IResolvable) {
+    this._networkPolicyConfig = value;
+  }
+  public resetNetworkPolicyConfig() {
+    this._networkPolicyConfig = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkPolicyConfigInput() {
+    return this._networkPolicyConfig;
+  }
+
+  // pod_address_range - computed: false, optional: true, required: false
+  private _podAddressRange?: string; 
+  public get podAddressRange() {
+    return this.getStringAttribute('pod_address_range');
+  }
+  public set podAddressRange(value: string) {
+    this._podAddressRange = value;
+  }
+  public resetPodAddressRange() {
+    this._podAddressRange = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get podAddressRangeInput() {
+    return this._podAddressRange;
+  }
+
+  // pod_secondary_range_name - computed: false, optional: true, required: false
+  private _podSecondaryRangeName?: string; 
+  public get podSecondaryRangeName() {
+    return this.getStringAttribute('pod_secondary_range_name');
+  }
+  public set podSecondaryRangeName(value: string) {
+    this._podSecondaryRangeName = value;
+  }
+  public resetPodSecondaryRangeName() {
+    this._podSecondaryRangeName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get podSecondaryRangeNameInput() {
+    return this._podSecondaryRangeName;
+  }
+
+  // service_address_range - computed: false, optional: true, required: false
+  private _serviceAddressRange?: string; 
+  public get serviceAddressRange() {
+    return this.getStringAttribute('service_address_range');
+  }
+  public set serviceAddressRange(value: string) {
+    this._serviceAddressRange = value;
+  }
+  public resetServiceAddressRange() {
+    this._serviceAddressRange = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceAddressRangeInput() {
+    return this._serviceAddressRange;
+  }
+
+  // service_secondary_range_name - computed: false, optional: true, required: false
+  private _serviceSecondaryRangeName?: string; 
+  public get serviceSecondaryRangeName() {
+    return this.getStringAttribute('service_secondary_range_name');
+  }
+  public set serviceSecondaryRangeName(value: string) {
+    this._serviceSecondaryRangeName = value;
+  }
+  public resetServiceSecondaryRangeName() {
+    this._serviceSecondaryRangeName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceSecondaryRangeNameInput() {
+    return this._serviceSecondaryRangeName;
+  }
+
+  // subnet_name - computed: false, optional: true, required: false
+  private _subnetName?: string; 
+  public get subnetName() {
+    return this.getStringAttribute('subnet_name');
+  }
+  public set subnetName(value: string) {
+    this._subnetName = value;
+  }
+  public resetSubnetName() {
+    this._subnetName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subnetNameInput() {
+    return this._subnetName;
+  }
+
+  // access - computed: false, optional: true, required: false
+  private _access = new DataRafayAksClusterV3SpecConfigNetworkAccessOutputReference(this, "access");
+  public get access() {
+    return this._access;
+  }
+  public putAccess(value: DataRafayAksClusterV3SpecConfigNetworkAccess) {
+    this._access.internalValue = value;
+  }
+  public resetAccess() {
+    this._access.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get accessInput() {
+    return this._access.internalValue;
+  }
+
+  // control_plane_authorized_network - computed: false, optional: true, required: false
+  private _controlPlaneAuthorizedNetwork = new DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetworkOutputReference(this, "control_plane_authorized_network");
+  public get controlPlaneAuthorizedNetwork() {
+    return this._controlPlaneAuthorizedNetwork;
+  }
+  public putControlPlaneAuthorizedNetwork(value: DataRafayAksClusterV3SpecConfigNetworkControlPlaneAuthorizedNetwork) {
+    this._controlPlaneAuthorizedNetwork.internalValue = value;
+  }
+  public resetControlPlaneAuthorizedNetwork() {
+    this._controlPlaneAuthorizedNetwork.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get controlPlaneAuthorizedNetworkInput() {
+    return this._controlPlaneAuthorizedNetwork.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigNodePoolsAutoScaling {
+  /**
+  * Maximum number of nodes (per zone)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#max_nodes DataRafayAksClusterV3#max_nodes}
+  */
+  readonly maxNodes?: number;
+  /**
+  * Minimum number of nodes (per zone)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#min_nodes DataRafayAksClusterV3#min_nodes}
+  */
+  readonly minNodes?: number;
+}
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsAutoScalingToTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsAutoScalingOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsAutoScaling): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    max_nodes: cdktf.numberToTerraform(struct!.maxNodes),
+    min_nodes: cdktf.numberToTerraform(struct!.minNodes),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsAutoScalingToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsAutoScalingOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsAutoScaling): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    max_nodes: {
+      value: cdktf.numberToHclTerraform(struct!.maxNodes),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    min_nodes: {
+      value: cdktf.numberToHclTerraform(struct!.minNodes),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigNodePoolsAutoScalingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigNodePoolsAutoScaling | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._maxNodes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxNodes = this._maxNodes;
+    }
+    if (this._minNodes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minNodes = this._minNodes;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigNodePoolsAutoScaling | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._maxNodes = undefined;
+      this._minNodes = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._maxNodes = value.maxNodes;
+      this._minNodes = value.minNodes;
+    }
+  }
+
+  // max_nodes - computed: false, optional: true, required: false
+  private _maxNodes?: number; 
+  public get maxNodes() {
+    return this.getNumberAttribute('max_nodes');
+  }
+  public set maxNodes(value: number) {
+    this._maxNodes = value;
+  }
+  public resetMaxNodes() {
+    this._maxNodes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxNodesInput() {
+    return this._maxNodes;
+  }
+
+  // min_nodes - computed: false, optional: true, required: false
+  private _minNodes?: number; 
+  public get minNodes() {
+    return this.getNumberAttribute('min_nodes');
+  }
+  public set minNodes(value: number) {
+    this._minNodes = value;
+  }
+  public resetMinNodes() {
+    this._minNodes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minNodesInput() {
+    return this._minNodes;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsAcceleratorSharing {
+  /**
+  * The max number of clients that can share a physical GPU device
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#max_shared_clients DataRafayAksClusterV3#max_shared_clients}
+  */
+  readonly maxSharedClients?: number;
+  /**
+  * The strategy to use for sharing GPUs . Example: Time-Sharing
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#strategy DataRafayAksClusterV3#strategy}
+  */
+  readonly strategy?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsAcceleratorSharingToTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsAcceleratorSharingOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsAcceleratorSharing): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    max_shared_clients: cdktf.numberToTerraform(struct!.maxSharedClients),
+    strategy: cdktf.stringToTerraform(struct!.strategy),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsAcceleratorSharingToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsAcceleratorSharingOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsAcceleratorSharing): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    max_shared_clients: {
+      value: cdktf.numberToHclTerraform(struct!.maxSharedClients),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    strategy: {
+      value: cdktf.stringToHclTerraform(struct!.strategy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsAcceleratorSharingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsAcceleratorSharing | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._maxSharedClients !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxSharedClients = this._maxSharedClients;
+    }
+    if (this._strategy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.strategy = this._strategy;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsAcceleratorSharing | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._maxSharedClients = undefined;
+      this._strategy = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._maxSharedClients = value.maxSharedClients;
+      this._strategy = value.strategy;
+    }
+  }
+
+  // max_shared_clients - computed: false, optional: true, required: false
+  private _maxSharedClients?: number; 
+  public get maxSharedClients() {
+    return this.getNumberAttribute('max_shared_clients');
+  }
+  public set maxSharedClients(value: number) {
+    this._maxSharedClients = value;
+  }
+  public resetMaxSharedClients() {
+    this._maxSharedClients = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxSharedClientsInput() {
+    return this._maxSharedClients;
+  }
+
+  // strategy - computed: false, optional: true, required: false
+  private _strategy?: string; 
+  public get strategy() {
+    return this.getStringAttribute('strategy');
+  }
+  public set strategy(value: string) {
+    this._strategy = value;
+  }
+  public resetStrategy() {
+    this._strategy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get strategyInput() {
+    return this._strategy;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationConfig {
+  /**
+  * The version of the GPU driver to install
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#version DataRafayAksClusterV3#version}
+  */
+  readonly version?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationConfigToTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationConfigOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    version: cdktf.stringToTerraform(struct!.version),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationConfigToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationConfigOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    version: {
+      value: cdktf.stringToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._version = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._version = value.version;
+    }
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: string; 
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+  public set version(value: string) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallation {
+  /**
+  * Choose how GPU drivers will be installed for GPU enabled VMs
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#type DataRafayAksClusterV3#type}
+  */
+  readonly type?: string;
+  /**
+  * config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#config DataRafayAksClusterV3#config}
+  */
+  readonly config?: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationConfig;
+}
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationToTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallation): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    type: cdktf.stringToTerraform(struct!.type),
+    config: dataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationConfigToTerraform(struct!.config),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallation): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    config: {
+      value: dataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationConfigToHclTerraform(struct!.config),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationConfigList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallation | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._config?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.config = this._config?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallation | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._type = undefined;
+      this._config.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._type = value.type;
+      this._config.internalValue = value.config;
+    }
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // config - computed: false, optional: true, required: false
+  private _config = new DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationConfigOutputReference(this, "config");
+  public get config() {
+    return this._config;
+  }
+  public putConfig(value: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationConfig) {
+    this._config.internalValue = value;
+  }
+  public resetConfig() {
+    this._config.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configInput() {
+    return this._config.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAccelerators {
+  /**
+  * Number of GPUs
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#count DataRafayAksClusterV3#count}
+  */
+  readonly count?: number;
+  /**
+  * Size of partitions to create on the GPU. Valid values are described in the guide - https://docs.nvidia.com/datacenter/tesla/mig-user-guide/#partitioning
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#gpu_partition_size DataRafayAksClusterV3#gpu_partition_size}
+  */
+  readonly gpuPartitionSize?: string;
+  /**
+  * GPU Type
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#type DataRafayAksClusterV3#type}
+  */
+  readonly type?: string;
+  /**
+  * accelerator_sharing block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#accelerator_sharing DataRafayAksClusterV3#accelerator_sharing}
+  */
+  readonly acceleratorSharing?: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsAcceleratorSharing;
+  /**
+  * gpu_driver_installation block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#gpu_driver_installation DataRafayAksClusterV3#gpu_driver_installation}
+  */
+  readonly gpuDriverInstallation?: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallation;
+}
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsToTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAccelerators | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    count: cdktf.numberToTerraform(struct!.count),
+    gpu_partition_size: cdktf.stringToTerraform(struct!.gpuPartitionSize),
+    type: cdktf.stringToTerraform(struct!.type),
+    accelerator_sharing: dataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsAcceleratorSharingToTerraform(struct!.acceleratorSharing),
+    gpu_driver_installation: dataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationToTerraform(struct!.gpuDriverInstallation),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAccelerators | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    count: {
+      value: cdktf.numberToHclTerraform(struct!.count),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    gpu_partition_size: {
+      value: cdktf.stringToHclTerraform(struct!.gpuPartitionSize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    accelerator_sharing: {
+      value: dataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsAcceleratorSharingToHclTerraform(struct!.acceleratorSharing),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsAcceleratorSharingList",
+    },
+    gpu_driver_installation: {
+      value: dataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationToHclTerraform(struct!.gpuDriverInstallation),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAccelerators | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._count !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.count = this._count;
+    }
+    if (this._gpuPartitionSize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gpuPartitionSize = this._gpuPartitionSize;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._acceleratorSharing?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.acceleratorSharing = this._acceleratorSharing?.internalValue;
+    }
+    if (this._gpuDriverInstallation?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gpuDriverInstallation = this._gpuDriverInstallation?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAccelerators | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._count = undefined;
+      this._gpuPartitionSize = undefined;
+      this._type = undefined;
+      this._acceleratorSharing.internalValue = undefined;
+      this._gpuDriverInstallation.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._count = value.count;
+      this._gpuPartitionSize = value.gpuPartitionSize;
+      this._type = value.type;
+      this._acceleratorSharing.internalValue = value.acceleratorSharing;
+      this._gpuDriverInstallation.internalValue = value.gpuDriverInstallation;
+    }
+  }
+
+  // count - computed: false, optional: true, required: false
+  private _count?: number; 
+  public get count() {
+    return this.getNumberAttribute('count');
+  }
+  public set count(value: number) {
+    this._count = value;
+  }
+  public resetCount() {
+    this._count = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get countInput() {
+    return this._count;
+  }
+
+  // gpu_partition_size - computed: false, optional: true, required: false
+  private _gpuPartitionSize?: string; 
+  public get gpuPartitionSize() {
+    return this.getStringAttribute('gpu_partition_size');
+  }
+  public set gpuPartitionSize(value: string) {
+    this._gpuPartitionSize = value;
+  }
+  public resetGpuPartitionSize() {
+    this._gpuPartitionSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gpuPartitionSizeInput() {
+    return this._gpuPartitionSize;
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // accelerator_sharing - computed: false, optional: true, required: false
+  private _acceleratorSharing = new DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsAcceleratorSharingOutputReference(this, "accelerator_sharing");
+  public get acceleratorSharing() {
+    return this._acceleratorSharing;
+  }
+  public putAcceleratorSharing(value: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsAcceleratorSharing) {
+    this._acceleratorSharing.internalValue = value;
+  }
+  public resetAcceleratorSharing() {
+    this._acceleratorSharing.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get acceleratorSharingInput() {
+    return this._acceleratorSharing.internalValue;
+  }
+
+  // gpu_driver_installation - computed: false, optional: true, required: false
+  private _gpuDriverInstallation = new DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallationOutputReference(this, "gpu_driver_installation");
+  public get gpuDriverInstallation() {
+    return this._gpuDriverInstallation;
+  }
+  public putGpuDriverInstallation(value: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsGpuDriverInstallation) {
+    this._gpuDriverInstallation.internalValue = value;
+  }
+  public resetGpuDriverInstallation() {
+    this._gpuDriverInstallation.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gpuDriverInstallationInput() {
+    return this._gpuDriverInstallation.internalValue;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAccelerators[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsOutputReference {
+    return new DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigReservationAffinity {
+  /**
+  * Type of reservation consumption.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#consume_reservation_type DataRafayAksClusterV3#consume_reservation_type}
+  */
+  readonly consumeReservationType?: string;
+  /**
+  * The name of the Reservation to be consumed. Only mandatory when consumeReservationType is set to specific
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#reservation_name DataRafayAksClusterV3#reservation_name}
+  */
+  readonly reservationName?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsMachineConfigReservationAffinityToTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigReservationAffinityOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigReservationAffinity): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    consume_reservation_type: cdktf.stringToTerraform(struct!.consumeReservationType),
+    reservation_name: cdktf.stringToTerraform(struct!.reservationName),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsMachineConfigReservationAffinityToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigReservationAffinityOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigReservationAffinity): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    consume_reservation_type: {
+      value: cdktf.stringToHclTerraform(struct!.consumeReservationType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    reservation_name: {
+      value: cdktf.stringToHclTerraform(struct!.reservationName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigReservationAffinityOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigReservationAffinity | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._consumeReservationType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.consumeReservationType = this._consumeReservationType;
+    }
+    if (this._reservationName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.reservationName = this._reservationName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigReservationAffinity | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._consumeReservationType = undefined;
+      this._reservationName = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._consumeReservationType = value.consumeReservationType;
+      this._reservationName = value.reservationName;
+    }
+  }
+
+  // consume_reservation_type - computed: false, optional: true, required: false
+  private _consumeReservationType?: string; 
+  public get consumeReservationType() {
+    return this.getStringAttribute('consume_reservation_type');
+  }
+  public set consumeReservationType(value: string) {
+    this._consumeReservationType = value;
+  }
+  public resetConsumeReservationType() {
+    this._consumeReservationType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get consumeReservationTypeInput() {
+    return this._consumeReservationType;
+  }
+
+  // reservation_name - computed: false, optional: true, required: false
+  private _reservationName?: string; 
+  public get reservationName() {
+    return this.getStringAttribute('reservation_name');
+  }
+  public set reservationName(value: string) {
+    this._reservationName = value;
+  }
+  public resetReservationName() {
+    this._reservationName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get reservationNameInput() {
+    return this._reservationName;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigNodePoolsMachineConfig {
+  /**
+  * Select Boot disk size. Boot disk size is permanent
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#boot_disk_size DataRafayAksClusterV3#boot_disk_size}
+  */
+  readonly bootDiskSize?: number;
+  /**
+  * Select Boot disk type. Storage space is less expensive for a standard persistent disk. An SSD persistent disk is better for random IOPS or for streaming throughput with low latency
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#boot_disk_type DataRafayAksClusterV3#boot_disk_type}
+  */
+  readonly bootDiskType?: string;
+  /**
+  * Choose which operating system image you want to run on each node of this cluster
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#image_type DataRafayAksClusterV3#image_type}
+  */
+  readonly imageType?: string;
+  /**
+  * Choose the machine type that will best fit the resource needs of your cluster
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#machine_type DataRafayAksClusterV3#machine_type}
+  */
+  readonly machineType?: string;
+  /**
+  * accelerators block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#accelerators DataRafayAksClusterV3#accelerators}
+  */
+  readonly accelerators?: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAccelerators[] | cdktf.IResolvable;
+  /**
+  * reservation_affinity block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#reservation_affinity DataRafayAksClusterV3#reservation_affinity}
+  */
+  readonly reservationAffinity?: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigReservationAffinity;
+}
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsMachineConfigToTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsMachineConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    boot_disk_size: cdktf.numberToTerraform(struct!.bootDiskSize),
+    boot_disk_type: cdktf.stringToTerraform(struct!.bootDiskType),
+    image_type: cdktf.stringToTerraform(struct!.imageType),
+    machine_type: cdktf.stringToTerraform(struct!.machineType),
+    accelerators: cdktf.listMapper(dataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsToTerraform, true)(struct!.accelerators),
+    reservation_affinity: dataRafayAksClusterV3SpecConfigNodePoolsMachineConfigReservationAffinityToTerraform(struct!.reservationAffinity),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsMachineConfigToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsMachineConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    boot_disk_size: {
+      value: cdktf.numberToHclTerraform(struct!.bootDiskSize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    boot_disk_type: {
+      value: cdktf.stringToHclTerraform(struct!.bootDiskType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    image_type: {
+      value: cdktf.stringToHclTerraform(struct!.imageType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    machine_type: {
+      value: cdktf.stringToHclTerraform(struct!.machineType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    accelerators: {
+      value: cdktf.listMapperHcl(dataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsToHclTerraform, true)(struct!.accelerators),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsList",
+    },
+    reservation_affinity: {
+      value: dataRafayAksClusterV3SpecConfigNodePoolsMachineConfigReservationAffinityToHclTerraform(struct!.reservationAffinity),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigReservationAffinityList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigNodePoolsMachineConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._bootDiskSize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bootDiskSize = this._bootDiskSize;
+    }
+    if (this._bootDiskType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bootDiskType = this._bootDiskType;
+    }
+    if (this._imageType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.imageType = this._imageType;
+    }
+    if (this._machineType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.machineType = this._machineType;
+    }
+    if (this._accelerators?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.accelerators = this._accelerators?.internalValue;
+    }
+    if (this._reservationAffinity?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.reservationAffinity = this._reservationAffinity?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._bootDiskSize = undefined;
+      this._bootDiskType = undefined;
+      this._imageType = undefined;
+      this._machineType = undefined;
+      this._accelerators.internalValue = undefined;
+      this._reservationAffinity.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._bootDiskSize = value.bootDiskSize;
+      this._bootDiskType = value.bootDiskType;
+      this._imageType = value.imageType;
+      this._machineType = value.machineType;
+      this._accelerators.internalValue = value.accelerators;
+      this._reservationAffinity.internalValue = value.reservationAffinity;
+    }
+  }
+
+  // boot_disk_size - computed: false, optional: true, required: false
+  private _bootDiskSize?: number; 
+  public get bootDiskSize() {
+    return this.getNumberAttribute('boot_disk_size');
+  }
+  public set bootDiskSize(value: number) {
+    this._bootDiskSize = value;
+  }
+  public resetBootDiskSize() {
+    this._bootDiskSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bootDiskSizeInput() {
+    return this._bootDiskSize;
+  }
+
+  // boot_disk_type - computed: false, optional: true, required: false
+  private _bootDiskType?: string; 
+  public get bootDiskType() {
+    return this.getStringAttribute('boot_disk_type');
+  }
+  public set bootDiskType(value: string) {
+    this._bootDiskType = value;
+  }
+  public resetBootDiskType() {
+    this._bootDiskType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bootDiskTypeInput() {
+    return this._bootDiskType;
+  }
+
+  // image_type - computed: false, optional: true, required: false
+  private _imageType?: string; 
+  public get imageType() {
+    return this.getStringAttribute('image_type');
+  }
+  public set imageType(value: string) {
+    this._imageType = value;
+  }
+  public resetImageType() {
+    this._imageType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get imageTypeInput() {
+    return this._imageType;
+  }
+
+  // machine_type - computed: false, optional: true, required: false
+  private _machineType?: string; 
+  public get machineType() {
+    return this.getStringAttribute('machine_type');
+  }
+  public set machineType(value: string) {
+    this._machineType = value;
+  }
+  public resetMachineType() {
+    this._machineType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get machineTypeInput() {
+    return this._machineType;
+  }
+
+  // accelerators - computed: false, optional: true, required: false
+  private _accelerators = new DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAcceleratorsList(this, "accelerators", false);
+  public get accelerators() {
+    return this._accelerators;
+  }
+  public putAccelerators(value: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigAccelerators[] | cdktf.IResolvable) {
+    this._accelerators.internalValue = value;
+  }
+  public resetAccelerators() {
+    this._accelerators.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get acceleratorsInput() {
+    return this._accelerators.internalValue;
+  }
+
+  // reservation_affinity - computed: false, optional: true, required: false
+  private _reservationAffinity = new DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigReservationAffinityOutputReference(this, "reservation_affinity");
+  public get reservationAffinity() {
+    return this._reservationAffinity;
+  }
+  public putReservationAffinity(value: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigReservationAffinity) {
+    this._reservationAffinity.internalValue = value;
+  }
+  public resetReservationAffinity() {
+    this._reservationAffinity.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get reservationAffinityInput() {
+    return this._reservationAffinity.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigNodePoolsManagement {
+  /**
+  * Whether the nodes will be automatically upgraded
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#auto_upgrade DataRafayAksClusterV3#auto_upgrade}
+  */
+  readonly autoUpgrade?: boolean | cdktf.IResolvable;
+}
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsManagementToTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsManagementOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsManagement): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    auto_upgrade: cdktf.booleanToTerraform(struct!.autoUpgrade),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsManagementToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsManagementOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsManagement): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    auto_upgrade: {
+      value: cdktf.booleanToHclTerraform(struct!.autoUpgrade),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigNodePoolsManagementOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigNodePoolsManagement | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._autoUpgrade !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.autoUpgrade = this._autoUpgrade;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigNodePoolsManagement | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._autoUpgrade = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._autoUpgrade = value.autoUpgrade;
+    }
+  }
+
+  // auto_upgrade - computed: false, optional: true, required: false
+  private _autoUpgrade?: boolean | cdktf.IResolvable; 
+  public get autoUpgrade() {
+    return this.getBooleanAttribute('auto_upgrade');
+  }
+  public set autoUpgrade(value: boolean | cdktf.IResolvable) {
+    this._autoUpgrade = value;
+  }
+  public resetAutoUpgrade() {
+    this._autoUpgrade = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get autoUpgradeInput() {
+    return this._autoUpgrade;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigNodePoolsMetadataGceInstanceMetadata {
+  /**
+  * Key for this metadata
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#key DataRafayAksClusterV3#key}
+  */
+  readonly key?: string;
+  /**
+  * Value for this metadata
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#value DataRafayAksClusterV3#value}
+  */
+  readonly value?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsMetadataGceInstanceMetadataToTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsMetadataGceInstanceMetadata | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    value: cdktf.stringToTerraform(struct!.value),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsMetadataGceInstanceMetadataToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsMetadataGceInstanceMetadata | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktf.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigNodePoolsMetadataGceInstanceMetadataOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigNodePoolsMetadataGceInstanceMetadata | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigNodePoolsMetadataGceInstanceMetadata | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: false, optional: true, required: false
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigNodePoolsMetadataGceInstanceMetadataList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigNodePoolsMetadataGceInstanceMetadata[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigNodePoolsMetadataGceInstanceMetadataOutputReference {
+    return new DataRafayAksClusterV3SpecConfigNodePoolsMetadataGceInstanceMetadataOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigNodePoolsMetadataKubernetesLabels {
+  /**
+  * Key for this kubernetes label
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#key DataRafayAksClusterV3#key}
+  */
+  readonly key?: string;
+  /**
+  * Value for this kubernetes lable
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#value DataRafayAksClusterV3#value}
+  */
+  readonly value?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsMetadataKubernetesLabelsToTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsMetadataKubernetesLabels | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    value: cdktf.stringToTerraform(struct!.value),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsMetadataKubernetesLabelsToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsMetadataKubernetesLabels | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktf.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigNodePoolsMetadataKubernetesLabelsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigNodePoolsMetadataKubernetesLabels | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigNodePoolsMetadataKubernetesLabels | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: false, optional: true, required: false
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigNodePoolsMetadataKubernetesLabelsList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigNodePoolsMetadataKubernetesLabels[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigNodePoolsMetadataKubernetesLabelsOutputReference {
+    return new DataRafayAksClusterV3SpecConfigNodePoolsMetadataKubernetesLabelsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigNodePoolsMetadataNodeTaints {
+  /**
+  * Available effects are NoSchedule, PreferNoSchedule, NoExecute
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#effect DataRafayAksClusterV3#effect}
+  */
+  readonly effect?: string;
+  /**
+  * Key for this Taint effect
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#key DataRafayAksClusterV3#key}
+  */
+  readonly key?: string;
+  /**
+  * Value for this Taint effect
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#value DataRafayAksClusterV3#value}
+  */
+  readonly value?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsMetadataNodeTaintsToTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsMetadataNodeTaints | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    effect: cdktf.stringToTerraform(struct!.effect),
+    key: cdktf.stringToTerraform(struct!.key),
+    value: cdktf.stringToTerraform(struct!.value),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsMetadataNodeTaintsToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsMetadataNodeTaints | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    effect: {
+      value: cdktf.stringToHclTerraform(struct!.effect),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktf.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigNodePoolsMetadataNodeTaintsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigNodePoolsMetadataNodeTaints | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._effect !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.effect = this._effect;
+    }
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigNodePoolsMetadataNodeTaints | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._effect = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._effect = value.effect;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // effect - computed: false, optional: true, required: false
+  private _effect?: string; 
+  public get effect() {
+    return this.getStringAttribute('effect');
+  }
+  public set effect(value: string) {
+    this._effect = value;
+  }
+  public resetEffect() {
+    this._effect = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get effectInput() {
+    return this._effect;
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: false, optional: true, required: false
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigNodePoolsMetadataNodeTaintsList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigNodePoolsMetadataNodeTaints[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigNodePoolsMetadataNodeTaintsOutputReference {
+    return new DataRafayAksClusterV3SpecConfigNodePoolsMetadataNodeTaintsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigNodePoolsMetadata {
+  /**
+  * gce_instance_metadata block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#gce_instance_metadata DataRafayAksClusterV3#gce_instance_metadata}
+  */
+  readonly gceInstanceMetadata?: DataRafayAksClusterV3SpecConfigNodePoolsMetadataGceInstanceMetadata[] | cdktf.IResolvable;
+  /**
+  * kubernetes_labels block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#kubernetes_labels DataRafayAksClusterV3#kubernetes_labels}
+  */
+  readonly kubernetesLabels?: DataRafayAksClusterV3SpecConfigNodePoolsMetadataKubernetesLabels[] | cdktf.IResolvable;
+  /**
+  * node_taints block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#node_taints DataRafayAksClusterV3#node_taints}
+  */
+  readonly nodeTaints?: DataRafayAksClusterV3SpecConfigNodePoolsMetadataNodeTaints[] | cdktf.IResolvable;
+}
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsMetadataToTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsMetadataOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsMetadata): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    gce_instance_metadata: cdktf.listMapper(dataRafayAksClusterV3SpecConfigNodePoolsMetadataGceInstanceMetadataToTerraform, true)(struct!.gceInstanceMetadata),
+    kubernetes_labels: cdktf.listMapper(dataRafayAksClusterV3SpecConfigNodePoolsMetadataKubernetesLabelsToTerraform, true)(struct!.kubernetesLabels),
+    node_taints: cdktf.listMapper(dataRafayAksClusterV3SpecConfigNodePoolsMetadataNodeTaintsToTerraform, true)(struct!.nodeTaints),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsMetadataToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsMetadataOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsMetadata): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    gce_instance_metadata: {
+      value: cdktf.listMapperHcl(dataRafayAksClusterV3SpecConfigNodePoolsMetadataGceInstanceMetadataToHclTerraform, true)(struct!.gceInstanceMetadata),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigNodePoolsMetadataGceInstanceMetadataList",
+    },
+    kubernetes_labels: {
+      value: cdktf.listMapperHcl(dataRafayAksClusterV3SpecConfigNodePoolsMetadataKubernetesLabelsToHclTerraform, true)(struct!.kubernetesLabels),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigNodePoolsMetadataKubernetesLabelsList",
+    },
+    node_taints: {
+      value: cdktf.listMapperHcl(dataRafayAksClusterV3SpecConfigNodePoolsMetadataNodeTaintsToHclTerraform, true)(struct!.nodeTaints),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigNodePoolsMetadataNodeTaintsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigNodePoolsMetadataOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigNodePoolsMetadata | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._gceInstanceMetadata?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gceInstanceMetadata = this._gceInstanceMetadata?.internalValue;
+    }
+    if (this._kubernetesLabels?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.kubernetesLabels = this._kubernetesLabels?.internalValue;
+    }
+    if (this._nodeTaints?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeTaints = this._nodeTaints?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigNodePoolsMetadata | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._gceInstanceMetadata.internalValue = undefined;
+      this._kubernetesLabels.internalValue = undefined;
+      this._nodeTaints.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._gceInstanceMetadata.internalValue = value.gceInstanceMetadata;
+      this._kubernetesLabels.internalValue = value.kubernetesLabels;
+      this._nodeTaints.internalValue = value.nodeTaints;
+    }
+  }
+
+  // gce_instance_metadata - computed: false, optional: true, required: false
+  private _gceInstanceMetadata = new DataRafayAksClusterV3SpecConfigNodePoolsMetadataGceInstanceMetadataList(this, "gce_instance_metadata", false);
+  public get gceInstanceMetadata() {
+    return this._gceInstanceMetadata;
+  }
+  public putGceInstanceMetadata(value: DataRafayAksClusterV3SpecConfigNodePoolsMetadataGceInstanceMetadata[] | cdktf.IResolvable) {
+    this._gceInstanceMetadata.internalValue = value;
+  }
+  public resetGceInstanceMetadata() {
+    this._gceInstanceMetadata.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gceInstanceMetadataInput() {
+    return this._gceInstanceMetadata.internalValue;
+  }
+
+  // kubernetes_labels - computed: false, optional: true, required: false
+  private _kubernetesLabels = new DataRafayAksClusterV3SpecConfigNodePoolsMetadataKubernetesLabelsList(this, "kubernetes_labels", false);
+  public get kubernetesLabels() {
+    return this._kubernetesLabels;
+  }
+  public putKubernetesLabels(value: DataRafayAksClusterV3SpecConfigNodePoolsMetadataKubernetesLabels[] | cdktf.IResolvable) {
+    this._kubernetesLabels.internalValue = value;
+  }
+  public resetKubernetesLabels() {
+    this._kubernetesLabels.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kubernetesLabelsInput() {
+    return this._kubernetesLabels.internalValue;
+  }
+
+  // node_taints - computed: false, optional: true, required: false
+  private _nodeTaints = new DataRafayAksClusterV3SpecConfigNodePoolsMetadataNodeTaintsList(this, "node_taints", false);
+  public get nodeTaints() {
+    return this._nodeTaints;
+  }
+  public putNodeTaints(value: DataRafayAksClusterV3SpecConfigNodePoolsMetadataNodeTaints[] | cdktf.IResolvable) {
+    this._nodeTaints.internalValue = value;
+  }
+  public resetNodeTaints() {
+    this._nodeTaints.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeTaintsInput() {
+    return this._nodeTaints.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigNodePoolsNetworking {
+  /**
+  * This value is used to optimize the partitioning of cluster's IP address range to sub-ranges at node level
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#max_pods_per_node DataRafayAksClusterV3#max_pods_per_node}
+  */
+  readonly maxPodsPerNode?: number;
+  /**
+  * This value is used to optimize the partitioning of cluster's IP address range to sub-ranges at node level
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#network_tags DataRafayAksClusterV3#network_tags}
+  */
+  readonly networkTags?: string[];
+}
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsNetworkingToTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsNetworkingOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsNetworking): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    max_pods_per_node: cdktf.numberToTerraform(struct!.maxPodsPerNode),
+    network_tags: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.networkTags),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsNetworkingToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsNetworkingOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsNetworking): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    max_pods_per_node: {
+      value: cdktf.numberToHclTerraform(struct!.maxPodsPerNode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    network_tags: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.networkTags),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigNodePoolsNetworkingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigNodePoolsNetworking | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._maxPodsPerNode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxPodsPerNode = this._maxPodsPerNode;
+    }
+    if (this._networkTags !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkTags = this._networkTags;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigNodePoolsNetworking | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._maxPodsPerNode = undefined;
+      this._networkTags = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._maxPodsPerNode = value.maxPodsPerNode;
+      this._networkTags = value.networkTags;
+    }
+  }
+
+  // max_pods_per_node - computed: false, optional: true, required: false
+  private _maxPodsPerNode?: number; 
+  public get maxPodsPerNode() {
+    return this.getNumberAttribute('max_pods_per_node');
+  }
+  public set maxPodsPerNode(value: number) {
+    this._maxPodsPerNode = value;
+  }
+  public resetMaxPodsPerNode() {
+    this._maxPodsPerNode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxPodsPerNodeInput() {
+    return this._maxPodsPerNode;
+  }
+
+  // network_tags - computed: false, optional: true, required: false
+  private _networkTags?: string[]; 
+  public get networkTags() {
+    return this.getListAttribute('network_tags');
+  }
+  public set networkTags(value: string[]) {
+    this._networkTags = value;
+  }
+  public resetNetworkTags() {
+    this._networkTags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkTagsInput() {
+    return this._networkTags;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigNodePoolsNodeLocations {
+  /**
+  * Enable providing node locations
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enabled DataRafayAksClusterV3#enabled}
+  */
+  readonly enabled?: boolean | cdktf.IResolvable;
+  /**
+  * List of zones. Additional node zones must be from the same region as the original zone. Kubernetes Engine allocates the same resource footprint for each zone. The Node pool setting overrides the defaults set in Cluster basics
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#zones DataRafayAksClusterV3#zones}
+  */
+  readonly zones?: string[];
+}
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsNodeLocationsToTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsNodeLocationsOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsNodeLocations): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enabled: cdktf.booleanToTerraform(struct!.enabled),
+    zones: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.zones),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsNodeLocationsToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsNodeLocationsOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsNodeLocations): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    zones: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.zones),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigNodePoolsNodeLocationsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigNodePoolsNodeLocations | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    if (this._zones !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.zones = this._zones;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigNodePoolsNodeLocations | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enabled = undefined;
+      this._zones = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enabled = value.enabled;
+      this._zones = value.zones;
+    }
+  }
+
+  // enabled - computed: false, optional: true, required: false
+  private _enabled?: boolean | cdktf.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktf.IResolvable) {
+    this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+
+  // zones - computed: false, optional: true, required: false
+  private _zones?: string[]; 
+  public get zones() {
+    return this.getListAttribute('zones');
+  }
+  public set zones(value: string[]) {
+    this._zones = value;
+  }
+  public resetZones() {
+    this._zones = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zonesInput() {
+    return this._zones;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigNodePoolsSecurity {
+  /**
+  * Integrity monitoring lets you monitor and verify the runtime boot integrity of your shielded nodes using Cloud Monitoring
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enable_integrity_monitoring DataRafayAksClusterV3#enable_integrity_monitoring}
+  */
+  readonly enableIntegrityMonitoring?: boolean | cdktf.IResolvable;
+  /**
+  * Secure boot helps protect your nodes against boot-level and kernel-level malware and rootkits
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enable_secure_boot DataRafayAksClusterV3#enable_secure_boot}
+  */
+  readonly enableSecureBoot?: boolean | cdktf.IResolvable;
+}
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsSecurityToTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsSecurityOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsSecurity): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enable_integrity_monitoring: cdktf.booleanToTerraform(struct!.enableIntegrityMonitoring),
+    enable_secure_boot: cdktf.booleanToTerraform(struct!.enableSecureBoot),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsSecurityToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsSecurityOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsSecurity): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enable_integrity_monitoring: {
+      value: cdktf.booleanToHclTerraform(struct!.enableIntegrityMonitoring),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_secure_boot: {
+      value: cdktf.booleanToHclTerraform(struct!.enableSecureBoot),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigNodePoolsSecurityOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigNodePoolsSecurity | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enableIntegrityMonitoring !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableIntegrityMonitoring = this._enableIntegrityMonitoring;
+    }
+    if (this._enableSecureBoot !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableSecureBoot = this._enableSecureBoot;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigNodePoolsSecurity | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enableIntegrityMonitoring = undefined;
+      this._enableSecureBoot = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enableIntegrityMonitoring = value.enableIntegrityMonitoring;
+      this._enableSecureBoot = value.enableSecureBoot;
+    }
+  }
+
+  // enable_integrity_monitoring - computed: false, optional: true, required: false
+  private _enableIntegrityMonitoring?: boolean | cdktf.IResolvable; 
+  public get enableIntegrityMonitoring() {
+    return this.getBooleanAttribute('enable_integrity_monitoring');
+  }
+  public set enableIntegrityMonitoring(value: boolean | cdktf.IResolvable) {
+    this._enableIntegrityMonitoring = value;
+  }
+  public resetEnableIntegrityMonitoring() {
+    this._enableIntegrityMonitoring = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableIntegrityMonitoringInput() {
+    return this._enableIntegrityMonitoring;
+  }
+
+  // enable_secure_boot - computed: false, optional: true, required: false
+  private _enableSecureBoot?: boolean | cdktf.IResolvable; 
+  public get enableSecureBoot() {
+    return this.getBooleanAttribute('enable_secure_boot');
+  }
+  public set enableSecureBoot(value: boolean | cdktf.IResolvable) {
+    this._enableSecureBoot = value;
+  }
+  public resetEnableSecureBoot() {
+    this._enableSecureBoot = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableSecureBootInput() {
+    return this._enableSecureBoot;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettingsConfig {
+  /**
+  * Number of blue nodes to drain in a batch.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#batch_node_count DataRafayAksClusterV3#batch_node_count}
+  */
+  readonly batchNodeCount?: number;
+  /**
+  * Soak time after each batch gets drained.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#batch_soak_duration DataRafayAksClusterV3#batch_soak_duration}
+  */
+  readonly batchSoakDuration?: string;
+  /**
+  * The maximum number of nodes that can be created beyond the current size of the node pool during the upgrade process.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#max_surge DataRafayAksClusterV3#max_surge}
+  */
+  readonly maxSurge?: number;
+  /**
+  * The maximum number of nodes that can be simultaneously unavailable during the upgrade process.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#max_unavailable DataRafayAksClusterV3#max_unavailable}
+  */
+  readonly maxUnavailable?: number;
+  /**
+  * Time needed after draining entire blue pool. After this period, blue pool will be cleaned up.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#node_pool_soak_duration DataRafayAksClusterV3#node_pool_soak_duration}
+  */
+  readonly nodePoolSoakDuration?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettingsConfigToTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettingsConfigOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettingsConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    batch_node_count: cdktf.numberToTerraform(struct!.batchNodeCount),
+    batch_soak_duration: cdktf.stringToTerraform(struct!.batchSoakDuration),
+    max_surge: cdktf.numberToTerraform(struct!.maxSurge),
+    max_unavailable: cdktf.numberToTerraform(struct!.maxUnavailable),
+    node_pool_soak_duration: cdktf.stringToTerraform(struct!.nodePoolSoakDuration),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettingsConfigToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettingsConfigOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettingsConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    batch_node_count: {
+      value: cdktf.numberToHclTerraform(struct!.batchNodeCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    batch_soak_duration: {
+      value: cdktf.stringToHclTerraform(struct!.batchSoakDuration),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    max_surge: {
+      value: cdktf.numberToHclTerraform(struct!.maxSurge),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    max_unavailable: {
+      value: cdktf.numberToHclTerraform(struct!.maxUnavailable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    node_pool_soak_duration: {
+      value: cdktf.stringToHclTerraform(struct!.nodePoolSoakDuration),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettingsConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettingsConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._batchNodeCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.batchNodeCount = this._batchNodeCount;
+    }
+    if (this._batchSoakDuration !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.batchSoakDuration = this._batchSoakDuration;
+    }
+    if (this._maxSurge !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxSurge = this._maxSurge;
+    }
+    if (this._maxUnavailable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxUnavailable = this._maxUnavailable;
+    }
+    if (this._nodePoolSoakDuration !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodePoolSoakDuration = this._nodePoolSoakDuration;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettingsConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._batchNodeCount = undefined;
+      this._batchSoakDuration = undefined;
+      this._maxSurge = undefined;
+      this._maxUnavailable = undefined;
+      this._nodePoolSoakDuration = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._batchNodeCount = value.batchNodeCount;
+      this._batchSoakDuration = value.batchSoakDuration;
+      this._maxSurge = value.maxSurge;
+      this._maxUnavailable = value.maxUnavailable;
+      this._nodePoolSoakDuration = value.nodePoolSoakDuration;
+    }
+  }
+
+  // batch_node_count - computed: false, optional: true, required: false
+  private _batchNodeCount?: number; 
+  public get batchNodeCount() {
+    return this.getNumberAttribute('batch_node_count');
+  }
+  public set batchNodeCount(value: number) {
+    this._batchNodeCount = value;
+  }
+  public resetBatchNodeCount() {
+    this._batchNodeCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get batchNodeCountInput() {
+    return this._batchNodeCount;
+  }
+
+  // batch_soak_duration - computed: false, optional: true, required: false
+  private _batchSoakDuration?: string; 
+  public get batchSoakDuration() {
+    return this.getStringAttribute('batch_soak_duration');
+  }
+  public set batchSoakDuration(value: string) {
+    this._batchSoakDuration = value;
+  }
+  public resetBatchSoakDuration() {
+    this._batchSoakDuration = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get batchSoakDurationInput() {
+    return this._batchSoakDuration;
+  }
+
+  // max_surge - computed: false, optional: true, required: false
+  private _maxSurge?: number; 
+  public get maxSurge() {
+    return this.getNumberAttribute('max_surge');
+  }
+  public set maxSurge(value: number) {
+    this._maxSurge = value;
+  }
+  public resetMaxSurge() {
+    this._maxSurge = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxSurgeInput() {
+    return this._maxSurge;
+  }
+
+  // max_unavailable - computed: false, optional: true, required: false
+  private _maxUnavailable?: number; 
+  public get maxUnavailable() {
+    return this.getNumberAttribute('max_unavailable');
+  }
+  public set maxUnavailable(value: number) {
+    this._maxUnavailable = value;
+  }
+  public resetMaxUnavailable() {
+    this._maxUnavailable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxUnavailableInput() {
+    return this._maxUnavailable;
+  }
+
+  // node_pool_soak_duration - computed: false, optional: true, required: false
+  private _nodePoolSoakDuration?: string; 
+  public get nodePoolSoakDuration() {
+    return this.getStringAttribute('node_pool_soak_duration');
+  }
+  public set nodePoolSoakDuration(value: string) {
+    this._nodePoolSoakDuration = value;
+  }
+  public resetNodePoolSoakDuration() {
+    this._nodePoolSoakDuration = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodePoolSoakDurationInput() {
+    return this._nodePoolSoakDuration;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettings {
+  /**
+  * Update strategy of the node pool. Possible values are SURGE and BLUE_GREEN
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#strategy DataRafayAksClusterV3#strategy}
+  */
+  readonly strategy?: string;
+  /**
+  * config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#config DataRafayAksClusterV3#config}
+  */
+  readonly config?: DataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettingsConfig;
+}
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettingsToTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettingsOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettings): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    strategy: cdktf.stringToTerraform(struct!.strategy),
+    config: dataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettingsConfigToTerraform(struct!.config),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettingsToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettingsOutputReference | DataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettings): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    strategy: {
+      value: cdktf.stringToHclTerraform(struct!.strategy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    config: {
+      value: dataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettingsConfigToHclTerraform(struct!.config),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettingsConfigList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettingsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettings | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._strategy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.strategy = this._strategy;
+    }
+    if (this._config?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.config = this._config?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettings | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._strategy = undefined;
+      this._config.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._strategy = value.strategy;
+      this._config.internalValue = value.config;
+    }
+  }
+
+  // strategy - computed: false, optional: true, required: false
+  private _strategy?: string; 
+  public get strategy() {
+    return this.getStringAttribute('strategy');
+  }
+  public set strategy(value: string) {
+    this._strategy = value;
+  }
+  public resetStrategy() {
+    this._strategy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get strategyInput() {
+    return this._strategy;
+  }
+
+  // config - computed: false, optional: true, required: false
+  private _config = new DataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettingsConfigOutputReference(this, "config");
+  public get config() {
+    return this._config;
+  }
+  public putConfig(value: DataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettingsConfig) {
+    this._config.internalValue = value;
+  }
+  public resetConfig() {
+    this._config.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configInput() {
+    return this._config.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigNodePools {
+  /**
+  * Node pool names must start with a lowercase letter followed by up to 39 lowercase letters, numbers, or hyphens. They can't end with a hyphen. You cannot change the node pool's name once it's created
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#name DataRafayAksClusterV3#name}
+  */
+  readonly name?: string;
+  /**
+  * Specify Node k8s version
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#node_version DataRafayAksClusterV3#node_version}
+  */
+  readonly nodeVersion?: string;
+  /**
+  * Labels are key-value pairs that are attached to GKE clusters. Labels can be used to group clusters and filter them in the UI or API
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#resource_labels DataRafayAksClusterV3#resource_labels}
+  */
+  readonly resourceLabels?: { [key: string]: string };
+  /**
+  * Pod address range limits the maximum size of the cluster
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#size DataRafayAksClusterV3#size}
+  */
+  readonly size?: number;
+  /**
+  * auto_scaling block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#auto_scaling DataRafayAksClusterV3#auto_scaling}
+  */
+  readonly autoScaling?: DataRafayAksClusterV3SpecConfigNodePoolsAutoScaling;
+  /**
+  * machine_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#machine_config DataRafayAksClusterV3#machine_config}
+  */
+  readonly machineConfig?: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfig;
+  /**
+  * management block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#management DataRafayAksClusterV3#management}
+  */
+  readonly management?: DataRafayAksClusterV3SpecConfigNodePoolsManagement;
+  /**
+  * metadata block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#metadata DataRafayAksClusterV3#metadata}
+  */
+  readonly metadata?: DataRafayAksClusterV3SpecConfigNodePoolsMetadata;
+  /**
+  * networking block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#networking DataRafayAksClusterV3#networking}
+  */
+  readonly networking?: DataRafayAksClusterV3SpecConfigNodePoolsNetworking;
+  /**
+  * node_locations block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#node_locations DataRafayAksClusterV3#node_locations}
+  */
+  readonly nodeLocations?: DataRafayAksClusterV3SpecConfigNodePoolsNodeLocations;
+  /**
+  * security block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#security DataRafayAksClusterV3#security}
+  */
+  readonly security?: DataRafayAksClusterV3SpecConfigNodePoolsSecurity;
+  /**
+  * upgrade_settings block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#upgrade_settings DataRafayAksClusterV3#upgrade_settings}
+  */
+  readonly upgradeSettings?: DataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettings;
+}
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsToTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePools | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    node_version: cdktf.stringToTerraform(struct!.nodeVersion),
+    resource_labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.resourceLabels),
+    size: cdktf.numberToTerraform(struct!.size),
+    auto_scaling: dataRafayAksClusterV3SpecConfigNodePoolsAutoScalingToTerraform(struct!.autoScaling),
+    machine_config: dataRafayAksClusterV3SpecConfigNodePoolsMachineConfigToTerraform(struct!.machineConfig),
+    management: dataRafayAksClusterV3SpecConfigNodePoolsManagementToTerraform(struct!.management),
+    metadata: dataRafayAksClusterV3SpecConfigNodePoolsMetadataToTerraform(struct!.metadata),
+    networking: dataRafayAksClusterV3SpecConfigNodePoolsNetworkingToTerraform(struct!.networking),
+    node_locations: dataRafayAksClusterV3SpecConfigNodePoolsNodeLocationsToTerraform(struct!.nodeLocations),
+    security: dataRafayAksClusterV3SpecConfigNodePoolsSecurityToTerraform(struct!.security),
+    upgrade_settings: dataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettingsToTerraform(struct!.upgradeSettings),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigNodePoolsToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigNodePools | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    node_version: {
+      value: cdktf.stringToHclTerraform(struct!.nodeVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    resource_labels: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.resourceLabels),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    size: {
+      value: cdktf.numberToHclTerraform(struct!.size),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    auto_scaling: {
+      value: dataRafayAksClusterV3SpecConfigNodePoolsAutoScalingToHclTerraform(struct!.autoScaling),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigNodePoolsAutoScalingList",
+    },
+    machine_config: {
+      value: dataRafayAksClusterV3SpecConfigNodePoolsMachineConfigToHclTerraform(struct!.machineConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigList",
+    },
+    management: {
+      value: dataRafayAksClusterV3SpecConfigNodePoolsManagementToHclTerraform(struct!.management),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigNodePoolsManagementList",
+    },
+    metadata: {
+      value: dataRafayAksClusterV3SpecConfigNodePoolsMetadataToHclTerraform(struct!.metadata),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigNodePoolsMetadataList",
+    },
+    networking: {
+      value: dataRafayAksClusterV3SpecConfigNodePoolsNetworkingToHclTerraform(struct!.networking),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigNodePoolsNetworkingList",
+    },
+    node_locations: {
+      value: dataRafayAksClusterV3SpecConfigNodePoolsNodeLocationsToHclTerraform(struct!.nodeLocations),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigNodePoolsNodeLocationsList",
+    },
+    security: {
+      value: dataRafayAksClusterV3SpecConfigNodePoolsSecurityToHclTerraform(struct!.security),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigNodePoolsSecurityList",
+    },
+    upgrade_settings: {
+      value: dataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettingsToHclTerraform(struct!.upgradeSettings),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettingsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigNodePoolsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigNodePools | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._nodeVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeVersion = this._nodeVersion;
+    }
+    if (this._resourceLabels !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resourceLabels = this._resourceLabels;
+    }
+    if (this._size !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.size = this._size;
+    }
+    if (this._autoScaling?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.autoScaling = this._autoScaling?.internalValue;
+    }
+    if (this._machineConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.machineConfig = this._machineConfig?.internalValue;
+    }
+    if (this._management?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.management = this._management?.internalValue;
+    }
+    if (this._metadata?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.metadata = this._metadata?.internalValue;
+    }
+    if (this._networking?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networking = this._networking?.internalValue;
+    }
+    if (this._nodeLocations?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeLocations = this._nodeLocations?.internalValue;
+    }
+    if (this._security?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.security = this._security?.internalValue;
+    }
+    if (this._upgradeSettings?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.upgradeSettings = this._upgradeSettings?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigNodePools | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._nodeVersion = undefined;
+      this._resourceLabels = undefined;
+      this._size = undefined;
+      this._autoScaling.internalValue = undefined;
+      this._machineConfig.internalValue = undefined;
+      this._management.internalValue = undefined;
+      this._metadata.internalValue = undefined;
+      this._networking.internalValue = undefined;
+      this._nodeLocations.internalValue = undefined;
+      this._security.internalValue = undefined;
+      this._upgradeSettings.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._nodeVersion = value.nodeVersion;
+      this._resourceLabels = value.resourceLabels;
+      this._size = value.size;
+      this._autoScaling.internalValue = value.autoScaling;
+      this._machineConfig.internalValue = value.machineConfig;
+      this._management.internalValue = value.management;
+      this._metadata.internalValue = value.metadata;
+      this._networking.internalValue = value.networking;
+      this._nodeLocations.internalValue = value.nodeLocations;
+      this._security.internalValue = value.security;
+      this._upgradeSettings.internalValue = value.upgradeSettings;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // node_version - computed: false, optional: true, required: false
+  private _nodeVersion?: string; 
+  public get nodeVersion() {
+    return this.getStringAttribute('node_version');
+  }
+  public set nodeVersion(value: string) {
+    this._nodeVersion = value;
+  }
+  public resetNodeVersion() {
+    this._nodeVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeVersionInput() {
+    return this._nodeVersion;
+  }
+
+  // resource_labels - computed: false, optional: true, required: false
+  private _resourceLabels?: { [key: string]: string }; 
+  public get resourceLabels() {
+    return this.getStringMapAttribute('resource_labels');
+  }
+  public set resourceLabels(value: { [key: string]: string }) {
+    this._resourceLabels = value;
+  }
+  public resetResourceLabels() {
+    this._resourceLabels = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceLabelsInput() {
+    return this._resourceLabels;
+  }
+
+  // size - computed: false, optional: true, required: false
+  private _size?: number; 
+  public get size() {
+    return this.getNumberAttribute('size');
+  }
+  public set size(value: number) {
+    this._size = value;
+  }
+  public resetSize() {
+    this._size = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sizeInput() {
+    return this._size;
+  }
+
+  // auto_scaling - computed: false, optional: true, required: false
+  private _autoScaling = new DataRafayAksClusterV3SpecConfigNodePoolsAutoScalingOutputReference(this, "auto_scaling");
+  public get autoScaling() {
+    return this._autoScaling;
+  }
+  public putAutoScaling(value: DataRafayAksClusterV3SpecConfigNodePoolsAutoScaling) {
+    this._autoScaling.internalValue = value;
+  }
+  public resetAutoScaling() {
+    this._autoScaling.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get autoScalingInput() {
+    return this._autoScaling.internalValue;
+  }
+
+  // machine_config - computed: false, optional: true, required: false
+  private _machineConfig = new DataRafayAksClusterV3SpecConfigNodePoolsMachineConfigOutputReference(this, "machine_config");
+  public get machineConfig() {
+    return this._machineConfig;
+  }
+  public putMachineConfig(value: DataRafayAksClusterV3SpecConfigNodePoolsMachineConfig) {
+    this._machineConfig.internalValue = value;
+  }
+  public resetMachineConfig() {
+    this._machineConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get machineConfigInput() {
+    return this._machineConfig.internalValue;
+  }
+
+  // management - computed: false, optional: true, required: false
+  private _management = new DataRafayAksClusterV3SpecConfigNodePoolsManagementOutputReference(this, "management");
+  public get management() {
+    return this._management;
+  }
+  public putManagement(value: DataRafayAksClusterV3SpecConfigNodePoolsManagement) {
+    this._management.internalValue = value;
+  }
+  public resetManagement() {
+    this._management.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get managementInput() {
+    return this._management.internalValue;
+  }
+
+  // metadata - computed: false, optional: true, required: false
+  private _metadata = new DataRafayAksClusterV3SpecConfigNodePoolsMetadataOutputReference(this, "metadata");
+  public get metadata() {
+    return this._metadata;
+  }
+  public putMetadata(value: DataRafayAksClusterV3SpecConfigNodePoolsMetadata) {
+    this._metadata.internalValue = value;
+  }
+  public resetMetadata() {
+    this._metadata.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metadataInput() {
+    return this._metadata.internalValue;
+  }
+
+  // networking - computed: false, optional: true, required: false
+  private _networking = new DataRafayAksClusterV3SpecConfigNodePoolsNetworkingOutputReference(this, "networking");
+  public get networking() {
+    return this._networking;
+  }
+  public putNetworking(value: DataRafayAksClusterV3SpecConfigNodePoolsNetworking) {
+    this._networking.internalValue = value;
+  }
+  public resetNetworking() {
+    this._networking.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkingInput() {
+    return this._networking.internalValue;
+  }
+
+  // node_locations - computed: false, optional: true, required: false
+  private _nodeLocations = new DataRafayAksClusterV3SpecConfigNodePoolsNodeLocationsOutputReference(this, "node_locations");
+  public get nodeLocations() {
+    return this._nodeLocations;
+  }
+  public putNodeLocations(value: DataRafayAksClusterV3SpecConfigNodePoolsNodeLocations) {
+    this._nodeLocations.internalValue = value;
+  }
+  public resetNodeLocations() {
+    this._nodeLocations.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeLocationsInput() {
+    return this._nodeLocations.internalValue;
+  }
+
+  // security - computed: false, optional: true, required: false
+  private _security = new DataRafayAksClusterV3SpecConfigNodePoolsSecurityOutputReference(this, "security");
+  public get security() {
+    return this._security;
+  }
+  public putSecurity(value: DataRafayAksClusterV3SpecConfigNodePoolsSecurity) {
+    this._security.internalValue = value;
+  }
+  public resetSecurity() {
+    this._security.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get securityInput() {
+    return this._security.internalValue;
+  }
+
+  // upgrade_settings - computed: false, optional: true, required: false
+  private _upgradeSettings = new DataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettingsOutputReference(this, "upgrade_settings");
+  public get upgradeSettings() {
+    return this._upgradeSettings;
+  }
+  public putUpgradeSettings(value: DataRafayAksClusterV3SpecConfigNodePoolsUpgradeSettings) {
+    this._upgradeSettings.internalValue = value;
+  }
+  public resetUpgradeSettings() {
+    this._upgradeSettings.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get upgradeSettingsInput() {
+    return this._upgradeSettings.internalValue;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigNodePoolsList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigNodePools[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigNodePoolsOutputReference {
+    return new DataRafayAksClusterV3SpecConfigNodePoolsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigProxy {
+  /**
+  * AllowInsecureBootstrap
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#allow_insecure_bootstrap DataRafayAksClusterV3#allow_insecure_bootstrap}
+  */
+  readonly allowInsecureBootstrap?: boolean | cdktf.IResolvable;
+  /**
+  * BootStrapCA
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#bootstrap_ca DataRafayAksClusterV3#bootstrap_ca}
+  */
+  readonly bootstrapCa?: string;
+  /**
+  * Enabled
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enabled DataRafayAksClusterV3#enabled}
+  */
+  readonly enabled?: boolean | cdktf.IResolvable;
+  /**
+  * HttpProxy
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#http_proxy DataRafayAksClusterV3#http_proxy}
+  */
+  readonly httpProxy?: string;
+  /**
+  * HttpsProxy
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#https_proxy DataRafayAksClusterV3#https_proxy}
+  */
+  readonly httpsProxy?: string;
+  /**
+  * NoProxy
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#no_proxy DataRafayAksClusterV3#no_proxy}
+  */
+  readonly noProxy?: string;
+  /**
+  * ProxyAuth
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#proxy_auth DataRafayAksClusterV3#proxy_auth}
+  */
+  readonly proxyAuth?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigProxyToTerraform(struct?: DataRafayAksClusterV3SpecConfigProxyOutputReference | DataRafayAksClusterV3SpecConfigProxy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    allow_insecure_bootstrap: cdktf.booleanToTerraform(struct!.allowInsecureBootstrap),
+    bootstrap_ca: cdktf.stringToTerraform(struct!.bootstrapCa),
+    enabled: cdktf.booleanToTerraform(struct!.enabled),
+    http_proxy: cdktf.stringToTerraform(struct!.httpProxy),
+    https_proxy: cdktf.stringToTerraform(struct!.httpsProxy),
+    no_proxy: cdktf.stringToTerraform(struct!.noProxy),
+    proxy_auth: cdktf.stringToTerraform(struct!.proxyAuth),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigProxyToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigProxyOutputReference | DataRafayAksClusterV3SpecConfigProxy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    allow_insecure_bootstrap: {
+      value: cdktf.booleanToHclTerraform(struct!.allowInsecureBootstrap),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    bootstrap_ca: {
+      value: cdktf.stringToHclTerraform(struct!.bootstrapCa),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    http_proxy: {
+      value: cdktf.stringToHclTerraform(struct!.httpProxy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    https_proxy: {
+      value: cdktf.stringToHclTerraform(struct!.httpsProxy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    no_proxy: {
+      value: cdktf.stringToHclTerraform(struct!.noProxy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    proxy_auth: {
+      value: cdktf.stringToHclTerraform(struct!.proxyAuth),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigProxyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigProxy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._allowInsecureBootstrap !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allowInsecureBootstrap = this._allowInsecureBootstrap;
+    }
+    if (this._bootstrapCa !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bootstrapCa = this._bootstrapCa;
+    }
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    if (this._httpProxy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.httpProxy = this._httpProxy;
+    }
+    if (this._httpsProxy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.httpsProxy = this._httpsProxy;
+    }
+    if (this._noProxy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noProxy = this._noProxy;
+    }
+    if (this._proxyAuth !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.proxyAuth = this._proxyAuth;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigProxy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._allowInsecureBootstrap = undefined;
+      this._bootstrapCa = undefined;
+      this._enabled = undefined;
+      this._httpProxy = undefined;
+      this._httpsProxy = undefined;
+      this._noProxy = undefined;
+      this._proxyAuth = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._allowInsecureBootstrap = value.allowInsecureBootstrap;
+      this._bootstrapCa = value.bootstrapCa;
+      this._enabled = value.enabled;
+      this._httpProxy = value.httpProxy;
+      this._httpsProxy = value.httpsProxy;
+      this._noProxy = value.noProxy;
+      this._proxyAuth = value.proxyAuth;
+    }
+  }
+
+  // allow_insecure_bootstrap - computed: false, optional: true, required: false
+  private _allowInsecureBootstrap?: boolean | cdktf.IResolvable; 
+  public get allowInsecureBootstrap() {
+    return this.getBooleanAttribute('allow_insecure_bootstrap');
+  }
+  public set allowInsecureBootstrap(value: boolean | cdktf.IResolvable) {
+    this._allowInsecureBootstrap = value;
+  }
+  public resetAllowInsecureBootstrap() {
+    this._allowInsecureBootstrap = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowInsecureBootstrapInput() {
+    return this._allowInsecureBootstrap;
+  }
+
+  // bootstrap_ca - computed: false, optional: true, required: false
+  private _bootstrapCa?: string; 
+  public get bootstrapCa() {
+    return this.getStringAttribute('bootstrap_ca');
+  }
+  public set bootstrapCa(value: string) {
+    this._bootstrapCa = value;
+  }
+  public resetBootstrapCa() {
+    this._bootstrapCa = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bootstrapCaInput() {
+    return this._bootstrapCa;
+  }
+
+  // enabled - computed: false, optional: true, required: false
+  private _enabled?: boolean | cdktf.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktf.IResolvable) {
+    this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+
+  // http_proxy - computed: false, optional: true, required: false
+  private _httpProxy?: string; 
+  public get httpProxy() {
+    return this.getStringAttribute('http_proxy');
+  }
+  public set httpProxy(value: string) {
+    this._httpProxy = value;
+  }
+  public resetHttpProxy() {
+    this._httpProxy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get httpProxyInput() {
+    return this._httpProxy;
+  }
+
+  // https_proxy - computed: false, optional: true, required: false
+  private _httpsProxy?: string; 
+  public get httpsProxy() {
+    return this.getStringAttribute('https_proxy');
+  }
+  public set httpsProxy(value: string) {
+    this._httpsProxy = value;
+  }
+  public resetHttpsProxy() {
+    this._httpsProxy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get httpsProxyInput() {
+    return this._httpsProxy;
+  }
+
+  // no_proxy - computed: false, optional: true, required: false
+  private _noProxy?: string; 
+  public get noProxy() {
+    return this.getStringAttribute('no_proxy');
+  }
+  public set noProxy(value: string) {
+    this._noProxy = value;
+  }
+  public resetNoProxy() {
+    this._noProxy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noProxyInput() {
+    return this._noProxy;
+  }
+
+  // proxy_auth - computed: false, optional: true, required: false
+  private _proxyAuth?: string; 
+  public get proxyAuth() {
+    return this.getStringAttribute('proxy_auth');
+  }
+  public set proxyAuth(value: string) {
+    this._proxyAuth = value;
+  }
+  public resetProxyAuth() {
+    this._proxyAuth = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get proxyAuthInput() {
+    return this._proxyAuth;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSecurity {
+  /**
+  * Google Groups for RBAC allows you to grant roles to all members of a Google Workspace group
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enable_google_groups_for_rbac DataRafayAksClusterV3#enable_google_groups_for_rbac}
+  */
+  readonly enableGoogleGroupsForRbac?: boolean | cdktf.IResolvable;
+  /**
+  * Enable legacy authorization to support in-cluster permissions for existing clusters or workflows. Prevents full RBAC support
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enable_legacy_authorization DataRafayAksClusterV3#enable_legacy_authorization}
+  */
+  readonly enableLegacyAuthorization?: boolean | cdktf.IResolvable;
+  /**
+  * Workload Identity lets you connect securely to Google APIs from Kubernetes Engine workloads
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enable_workload_identity DataRafayAksClusterV3#enable_workload_identity}
+  */
+  readonly enableWorkloadIdentity?: boolean | cdktf.IResolvable;
+  /**
+  * Clients use this base64-encoded public certificate to authenticate to the cluster endpoint. Certificates don’t rotate automatically and are difficult to revoke
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#issue_client_certificate DataRafayAksClusterV3#issue_client_certificate}
+  */
+  readonly issueClientCertificate?: boolean | cdktf.IResolvable;
+  /**
+  * Provide the security groups here
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#security_group DataRafayAksClusterV3#security_group}
+  */
+  readonly securityGroup?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigSecurityToTerraform(struct?: DataRafayAksClusterV3SpecConfigSecurityOutputReference | DataRafayAksClusterV3SpecConfigSecurity): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enable_google_groups_for_rbac: cdktf.booleanToTerraform(struct!.enableGoogleGroupsForRbac),
+    enable_legacy_authorization: cdktf.booleanToTerraform(struct!.enableLegacyAuthorization),
+    enable_workload_identity: cdktf.booleanToTerraform(struct!.enableWorkloadIdentity),
+    issue_client_certificate: cdktf.booleanToTerraform(struct!.issueClientCertificate),
+    security_group: cdktf.stringToTerraform(struct!.securityGroup),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSecurityToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSecurityOutputReference | DataRafayAksClusterV3SpecConfigSecurity): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enable_google_groups_for_rbac: {
+      value: cdktf.booleanToHclTerraform(struct!.enableGoogleGroupsForRbac),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_legacy_authorization: {
+      value: cdktf.booleanToHclTerraform(struct!.enableLegacyAuthorization),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_workload_identity: {
+      value: cdktf.booleanToHclTerraform(struct!.enableWorkloadIdentity),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    issue_client_certificate: {
+      value: cdktf.booleanToHclTerraform(struct!.issueClientCertificate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    security_group: {
+      value: cdktf.stringToHclTerraform(struct!.securityGroup),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSecurityOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSecurity | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enableGoogleGroupsForRbac !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableGoogleGroupsForRbac = this._enableGoogleGroupsForRbac;
+    }
+    if (this._enableLegacyAuthorization !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableLegacyAuthorization = this._enableLegacyAuthorization;
+    }
+    if (this._enableWorkloadIdentity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableWorkloadIdentity = this._enableWorkloadIdentity;
+    }
+    if (this._issueClientCertificate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.issueClientCertificate = this._issueClientCertificate;
+    }
+    if (this._securityGroup !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.securityGroup = this._securityGroup;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSecurity | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enableGoogleGroupsForRbac = undefined;
+      this._enableLegacyAuthorization = undefined;
+      this._enableWorkloadIdentity = undefined;
+      this._issueClientCertificate = undefined;
+      this._securityGroup = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enableGoogleGroupsForRbac = value.enableGoogleGroupsForRbac;
+      this._enableLegacyAuthorization = value.enableLegacyAuthorization;
+      this._enableWorkloadIdentity = value.enableWorkloadIdentity;
+      this._issueClientCertificate = value.issueClientCertificate;
+      this._securityGroup = value.securityGroup;
+    }
+  }
+
+  // enable_google_groups_for_rbac - computed: false, optional: true, required: false
+  private _enableGoogleGroupsForRbac?: boolean | cdktf.IResolvable; 
+  public get enableGoogleGroupsForRbac() {
+    return this.getBooleanAttribute('enable_google_groups_for_rbac');
+  }
+  public set enableGoogleGroupsForRbac(value: boolean | cdktf.IResolvable) {
+    this._enableGoogleGroupsForRbac = value;
+  }
+  public resetEnableGoogleGroupsForRbac() {
+    this._enableGoogleGroupsForRbac = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableGoogleGroupsForRbacInput() {
+    return this._enableGoogleGroupsForRbac;
+  }
+
+  // enable_legacy_authorization - computed: false, optional: true, required: false
+  private _enableLegacyAuthorization?: boolean | cdktf.IResolvable; 
+  public get enableLegacyAuthorization() {
+    return this.getBooleanAttribute('enable_legacy_authorization');
+  }
+  public set enableLegacyAuthorization(value: boolean | cdktf.IResolvable) {
+    this._enableLegacyAuthorization = value;
+  }
+  public resetEnableLegacyAuthorization() {
+    this._enableLegacyAuthorization = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableLegacyAuthorizationInput() {
+    return this._enableLegacyAuthorization;
+  }
+
+  // enable_workload_identity - computed: false, optional: true, required: false
+  private _enableWorkloadIdentity?: boolean | cdktf.IResolvable; 
+  public get enableWorkloadIdentity() {
+    return this.getBooleanAttribute('enable_workload_identity');
+  }
+  public set enableWorkloadIdentity(value: boolean | cdktf.IResolvable) {
+    this._enableWorkloadIdentity = value;
+  }
+  public resetEnableWorkloadIdentity() {
+    this._enableWorkloadIdentity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableWorkloadIdentityInput() {
+    return this._enableWorkloadIdentity;
+  }
+
+  // issue_client_certificate - computed: false, optional: true, required: false
+  private _issueClientCertificate?: boolean | cdktf.IResolvable; 
+  public get issueClientCertificate() {
+    return this.getBooleanAttribute('issue_client_certificate');
+  }
+  public set issueClientCertificate(value: boolean | cdktf.IResolvable) {
+    this._issueClientCertificate = value;
+  }
+  public resetIssueClientCertificate() {
+    this._issueClientCertificate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get issueClientCertificateInput() {
+    return this._issueClientCertificate;
+  }
+
+  // security_group - computed: false, optional: true, required: false
+  private _securityGroup?: string; 
+  public get securityGroup() {
+    return this.getStringAttribute('security_group');
+  }
+  public set securityGroup(value: string) {
+    this._securityGroup = value;
+  }
+  public resetSecurityGroup() {
+    this._securityGroup = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get securityGroupInput() {
+    return this._securityGroup;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowNotAllowedDates {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#end DataRafayAksClusterV3#end}
+  */
+  readonly end?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#start DataRafayAksClusterV3#start}
+  */
+  readonly start?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowNotAllowedDatesToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowNotAllowedDates | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    end: cdktf.stringToTerraform(struct!.end),
+    start: cdktf.stringToTerraform(struct!.start),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowNotAllowedDatesToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowNotAllowedDates | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    end: {
+      value: cdktf.stringToHclTerraform(struct!.end),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    start: {
+      value: cdktf.stringToHclTerraform(struct!.start),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowNotAllowedDatesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowNotAllowedDates | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._end !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.end = this._end;
+    }
+    if (this._start !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.start = this._start;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowNotAllowedDates | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._end = undefined;
+      this._start = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._end = value.end;
+      this._start = value.start;
+    }
+  }
+
+  // end - computed: false, optional: true, required: false
+  private _end?: string; 
+  public get end() {
+    return this.getStringAttribute('end');
+  }
+  public set end(value: string) {
+    this._end = value;
+  }
+  public resetEnd() {
+    this._end = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endInput() {
+    return this._end;
+  }
+
+  // start - computed: false, optional: true, required: false
+  private _start?: string; 
+  public get start() {
+    return this.getStringAttribute('start');
+  }
+  public set start(value: string) {
+    this._start = value;
+  }
+  public resetStart() {
+    this._start = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startInput() {
+    return this._start;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowNotAllowedDatesList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowNotAllowedDates[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowNotAllowedDatesOutputReference {
+    return new DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowNotAllowedDatesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleAbsoluteMonthly {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#day_of_month DataRafayAksClusterV3#day_of_month}
+  */
+  readonly dayOfMonth?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#interval_months DataRafayAksClusterV3#interval_months}
+  */
+  readonly intervalMonths?: number;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleAbsoluteMonthlyToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleAbsoluteMonthlyOutputReference | DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleAbsoluteMonthly): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    day_of_month: cdktf.numberToTerraform(struct!.dayOfMonth),
+    interval_months: cdktf.numberToTerraform(struct!.intervalMonths),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleAbsoluteMonthlyToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleAbsoluteMonthlyOutputReference | DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleAbsoluteMonthly): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    day_of_month: {
+      value: cdktf.numberToHclTerraform(struct!.dayOfMonth),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    interval_months: {
+      value: cdktf.numberToHclTerraform(struct!.intervalMonths),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleAbsoluteMonthlyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleAbsoluteMonthly | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dayOfMonth !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dayOfMonth = this._dayOfMonth;
+    }
+    if (this._intervalMonths !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.intervalMonths = this._intervalMonths;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleAbsoluteMonthly | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._dayOfMonth = undefined;
+      this._intervalMonths = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._dayOfMonth = value.dayOfMonth;
+      this._intervalMonths = value.intervalMonths;
+    }
+  }
+
+  // day_of_month - computed: false, optional: true, required: false
+  private _dayOfMonth?: number; 
+  public get dayOfMonth() {
+    return this.getNumberAttribute('day_of_month');
+  }
+  public set dayOfMonth(value: number) {
+    this._dayOfMonth = value;
+  }
+  public resetDayOfMonth() {
+    this._dayOfMonth = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dayOfMonthInput() {
+    return this._dayOfMonth;
+  }
+
+  // interval_months - computed: false, optional: true, required: false
+  private _intervalMonths?: number; 
+  public get intervalMonths() {
+    return this.getNumberAttribute('interval_months');
+  }
+  public set intervalMonths(value: number) {
+    this._intervalMonths = value;
+  }
+  public resetIntervalMonths() {
+    this._intervalMonths = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get intervalMonthsInput() {
+    return this._intervalMonths;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleDaily {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#interval_days DataRafayAksClusterV3#interval_days}
+  */
+  readonly intervalDays?: number;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleDailyToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleDailyOutputReference | DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleDaily): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    interval_days: cdktf.numberToTerraform(struct!.intervalDays),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleDailyToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleDailyOutputReference | DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleDaily): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    interval_days: {
+      value: cdktf.numberToHclTerraform(struct!.intervalDays),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleDailyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleDaily | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._intervalDays !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.intervalDays = this._intervalDays;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleDaily | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._intervalDays = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._intervalDays = value.intervalDays;
+    }
+  }
+
+  // interval_days - computed: false, optional: true, required: false
+  private _intervalDays?: number; 
+  public get intervalDays() {
+    return this.getNumberAttribute('interval_days');
+  }
+  public set intervalDays(value: number) {
+    this._intervalDays = value;
+  }
+  public resetIntervalDays() {
+    this._intervalDays = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get intervalDaysInput() {
+    return this._intervalDays;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleRelativeMonthly {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#day_of_week DataRafayAksClusterV3#day_of_week}
+  */
+  readonly dayOfWeek?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#interval_months DataRafayAksClusterV3#interval_months}
+  */
+  readonly intervalMonths?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#week_index DataRafayAksClusterV3#week_index}
+  */
+  readonly weekIndex?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleRelativeMonthlyToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleRelativeMonthlyOutputReference | DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleRelativeMonthly): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    day_of_week: cdktf.stringToTerraform(struct!.dayOfWeek),
+    interval_months: cdktf.numberToTerraform(struct!.intervalMonths),
+    week_index: cdktf.stringToTerraform(struct!.weekIndex),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleRelativeMonthlyToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleRelativeMonthlyOutputReference | DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleRelativeMonthly): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    day_of_week: {
+      value: cdktf.stringToHclTerraform(struct!.dayOfWeek),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    interval_months: {
+      value: cdktf.numberToHclTerraform(struct!.intervalMonths),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    week_index: {
+      value: cdktf.stringToHclTerraform(struct!.weekIndex),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleRelativeMonthlyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleRelativeMonthly | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dayOfWeek !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dayOfWeek = this._dayOfWeek;
+    }
+    if (this._intervalMonths !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.intervalMonths = this._intervalMonths;
+    }
+    if (this._weekIndex !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.weekIndex = this._weekIndex;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleRelativeMonthly | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._dayOfWeek = undefined;
+      this._intervalMonths = undefined;
+      this._weekIndex = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._dayOfWeek = value.dayOfWeek;
+      this._intervalMonths = value.intervalMonths;
+      this._weekIndex = value.weekIndex;
+    }
+  }
+
+  // day_of_week - computed: false, optional: true, required: false
+  private _dayOfWeek?: string; 
+  public get dayOfWeek() {
+    return this.getStringAttribute('day_of_week');
+  }
+  public set dayOfWeek(value: string) {
+    this._dayOfWeek = value;
+  }
+  public resetDayOfWeek() {
+    this._dayOfWeek = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dayOfWeekInput() {
+    return this._dayOfWeek;
+  }
+
+  // interval_months - computed: false, optional: true, required: false
+  private _intervalMonths?: number; 
+  public get intervalMonths() {
+    return this.getNumberAttribute('interval_months');
+  }
+  public set intervalMonths(value: number) {
+    this._intervalMonths = value;
+  }
+  public resetIntervalMonths() {
+    this._intervalMonths = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get intervalMonthsInput() {
+    return this._intervalMonths;
+  }
+
+  // week_index - computed: false, optional: true, required: false
+  private _weekIndex?: string; 
+  public get weekIndex() {
+    return this.getStringAttribute('week_index');
+  }
+  public set weekIndex(value: string) {
+    this._weekIndex = value;
+  }
+  public resetWeekIndex() {
+    this._weekIndex = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get weekIndexInput() {
+    return this._weekIndex;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleWeekly {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#day_of_week DataRafayAksClusterV3#day_of_week}
+  */
+  readonly dayOfWeek?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#interval_weeks DataRafayAksClusterV3#interval_weeks}
+  */
+  readonly intervalWeeks?: number;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleWeeklyToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleWeeklyOutputReference | DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleWeekly): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    day_of_week: cdktf.stringToTerraform(struct!.dayOfWeek),
+    interval_weeks: cdktf.numberToTerraform(struct!.intervalWeeks),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleWeeklyToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleWeeklyOutputReference | DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleWeekly): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    day_of_week: {
+      value: cdktf.stringToHclTerraform(struct!.dayOfWeek),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    interval_weeks: {
+      value: cdktf.numberToHclTerraform(struct!.intervalWeeks),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleWeeklyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleWeekly | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dayOfWeek !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dayOfWeek = this._dayOfWeek;
+    }
+    if (this._intervalWeeks !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.intervalWeeks = this._intervalWeeks;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleWeekly | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._dayOfWeek = undefined;
+      this._intervalWeeks = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._dayOfWeek = value.dayOfWeek;
+      this._intervalWeeks = value.intervalWeeks;
+    }
+  }
+
+  // day_of_week - computed: false, optional: true, required: false
+  private _dayOfWeek?: string; 
+  public get dayOfWeek() {
+    return this.getStringAttribute('day_of_week');
+  }
+  public set dayOfWeek(value: string) {
+    this._dayOfWeek = value;
+  }
+  public resetDayOfWeek() {
+    this._dayOfWeek = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dayOfWeekInput() {
+    return this._dayOfWeek;
+  }
+
+  // interval_weeks - computed: false, optional: true, required: false
+  private _intervalWeeks?: number; 
+  public get intervalWeeks() {
+    return this.getNumberAttribute('interval_weeks');
+  }
+  public set intervalWeeks(value: number) {
+    this._intervalWeeks = value;
+  }
+  public resetIntervalWeeks() {
+    this._intervalWeeks = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get intervalWeeksInput() {
+    return this._intervalWeeks;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowSchedule {
+  /**
+  * absolute_monthly block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#absolute_monthly DataRafayAksClusterV3#absolute_monthly}
+  */
+  readonly absoluteMonthly?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleAbsoluteMonthly;
+  /**
+  * daily block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#daily DataRafayAksClusterV3#daily}
+  */
+  readonly daily?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleDaily;
+  /**
+  * relative_monthly block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#relative_monthly DataRafayAksClusterV3#relative_monthly}
+  */
+  readonly relativeMonthly?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleRelativeMonthly;
+  /**
+  * weekly block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#weekly DataRafayAksClusterV3#weekly}
+  */
+  readonly weekly?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleWeekly;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleOutputReference | DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowSchedule): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    absolute_monthly: dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleAbsoluteMonthlyToTerraform(struct!.absoluteMonthly),
+    daily: dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleDailyToTerraform(struct!.daily),
+    relative_monthly: dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleRelativeMonthlyToTerraform(struct!.relativeMonthly),
+    weekly: dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleWeeklyToTerraform(struct!.weekly),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleOutputReference | DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowSchedule): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    absolute_monthly: {
+      value: dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleAbsoluteMonthlyToHclTerraform(struct!.absoluteMonthly),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleAbsoluteMonthlyList",
+    },
+    daily: {
+      value: dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleDailyToHclTerraform(struct!.daily),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleDailyList",
+    },
+    relative_monthly: {
+      value: dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleRelativeMonthlyToHclTerraform(struct!.relativeMonthly),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleRelativeMonthlyList",
+    },
+    weekly: {
+      value: dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleWeeklyToHclTerraform(struct!.weekly),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleWeeklyList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowSchedule | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._absoluteMonthly?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.absoluteMonthly = this._absoluteMonthly?.internalValue;
+    }
+    if (this._daily?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.daily = this._daily?.internalValue;
+    }
+    if (this._relativeMonthly?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.relativeMonthly = this._relativeMonthly?.internalValue;
+    }
+    if (this._weekly?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.weekly = this._weekly?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowSchedule | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._absoluteMonthly.internalValue = undefined;
+      this._daily.internalValue = undefined;
+      this._relativeMonthly.internalValue = undefined;
+      this._weekly.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._absoluteMonthly.internalValue = value.absoluteMonthly;
+      this._daily.internalValue = value.daily;
+      this._relativeMonthly.internalValue = value.relativeMonthly;
+      this._weekly.internalValue = value.weekly;
+    }
+  }
+
+  // absolute_monthly - computed: false, optional: true, required: false
+  private _absoluteMonthly = new DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleAbsoluteMonthlyOutputReference(this, "absolute_monthly");
+  public get absoluteMonthly() {
+    return this._absoluteMonthly;
+  }
+  public putAbsoluteMonthly(value: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleAbsoluteMonthly) {
+    this._absoluteMonthly.internalValue = value;
+  }
+  public resetAbsoluteMonthly() {
+    this._absoluteMonthly.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get absoluteMonthlyInput() {
+    return this._absoluteMonthly.internalValue;
+  }
+
+  // daily - computed: false, optional: true, required: false
+  private _daily = new DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleDailyOutputReference(this, "daily");
+  public get daily() {
+    return this._daily;
+  }
+  public putDaily(value: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleDaily) {
+    this._daily.internalValue = value;
+  }
+  public resetDaily() {
+    this._daily.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dailyInput() {
+    return this._daily.internalValue;
+  }
+
+  // relative_monthly - computed: false, optional: true, required: false
+  private _relativeMonthly = new DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleRelativeMonthlyOutputReference(this, "relative_monthly");
+  public get relativeMonthly() {
+    return this._relativeMonthly;
+  }
+  public putRelativeMonthly(value: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleRelativeMonthly) {
+    this._relativeMonthly.internalValue = value;
+  }
+  public resetRelativeMonthly() {
+    this._relativeMonthly.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get relativeMonthlyInput() {
+    return this._relativeMonthly.internalValue;
+  }
+
+  // weekly - computed: false, optional: true, required: false
+  private _weekly = new DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleWeeklyOutputReference(this, "weekly");
+  public get weekly() {
+    return this._weekly;
+  }
+  public putWeekly(value: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleWeekly) {
+    this._weekly.internalValue = value;
+  }
+  public resetWeekly() {
+    this._weekly.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get weeklyInput() {
+    return this._weekly.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindow {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#duration_hours DataRafayAksClusterV3#duration_hours}
+  */
+  readonly durationHours?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#start_date DataRafayAksClusterV3#start_date}
+  */
+  readonly startDate?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#start_time DataRafayAksClusterV3#start_time}
+  */
+  readonly startTime?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#utc_offset DataRafayAksClusterV3#utc_offset}
+  */
+  readonly utcOffset?: string;
+  /**
+  * not_allowed_dates block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#not_allowed_dates DataRafayAksClusterV3#not_allowed_dates}
+  */
+  readonly notAllowedDates?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowNotAllowedDates[] | cdktf.IResolvable;
+  /**
+  * schedule block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#schedule DataRafayAksClusterV3#schedule}
+  */
+  readonly schedule?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowSchedule;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowOutputReference | DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindow): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    duration_hours: cdktf.numberToTerraform(struct!.durationHours),
+    start_date: cdktf.stringToTerraform(struct!.startDate),
+    start_time: cdktf.stringToTerraform(struct!.startTime),
+    utc_offset: cdktf.stringToTerraform(struct!.utcOffset),
+    not_allowed_dates: cdktf.listMapper(dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowNotAllowedDatesToTerraform, true)(struct!.notAllowedDates),
+    schedule: dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleToTerraform(struct!.schedule),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowOutputReference | DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindow): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    duration_hours: {
+      value: cdktf.numberToHclTerraform(struct!.durationHours),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    start_date: {
+      value: cdktf.stringToHclTerraform(struct!.startDate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    start_time: {
+      value: cdktf.stringToHclTerraform(struct!.startTime),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    utc_offset: {
+      value: cdktf.stringToHclTerraform(struct!.utcOffset),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    not_allowed_dates: {
+      value: cdktf.listMapperHcl(dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowNotAllowedDatesToHclTerraform, true)(struct!.notAllowedDates),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowNotAllowedDatesList",
+    },
+    schedule: {
+      value: dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleToHclTerraform(struct!.schedule),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindow | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._durationHours !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.durationHours = this._durationHours;
+    }
+    if (this._startDate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startDate = this._startDate;
+    }
+    if (this._startTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startTime = this._startTime;
+    }
+    if (this._utcOffset !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.utcOffset = this._utcOffset;
+    }
+    if (this._notAllowedDates?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.notAllowedDates = this._notAllowedDates?.internalValue;
+    }
+    if (this._schedule?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.schedule = this._schedule?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindow | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._durationHours = undefined;
+      this._startDate = undefined;
+      this._startTime = undefined;
+      this._utcOffset = undefined;
+      this._notAllowedDates.internalValue = undefined;
+      this._schedule.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._durationHours = value.durationHours;
+      this._startDate = value.startDate;
+      this._startTime = value.startTime;
+      this._utcOffset = value.utcOffset;
+      this._notAllowedDates.internalValue = value.notAllowedDates;
+      this._schedule.internalValue = value.schedule;
+    }
+  }
+
+  // duration_hours - computed: false, optional: true, required: false
+  private _durationHours?: number; 
+  public get durationHours() {
+    return this.getNumberAttribute('duration_hours');
+  }
+  public set durationHours(value: number) {
+    this._durationHours = value;
+  }
+  public resetDurationHours() {
+    this._durationHours = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get durationHoursInput() {
+    return this._durationHours;
+  }
+
+  // start_date - computed: false, optional: true, required: false
+  private _startDate?: string; 
+  public get startDate() {
+    return this.getStringAttribute('start_date');
+  }
+  public set startDate(value: string) {
+    this._startDate = value;
+  }
+  public resetStartDate() {
+    this._startDate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startDateInput() {
+    return this._startDate;
+  }
+
+  // start_time - computed: false, optional: true, required: false
+  private _startTime?: string; 
+  public get startTime() {
+    return this.getStringAttribute('start_time');
+  }
+  public set startTime(value: string) {
+    this._startTime = value;
+  }
+  public resetStartTime() {
+    this._startTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startTimeInput() {
+    return this._startTime;
+  }
+
+  // utc_offset - computed: false, optional: true, required: false
+  private _utcOffset?: string; 
+  public get utcOffset() {
+    return this.getStringAttribute('utc_offset');
+  }
+  public set utcOffset(value: string) {
+    this._utcOffset = value;
+  }
+  public resetUtcOffset() {
+    this._utcOffset = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get utcOffsetInput() {
+    return this._utcOffset;
+  }
+
+  // not_allowed_dates - computed: false, optional: true, required: false
+  private _notAllowedDates = new DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowNotAllowedDatesList(this, "not_allowed_dates", false);
+  public get notAllowedDates() {
+    return this._notAllowedDates;
+  }
+  public putNotAllowedDates(value: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowNotAllowedDates[] | cdktf.IResolvable) {
+    this._notAllowedDates.internalValue = value;
+  }
+  public resetNotAllowedDates() {
+    this._notAllowedDates.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get notAllowedDatesInput() {
+    return this._notAllowedDates.internalValue;
+  }
+
+  // schedule - computed: false, optional: true, required: false
+  private _schedule = new DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowScheduleOutputReference(this, "schedule");
+  public get schedule() {
+    return this._schedule;
+  }
+  public putSchedule(value: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowSchedule) {
+    this._schedule.internalValue = value;
+  }
+  public resetSchedule() {
+    this._schedule.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scheduleInput() {
+    return this._schedule.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesNotAllowedTime {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#end DataRafayAksClusterV3#end}
+  */
+  readonly end?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#start DataRafayAksClusterV3#start}
+  */
+  readonly start?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesNotAllowedTimeToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesNotAllowedTime | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    end: cdktf.stringToTerraform(struct!.end),
+    start: cdktf.stringToTerraform(struct!.start),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesNotAllowedTimeToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesNotAllowedTime | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    end: {
+      value: cdktf.stringToHclTerraform(struct!.end),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    start: {
+      value: cdktf.stringToHclTerraform(struct!.start),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesNotAllowedTimeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesNotAllowedTime | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._end !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.end = this._end;
+    }
+    if (this._start !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.start = this._start;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesNotAllowedTime | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._end = undefined;
+      this._start = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._end = value.end;
+      this._start = value.start;
+    }
+  }
+
+  // end - computed: false, optional: true, required: false
+  private _end?: string; 
+  public get end() {
+    return this.getStringAttribute('end');
+  }
+  public set end(value: string) {
+    this._end = value;
+  }
+  public resetEnd() {
+    this._end = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endInput() {
+    return this._end;
+  }
+
+  // start - computed: false, optional: true, required: false
+  private _start?: string; 
+  public get start() {
+    return this.getStringAttribute('start');
+  }
+  public set start(value: string) {
+    this._start = value;
+  }
+  public resetStart() {
+    this._start = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startInput() {
+    return this._start;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesNotAllowedTimeList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesNotAllowedTime[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesNotAllowedTimeOutputReference {
+    return new DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesNotAllowedTimeOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesTimeInWeek {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#day DataRafayAksClusterV3#day}
+  */
+  readonly day?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#hour_slots DataRafayAksClusterV3#hour_slots}
+  */
+  readonly hourSlots?: number[];
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesTimeInWeekToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesTimeInWeek | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    day: cdktf.stringToTerraform(struct!.day),
+    hour_slots: cdktf.listMapper(cdktf.numberToTerraform, false)(struct!.hourSlots),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesTimeInWeekToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesTimeInWeek | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    day: {
+      value: cdktf.stringToHclTerraform(struct!.day),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    hour_slots: {
+      value: cdktf.listMapperHcl(cdktf.numberToHclTerraform, false)(struct!.hourSlots),
+      isBlock: false,
+      type: "list",
+      storageClassType: "numberList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesTimeInWeekOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesTimeInWeek | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._day !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.day = this._day;
+    }
+    if (this._hourSlots !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hourSlots = this._hourSlots;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesTimeInWeek | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._day = undefined;
+      this._hourSlots = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._day = value.day;
+      this._hourSlots = value.hourSlots;
+    }
+  }
+
+  // day - computed: false, optional: true, required: false
+  private _day?: string; 
+  public get day() {
+    return this.getStringAttribute('day');
+  }
+  public set day(value: string) {
+    this._day = value;
+  }
+  public resetDay() {
+    this._day = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dayInput() {
+    return this._day;
+  }
+
+  // hour_slots - computed: false, optional: true, required: false
+  private _hourSlots?: number[]; 
+  public get hourSlots() {
+    return this.getNumberListAttribute('hour_slots');
+  }
+  public set hourSlots(value: number[]) {
+    this._hourSlots = value;
+  }
+  public resetHourSlots() {
+    this._hourSlots = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hourSlotsInput() {
+    return this._hourSlots;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesTimeInWeekList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesTimeInWeek[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesTimeInWeekOutputReference {
+    return new DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesTimeInWeekOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsProperties {
+  /**
+  * maintenance_window block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#maintenance_window DataRafayAksClusterV3#maintenance_window}
+  */
+  readonly maintenanceWindow?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindow;
+  /**
+  * not_allowed_time block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#not_allowed_time DataRafayAksClusterV3#not_allowed_time}
+  */
+  readonly notAllowedTime?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesNotAllowedTime[] | cdktf.IResolvable;
+  /**
+  * time_in_week block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#time_in_week DataRafayAksClusterV3#time_in_week}
+  */
+  readonly timeInWeek?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesTimeInWeek[] | cdktf.IResolvable;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesOutputReference | DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsProperties): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    maintenance_window: dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowToTerraform(struct!.maintenanceWindow),
+    not_allowed_time: cdktf.listMapper(dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesNotAllowedTimeToTerraform, true)(struct!.notAllowedTime),
+    time_in_week: cdktf.listMapper(dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesTimeInWeekToTerraform, true)(struct!.timeInWeek),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesOutputReference | DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsProperties): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    maintenance_window: {
+      value: dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowToHclTerraform(struct!.maintenanceWindow),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowList",
+    },
+    not_allowed_time: {
+      value: cdktf.listMapperHcl(dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesNotAllowedTimeToHclTerraform, true)(struct!.notAllowedTime),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesNotAllowedTimeList",
+    },
+    time_in_week: {
+      value: cdktf.listMapperHcl(dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesTimeInWeekToHclTerraform, true)(struct!.timeInWeek),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesTimeInWeekList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsProperties | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._maintenanceWindow?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maintenanceWindow = this._maintenanceWindow?.internalValue;
+    }
+    if (this._notAllowedTime?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.notAllowedTime = this._notAllowedTime?.internalValue;
+    }
+    if (this._timeInWeek?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.timeInWeek = this._timeInWeek?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsProperties | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._maintenanceWindow.internalValue = undefined;
+      this._notAllowedTime.internalValue = undefined;
+      this._timeInWeek.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._maintenanceWindow.internalValue = value.maintenanceWindow;
+      this._notAllowedTime.internalValue = value.notAllowedTime;
+      this._timeInWeek.internalValue = value.timeInWeek;
+    }
+  }
+
+  // maintenance_window - computed: false, optional: true, required: false
+  private _maintenanceWindow = new DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindowOutputReference(this, "maintenance_window");
+  public get maintenanceWindow() {
+    return this._maintenanceWindow;
+  }
+  public putMaintenanceWindow(value: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesMaintenanceWindow) {
+    this._maintenanceWindow.internalValue = value;
+  }
+  public resetMaintenanceWindow() {
+    this._maintenanceWindow.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maintenanceWindowInput() {
+    return this._maintenanceWindow.internalValue;
+  }
+
+  // not_allowed_time - computed: false, optional: true, required: false
+  private _notAllowedTime = new DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesNotAllowedTimeList(this, "not_allowed_time", false);
+  public get notAllowedTime() {
+    return this._notAllowedTime;
+  }
+  public putNotAllowedTime(value: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesNotAllowedTime[] | cdktf.IResolvable) {
+    this._notAllowedTime.internalValue = value;
+  }
+  public resetNotAllowedTime() {
+    this._notAllowedTime.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get notAllowedTimeInput() {
+    return this._notAllowedTime.internalValue;
+  }
+
+  // time_in_week - computed: false, optional: true, required: false
+  private _timeInWeek = new DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesTimeInWeekList(this, "time_in_week", false);
+  public get timeInWeek() {
+    return this._timeInWeek;
+  }
+  public putTimeInWeek(value: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesTimeInWeek[] | cdktf.IResolvable) {
+    this._timeInWeek.internalValue = value;
+  }
+  public resetTimeInWeek() {
+    this._timeInWeek.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timeInWeekInput() {
+    return this._timeInWeek.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurations {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#api_version DataRafayAksClusterV3#api_version}
+  */
+  readonly apiVersion?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#name DataRafayAksClusterV3#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#type DataRafayAksClusterV3#type}
+  */
+  readonly type?: string;
+  /**
+  * properties block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#properties DataRafayAksClusterV3#properties}
+  */
+  readonly properties?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsProperties;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurations | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    api_version: cdktf.stringToTerraform(struct!.apiVersion),
+    name: cdktf.stringToTerraform(struct!.name),
+    type: cdktf.stringToTerraform(struct!.type),
+    properties: dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesToTerraform(struct!.properties),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurations | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    api_version: {
+      value: cdktf.stringToHclTerraform(struct!.apiVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    properties: {
+      value: dataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesToHclTerraform(struct!.properties),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurations | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._apiVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.apiVersion = this._apiVersion;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._properties?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.properties = this._properties?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurations | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._apiVersion = undefined;
+      this._name = undefined;
+      this._type = undefined;
+      this._properties.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._apiVersion = value.apiVersion;
+      this._name = value.name;
+      this._type = value.type;
+      this._properties.internalValue = value.properties;
+    }
+  }
+
+  // api_version - computed: false, optional: true, required: false
+  private _apiVersion?: string; 
+  public get apiVersion() {
+    return this.getStringAttribute('api_version');
+  }
+  public set apiVersion(value: string) {
+    this._apiVersion = value;
+  }
+  public resetApiVersion() {
+    this._apiVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get apiVersionInput() {
+    return this._apiVersion;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // properties - computed: false, optional: true, required: false
+  private _properties = new DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsPropertiesOutputReference(this, "properties");
+  public get properties() {
+    return this._properties;
+  }
+  public putProperties(value: DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsProperties) {
+    this._properties.internalValue = value;
+  }
+  public resetProperties() {
+    this._properties.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get propertiesInput() {
+    return this._properties.internalValue;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurations[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsOutputReference {
+    return new DataRafayAksClusterV3SpecConfigSpecMaintenanceConfigurationsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileRegistries {
+  /**
+  * The name of the Azure Container Registry resource.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#acr_name DataRafayAksClusterV3#acr_name}
+  */
+  readonly acrName?: string;
+  /**
+  * If not specified, defaults to the resource group of the managed cluster
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#resource_group_name DataRafayAksClusterV3#resource_group_name}
+  */
+  readonly resourceGroupName?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileRegistriesToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileRegistries | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    acr_name: cdktf.stringToTerraform(struct!.acrName),
+    resource_group_name: cdktf.stringToTerraform(struct!.resourceGroupName),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileRegistriesToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileRegistries | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    acr_name: {
+      value: cdktf.stringToHclTerraform(struct!.acrName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    resource_group_name: {
+      value: cdktf.stringToHclTerraform(struct!.resourceGroupName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileRegistriesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileRegistries | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._acrName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.acrName = this._acrName;
+    }
+    if (this._resourceGroupName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resourceGroupName = this._resourceGroupName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileRegistries | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._acrName = undefined;
+      this._resourceGroupName = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._acrName = value.acrName;
+      this._resourceGroupName = value.resourceGroupName;
+    }
+  }
+
+  // acr_name - computed: false, optional: true, required: false
+  private _acrName?: string; 
+  public get acrName() {
+    return this.getStringAttribute('acr_name');
+  }
+  public set acrName(value: string) {
+    this._acrName = value;
+  }
+  public resetAcrName() {
+    this._acrName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get acrNameInput() {
+    return this._acrName;
+  }
+
+  // resource_group_name - computed: false, optional: true, required: false
+  private _resourceGroupName?: string; 
+  public get resourceGroupName() {
+    return this.getStringAttribute('resource_group_name');
+  }
+  public set resourceGroupName(value: string) {
+    this._resourceGroupName = value;
+  }
+  public resetResourceGroupName() {
+    this._resourceGroupName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceGroupNameInput() {
+    return this._resourceGroupName;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileRegistriesList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileRegistries[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileRegistriesOutputReference {
+    return new DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileRegistriesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfile {
+  /**
+  * The name of the Azure Container Registry resource.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#acr_name DataRafayAksClusterV3#acr_name}
+  */
+  readonly acrName?: string;
+  /**
+  * If not specified, defaults to the resource group of the managed cluster
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#resource_group_name DataRafayAksClusterV3#resource_group_name}
+  */
+  readonly resourceGroupName?: string;
+  /**
+  * registries block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#registries DataRafayAksClusterV3#registries}
+  */
+  readonly registries?: DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileRegistries[] | cdktf.IResolvable;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    acr_name: cdktf.stringToTerraform(struct!.acrName),
+    resource_group_name: cdktf.stringToTerraform(struct!.resourceGroupName),
+    registries: cdktf.listMapper(dataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileRegistriesToTerraform, true)(struct!.registries),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    acr_name: {
+      value: cdktf.stringToHclTerraform(struct!.acrName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    resource_group_name: {
+      value: cdktf.stringToHclTerraform(struct!.resourceGroupName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    registries: {
+      value: cdktf.listMapperHcl(dataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileRegistriesToHclTerraform, true)(struct!.registries),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileRegistriesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._acrName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.acrName = this._acrName;
+    }
+    if (this._resourceGroupName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resourceGroupName = this._resourceGroupName;
+    }
+    if (this._registries?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.registries = this._registries?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._acrName = undefined;
+      this._resourceGroupName = undefined;
+      this._registries.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._acrName = value.acrName;
+      this._resourceGroupName = value.resourceGroupName;
+      this._registries.internalValue = value.registries;
+    }
+  }
+
+  // acr_name - computed: false, optional: true, required: false
+  private _acrName?: string; 
+  public get acrName() {
+    return this.getStringAttribute('acr_name');
+  }
+  public set acrName(value: string) {
+    this._acrName = value;
+  }
+  public resetAcrName() {
+    this._acrName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get acrNameInput() {
+    return this._acrName;
+  }
+
+  // resource_group_name - computed: false, optional: true, required: false
+  private _resourceGroupName?: string; 
+  public get resourceGroupName() {
+    return this.getStringAttribute('resource_group_name');
+  }
+  public set resourceGroupName(value: string) {
+    this._resourceGroupName = value;
+  }
+  public resetResourceGroupName() {
+    this._resourceGroupName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceGroupNameInput() {
+    return this._resourceGroupName;
+  }
+
+  // registries - computed: false, optional: true, required: false
+  private _registries = new DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileRegistriesList(this, "registries", false);
+  public get registries() {
+    return this._registries;
+  }
+  public putRegistries(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileRegistries[] | cdktf.IResolvable) {
+    this._registries.internalValue = value;
+  }
+  public resetRegistries() {
+    this._registries.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get registriesInput() {
+    return this._registries.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadata {
+  /**
+  * If not specified, defaults to the resource group of the managed cluster. Valid only if the Log analytics workspace is specified.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#oms_workspace_location DataRafayAksClusterV3#oms_workspace_location}
+  */
+  readonly omsWorkspaceLocation?: string;
+  /**
+  * acr_profile block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#acr_profile DataRafayAksClusterV3#acr_profile}
+  */
+  readonly acrProfile?: DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfile;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadata): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    oms_workspace_location: cdktf.stringToTerraform(struct!.omsWorkspaceLocation),
+    acr_profile: dataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileToTerraform(struct!.acrProfile),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadata): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    oms_workspace_location: {
+      value: cdktf.stringToHclTerraform(struct!.omsWorkspaceLocation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    acr_profile: {
+      value: dataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileToHclTerraform(struct!.acrProfile),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadata | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._omsWorkspaceLocation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.omsWorkspaceLocation = this._omsWorkspaceLocation;
+    }
+    if (this._acrProfile?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.acrProfile = this._acrProfile?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadata | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._omsWorkspaceLocation = undefined;
+      this._acrProfile.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._omsWorkspaceLocation = value.omsWorkspaceLocation;
+      this._acrProfile.internalValue = value.acrProfile;
+    }
+  }
+
+  // oms_workspace_location - computed: false, optional: true, required: false
+  private _omsWorkspaceLocation?: string; 
+  public get omsWorkspaceLocation() {
+    return this.getStringAttribute('oms_workspace_location');
+  }
+  public set omsWorkspaceLocation(value: string) {
+    this._omsWorkspaceLocation = value;
+  }
+  public resetOmsWorkspaceLocation() {
+    this._omsWorkspaceLocation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get omsWorkspaceLocationInput() {
+    return this._omsWorkspaceLocation;
+  }
+
+  // acr_profile - computed: false, optional: true, required: false
+  private _acrProfile = new DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfileOutputReference(this, "acr_profile");
+  public get acrProfile() {
+    return this._acrProfile;
+  }
+  public putAcrProfile(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterAdditionalMetadataAcrProfile) {
+    this._acrProfile.internalValue = value;
+  }
+  public resetAcrProfile() {
+    this._acrProfile.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get acrProfileInput() {
+    return this._acrProfile.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterExtendedLocation {
+  /**
+  * The name of the extended location.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#name DataRafayAksClusterV3#name}
+  */
+  readonly name?: string;
+  /**
+  * The type of the extended location.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#type DataRafayAksClusterV3#type}
+  */
+  readonly type?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterExtendedLocationToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterExtendedLocationOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterExtendedLocation): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    type: cdktf.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterExtendedLocationToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterExtendedLocationOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterExtendedLocation): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterExtendedLocationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterExtendedLocation | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterExtendedLocation | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._type = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._type = value.type;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterIdentity {
+  /**
+  * For more information see use managed identities in AKS. Valid values are SystemAssigned, UserAssigned, None.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#type DataRafayAksClusterV3#type}
+  */
+  readonly type?: string;
+  /**
+  * The keys must be ARM resource IDs in the form: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedIdentity/userAssignedIdentities/{identityName}.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#user_assigned_identities DataRafayAksClusterV3#user_assigned_identities}
+  */
+  readonly userAssignedIdentities?: { [key: string]: string };
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterIdentityToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterIdentityOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterIdentity): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    type: cdktf.stringToTerraform(struct!.type),
+    user_assigned_identities: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.userAssignedIdentities),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterIdentityToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterIdentityOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterIdentity): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    user_assigned_identities: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.userAssignedIdentities),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterIdentityOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterIdentity | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._userAssignedIdentities !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.userAssignedIdentities = this._userAssignedIdentities;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterIdentity | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._type = undefined;
+      this._userAssignedIdentities = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._type = value.type;
+      this._userAssignedIdentities = value.userAssignedIdentities;
+    }
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // user_assigned_identities - computed: false, optional: true, required: false
+  private _userAssignedIdentities?: { [key: string]: string }; 
+  public get userAssignedIdentities() {
+    return this.getStringMapAttribute('user_assigned_identities');
+  }
+  public set userAssignedIdentities(value: { [key: string]: string }) {
+    this._userAssignedIdentities = value;
+  }
+  public resetUserAssignedIdentities() {
+    this._userAssignedIdentities = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userAssignedIdentitiesInput() {
+    return this._userAssignedIdentities;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAadProfile {
+  /**
+  * The list of AAD group object IDs that will have admin role of the cluster.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#admin_group_object_ids DataRafayAksClusterV3#admin_group_object_ids}
+  */
+  readonly adminGroupObjectIds?: string[];
+  /**
+  * The client AAD application ID.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#client_app_id DataRafayAksClusterV3#client_app_id}
+  */
+  readonly clientAppId?: string;
+  /**
+  * Whether to enable Azure RBAC for Kubernetes authorization.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enable_azure_rbac DataRafayAksClusterV3#enable_azure_rbac}
+  */
+  readonly enableAzureRbac?: boolean | cdktf.IResolvable;
+  /**
+  * Whether to enable managed AAD.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#managed DataRafayAksClusterV3#managed}
+  */
+  readonly managed?: boolean | cdktf.IResolvable;
+  /**
+  * The server AAD application ID.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#server_app_id DataRafayAksClusterV3#server_app_id}
+  */
+  readonly serverAppId?: string;
+  /**
+  * The server AAD application secret.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#server_app_secret DataRafayAksClusterV3#server_app_secret}
+  */
+  readonly serverAppSecret?: string;
+  /**
+  * The AAD tenant ID to use for authentication. If not specified, will use the tenant of the deployment subscription.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#tenant_id DataRafayAksClusterV3#tenant_id}
+  */
+  readonly tenantId?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAadProfileToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAadProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAadProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    admin_group_object_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.adminGroupObjectIds),
+    client_app_id: cdktf.stringToTerraform(struct!.clientAppId),
+    enable_azure_rbac: cdktf.booleanToTerraform(struct!.enableAzureRbac),
+    managed: cdktf.booleanToTerraform(struct!.managed),
+    server_app_id: cdktf.stringToTerraform(struct!.serverAppId),
+    server_app_secret: cdktf.stringToTerraform(struct!.serverAppSecret),
+    tenant_id: cdktf.stringToTerraform(struct!.tenantId),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAadProfileToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAadProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAadProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    admin_group_object_ids: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.adminGroupObjectIds),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    client_app_id: {
+      value: cdktf.stringToHclTerraform(struct!.clientAppId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    enable_azure_rbac: {
+      value: cdktf.booleanToHclTerraform(struct!.enableAzureRbac),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    managed: {
+      value: cdktf.booleanToHclTerraform(struct!.managed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    server_app_id: {
+      value: cdktf.stringToHclTerraform(struct!.serverAppId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    server_app_secret: {
+      value: cdktf.stringToHclTerraform(struct!.serverAppSecret),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant_id: {
+      value: cdktf.stringToHclTerraform(struct!.tenantId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAadProfileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAadProfile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._adminGroupObjectIds !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.adminGroupObjectIds = this._adminGroupObjectIds;
+    }
+    if (this._clientAppId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clientAppId = this._clientAppId;
+    }
+    if (this._enableAzureRbac !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableAzureRbac = this._enableAzureRbac;
+    }
+    if (this._managed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.managed = this._managed;
+    }
+    if (this._serverAppId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serverAppId = this._serverAppId;
+    }
+    if (this._serverAppSecret !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serverAppSecret = this._serverAppSecret;
+    }
+    if (this._tenantId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenantId = this._tenantId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAadProfile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._adminGroupObjectIds = undefined;
+      this._clientAppId = undefined;
+      this._enableAzureRbac = undefined;
+      this._managed = undefined;
+      this._serverAppId = undefined;
+      this._serverAppSecret = undefined;
+      this._tenantId = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._adminGroupObjectIds = value.adminGroupObjectIds;
+      this._clientAppId = value.clientAppId;
+      this._enableAzureRbac = value.enableAzureRbac;
+      this._managed = value.managed;
+      this._serverAppId = value.serverAppId;
+      this._serverAppSecret = value.serverAppSecret;
+      this._tenantId = value.tenantId;
+    }
+  }
+
+  // admin_group_object_ids - computed: false, optional: true, required: false
+  private _adminGroupObjectIds?: string[]; 
+  public get adminGroupObjectIds() {
+    return this.getListAttribute('admin_group_object_ids');
+  }
+  public set adminGroupObjectIds(value: string[]) {
+    this._adminGroupObjectIds = value;
+  }
+  public resetAdminGroupObjectIds() {
+    this._adminGroupObjectIds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get adminGroupObjectIdsInput() {
+    return this._adminGroupObjectIds;
+  }
+
+  // client_app_id - computed: false, optional: true, required: false
+  private _clientAppId?: string; 
+  public get clientAppId() {
+    return this.getStringAttribute('client_app_id');
+  }
+  public set clientAppId(value: string) {
+    this._clientAppId = value;
+  }
+  public resetClientAppId() {
+    this._clientAppId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clientAppIdInput() {
+    return this._clientAppId;
+  }
+
+  // enable_azure_rbac - computed: false, optional: true, required: false
+  private _enableAzureRbac?: boolean | cdktf.IResolvable; 
+  public get enableAzureRbac() {
+    return this.getBooleanAttribute('enable_azure_rbac');
+  }
+  public set enableAzureRbac(value: boolean | cdktf.IResolvable) {
+    this._enableAzureRbac = value;
+  }
+  public resetEnableAzureRbac() {
+    this._enableAzureRbac = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableAzureRbacInput() {
+    return this._enableAzureRbac;
+  }
+
+  // managed - computed: false, optional: true, required: false
+  private _managed?: boolean | cdktf.IResolvable; 
+  public get managed() {
+    return this.getBooleanAttribute('managed');
+  }
+  public set managed(value: boolean | cdktf.IResolvable) {
+    this._managed = value;
+  }
+  public resetManaged() {
+    this._managed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get managedInput() {
+    return this._managed;
+  }
+
+  // server_app_id - computed: false, optional: true, required: false
+  private _serverAppId?: string; 
+  public get serverAppId() {
+    return this.getStringAttribute('server_app_id');
+  }
+  public set serverAppId(value: string) {
+    this._serverAppId = value;
+  }
+  public resetServerAppId() {
+    this._serverAppId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serverAppIdInput() {
+    return this._serverAppId;
+  }
+
+  // server_app_secret - computed: false, optional: true, required: false
+  private _serverAppSecret?: string; 
+  public get serverAppSecret() {
+    return this.getStringAttribute('server_app_secret');
+  }
+  public set serverAppSecret(value: string) {
+    this._serverAppSecret = value;
+  }
+  public resetServerAppSecret() {
+    this._serverAppSecret = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serverAppSecretInput() {
+    return this._serverAppSecret;
+  }
+
+  // tenant_id - computed: false, optional: true, required: false
+  private _tenantId?: string; 
+  public get tenantId() {
+    return this.getStringAttribute('tenant_id');
+  }
+  public set tenantId(value: string) {
+    this._tenantId = value;
+  }
+  public resetTenantId() {
+    this._tenantId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantIdInput() {
+    return this._tenantId;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderConfig {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enable_secret_rotation DataRafayAksClusterV3#enable_secret_rotation}
+  */
+  readonly enableSecretRotation?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#rotation_poll_interval DataRafayAksClusterV3#rotation_poll_interval}
+  */
+  readonly rotationPollInterval?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderConfigToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderConfigOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enable_secret_rotation: cdktf.stringToTerraform(struct!.enableSecretRotation),
+    rotation_poll_interval: cdktf.stringToTerraform(struct!.rotationPollInterval),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderConfigToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderConfigOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enable_secret_rotation: {
+      value: cdktf.stringToHclTerraform(struct!.enableSecretRotation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    rotation_poll_interval: {
+      value: cdktf.stringToHclTerraform(struct!.rotationPollInterval),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enableSecretRotation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableSecretRotation = this._enableSecretRotation;
+    }
+    if (this._rotationPollInterval !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rotationPollInterval = this._rotationPollInterval;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enableSecretRotation = undefined;
+      this._rotationPollInterval = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enableSecretRotation = value.enableSecretRotation;
+      this._rotationPollInterval = value.rotationPollInterval;
+    }
+  }
+
+  // enable_secret_rotation - computed: false, optional: true, required: false
+  private _enableSecretRotation?: string; 
+  public get enableSecretRotation() {
+    return this.getStringAttribute('enable_secret_rotation');
+  }
+  public set enableSecretRotation(value: string) {
+    this._enableSecretRotation = value;
+  }
+  public resetEnableSecretRotation() {
+    this._enableSecretRotation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableSecretRotationInput() {
+    return this._enableSecretRotation;
+  }
+
+  // rotation_poll_interval - computed: false, optional: true, required: false
+  private _rotationPollInterval?: string; 
+  public get rotationPollInterval() {
+    return this.getStringAttribute('rotation_poll_interval');
+  }
+  public set rotationPollInterval(value: string) {
+    this._rotationPollInterval = value;
+  }
+  public resetRotationPollInterval() {
+    this._rotationPollInterval = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rotationPollIntervalInput() {
+    return this._rotationPollInterval;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProvider {
+  /**
+  * Whether the addon profile is enabled
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enabled DataRafayAksClusterV3#enabled}
+  */
+  readonly enabled?: boolean | cdktf.IResolvable;
+  /**
+  * config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#config DataRafayAksClusterV3#config}
+  */
+  readonly config?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderConfig;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProvider): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enabled: cdktf.booleanToTerraform(struct!.enabled),
+    config: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderConfigToTerraform(struct!.config),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProvider): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    config: {
+      value: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderConfigToHclTerraform(struct!.config),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderConfigList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProvider | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    if (this._config?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.config = this._config?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProvider | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enabled = undefined;
+      this._config.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enabled = value.enabled;
+      this._config.internalValue = value.config;
+    }
+  }
+
+  // enabled - computed: false, optional: true, required: false
+  private _enabled?: boolean | cdktf.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktf.IResolvable) {
+    this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+
+  // config - computed: false, optional: true, required: false
+  private _config = new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderConfigOutputReference(this, "config");
+  public get config() {
+    return this._config;
+  }
+  public putConfig(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderConfig) {
+    this._config.internalValue = value;
+  }
+  public resetConfig() {
+    this._config.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configInput() {
+    return this._config.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzurePolicy {
+  /**
+  * Whether the addon profile is enabled
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enabled DataRafayAksClusterV3#enabled}
+  */
+  readonly enabled?: boolean | cdktf.IResolvable;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzurePolicyToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzurePolicyOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzurePolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enabled: cdktf.booleanToTerraform(struct!.enabled),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzurePolicyToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzurePolicyOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzurePolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzurePolicyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzurePolicy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzurePolicy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enabled = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enabled = value.enabled;
+    }
+  }
+
+  // enabled - computed: false, optional: true, required: false
+  private _enabled?: boolean | cdktf.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktf.IResolvable) {
+    this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesHttpApplicationRouting {
+  /**
+  * Whether the addon profile is enabled
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enabled DataRafayAksClusterV3#enabled}
+  */
+  readonly enabled?: boolean | cdktf.IResolvable;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesHttpApplicationRoutingToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesHttpApplicationRoutingOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesHttpApplicationRouting): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enabled: cdktf.booleanToTerraform(struct!.enabled),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesHttpApplicationRoutingToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesHttpApplicationRoutingOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesHttpApplicationRouting): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesHttpApplicationRoutingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesHttpApplicationRouting | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesHttpApplicationRouting | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enabled = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enabled = value.enabled;
+    }
+  }
+
+  // enabled - computed: false, optional: true, required: false
+  private _enabled?: boolean | cdktf.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktf.IResolvable) {
+    this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayConfig {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#application_gateway_id DataRafayAksClusterV3#application_gateway_id}
+  */
+  readonly applicationGatewayId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#application_gateway_name DataRafayAksClusterV3#application_gateway_name}
+  */
+  readonly applicationGatewayName?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#subnet_cidr DataRafayAksClusterV3#subnet_cidr}
+  */
+  readonly subnetCidr?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#subnet_id DataRafayAksClusterV3#subnet_id}
+  */
+  readonly subnetId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#watch_namespace DataRafayAksClusterV3#watch_namespace}
+  */
+  readonly watchNamespace?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayConfigToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayConfigOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    application_gateway_id: cdktf.stringToTerraform(struct!.applicationGatewayId),
+    application_gateway_name: cdktf.stringToTerraform(struct!.applicationGatewayName),
+    subnet_cidr: cdktf.stringToTerraform(struct!.subnetCidr),
+    subnet_id: cdktf.stringToTerraform(struct!.subnetId),
+    watch_namespace: cdktf.stringToTerraform(struct!.watchNamespace),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayConfigToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayConfigOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    application_gateway_id: {
+      value: cdktf.stringToHclTerraform(struct!.applicationGatewayId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    application_gateway_name: {
+      value: cdktf.stringToHclTerraform(struct!.applicationGatewayName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    subnet_cidr: {
+      value: cdktf.stringToHclTerraform(struct!.subnetCidr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    subnet_id: {
+      value: cdktf.stringToHclTerraform(struct!.subnetId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    watch_namespace: {
+      value: cdktf.stringToHclTerraform(struct!.watchNamespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._applicationGatewayId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.applicationGatewayId = this._applicationGatewayId;
+    }
+    if (this._applicationGatewayName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.applicationGatewayName = this._applicationGatewayName;
+    }
+    if (this._subnetCidr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.subnetCidr = this._subnetCidr;
+    }
+    if (this._subnetId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.subnetId = this._subnetId;
+    }
+    if (this._watchNamespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.watchNamespace = this._watchNamespace;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._applicationGatewayId = undefined;
+      this._applicationGatewayName = undefined;
+      this._subnetCidr = undefined;
+      this._subnetId = undefined;
+      this._watchNamespace = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._applicationGatewayId = value.applicationGatewayId;
+      this._applicationGatewayName = value.applicationGatewayName;
+      this._subnetCidr = value.subnetCidr;
+      this._subnetId = value.subnetId;
+      this._watchNamespace = value.watchNamespace;
+    }
+  }
+
+  // application_gateway_id - computed: false, optional: true, required: false
+  private _applicationGatewayId?: string; 
+  public get applicationGatewayId() {
+    return this.getStringAttribute('application_gateway_id');
+  }
+  public set applicationGatewayId(value: string) {
+    this._applicationGatewayId = value;
+  }
+  public resetApplicationGatewayId() {
+    this._applicationGatewayId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get applicationGatewayIdInput() {
+    return this._applicationGatewayId;
+  }
+
+  // application_gateway_name - computed: false, optional: true, required: false
+  private _applicationGatewayName?: string; 
+  public get applicationGatewayName() {
+    return this.getStringAttribute('application_gateway_name');
+  }
+  public set applicationGatewayName(value: string) {
+    this._applicationGatewayName = value;
+  }
+  public resetApplicationGatewayName() {
+    this._applicationGatewayName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get applicationGatewayNameInput() {
+    return this._applicationGatewayName;
+  }
+
+  // subnet_cidr - computed: false, optional: true, required: false
+  private _subnetCidr?: string; 
+  public get subnetCidr() {
+    return this.getStringAttribute('subnet_cidr');
+  }
+  public set subnetCidr(value: string) {
+    this._subnetCidr = value;
+  }
+  public resetSubnetCidr() {
+    this._subnetCidr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subnetCidrInput() {
+    return this._subnetCidr;
+  }
+
+  // subnet_id - computed: false, optional: true, required: false
+  private _subnetId?: string; 
+  public get subnetId() {
+    return this.getStringAttribute('subnet_id');
+  }
+  public set subnetId(value: string) {
+    this._subnetId = value;
+  }
+  public resetSubnetId() {
+    this._subnetId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subnetIdInput() {
+    return this._subnetId;
+  }
+
+  // watch_namespace - computed: false, optional: true, required: false
+  private _watchNamespace?: string; 
+  public get watchNamespace() {
+    return this.getStringAttribute('watch_namespace');
+  }
+  public set watchNamespace(value: string) {
+    this._watchNamespace = value;
+  }
+  public resetWatchNamespace() {
+    this._watchNamespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get watchNamespaceInput() {
+    return this._watchNamespace;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGateway {
+  /**
+  * whether addon profile is enabled
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enabled DataRafayAksClusterV3#enabled}
+  */
+  readonly enabled?: boolean | cdktf.IResolvable;
+  /**
+  * config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#config DataRafayAksClusterV3#config}
+  */
+  readonly config?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayConfig;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGateway): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enabled: cdktf.booleanToTerraform(struct!.enabled),
+    config: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayConfigToTerraform(struct!.config),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGateway): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    config: {
+      value: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayConfigToHclTerraform(struct!.config),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayConfigList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGateway | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    if (this._config?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.config = this._config?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGateway | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enabled = undefined;
+      this._config.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enabled = value.enabled;
+      this._config.internalValue = value.config;
+    }
+  }
+
+  // enabled - computed: false, optional: true, required: false
+  private _enabled?: boolean | cdktf.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktf.IResolvable) {
+    this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+
+  // config - computed: false, optional: true, required: false
+  private _config = new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayConfigOutputReference(this, "config");
+  public get config() {
+    return this._config;
+  }
+  public putConfig(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayConfig) {
+    this._config.internalValue = value;
+  }
+  public resetConfig() {
+    this._config.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configInput() {
+    return this._config.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentConfig {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#log_analytics_workspace_resource_id DataRafayAksClusterV3#log_analytics_workspace_resource_id}
+  */
+  readonly logAnalyticsWorkspaceResourceId?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentConfigToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentConfigOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    log_analytics_workspace_resource_id: cdktf.stringToTerraform(struct!.logAnalyticsWorkspaceResourceId),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentConfigToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentConfigOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    log_analytics_workspace_resource_id: {
+      value: cdktf.stringToHclTerraform(struct!.logAnalyticsWorkspaceResourceId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._logAnalyticsWorkspaceResourceId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.logAnalyticsWorkspaceResourceId = this._logAnalyticsWorkspaceResourceId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._logAnalyticsWorkspaceResourceId = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._logAnalyticsWorkspaceResourceId = value.logAnalyticsWorkspaceResourceId;
+    }
+  }
+
+  // log_analytics_workspace_resource_id - computed: false, optional: true, required: false
+  private _logAnalyticsWorkspaceResourceId?: string; 
+  public get logAnalyticsWorkspaceResourceId() {
+    return this.getStringAttribute('log_analytics_workspace_resource_id');
+  }
+  public set logAnalyticsWorkspaceResourceId(value: string) {
+    this._logAnalyticsWorkspaceResourceId = value;
+  }
+  public resetLogAnalyticsWorkspaceResourceId() {
+    this._logAnalyticsWorkspaceResourceId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logAnalyticsWorkspaceResourceIdInput() {
+    return this._logAnalyticsWorkspaceResourceId;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgent {
+  /**
+  * Whether the addon profile is enabled
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enabled DataRafayAksClusterV3#enabled}
+  */
+  readonly enabled?: boolean | cdktf.IResolvable;
+  /**
+  * config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#config DataRafayAksClusterV3#config}
+  */
+  readonly config?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentConfig;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgent): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enabled: cdktf.booleanToTerraform(struct!.enabled),
+    config: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentConfigToTerraform(struct!.config),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgent): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    config: {
+      value: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentConfigToHclTerraform(struct!.config),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentConfigList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgent | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    if (this._config?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.config = this._config?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgent | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enabled = undefined;
+      this._config.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enabled = value.enabled;
+      this._config.internalValue = value.config;
+    }
+  }
+
+  // enabled - computed: false, optional: true, required: false
+  private _enabled?: boolean | cdktf.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktf.IResolvable) {
+    this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+
+  // config - computed: false, optional: true, required: false
+  private _config = new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentConfigOutputReference(this, "config");
+  public get config() {
+    return this._config;
+  }
+  public putConfig(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentConfig) {
+    this._config.internalValue = value;
+  }
+  public resetConfig() {
+    this._config.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configInput() {
+    return this._config.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfiles {
+  /**
+  * azure_keyvault_secrets_provider block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#azure_keyvault_secrets_provider DataRafayAksClusterV3#azure_keyvault_secrets_provider}
+  */
+  readonly azureKeyvaultSecretsProvider?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProvider;
+  /**
+  * azure_policy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#azure_policy DataRafayAksClusterV3#azure_policy}
+  */
+  readonly azurePolicy?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzurePolicy;
+  /**
+  * http_application_routing block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#http_application_routing DataRafayAksClusterV3#http_application_routing}
+  */
+  readonly httpApplicationRouting?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesHttpApplicationRouting;
+  /**
+  * ingress_application_gateway block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#ingress_application_gateway DataRafayAksClusterV3#ingress_application_gateway}
+  */
+  readonly ingressApplicationGateway?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGateway;
+  /**
+  * oms_agent block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#oms_agent DataRafayAksClusterV3#oms_agent}
+  */
+  readonly omsAgent?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgent;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfiles): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    azure_keyvault_secrets_provider: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderToTerraform(struct!.azureKeyvaultSecretsProvider),
+    azure_policy: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzurePolicyToTerraform(struct!.azurePolicy),
+    http_application_routing: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesHttpApplicationRoutingToTerraform(struct!.httpApplicationRouting),
+    ingress_application_gateway: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayToTerraform(struct!.ingressApplicationGateway),
+    oms_agent: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentToTerraform(struct!.omsAgent),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfiles): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    azure_keyvault_secrets_provider: {
+      value: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderToHclTerraform(struct!.azureKeyvaultSecretsProvider),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderList",
+    },
+    azure_policy: {
+      value: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzurePolicyToHclTerraform(struct!.azurePolicy),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzurePolicyList",
+    },
+    http_application_routing: {
+      value: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesHttpApplicationRoutingToHclTerraform(struct!.httpApplicationRouting),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesHttpApplicationRoutingList",
+    },
+    ingress_application_gateway: {
+      value: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayToHclTerraform(struct!.ingressApplicationGateway),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayList",
+    },
+    oms_agent: {
+      value: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentToHclTerraform(struct!.omsAgent),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfiles | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._azureKeyvaultSecretsProvider?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.azureKeyvaultSecretsProvider = this._azureKeyvaultSecretsProvider?.internalValue;
+    }
+    if (this._azurePolicy?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.azurePolicy = this._azurePolicy?.internalValue;
+    }
+    if (this._httpApplicationRouting?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.httpApplicationRouting = this._httpApplicationRouting?.internalValue;
+    }
+    if (this._ingressApplicationGateway?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ingressApplicationGateway = this._ingressApplicationGateway?.internalValue;
+    }
+    if (this._omsAgent?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.omsAgent = this._omsAgent?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfiles | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._azureKeyvaultSecretsProvider.internalValue = undefined;
+      this._azurePolicy.internalValue = undefined;
+      this._httpApplicationRouting.internalValue = undefined;
+      this._ingressApplicationGateway.internalValue = undefined;
+      this._omsAgent.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._azureKeyvaultSecretsProvider.internalValue = value.azureKeyvaultSecretsProvider;
+      this._azurePolicy.internalValue = value.azurePolicy;
+      this._httpApplicationRouting.internalValue = value.httpApplicationRouting;
+      this._ingressApplicationGateway.internalValue = value.ingressApplicationGateway;
+      this._omsAgent.internalValue = value.omsAgent;
+    }
+  }
+
+  // azure_keyvault_secrets_provider - computed: false, optional: true, required: false
+  private _azureKeyvaultSecretsProvider = new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProviderOutputReference(this, "azure_keyvault_secrets_provider");
+  public get azureKeyvaultSecretsProvider() {
+    return this._azureKeyvaultSecretsProvider;
+  }
+  public putAzureKeyvaultSecretsProvider(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzureKeyvaultSecretsProvider) {
+    this._azureKeyvaultSecretsProvider.internalValue = value;
+  }
+  public resetAzureKeyvaultSecretsProvider() {
+    this._azureKeyvaultSecretsProvider.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get azureKeyvaultSecretsProviderInput() {
+    return this._azureKeyvaultSecretsProvider.internalValue;
+  }
+
+  // azure_policy - computed: false, optional: true, required: false
+  private _azurePolicy = new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzurePolicyOutputReference(this, "azure_policy");
+  public get azurePolicy() {
+    return this._azurePolicy;
+  }
+  public putAzurePolicy(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesAzurePolicy) {
+    this._azurePolicy.internalValue = value;
+  }
+  public resetAzurePolicy() {
+    this._azurePolicy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get azurePolicyInput() {
+    return this._azurePolicy.internalValue;
+  }
+
+  // http_application_routing - computed: false, optional: true, required: false
+  private _httpApplicationRouting = new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesHttpApplicationRoutingOutputReference(this, "http_application_routing");
+  public get httpApplicationRouting() {
+    return this._httpApplicationRouting;
+  }
+  public putHttpApplicationRouting(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesHttpApplicationRouting) {
+    this._httpApplicationRouting.internalValue = value;
+  }
+  public resetHttpApplicationRouting() {
+    this._httpApplicationRouting.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get httpApplicationRoutingInput() {
+    return this._httpApplicationRouting.internalValue;
+  }
+
+  // ingress_application_gateway - computed: false, optional: true, required: false
+  private _ingressApplicationGateway = new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGatewayOutputReference(this, "ingress_application_gateway");
+  public get ingressApplicationGateway() {
+    return this._ingressApplicationGateway;
+  }
+  public putIngressApplicationGateway(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesIngressApplicationGateway) {
+    this._ingressApplicationGateway.internalValue = value;
+  }
+  public resetIngressApplicationGateway() {
+    this._ingressApplicationGateway.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ingressApplicationGatewayInput() {
+    return this._ingressApplicationGateway.internalValue;
+  }
+
+  // oms_agent - computed: false, optional: true, required: false
+  private _omsAgent = new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgentOutputReference(this, "oms_agent");
+  public get omsAgent() {
+    return this._omsAgent;
+  }
+  public putOmsAgent(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAddonProfilesOmsAgent) {
+    this._omsAgent.internalValue = value;
+  }
+  public resetOmsAgent() {
+    this._omsAgent.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get omsAgentInput() {
+    return this._omsAgent.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesApiServerAccessProfile {
+  /**
+  * IP ranges are specified in CIDR format, e.g. 137.117.106.88/29. This feature is not compatible with clusters that use Public IP Per Node, or clusters that are using a Basic Load Balancer. For more information see API server authorized IP ranges.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#authorized_ip_ranges DataRafayAksClusterV3#authorized_ip_ranges}
+  */
+  readonly authorizedIpRanges?: string[];
+  /**
+  * Whether to disable run command for the cluster or not.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#disable_run_command DataRafayAksClusterV3#disable_run_command}
+  */
+  readonly disableRunCommand?: boolean | cdktf.IResolvable;
+  /**
+  * For more details, see https://learn.microsoft.com/en-us/azure/aks/private-clusters
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enable_private_cluster DataRafayAksClusterV3#enable_private_cluster}
+  */
+  readonly enablePrivateCluster?: boolean | cdktf.IResolvable;
+  /**
+  * Whether to create additional public FQDN for private cluster or not.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enable_private_cluster_public_fqdn DataRafayAksClusterV3#enable_private_cluster_public_fqdn}
+  */
+  readonly enablePrivateClusterPublicFqdn?: boolean | cdktf.IResolvable;
+  /**
+  * The default is System. For more details see configure private DNS zone. Allowed values are system and none.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#private_dns_zone DataRafayAksClusterV3#private_dns_zone}
+  */
+  readonly privateDnsZone?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesApiServerAccessProfileToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesApiServerAccessProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesApiServerAccessProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    authorized_ip_ranges: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.authorizedIpRanges),
+    disable_run_command: cdktf.booleanToTerraform(struct!.disableRunCommand),
+    enable_private_cluster: cdktf.booleanToTerraform(struct!.enablePrivateCluster),
+    enable_private_cluster_public_fqdn: cdktf.booleanToTerraform(struct!.enablePrivateClusterPublicFqdn),
+    private_dns_zone: cdktf.stringToTerraform(struct!.privateDnsZone),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesApiServerAccessProfileToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesApiServerAccessProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesApiServerAccessProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    authorized_ip_ranges: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.authorizedIpRanges),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    disable_run_command: {
+      value: cdktf.booleanToHclTerraform(struct!.disableRunCommand),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_private_cluster: {
+      value: cdktf.booleanToHclTerraform(struct!.enablePrivateCluster),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enable_private_cluster_public_fqdn: {
+      value: cdktf.booleanToHclTerraform(struct!.enablePrivateClusterPublicFqdn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    private_dns_zone: {
+      value: cdktf.stringToHclTerraform(struct!.privateDnsZone),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesApiServerAccessProfileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesApiServerAccessProfile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._authorizedIpRanges !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.authorizedIpRanges = this._authorizedIpRanges;
+    }
+    if (this._disableRunCommand !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableRunCommand = this._disableRunCommand;
+    }
+    if (this._enablePrivateCluster !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enablePrivateCluster = this._enablePrivateCluster;
+    }
+    if (this._enablePrivateClusterPublicFqdn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enablePrivateClusterPublicFqdn = this._enablePrivateClusterPublicFqdn;
+    }
+    if (this._privateDnsZone !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.privateDnsZone = this._privateDnsZone;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesApiServerAccessProfile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._authorizedIpRanges = undefined;
+      this._disableRunCommand = undefined;
+      this._enablePrivateCluster = undefined;
+      this._enablePrivateClusterPublicFqdn = undefined;
+      this._privateDnsZone = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._authorizedIpRanges = value.authorizedIpRanges;
+      this._disableRunCommand = value.disableRunCommand;
+      this._enablePrivateCluster = value.enablePrivateCluster;
+      this._enablePrivateClusterPublicFqdn = value.enablePrivateClusterPublicFqdn;
+      this._privateDnsZone = value.privateDnsZone;
+    }
+  }
+
+  // authorized_ip_ranges - computed: false, optional: true, required: false
+  private _authorizedIpRanges?: string[]; 
+  public get authorizedIpRanges() {
+    return this.getListAttribute('authorized_ip_ranges');
+  }
+  public set authorizedIpRanges(value: string[]) {
+    this._authorizedIpRanges = value;
+  }
+  public resetAuthorizedIpRanges() {
+    this._authorizedIpRanges = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get authorizedIpRangesInput() {
+    return this._authorizedIpRanges;
+  }
+
+  // disable_run_command - computed: false, optional: true, required: false
+  private _disableRunCommand?: boolean | cdktf.IResolvable; 
+  public get disableRunCommand() {
+    return this.getBooleanAttribute('disable_run_command');
+  }
+  public set disableRunCommand(value: boolean | cdktf.IResolvable) {
+    this._disableRunCommand = value;
+  }
+  public resetDisableRunCommand() {
+    this._disableRunCommand = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableRunCommandInput() {
+    return this._disableRunCommand;
+  }
+
+  // enable_private_cluster - computed: false, optional: true, required: false
+  private _enablePrivateCluster?: boolean | cdktf.IResolvable; 
+  public get enablePrivateCluster() {
+    return this.getBooleanAttribute('enable_private_cluster');
+  }
+  public set enablePrivateCluster(value: boolean | cdktf.IResolvable) {
+    this._enablePrivateCluster = value;
+  }
+  public resetEnablePrivateCluster() {
+    this._enablePrivateCluster = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enablePrivateClusterInput() {
+    return this._enablePrivateCluster;
+  }
+
+  // enable_private_cluster_public_fqdn - computed: false, optional: true, required: false
+  private _enablePrivateClusterPublicFqdn?: boolean | cdktf.IResolvable; 
+  public get enablePrivateClusterPublicFqdn() {
+    return this.getBooleanAttribute('enable_private_cluster_public_fqdn');
+  }
+  public set enablePrivateClusterPublicFqdn(value: boolean | cdktf.IResolvable) {
+    this._enablePrivateClusterPublicFqdn = value;
+  }
+  public resetEnablePrivateClusterPublicFqdn() {
+    this._enablePrivateClusterPublicFqdn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enablePrivateClusterPublicFqdnInput() {
+    return this._enablePrivateClusterPublicFqdn;
+  }
+
+  // private_dns_zone - computed: false, optional: true, required: false
+  private _privateDnsZone?: string; 
+  public get privateDnsZone() {
+    return this.getStringAttribute('private_dns_zone');
+  }
+  public set privateDnsZone(value: string) {
+    this._privateDnsZone = value;
+  }
+  public resetPrivateDnsZone() {
+    this._privateDnsZone = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get privateDnsZoneInput() {
+    return this._privateDnsZone;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAutoScalerProfile {
+  /**
+  * Valid values are true and false
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#balance_similar_node_groups DataRafayAksClusterV3#balance_similar_node_groups}
+  */
+  readonly balanceSimilarNodeGroups?: string;
+  /**
+  * If not specified, the default is random. See https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/FAQ.md#what-are-expanders for more information. Valid values are least-waste, most-pods, priority, random.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#expander DataRafayAksClusterV3#expander}
+  */
+  readonly expander?: string;
+  /**
+  * The default is 10.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#max_empty_bulk_delete DataRafayAksClusterV3#max_empty_bulk_delete}
+  */
+  readonly maxEmptyBulkDelete?: string;
+  /**
+  * The default is 600.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#max_graceful_termination_sec DataRafayAksClusterV3#max_graceful_termination_sec}
+  */
+  readonly maxGracefulTerminationSec?: string;
+  /**
+  * The default is 15m. Values must be an integer followed by an m. No unit of time other than minutes (m) is supported.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#max_node_provision_time DataRafayAksClusterV3#max_node_provision_time}
+  */
+  readonly maxNodeProvisionTime?: string;
+  /**
+  * The default is 45. The maximum is 100 and the minimum is 0.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#max_total_unready_percentage DataRafayAksClusterV3#max_total_unready_percentage}
+  */
+  readonly maxTotalUnreadyPercentage?: string;
+  /**
+  * For scenarios like burst/batch scale where you don't want CA to act before the kubernetes scheduler could schedule all the pods, you can tell CA to ignore unscheduled pods before they're a certain age. The default is 0s. Values must be an integer followed by a unit (s for seconds, m for minutes, h for hours, etc).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#new_pod_scale_up_delay DataRafayAksClusterV3#new_pod_scale_up_delay}
+  */
+  readonly newPodScaleUpDelay?: string;
+  /**
+  * This must be an integer. The default is 3.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#ok_total_unready_count DataRafayAksClusterV3#ok_total_unready_count}
+  */
+  readonly okTotalUnreadyCount?: string;
+  /**
+  * The default is 10m. Values must be an integer followed by an m. No unit of time other than minutes (m) is supported.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#scale_down_delay_after_add DataRafayAksClusterV3#scale_down_delay_after_add}
+  */
+  readonly scaleDownDelayAfterAdd?: string;
+  /**
+  * The default is the scan-interval. Values must be an integer followed by an m. No unit of time other than minutes (m) is supported.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#scale_down_delay_after_delete DataRafayAksClusterV3#scale_down_delay_after_delete}
+  */
+  readonly scaleDownDelayAfterDelete?: string;
+  /**
+  * The default is 3m. Values must be an integer followed by an m. No unit of time other than minutes (m) is supported.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#scale_down_delay_after_failure DataRafayAksClusterV3#scale_down_delay_after_failure}
+  */
+  readonly scaleDownDelayAfterFailure?: string;
+  /**
+  * The default is 10m. Values must be an integer followed by an m. No unit of time other than minutes (m) is supported.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#scale_down_unneeded_time DataRafayAksClusterV3#scale_down_unneeded_time}
+  */
+  readonly scaleDownUnneededTime?: string;
+  /**
+  * The default is 20m. Values must be an integer followed by an m. No unit of time other than minutes (m) is supported.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#scale_down_unready_time DataRafayAksClusterV3#scale_down_unready_time}
+  */
+  readonly scaleDownUnreadyTime?: string;
+  /**
+  * The default is 0.5.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#scale_down_utilization_threshold DataRafayAksClusterV3#scale_down_utilization_threshold}
+  */
+  readonly scaleDownUtilizationThreshold?: string;
+  /**
+  * The default is 10. Values must be an integer number of seconds.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#scan_interval DataRafayAksClusterV3#scan_interval}
+  */
+  readonly scanInterval?: string;
+  /**
+  * The default is true.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#skip_nodes_with_local_storage DataRafayAksClusterV3#skip_nodes_with_local_storage}
+  */
+  readonly skipNodesWithLocalStorage?: string;
+  /**
+  * The default is true.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#skip_nodes_with_system_pods DataRafayAksClusterV3#skip_nodes_with_system_pods}
+  */
+  readonly skipNodesWithSystemPods?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAutoScalerProfileToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAutoScalerProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAutoScalerProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    balance_similar_node_groups: cdktf.stringToTerraform(struct!.balanceSimilarNodeGroups),
+    expander: cdktf.stringToTerraform(struct!.expander),
+    max_empty_bulk_delete: cdktf.stringToTerraform(struct!.maxEmptyBulkDelete),
+    max_graceful_termination_sec: cdktf.stringToTerraform(struct!.maxGracefulTerminationSec),
+    max_node_provision_time: cdktf.stringToTerraform(struct!.maxNodeProvisionTime),
+    max_total_unready_percentage: cdktf.stringToTerraform(struct!.maxTotalUnreadyPercentage),
+    new_pod_scale_up_delay: cdktf.stringToTerraform(struct!.newPodScaleUpDelay),
+    ok_total_unready_count: cdktf.stringToTerraform(struct!.okTotalUnreadyCount),
+    scale_down_delay_after_add: cdktf.stringToTerraform(struct!.scaleDownDelayAfterAdd),
+    scale_down_delay_after_delete: cdktf.stringToTerraform(struct!.scaleDownDelayAfterDelete),
+    scale_down_delay_after_failure: cdktf.stringToTerraform(struct!.scaleDownDelayAfterFailure),
+    scale_down_unneeded_time: cdktf.stringToTerraform(struct!.scaleDownUnneededTime),
+    scale_down_unready_time: cdktf.stringToTerraform(struct!.scaleDownUnreadyTime),
+    scale_down_utilization_threshold: cdktf.stringToTerraform(struct!.scaleDownUtilizationThreshold),
+    scan_interval: cdktf.stringToTerraform(struct!.scanInterval),
+    skip_nodes_with_local_storage: cdktf.stringToTerraform(struct!.skipNodesWithLocalStorage),
+    skip_nodes_with_system_pods: cdktf.stringToTerraform(struct!.skipNodesWithSystemPods),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAutoScalerProfileToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAutoScalerProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAutoScalerProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    balance_similar_node_groups: {
+      value: cdktf.stringToHclTerraform(struct!.balanceSimilarNodeGroups),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    expander: {
+      value: cdktf.stringToHclTerraform(struct!.expander),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    max_empty_bulk_delete: {
+      value: cdktf.stringToHclTerraform(struct!.maxEmptyBulkDelete),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    max_graceful_termination_sec: {
+      value: cdktf.stringToHclTerraform(struct!.maxGracefulTerminationSec),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    max_node_provision_time: {
+      value: cdktf.stringToHclTerraform(struct!.maxNodeProvisionTime),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    max_total_unready_percentage: {
+      value: cdktf.stringToHclTerraform(struct!.maxTotalUnreadyPercentage),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    new_pod_scale_up_delay: {
+      value: cdktf.stringToHclTerraform(struct!.newPodScaleUpDelay),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ok_total_unready_count: {
+      value: cdktf.stringToHclTerraform(struct!.okTotalUnreadyCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    scale_down_delay_after_add: {
+      value: cdktf.stringToHclTerraform(struct!.scaleDownDelayAfterAdd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    scale_down_delay_after_delete: {
+      value: cdktf.stringToHclTerraform(struct!.scaleDownDelayAfterDelete),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    scale_down_delay_after_failure: {
+      value: cdktf.stringToHclTerraform(struct!.scaleDownDelayAfterFailure),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    scale_down_unneeded_time: {
+      value: cdktf.stringToHclTerraform(struct!.scaleDownUnneededTime),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    scale_down_unready_time: {
+      value: cdktf.stringToHclTerraform(struct!.scaleDownUnreadyTime),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    scale_down_utilization_threshold: {
+      value: cdktf.stringToHclTerraform(struct!.scaleDownUtilizationThreshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    scan_interval: {
+      value: cdktf.stringToHclTerraform(struct!.scanInterval),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    skip_nodes_with_local_storage: {
+      value: cdktf.stringToHclTerraform(struct!.skipNodesWithLocalStorage),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    skip_nodes_with_system_pods: {
+      value: cdktf.stringToHclTerraform(struct!.skipNodesWithSystemPods),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAutoScalerProfileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAutoScalerProfile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._balanceSimilarNodeGroups !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.balanceSimilarNodeGroups = this._balanceSimilarNodeGroups;
+    }
+    if (this._expander !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.expander = this._expander;
+    }
+    if (this._maxEmptyBulkDelete !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxEmptyBulkDelete = this._maxEmptyBulkDelete;
+    }
+    if (this._maxGracefulTerminationSec !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxGracefulTerminationSec = this._maxGracefulTerminationSec;
+    }
+    if (this._maxNodeProvisionTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxNodeProvisionTime = this._maxNodeProvisionTime;
+    }
+    if (this._maxTotalUnreadyPercentage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxTotalUnreadyPercentage = this._maxTotalUnreadyPercentage;
+    }
+    if (this._newPodScaleUpDelay !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.newPodScaleUpDelay = this._newPodScaleUpDelay;
+    }
+    if (this._okTotalUnreadyCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.okTotalUnreadyCount = this._okTotalUnreadyCount;
+    }
+    if (this._scaleDownDelayAfterAdd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scaleDownDelayAfterAdd = this._scaleDownDelayAfterAdd;
+    }
+    if (this._scaleDownDelayAfterDelete !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scaleDownDelayAfterDelete = this._scaleDownDelayAfterDelete;
+    }
+    if (this._scaleDownDelayAfterFailure !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scaleDownDelayAfterFailure = this._scaleDownDelayAfterFailure;
+    }
+    if (this._scaleDownUnneededTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scaleDownUnneededTime = this._scaleDownUnneededTime;
+    }
+    if (this._scaleDownUnreadyTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scaleDownUnreadyTime = this._scaleDownUnreadyTime;
+    }
+    if (this._scaleDownUtilizationThreshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scaleDownUtilizationThreshold = this._scaleDownUtilizationThreshold;
+    }
+    if (this._scanInterval !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scanInterval = this._scanInterval;
+    }
+    if (this._skipNodesWithLocalStorage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.skipNodesWithLocalStorage = this._skipNodesWithLocalStorage;
+    }
+    if (this._skipNodesWithSystemPods !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.skipNodesWithSystemPods = this._skipNodesWithSystemPods;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAutoScalerProfile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._balanceSimilarNodeGroups = undefined;
+      this._expander = undefined;
+      this._maxEmptyBulkDelete = undefined;
+      this._maxGracefulTerminationSec = undefined;
+      this._maxNodeProvisionTime = undefined;
+      this._maxTotalUnreadyPercentage = undefined;
+      this._newPodScaleUpDelay = undefined;
+      this._okTotalUnreadyCount = undefined;
+      this._scaleDownDelayAfterAdd = undefined;
+      this._scaleDownDelayAfterDelete = undefined;
+      this._scaleDownDelayAfterFailure = undefined;
+      this._scaleDownUnneededTime = undefined;
+      this._scaleDownUnreadyTime = undefined;
+      this._scaleDownUtilizationThreshold = undefined;
+      this._scanInterval = undefined;
+      this._skipNodesWithLocalStorage = undefined;
+      this._skipNodesWithSystemPods = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._balanceSimilarNodeGroups = value.balanceSimilarNodeGroups;
+      this._expander = value.expander;
+      this._maxEmptyBulkDelete = value.maxEmptyBulkDelete;
+      this._maxGracefulTerminationSec = value.maxGracefulTerminationSec;
+      this._maxNodeProvisionTime = value.maxNodeProvisionTime;
+      this._maxTotalUnreadyPercentage = value.maxTotalUnreadyPercentage;
+      this._newPodScaleUpDelay = value.newPodScaleUpDelay;
+      this._okTotalUnreadyCount = value.okTotalUnreadyCount;
+      this._scaleDownDelayAfterAdd = value.scaleDownDelayAfterAdd;
+      this._scaleDownDelayAfterDelete = value.scaleDownDelayAfterDelete;
+      this._scaleDownDelayAfterFailure = value.scaleDownDelayAfterFailure;
+      this._scaleDownUnneededTime = value.scaleDownUnneededTime;
+      this._scaleDownUnreadyTime = value.scaleDownUnreadyTime;
+      this._scaleDownUtilizationThreshold = value.scaleDownUtilizationThreshold;
+      this._scanInterval = value.scanInterval;
+      this._skipNodesWithLocalStorage = value.skipNodesWithLocalStorage;
+      this._skipNodesWithSystemPods = value.skipNodesWithSystemPods;
+    }
+  }
+
+  // balance_similar_node_groups - computed: false, optional: true, required: false
+  private _balanceSimilarNodeGroups?: string; 
+  public get balanceSimilarNodeGroups() {
+    return this.getStringAttribute('balance_similar_node_groups');
+  }
+  public set balanceSimilarNodeGroups(value: string) {
+    this._balanceSimilarNodeGroups = value;
+  }
+  public resetBalanceSimilarNodeGroups() {
+    this._balanceSimilarNodeGroups = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get balanceSimilarNodeGroupsInput() {
+    return this._balanceSimilarNodeGroups;
+  }
+
+  // expander - computed: false, optional: true, required: false
+  private _expander?: string; 
+  public get expander() {
+    return this.getStringAttribute('expander');
+  }
+  public set expander(value: string) {
+    this._expander = value;
+  }
+  public resetExpander() {
+    this._expander = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get expanderInput() {
+    return this._expander;
+  }
+
+  // max_empty_bulk_delete - computed: false, optional: true, required: false
+  private _maxEmptyBulkDelete?: string; 
+  public get maxEmptyBulkDelete() {
+    return this.getStringAttribute('max_empty_bulk_delete');
+  }
+  public set maxEmptyBulkDelete(value: string) {
+    this._maxEmptyBulkDelete = value;
+  }
+  public resetMaxEmptyBulkDelete() {
+    this._maxEmptyBulkDelete = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxEmptyBulkDeleteInput() {
+    return this._maxEmptyBulkDelete;
+  }
+
+  // max_graceful_termination_sec - computed: false, optional: true, required: false
+  private _maxGracefulTerminationSec?: string; 
+  public get maxGracefulTerminationSec() {
+    return this.getStringAttribute('max_graceful_termination_sec');
+  }
+  public set maxGracefulTerminationSec(value: string) {
+    this._maxGracefulTerminationSec = value;
+  }
+  public resetMaxGracefulTerminationSec() {
+    this._maxGracefulTerminationSec = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxGracefulTerminationSecInput() {
+    return this._maxGracefulTerminationSec;
+  }
+
+  // max_node_provision_time - computed: false, optional: true, required: false
+  private _maxNodeProvisionTime?: string; 
+  public get maxNodeProvisionTime() {
+    return this.getStringAttribute('max_node_provision_time');
+  }
+  public set maxNodeProvisionTime(value: string) {
+    this._maxNodeProvisionTime = value;
+  }
+  public resetMaxNodeProvisionTime() {
+    this._maxNodeProvisionTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxNodeProvisionTimeInput() {
+    return this._maxNodeProvisionTime;
+  }
+
+  // max_total_unready_percentage - computed: false, optional: true, required: false
+  private _maxTotalUnreadyPercentage?: string; 
+  public get maxTotalUnreadyPercentage() {
+    return this.getStringAttribute('max_total_unready_percentage');
+  }
+  public set maxTotalUnreadyPercentage(value: string) {
+    this._maxTotalUnreadyPercentage = value;
+  }
+  public resetMaxTotalUnreadyPercentage() {
+    this._maxTotalUnreadyPercentage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxTotalUnreadyPercentageInput() {
+    return this._maxTotalUnreadyPercentage;
+  }
+
+  // new_pod_scale_up_delay - computed: false, optional: true, required: false
+  private _newPodScaleUpDelay?: string; 
+  public get newPodScaleUpDelay() {
+    return this.getStringAttribute('new_pod_scale_up_delay');
+  }
+  public set newPodScaleUpDelay(value: string) {
+    this._newPodScaleUpDelay = value;
+  }
+  public resetNewPodScaleUpDelay() {
+    this._newPodScaleUpDelay = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get newPodScaleUpDelayInput() {
+    return this._newPodScaleUpDelay;
+  }
+
+  // ok_total_unready_count - computed: false, optional: true, required: false
+  private _okTotalUnreadyCount?: string; 
+  public get okTotalUnreadyCount() {
+    return this.getStringAttribute('ok_total_unready_count');
+  }
+  public set okTotalUnreadyCount(value: string) {
+    this._okTotalUnreadyCount = value;
+  }
+  public resetOkTotalUnreadyCount() {
+    this._okTotalUnreadyCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get okTotalUnreadyCountInput() {
+    return this._okTotalUnreadyCount;
+  }
+
+  // scale_down_delay_after_add - computed: false, optional: true, required: false
+  private _scaleDownDelayAfterAdd?: string; 
+  public get scaleDownDelayAfterAdd() {
+    return this.getStringAttribute('scale_down_delay_after_add');
+  }
+  public set scaleDownDelayAfterAdd(value: string) {
+    this._scaleDownDelayAfterAdd = value;
+  }
+  public resetScaleDownDelayAfterAdd() {
+    this._scaleDownDelayAfterAdd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scaleDownDelayAfterAddInput() {
+    return this._scaleDownDelayAfterAdd;
+  }
+
+  // scale_down_delay_after_delete - computed: false, optional: true, required: false
+  private _scaleDownDelayAfterDelete?: string; 
+  public get scaleDownDelayAfterDelete() {
+    return this.getStringAttribute('scale_down_delay_after_delete');
+  }
+  public set scaleDownDelayAfterDelete(value: string) {
+    this._scaleDownDelayAfterDelete = value;
+  }
+  public resetScaleDownDelayAfterDelete() {
+    this._scaleDownDelayAfterDelete = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scaleDownDelayAfterDeleteInput() {
+    return this._scaleDownDelayAfterDelete;
+  }
+
+  // scale_down_delay_after_failure - computed: false, optional: true, required: false
+  private _scaleDownDelayAfterFailure?: string; 
+  public get scaleDownDelayAfterFailure() {
+    return this.getStringAttribute('scale_down_delay_after_failure');
+  }
+  public set scaleDownDelayAfterFailure(value: string) {
+    this._scaleDownDelayAfterFailure = value;
+  }
+  public resetScaleDownDelayAfterFailure() {
+    this._scaleDownDelayAfterFailure = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scaleDownDelayAfterFailureInput() {
+    return this._scaleDownDelayAfterFailure;
+  }
+
+  // scale_down_unneeded_time - computed: false, optional: true, required: false
+  private _scaleDownUnneededTime?: string; 
+  public get scaleDownUnneededTime() {
+    return this.getStringAttribute('scale_down_unneeded_time');
+  }
+  public set scaleDownUnneededTime(value: string) {
+    this._scaleDownUnneededTime = value;
+  }
+  public resetScaleDownUnneededTime() {
+    this._scaleDownUnneededTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scaleDownUnneededTimeInput() {
+    return this._scaleDownUnneededTime;
+  }
+
+  // scale_down_unready_time - computed: false, optional: true, required: false
+  private _scaleDownUnreadyTime?: string; 
+  public get scaleDownUnreadyTime() {
+    return this.getStringAttribute('scale_down_unready_time');
+  }
+  public set scaleDownUnreadyTime(value: string) {
+    this._scaleDownUnreadyTime = value;
+  }
+  public resetScaleDownUnreadyTime() {
+    this._scaleDownUnreadyTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scaleDownUnreadyTimeInput() {
+    return this._scaleDownUnreadyTime;
+  }
+
+  // scale_down_utilization_threshold - computed: false, optional: true, required: false
+  private _scaleDownUtilizationThreshold?: string; 
+  public get scaleDownUtilizationThreshold() {
+    return this.getStringAttribute('scale_down_utilization_threshold');
+  }
+  public set scaleDownUtilizationThreshold(value: string) {
+    this._scaleDownUtilizationThreshold = value;
+  }
+  public resetScaleDownUtilizationThreshold() {
+    this._scaleDownUtilizationThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scaleDownUtilizationThresholdInput() {
+    return this._scaleDownUtilizationThreshold;
+  }
+
+  // scan_interval - computed: false, optional: true, required: false
+  private _scanInterval?: string; 
+  public get scanInterval() {
+    return this.getStringAttribute('scan_interval');
+  }
+  public set scanInterval(value: string) {
+    this._scanInterval = value;
+  }
+  public resetScanInterval() {
+    this._scanInterval = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scanIntervalInput() {
+    return this._scanInterval;
+  }
+
+  // skip_nodes_with_local_storage - computed: false, optional: true, required: false
+  private _skipNodesWithLocalStorage?: string; 
+  public get skipNodesWithLocalStorage() {
+    return this.getStringAttribute('skip_nodes_with_local_storage');
+  }
+  public set skipNodesWithLocalStorage(value: string) {
+    this._skipNodesWithLocalStorage = value;
+  }
+  public resetSkipNodesWithLocalStorage() {
+    this._skipNodesWithLocalStorage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get skipNodesWithLocalStorageInput() {
+    return this._skipNodesWithLocalStorage;
+  }
+
+  // skip_nodes_with_system_pods - computed: false, optional: true, required: false
+  private _skipNodesWithSystemPods?: string; 
+  public get skipNodesWithSystemPods() {
+    return this.getStringAttribute('skip_nodes_with_system_pods');
+  }
+  public set skipNodesWithSystemPods(value: string) {
+    this._skipNodesWithSystemPods = value;
+  }
+  public resetSkipNodesWithSystemPods() {
+    this._skipNodesWithSystemPods = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get skipNodesWithSystemPodsInput() {
+    return this._skipNodesWithSystemPods;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAutoUpgradeProfile {
+  /**
+  * Valid values are None, Unmanaged, NodeImage
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#node_os_upgrade_channel DataRafayAksClusterV3#node_os_upgrade_channel}
+  */
+  readonly nodeOsUpgradeChannel?: string;
+  /**
+  * Valid values are rapid, stable, patch, node-image, none.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#upgrade_channel DataRafayAksClusterV3#upgrade_channel}
+  */
+  readonly upgradeChannel?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAutoUpgradeProfileToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAutoUpgradeProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAutoUpgradeProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    node_os_upgrade_channel: cdktf.stringToTerraform(struct!.nodeOsUpgradeChannel),
+    upgrade_channel: cdktf.stringToTerraform(struct!.upgradeChannel),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAutoUpgradeProfileToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAutoUpgradeProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAutoUpgradeProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    node_os_upgrade_channel: {
+      value: cdktf.stringToHclTerraform(struct!.nodeOsUpgradeChannel),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    upgrade_channel: {
+      value: cdktf.stringToHclTerraform(struct!.upgradeChannel),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAutoUpgradeProfileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAutoUpgradeProfile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._nodeOsUpgradeChannel !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeOsUpgradeChannel = this._nodeOsUpgradeChannel;
+    }
+    if (this._upgradeChannel !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.upgradeChannel = this._upgradeChannel;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesAutoUpgradeProfile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._nodeOsUpgradeChannel = undefined;
+      this._upgradeChannel = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._nodeOsUpgradeChannel = value.nodeOsUpgradeChannel;
+      this._upgradeChannel = value.upgradeChannel;
+    }
+  }
+
+  // node_os_upgrade_channel - computed: false, optional: true, required: false
+  private _nodeOsUpgradeChannel?: string; 
+  public get nodeOsUpgradeChannel() {
+    return this.getStringAttribute('node_os_upgrade_channel');
+  }
+  public set nodeOsUpgradeChannel(value: string) {
+    this._nodeOsUpgradeChannel = value;
+  }
+  public resetNodeOsUpgradeChannel() {
+    this._nodeOsUpgradeChannel = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeOsUpgradeChannelInput() {
+    return this._nodeOsUpgradeChannel;
+  }
+
+  // upgrade_channel - computed: false, optional: true, required: false
+  private _upgradeChannel?: string; 
+  public get upgradeChannel() {
+    return this.getStringAttribute('upgrade_channel');
+  }
+  public set upgradeChannel(value: string) {
+    this._upgradeChannel = value;
+  }
+  public resetUpgradeChannel() {
+    this._upgradeChannel = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get upgradeChannelInput() {
+    return this._upgradeChannel;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesHttpProxyConfig {
+  /**
+  * The HTTP proxy server endpoint to use.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#http_proxy DataRafayAksClusterV3#http_proxy}
+  */
+  readonly httpProxy?: string;
+  /**
+  * The HTTPS proxy server endpoint to use.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#https_proxy DataRafayAksClusterV3#https_proxy}
+  */
+  readonly httpsProxy?: string;
+  /**
+  * The endpoints that should not go through proxy.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#no_proxy DataRafayAksClusterV3#no_proxy}
+  */
+  readonly noProxy?: string[];
+  /**
+  * Alternative CA cert to use for connecting to proxy servers.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#trusted_ca DataRafayAksClusterV3#trusted_ca}
+  */
+  readonly trustedCa?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesHttpProxyConfigToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesHttpProxyConfigOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesHttpProxyConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    http_proxy: cdktf.stringToTerraform(struct!.httpProxy),
+    https_proxy: cdktf.stringToTerraform(struct!.httpsProxy),
+    no_proxy: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.noProxy),
+    trusted_ca: cdktf.stringToTerraform(struct!.trustedCa),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesHttpProxyConfigToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesHttpProxyConfigOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesHttpProxyConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    http_proxy: {
+      value: cdktf.stringToHclTerraform(struct!.httpProxy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    https_proxy: {
+      value: cdktf.stringToHclTerraform(struct!.httpsProxy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    no_proxy: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.noProxy),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    trusted_ca: {
+      value: cdktf.stringToHclTerraform(struct!.trustedCa),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesHttpProxyConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesHttpProxyConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._httpProxy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.httpProxy = this._httpProxy;
+    }
+    if (this._httpsProxy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.httpsProxy = this._httpsProxy;
+    }
+    if (this._noProxy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noProxy = this._noProxy;
+    }
+    if (this._trustedCa !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.trustedCa = this._trustedCa;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesHttpProxyConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._httpProxy = undefined;
+      this._httpsProxy = undefined;
+      this._noProxy = undefined;
+      this._trustedCa = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._httpProxy = value.httpProxy;
+      this._httpsProxy = value.httpsProxy;
+      this._noProxy = value.noProxy;
+      this._trustedCa = value.trustedCa;
+    }
+  }
+
+  // http_proxy - computed: false, optional: true, required: false
+  private _httpProxy?: string; 
+  public get httpProxy() {
+    return this.getStringAttribute('http_proxy');
+  }
+  public set httpProxy(value: string) {
+    this._httpProxy = value;
+  }
+  public resetHttpProxy() {
+    this._httpProxy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get httpProxyInput() {
+    return this._httpProxy;
+  }
+
+  // https_proxy - computed: false, optional: true, required: false
+  private _httpsProxy?: string; 
+  public get httpsProxy() {
+    return this.getStringAttribute('https_proxy');
+  }
+  public set httpsProxy(value: string) {
+    this._httpsProxy = value;
+  }
+  public resetHttpsProxy() {
+    this._httpsProxy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get httpsProxyInput() {
+    return this._httpsProxy;
+  }
+
+  // no_proxy - computed: false, optional: true, required: false
+  private _noProxy?: string[]; 
+  public get noProxy() {
+    return this.getListAttribute('no_proxy');
+  }
+  public set noProxy(value: string[]) {
+    this._noProxy = value;
+  }
+  public resetNoProxy() {
+    this._noProxy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noProxyInput() {
+    return this._noProxy;
+  }
+
+  // trusted_ca - computed: false, optional: true, required: false
+  private _trustedCa?: string; 
+  public get trustedCa() {
+    return this.getStringAttribute('trusted_ca');
+  }
+  public set trustedCa(value: string) {
+    this._trustedCa = value;
+  }
+  public resetTrustedCa() {
+    this._trustedCa = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trustedCaInput() {
+    return this._trustedCa;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfileKubeletIdentity {
+  /**
+  * value must be ARM resource ID in the form: /subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.ManagedIdentity/userAssignedIdentities/<identity-name>
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#resource_id DataRafayAksClusterV3#resource_id}
+  */
+  readonly resourceId?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfileKubeletIdentityToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfileKubeletIdentityOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfileKubeletIdentity): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    resource_id: cdktf.stringToTerraform(struct!.resourceId),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfileKubeletIdentityToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfileKubeletIdentityOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfileKubeletIdentity): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    resource_id: {
+      value: cdktf.stringToHclTerraform(struct!.resourceId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfileKubeletIdentityOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfileKubeletIdentity | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._resourceId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resourceId = this._resourceId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfileKubeletIdentity | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._resourceId = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._resourceId = value.resourceId;
+    }
+  }
+
+  // resource_id - computed: false, optional: true, required: false
+  private _resourceId?: string; 
+  public get resourceId() {
+    return this.getStringAttribute('resource_id');
+  }
+  public set resourceId(value: string) {
+    this._resourceId = value;
+  }
+  public resetResourceId() {
+    this._resourceId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceIdInput() {
+    return this._resourceId;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfile {
+  /**
+  * kubelet_identity block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#kubelet_identity DataRafayAksClusterV3#kubelet_identity}
+  */
+  readonly kubeletIdentity?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfileKubeletIdentity;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfileToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    kubelet_identity: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfileKubeletIdentityToTerraform(struct!.kubeletIdentity),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfileToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    kubelet_identity: {
+      value: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfileKubeletIdentityToHclTerraform(struct!.kubeletIdentity),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfileKubeletIdentityList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._kubeletIdentity?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.kubeletIdentity = this._kubeletIdentity?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._kubeletIdentity.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._kubeletIdentity.internalValue = value.kubeletIdentity;
+    }
+  }
+
+  // kubelet_identity - computed: false, optional: true, required: false
+  private _kubeletIdentity = new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfileKubeletIdentityOutputReference(this, "kubelet_identity");
+  public get kubeletIdentity() {
+    return this._kubeletIdentity;
+  }
+  public putKubeletIdentity(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesIdentityProfileKubeletIdentity) {
+    this._kubeletIdentity.internalValue = value;
+  }
+  public resetKubeletIdentity() {
+    this._kubeletIdentity.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kubeletIdentityInput() {
+    return this._kubeletIdentity.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshPublicKeys {
+  /**
+  * Certificate public key used to authenticate with VMs through SSH. The certificate must be in PEM format with or without headers.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#key_data DataRafayAksClusterV3#key_data}
+  */
+  readonly keyData?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshPublicKeysToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshPublicKeys | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key_data: cdktf.stringToTerraform(struct!.keyData),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshPublicKeysToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshPublicKeys | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key_data: {
+      value: cdktf.stringToHclTerraform(struct!.keyData),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshPublicKeysOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshPublicKeys | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._keyData !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.keyData = this._keyData;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshPublicKeys | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._keyData = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._keyData = value.keyData;
+    }
+  }
+
+  // key_data - computed: false, optional: true, required: false
+  private _keyData?: string; 
+  public get keyData() {
+    return this.getStringAttribute('key_data');
+  }
+  public set keyData(value: string) {
+    this._keyData = value;
+  }
+  public resetKeyData() {
+    this._keyData = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyDataInput() {
+    return this._keyData;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshPublicKeysList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshPublicKeys[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshPublicKeysOutputReference {
+    return new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshPublicKeysOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSsh {
+  /**
+  * public_keys block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#public_keys DataRafayAksClusterV3#public_keys}
+  */
+  readonly publicKeys?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshPublicKeys[] | cdktf.IResolvable;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSsh): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    public_keys: cdktf.listMapper(dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshPublicKeysToTerraform, true)(struct!.publicKeys),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSsh): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    public_keys: {
+      value: cdktf.listMapperHcl(dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshPublicKeysToHclTerraform, true)(struct!.publicKeys),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshPublicKeysList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSsh | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._publicKeys?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.publicKeys = this._publicKeys?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSsh | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._publicKeys.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._publicKeys.internalValue = value.publicKeys;
+    }
+  }
+
+  // public_keys - computed: false, optional: true, required: false
+  private _publicKeys = new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshPublicKeysList(this, "public_keys", false);
+  public get publicKeys() {
+    return this._publicKeys;
+  }
+  public putPublicKeys(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshPublicKeys[] | cdktf.IResolvable) {
+    this._publicKeys.internalValue = value;
+  }
+  public resetPublicKeys() {
+    this._publicKeys.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publicKeysInput() {
+    return this._publicKeys.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfile {
+  /**
+  * The administrator username to use for Linux VMs.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#admin_username DataRafayAksClusterV3#admin_username}
+  */
+  readonly adminUsername?: string;
+  /**
+  * ssh block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#ssh DataRafayAksClusterV3#ssh}
+  */
+  readonly ssh?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSsh;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    admin_username: cdktf.stringToTerraform(struct!.adminUsername),
+    ssh: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshToTerraform(struct!.ssh),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    admin_username: {
+      value: cdktf.stringToHclTerraform(struct!.adminUsername),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ssh: {
+      value: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshToHclTerraform(struct!.ssh),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._adminUsername !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.adminUsername = this._adminUsername;
+    }
+    if (this._ssh?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ssh = this._ssh?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._adminUsername = undefined;
+      this._ssh.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._adminUsername = value.adminUsername;
+      this._ssh.internalValue = value.ssh;
+    }
+  }
+
+  // admin_username - computed: false, optional: true, required: false
+  private _adminUsername?: string; 
+  public get adminUsername() {
+    return this.getStringAttribute('admin_username');
+  }
+  public set adminUsername(value: string) {
+    this._adminUsername = value;
+  }
+  public resetAdminUsername() {
+    this._adminUsername = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get adminUsernameInput() {
+    return this._adminUsername;
+  }
+
+  // ssh - computed: false, optional: true, required: false
+  private _ssh = new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSshOutputReference(this, "ssh");
+  public get ssh() {
+    return this._ssh;
+  }
+  public putSsh(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesLinuxProfileSsh) {
+    this._ssh.internalValue = value;
+  }
+  public resetSsh() {
+    this._ssh.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sshInput() {
+    return this._ssh.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileEffectiveOutboundIPs {
+  /**
+  * The fully qualified Azure resource id.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#id DataRafayAksClusterV3#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileEffectiveOutboundIPsToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileEffectiveOutboundIPs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    id: cdktf.stringToTerraform(struct!.id),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileEffectiveOutboundIPsToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileEffectiveOutboundIPs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    id: {
+      value: cdktf.stringToHclTerraform(struct!.id),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileEffectiveOutboundIPsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileEffectiveOutboundIPs | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileEffectiveOutboundIPs | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._id = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._id = value.id;
+    }
+  }
+
+  // id - computed: false, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileEffectiveOutboundIPsList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileEffectiveOutboundIPs[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileEffectiveOutboundIPsOutputReference {
+    return new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileEffectiveOutboundIPsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileManagedOutboundIPs {
+  /**
+  * The desired number of IPv4 outbound IPs created/managed by Azure for the cluster load balancer. Allowed values must be in the range of 1 to 100 (inclusive). The default value is 1.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#count DataRafayAksClusterV3#count}
+  */
+  readonly count?: number;
+  /**
+  * The desired number of IPv6 outbound IPs created/managed by Azure for the cluster load balancer. Allowed values must be in the range of 1 to 100 (inclusive). The default value is 0 for single-stack and 1 for dual-stack.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#count_i_pv_6 DataRafayAksClusterV3#count_i_pv_6}
+  */
+  readonly countIPv6?: number;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileManagedOutboundIPsToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileManagedOutboundIPsOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileManagedOutboundIPs): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    count: cdktf.numberToTerraform(struct!.count),
+    count_i_pv_6: cdktf.numberToTerraform(struct!.countIPv6),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileManagedOutboundIPsToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileManagedOutboundIPsOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileManagedOutboundIPs): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    count: {
+      value: cdktf.numberToHclTerraform(struct!.count),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    count_i_pv_6: {
+      value: cdktf.numberToHclTerraform(struct!.countIPv6),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileManagedOutboundIPsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileManagedOutboundIPs | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._count !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.count = this._count;
+    }
+    if (this._countIPv6 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.countIPv6 = this._countIPv6;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileManagedOutboundIPs | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._count = undefined;
+      this._countIPv6 = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._count = value.count;
+      this._countIPv6 = value.countIPv6;
+    }
+  }
+
+  // count - computed: false, optional: true, required: false
+  private _count?: number; 
+  public get count() {
+    return this.getNumberAttribute('count');
+  }
+  public set count(value: number) {
+    this._count = value;
+  }
+  public resetCount() {
+    this._count = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get countInput() {
+    return this._count;
+  }
+
+  // count_i_pv_6 - computed: false, optional: true, required: false
+  private _countIPv6?: number; 
+  public get countIPv6() {
+    return this.getNumberAttribute('count_i_pv_6');
+  }
+  public set countIPv6(value: number) {
+    this._countIPv6 = value;
+  }
+  public resetCountIPv6() {
+    this._countIPv6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get countIPv6Input() {
+    return this._countIPv6;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsPublicIPs {
+  /**
+  * The fully qualified Azure resource id.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#id DataRafayAksClusterV3#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsPublicIPsToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsPublicIPs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    id: cdktf.stringToTerraform(struct!.id),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsPublicIPsToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsPublicIPs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    id: {
+      value: cdktf.stringToHclTerraform(struct!.id),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsPublicIPsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsPublicIPs | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsPublicIPs | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._id = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._id = value.id;
+    }
+  }
+
+  // id - computed: false, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsPublicIPsList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsPublicIPs[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsPublicIPsOutputReference {
+    return new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsPublicIPsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPs {
+  /**
+  * public_i_ps block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#public_i_ps DataRafayAksClusterV3#public_i_ps}
+  */
+  readonly publicIPs?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsPublicIPs[] | cdktf.IResolvable;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPs): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    public_i_ps: cdktf.listMapper(dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsPublicIPsToTerraform, true)(struct!.publicIPs),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPs): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    public_i_ps: {
+      value: cdktf.listMapperHcl(dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsPublicIPsToHclTerraform, true)(struct!.publicIPs),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsPublicIPsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPs | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._publicIPs?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.publicIPs = this._publicIPs?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPs | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._publicIPs.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._publicIPs.internalValue = value.publicIPs;
+    }
+  }
+
+  // public_i_ps - computed: false, optional: true, required: false
+  private _publicIPs = new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsPublicIPsList(this, "public_i_ps", false);
+  public get publicIPs() {
+    return this._publicIPs;
+  }
+  public putPublicIPs(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsPublicIPs[] | cdktf.IResolvable) {
+    this._publicIPs.internalValue = value;
+  }
+  public resetPublicIPs() {
+    this._publicIPs.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publicIPsInput() {
+    return this._publicIPs.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesPublicIpPrefixes {
+  /**
+  * The fully qualified Azure resource id.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#id DataRafayAksClusterV3#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesPublicIpPrefixesToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesPublicIpPrefixes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    id: cdktf.stringToTerraform(struct!.id),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesPublicIpPrefixesToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesPublicIpPrefixes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    id: {
+      value: cdktf.stringToHclTerraform(struct!.id),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesPublicIpPrefixesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesPublicIpPrefixes | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesPublicIpPrefixes | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._id = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._id = value.id;
+    }
+  }
+
+  // id - computed: false, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesPublicIpPrefixesList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesPublicIpPrefixes[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesPublicIpPrefixesOutputReference {
+    return new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesPublicIpPrefixesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixes {
+  /**
+  * public_ip_prefixes block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#public_ip_prefixes DataRafayAksClusterV3#public_ip_prefixes}
+  */
+  readonly publicIpPrefixes?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesPublicIpPrefixes[] | cdktf.IResolvable;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixes): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    public_ip_prefixes: cdktf.listMapper(dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesPublicIpPrefixesToTerraform, true)(struct!.publicIpPrefixes),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixes): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    public_ip_prefixes: {
+      value: cdktf.listMapperHcl(dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesPublicIpPrefixesToHclTerraform, true)(struct!.publicIpPrefixes),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesPublicIpPrefixesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixes | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._publicIpPrefixes?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.publicIpPrefixes = this._publicIpPrefixes?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixes | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._publicIpPrefixes.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._publicIpPrefixes.internalValue = value.publicIpPrefixes;
+    }
+  }
+
+  // public_ip_prefixes - computed: false, optional: true, required: false
+  private _publicIpPrefixes = new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesPublicIpPrefixesList(this, "public_ip_prefixes", false);
+  public get publicIpPrefixes() {
+    return this._publicIpPrefixes;
+  }
+  public putPublicIpPrefixes(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesPublicIpPrefixes[] | cdktf.IResolvable) {
+    this._publicIpPrefixes.internalValue = value;
+  }
+  public resetPublicIpPrefixes() {
+    this._publicIpPrefixes.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publicIpPrefixesInput() {
+    return this._publicIpPrefixes.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfile {
+  /**
+  * The desired number of allocated SNAT ports per VM. Allowed values are in the range of 0 to 64000 (inclusive). The default value is 0 which results in Azure dynamically allocating ports.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#allocated_outbound_ports DataRafayAksClusterV3#allocated_outbound_ports}
+  */
+  readonly allocatedOutboundPorts?: number;
+  /**
+  * Enable multiple standard load balancers per AKS cluster or not.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enable_multiple_standard_load_balancers DataRafayAksClusterV3#enable_multiple_standard_load_balancers}
+  */
+  readonly enableMultipleStandardLoadBalancers?: boolean | cdktf.IResolvable;
+  /**
+  * Desired outbound flow idle timeout in minutes. Allowed values are in the range of 4 to 120 (inclusive). The default value is 30 minutes.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#idle_timeout_in_minutes DataRafayAksClusterV3#idle_timeout_in_minutes}
+  */
+  readonly idleTimeoutInMinutes?: number;
+  /**
+  * effective_outbound_i_ps block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#effective_outbound_i_ps DataRafayAksClusterV3#effective_outbound_i_ps}
+  */
+  readonly effectiveOutboundIPs?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileEffectiveOutboundIPs[] | cdktf.IResolvable;
+  /**
+  * managed_outbound_i_ps block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#managed_outbound_i_ps DataRafayAksClusterV3#managed_outbound_i_ps}
+  */
+  readonly managedOutboundIPs?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileManagedOutboundIPs;
+  /**
+  * outbound_i_ps block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#outbound_i_ps DataRafayAksClusterV3#outbound_i_ps}
+  */
+  readonly outboundIPs?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPs;
+  /**
+  * outbound_ip_prefixes block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#outbound_ip_prefixes DataRafayAksClusterV3#outbound_ip_prefixes}
+  */
+  readonly outboundIpPrefixes?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixes;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    allocated_outbound_ports: cdktf.numberToTerraform(struct!.allocatedOutboundPorts),
+    enable_multiple_standard_load_balancers: cdktf.booleanToTerraform(struct!.enableMultipleStandardLoadBalancers),
+    idle_timeout_in_minutes: cdktf.numberToTerraform(struct!.idleTimeoutInMinutes),
+    effective_outbound_i_ps: cdktf.listMapper(dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileEffectiveOutboundIPsToTerraform, true)(struct!.effectiveOutboundIPs),
+    managed_outbound_i_ps: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileManagedOutboundIPsToTerraform(struct!.managedOutboundIPs),
+    outbound_i_ps: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsToTerraform(struct!.outboundIPs),
+    outbound_ip_prefixes: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesToTerraform(struct!.outboundIpPrefixes),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    allocated_outbound_ports: {
+      value: cdktf.numberToHclTerraform(struct!.allocatedOutboundPorts),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    enable_multiple_standard_load_balancers: {
+      value: cdktf.booleanToHclTerraform(struct!.enableMultipleStandardLoadBalancers),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    idle_timeout_in_minutes: {
+      value: cdktf.numberToHclTerraform(struct!.idleTimeoutInMinutes),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    effective_outbound_i_ps: {
+      value: cdktf.listMapperHcl(dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileEffectiveOutboundIPsToHclTerraform, true)(struct!.effectiveOutboundIPs),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileEffectiveOutboundIPsList",
+    },
+    managed_outbound_i_ps: {
+      value: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileManagedOutboundIPsToHclTerraform(struct!.managedOutboundIPs),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileManagedOutboundIPsList",
+    },
+    outbound_i_ps: {
+      value: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsToHclTerraform(struct!.outboundIPs),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsList",
+    },
+    outbound_ip_prefixes: {
+      value: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesToHclTerraform(struct!.outboundIpPrefixes),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._allocatedOutboundPorts !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allocatedOutboundPorts = this._allocatedOutboundPorts;
+    }
+    if (this._enableMultipleStandardLoadBalancers !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableMultipleStandardLoadBalancers = this._enableMultipleStandardLoadBalancers;
+    }
+    if (this._idleTimeoutInMinutes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.idleTimeoutInMinutes = this._idleTimeoutInMinutes;
+    }
+    if (this._effectiveOutboundIPs?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.effectiveOutboundIPs = this._effectiveOutboundIPs?.internalValue;
+    }
+    if (this._managedOutboundIPs?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.managedOutboundIPs = this._managedOutboundIPs?.internalValue;
+    }
+    if (this._outboundIPs?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.outboundIPs = this._outboundIPs?.internalValue;
+    }
+    if (this._outboundIpPrefixes?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.outboundIpPrefixes = this._outboundIpPrefixes?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._allocatedOutboundPorts = undefined;
+      this._enableMultipleStandardLoadBalancers = undefined;
+      this._idleTimeoutInMinutes = undefined;
+      this._effectiveOutboundIPs.internalValue = undefined;
+      this._managedOutboundIPs.internalValue = undefined;
+      this._outboundIPs.internalValue = undefined;
+      this._outboundIpPrefixes.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._allocatedOutboundPorts = value.allocatedOutboundPorts;
+      this._enableMultipleStandardLoadBalancers = value.enableMultipleStandardLoadBalancers;
+      this._idleTimeoutInMinutes = value.idleTimeoutInMinutes;
+      this._effectiveOutboundIPs.internalValue = value.effectiveOutboundIPs;
+      this._managedOutboundIPs.internalValue = value.managedOutboundIPs;
+      this._outboundIPs.internalValue = value.outboundIPs;
+      this._outboundIpPrefixes.internalValue = value.outboundIpPrefixes;
+    }
+  }
+
+  // allocated_outbound_ports - computed: false, optional: true, required: false
+  private _allocatedOutboundPorts?: number; 
+  public get allocatedOutboundPorts() {
+    return this.getNumberAttribute('allocated_outbound_ports');
+  }
+  public set allocatedOutboundPorts(value: number) {
+    this._allocatedOutboundPorts = value;
+  }
+  public resetAllocatedOutboundPorts() {
+    this._allocatedOutboundPorts = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allocatedOutboundPortsInput() {
+    return this._allocatedOutboundPorts;
+  }
+
+  // enable_multiple_standard_load_balancers - computed: false, optional: true, required: false
+  private _enableMultipleStandardLoadBalancers?: boolean | cdktf.IResolvable; 
+  public get enableMultipleStandardLoadBalancers() {
+    return this.getBooleanAttribute('enable_multiple_standard_load_balancers');
+  }
+  public set enableMultipleStandardLoadBalancers(value: boolean | cdktf.IResolvable) {
+    this._enableMultipleStandardLoadBalancers = value;
+  }
+  public resetEnableMultipleStandardLoadBalancers() {
+    this._enableMultipleStandardLoadBalancers = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableMultipleStandardLoadBalancersInput() {
+    return this._enableMultipleStandardLoadBalancers;
+  }
+
+  // idle_timeout_in_minutes - computed: false, optional: true, required: false
+  private _idleTimeoutInMinutes?: number; 
+  public get idleTimeoutInMinutes() {
+    return this.getNumberAttribute('idle_timeout_in_minutes');
+  }
+  public set idleTimeoutInMinutes(value: number) {
+    this._idleTimeoutInMinutes = value;
+  }
+  public resetIdleTimeoutInMinutes() {
+    this._idleTimeoutInMinutes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idleTimeoutInMinutesInput() {
+    return this._idleTimeoutInMinutes;
+  }
+
+  // effective_outbound_i_ps - computed: false, optional: true, required: false
+  private _effectiveOutboundIPs = new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileEffectiveOutboundIPsList(this, "effective_outbound_i_ps", false);
+  public get effectiveOutboundIPs() {
+    return this._effectiveOutboundIPs;
+  }
+  public putEffectiveOutboundIPs(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileEffectiveOutboundIPs[] | cdktf.IResolvable) {
+    this._effectiveOutboundIPs.internalValue = value;
+  }
+  public resetEffectiveOutboundIPs() {
+    this._effectiveOutboundIPs.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get effectiveOutboundIPsInput() {
+    return this._effectiveOutboundIPs.internalValue;
+  }
+
+  // managed_outbound_i_ps - computed: false, optional: true, required: false
+  private _managedOutboundIPs = new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileManagedOutboundIPsOutputReference(this, "managed_outbound_i_ps");
+  public get managedOutboundIPs() {
+    return this._managedOutboundIPs;
+  }
+  public putManagedOutboundIPs(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileManagedOutboundIPs) {
+    this._managedOutboundIPs.internalValue = value;
+  }
+  public resetManagedOutboundIPs() {
+    this._managedOutboundIPs.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get managedOutboundIPsInput() {
+    return this._managedOutboundIPs.internalValue;
+  }
+
+  // outbound_i_ps - computed: false, optional: true, required: false
+  private _outboundIPs = new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPsOutputReference(this, "outbound_i_ps");
+  public get outboundIPs() {
+    return this._outboundIPs;
+  }
+  public putOutboundIPs(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIPs) {
+    this._outboundIPs.internalValue = value;
+  }
+  public resetOutboundIPs() {
+    this._outboundIPs.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get outboundIPsInput() {
+    return this._outboundIPs.internalValue;
+  }
+
+  // outbound_ip_prefixes - computed: false, optional: true, required: false
+  private _outboundIpPrefixes = new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixesOutputReference(this, "outbound_ip_prefixes");
+  public get outboundIpPrefixes() {
+    return this._outboundIpPrefixes;
+  }
+  public putOutboundIpPrefixes(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutboundIpPrefixes) {
+    this._outboundIpPrefixes.internalValue = value;
+  }
+  public resetOutboundIpPrefixes() {
+    this._outboundIpPrefixes.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get outboundIpPrefixesInput() {
+    return this._outboundIpPrefixes.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileEffectiveOutboundIPs {
+  /**
+  * The fully qualified Azure resource id.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#id DataRafayAksClusterV3#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileEffectiveOutboundIPsToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileEffectiveOutboundIPs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    id: cdktf.stringToTerraform(struct!.id),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileEffectiveOutboundIPsToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileEffectiveOutboundIPs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    id: {
+      value: cdktf.stringToHclTerraform(struct!.id),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileEffectiveOutboundIPsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileEffectiveOutboundIPs | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileEffectiveOutboundIPs | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._id = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._id = value.id;
+    }
+  }
+
+  // id - computed: false, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileEffectiveOutboundIPsList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileEffectiveOutboundIPs[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileEffectiveOutboundIPsOutputReference {
+    return new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileEffectiveOutboundIPsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileManagedOutboundIpProfile {
+  /**
+  * The desired number of outbound IPs created/managed by Azure. Allowed values must be in the range of 1 to 16 (inclusive). The default value is 1.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#count DataRafayAksClusterV3#count}
+  */
+  readonly count?: number;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileManagedOutboundIpProfileToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileManagedOutboundIpProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileManagedOutboundIpProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    count: cdktf.numberToTerraform(struct!.count),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileManagedOutboundIpProfileToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileManagedOutboundIpProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileManagedOutboundIpProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    count: {
+      value: cdktf.numberToHclTerraform(struct!.count),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileManagedOutboundIpProfileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileManagedOutboundIpProfile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._count !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.count = this._count;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileManagedOutboundIpProfile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._count = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._count = value.count;
+    }
+  }
+
+  // count - computed: false, optional: true, required: false
+  private _count?: number; 
+  public get count() {
+    return this.getNumberAttribute('count');
+  }
+  public set count(value: number) {
+    this._count = value;
+  }
+  public resetCount() {
+    this._count = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get countInput() {
+    return this._count;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfile {
+  /**
+  * Desired outbound flow idle timeout in minutes. Allowed values are in the range of 4 to 120 (inclusive). The default value is 4 minutes.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#idle_timeout_in_minutes DataRafayAksClusterV3#idle_timeout_in_minutes}
+  */
+  readonly idleTimeoutInMinutes?: number;
+  /**
+  * effective_outbound_i_ps block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#effective_outbound_i_ps DataRafayAksClusterV3#effective_outbound_i_ps}
+  */
+  readonly effectiveOutboundIPs?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileEffectiveOutboundIPs[] | cdktf.IResolvable;
+  /**
+  * managed_outbound_ip_profile block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#managed_outbound_ip_profile DataRafayAksClusterV3#managed_outbound_ip_profile}
+  */
+  readonly managedOutboundIpProfile?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileManagedOutboundIpProfile;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    idle_timeout_in_minutes: cdktf.numberToTerraform(struct!.idleTimeoutInMinutes),
+    effective_outbound_i_ps: cdktf.listMapper(dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileEffectiveOutboundIPsToTerraform, true)(struct!.effectiveOutboundIPs),
+    managed_outbound_ip_profile: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileManagedOutboundIpProfileToTerraform(struct!.managedOutboundIpProfile),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    idle_timeout_in_minutes: {
+      value: cdktf.numberToHclTerraform(struct!.idleTimeoutInMinutes),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    effective_outbound_i_ps: {
+      value: cdktf.listMapperHcl(dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileEffectiveOutboundIPsToHclTerraform, true)(struct!.effectiveOutboundIPs),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileEffectiveOutboundIPsList",
+    },
+    managed_outbound_ip_profile: {
+      value: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileManagedOutboundIpProfileToHclTerraform(struct!.managedOutboundIpProfile),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileManagedOutboundIpProfileList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._idleTimeoutInMinutes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.idleTimeoutInMinutes = this._idleTimeoutInMinutes;
+    }
+    if (this._effectiveOutboundIPs?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.effectiveOutboundIPs = this._effectiveOutboundIPs?.internalValue;
+    }
+    if (this._managedOutboundIpProfile?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.managedOutboundIpProfile = this._managedOutboundIpProfile?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._idleTimeoutInMinutes = undefined;
+      this._effectiveOutboundIPs.internalValue = undefined;
+      this._managedOutboundIpProfile.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._idleTimeoutInMinutes = value.idleTimeoutInMinutes;
+      this._effectiveOutboundIPs.internalValue = value.effectiveOutboundIPs;
+      this._managedOutboundIpProfile.internalValue = value.managedOutboundIpProfile;
+    }
+  }
+
+  // idle_timeout_in_minutes - computed: false, optional: true, required: false
+  private _idleTimeoutInMinutes?: number; 
+  public get idleTimeoutInMinutes() {
+    return this.getNumberAttribute('idle_timeout_in_minutes');
+  }
+  public set idleTimeoutInMinutes(value: number) {
+    this._idleTimeoutInMinutes = value;
+  }
+  public resetIdleTimeoutInMinutes() {
+    this._idleTimeoutInMinutes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idleTimeoutInMinutesInput() {
+    return this._idleTimeoutInMinutes;
+  }
+
+  // effective_outbound_i_ps - computed: false, optional: true, required: false
+  private _effectiveOutboundIPs = new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileEffectiveOutboundIPsList(this, "effective_outbound_i_ps", false);
+  public get effectiveOutboundIPs() {
+    return this._effectiveOutboundIPs;
+  }
+  public putEffectiveOutboundIPs(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileEffectiveOutboundIPs[] | cdktf.IResolvable) {
+    this._effectiveOutboundIPs.internalValue = value;
+  }
+  public resetEffectiveOutboundIPs() {
+    this._effectiveOutboundIPs.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get effectiveOutboundIPsInput() {
+    return this._effectiveOutboundIPs.internalValue;
+  }
+
+  // managed_outbound_ip_profile - computed: false, optional: true, required: false
+  private _managedOutboundIpProfile = new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileManagedOutboundIpProfileOutputReference(this, "managed_outbound_ip_profile");
+  public get managedOutboundIpProfile() {
+    return this._managedOutboundIpProfile;
+  }
+  public putManagedOutboundIpProfile(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileManagedOutboundIpProfile) {
+    this._managedOutboundIpProfile.internalValue = value;
+  }
+  public resetManagedOutboundIpProfile() {
+    this._managedOutboundIpProfile.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get managedOutboundIpProfileInput() {
+    return this._managedOutboundIpProfile.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfile {
+  /**
+  * An IP address assigned to the Kubernetes DNS service. It must be within the Kubernetes service address range specified in serviceCidr.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#dns_service_ip DataRafayAksClusterV3#dns_service_ip}
+  */
+  readonly dnsServiceIp?: string;
+  /**
+  * A CIDR notation IP range assigned to the Docker bridge network. It must not overlap with any Subnet IP ranges or the Kubernetes service address range.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#docker_bridge_cidr DataRafayAksClusterV3#docker_bridge_cidr}
+  */
+  readonly dockerBridgeCidr?: string;
+  /**
+  * IP families are used to determine single-stack or dual-stack clusters. For single-stack, the expected value is IPv4. For dual-stack, the expected values are IPv4 and IPv6.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#ip_families DataRafayAksClusterV3#ip_families}
+  */
+  readonly ipFamilies?: string[];
+  /**
+  * The default is standard. See Azure Load Balancer SKUs for more information about the differences between load balancer SKUs. Valid values are standard, basic.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#load_balancer_sku DataRafayAksClusterV3#load_balancer_sku}
+  */
+  readonly loadBalancerSku?: string;
+  /**
+  * Valid values are cilium
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#network_dataplane DataRafayAksClusterV3#network_dataplane}
+  */
+  readonly networkDataplane?: string;
+  /**
+  * This cannot be specified if networkPlugin is anything other than azure. Valid values are transparent, bridge.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#network_mode DataRafayAksClusterV3#network_mode}
+  */
+  readonly networkMode?: string;
+  /**
+  * This cannot be specified if networkPlugin is anything other than azure. Valid values are transparent, bridge.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#network_plugin DataRafayAksClusterV3#network_plugin}
+  */
+  readonly networkPlugin?: string;
+  /**
+  * This cannot be specified if networkPlugin is anything other than azure. Valid values are overlay.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#network_plugin_mode DataRafayAksClusterV3#network_plugin_mode}
+  */
+  readonly networkPluginMode?: string;
+  /**
+  * Network policy used for building the Kubernetes network. Valid values are calico, azure.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#network_policy DataRafayAksClusterV3#network_policy}
+  */
+  readonly networkPolicy?: string;
+  /**
+  * This can only be set at cluster creation time and cannot be changed later. For more information see egress outbound type. Valid values are loadBalancer, userDefinedRouting, managedNATGateway, userAssignedNATGateway.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#outbound_type DataRafayAksClusterV3#outbound_type}
+  */
+  readonly outboundType?: string;
+  /**
+  * A CIDR notation IP range from which to assign pod IPs when kubenet is used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#pod_cidr DataRafayAksClusterV3#pod_cidr}
+  */
+  readonly podCidr?: string;
+  /**
+  * One IPv4 CIDR is expected for single-stack networking. Two CIDRs, one for each IP family (IPv4/IPv6), is expected for dual-stack networking.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#pod_cidrs DataRafayAksClusterV3#pod_cidrs}
+  */
+  readonly podCidrs?: string[];
+  /**
+  * A CIDR notation IP range from which to assign service cluster IPs. It must not overlap with any Subnet IP ranges.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#service_cidr DataRafayAksClusterV3#service_cidr}
+  */
+  readonly serviceCidr?: string;
+  /**
+  * One IPv4 CIDR is expected for single-stack networking. Two CIDRs, one for each IP family (IPv4/IPv6), is expected for dual-stack networking. They must not overlap with any Subnet IP ranges.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#service_cidrs DataRafayAksClusterV3#service_cidrs}
+  */
+  readonly serviceCidrs?: string[];
+  /**
+  * load_balancer_profile block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#load_balancer_profile DataRafayAksClusterV3#load_balancer_profile}
+  */
+  readonly loadBalancerProfile?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfile;
+  /**
+  * nat_gateway_profile block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#nat_gateway_profile DataRafayAksClusterV3#nat_gateway_profile}
+  */
+  readonly natGatewayProfile?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfile;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    dns_service_ip: cdktf.stringToTerraform(struct!.dnsServiceIp),
+    docker_bridge_cidr: cdktf.stringToTerraform(struct!.dockerBridgeCidr),
+    ip_families: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.ipFamilies),
+    load_balancer_sku: cdktf.stringToTerraform(struct!.loadBalancerSku),
+    network_dataplane: cdktf.stringToTerraform(struct!.networkDataplane),
+    network_mode: cdktf.stringToTerraform(struct!.networkMode),
+    network_plugin: cdktf.stringToTerraform(struct!.networkPlugin),
+    network_plugin_mode: cdktf.stringToTerraform(struct!.networkPluginMode),
+    network_policy: cdktf.stringToTerraform(struct!.networkPolicy),
+    outbound_type: cdktf.stringToTerraform(struct!.outboundType),
+    pod_cidr: cdktf.stringToTerraform(struct!.podCidr),
+    pod_cidrs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.podCidrs),
+    service_cidr: cdktf.stringToTerraform(struct!.serviceCidr),
+    service_cidrs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.serviceCidrs),
+    load_balancer_profile: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileToTerraform(struct!.loadBalancerProfile),
+    nat_gateway_profile: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileToTerraform(struct!.natGatewayProfile),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    dns_service_ip: {
+      value: cdktf.stringToHclTerraform(struct!.dnsServiceIp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    docker_bridge_cidr: {
+      value: cdktf.stringToHclTerraform(struct!.dockerBridgeCidr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ip_families: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.ipFamilies),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    load_balancer_sku: {
+      value: cdktf.stringToHclTerraform(struct!.loadBalancerSku),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    network_dataplane: {
+      value: cdktf.stringToHclTerraform(struct!.networkDataplane),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    network_mode: {
+      value: cdktf.stringToHclTerraform(struct!.networkMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    network_plugin: {
+      value: cdktf.stringToHclTerraform(struct!.networkPlugin),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    network_plugin_mode: {
+      value: cdktf.stringToHclTerraform(struct!.networkPluginMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    network_policy: {
+      value: cdktf.stringToHclTerraform(struct!.networkPolicy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    outbound_type: {
+      value: cdktf.stringToHclTerraform(struct!.outboundType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    pod_cidr: {
+      value: cdktf.stringToHclTerraform(struct!.podCidr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    pod_cidrs: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.podCidrs),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    service_cidr: {
+      value: cdktf.stringToHclTerraform(struct!.serviceCidr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    service_cidrs: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.serviceCidrs),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    load_balancer_profile: {
+      value: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileToHclTerraform(struct!.loadBalancerProfile),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileList",
+    },
+    nat_gateway_profile: {
+      value: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileToHclTerraform(struct!.natGatewayProfile),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dnsServiceIp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsServiceIp = this._dnsServiceIp;
+    }
+    if (this._dockerBridgeCidr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dockerBridgeCidr = this._dockerBridgeCidr;
+    }
+    if (this._ipFamilies !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipFamilies = this._ipFamilies;
+    }
+    if (this._loadBalancerSku !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.loadBalancerSku = this._loadBalancerSku;
+    }
+    if (this._networkDataplane !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkDataplane = this._networkDataplane;
+    }
+    if (this._networkMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkMode = this._networkMode;
+    }
+    if (this._networkPlugin !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkPlugin = this._networkPlugin;
+    }
+    if (this._networkPluginMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkPluginMode = this._networkPluginMode;
+    }
+    if (this._networkPolicy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkPolicy = this._networkPolicy;
+    }
+    if (this._outboundType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.outboundType = this._outboundType;
+    }
+    if (this._podCidr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.podCidr = this._podCidr;
+    }
+    if (this._podCidrs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.podCidrs = this._podCidrs;
+    }
+    if (this._serviceCidr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serviceCidr = this._serviceCidr;
+    }
+    if (this._serviceCidrs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serviceCidrs = this._serviceCidrs;
+    }
+    if (this._loadBalancerProfile?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.loadBalancerProfile = this._loadBalancerProfile?.internalValue;
+    }
+    if (this._natGatewayProfile?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.natGatewayProfile = this._natGatewayProfile?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._dnsServiceIp = undefined;
+      this._dockerBridgeCidr = undefined;
+      this._ipFamilies = undefined;
+      this._loadBalancerSku = undefined;
+      this._networkDataplane = undefined;
+      this._networkMode = undefined;
+      this._networkPlugin = undefined;
+      this._networkPluginMode = undefined;
+      this._networkPolicy = undefined;
+      this._outboundType = undefined;
+      this._podCidr = undefined;
+      this._podCidrs = undefined;
+      this._serviceCidr = undefined;
+      this._serviceCidrs = undefined;
+      this._loadBalancerProfile.internalValue = undefined;
+      this._natGatewayProfile.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._dnsServiceIp = value.dnsServiceIp;
+      this._dockerBridgeCidr = value.dockerBridgeCidr;
+      this._ipFamilies = value.ipFamilies;
+      this._loadBalancerSku = value.loadBalancerSku;
+      this._networkDataplane = value.networkDataplane;
+      this._networkMode = value.networkMode;
+      this._networkPlugin = value.networkPlugin;
+      this._networkPluginMode = value.networkPluginMode;
+      this._networkPolicy = value.networkPolicy;
+      this._outboundType = value.outboundType;
+      this._podCidr = value.podCidr;
+      this._podCidrs = value.podCidrs;
+      this._serviceCidr = value.serviceCidr;
+      this._serviceCidrs = value.serviceCidrs;
+      this._loadBalancerProfile.internalValue = value.loadBalancerProfile;
+      this._natGatewayProfile.internalValue = value.natGatewayProfile;
+    }
+  }
+
+  // dns_service_ip - computed: false, optional: true, required: false
+  private _dnsServiceIp?: string; 
+  public get dnsServiceIp() {
+    return this.getStringAttribute('dns_service_ip');
+  }
+  public set dnsServiceIp(value: string) {
+    this._dnsServiceIp = value;
+  }
+  public resetDnsServiceIp() {
+    this._dnsServiceIp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsServiceIpInput() {
+    return this._dnsServiceIp;
+  }
+
+  // docker_bridge_cidr - computed: false, optional: true, required: false
+  private _dockerBridgeCidr?: string; 
+  public get dockerBridgeCidr() {
+    return this.getStringAttribute('docker_bridge_cidr');
+  }
+  public set dockerBridgeCidr(value: string) {
+    this._dockerBridgeCidr = value;
+  }
+  public resetDockerBridgeCidr() {
+    this._dockerBridgeCidr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dockerBridgeCidrInput() {
+    return this._dockerBridgeCidr;
+  }
+
+  // ip_families - computed: false, optional: true, required: false
+  private _ipFamilies?: string[]; 
+  public get ipFamilies() {
+    return this.getListAttribute('ip_families');
+  }
+  public set ipFamilies(value: string[]) {
+    this._ipFamilies = value;
+  }
+  public resetIpFamilies() {
+    this._ipFamilies = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipFamiliesInput() {
+    return this._ipFamilies;
+  }
+
+  // load_balancer_sku - computed: false, optional: true, required: false
+  private _loadBalancerSku?: string; 
+  public get loadBalancerSku() {
+    return this.getStringAttribute('load_balancer_sku');
+  }
+  public set loadBalancerSku(value: string) {
+    this._loadBalancerSku = value;
+  }
+  public resetLoadBalancerSku() {
+    this._loadBalancerSku = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get loadBalancerSkuInput() {
+    return this._loadBalancerSku;
+  }
+
+  // network_dataplane - computed: false, optional: true, required: false
+  private _networkDataplane?: string; 
+  public get networkDataplane() {
+    return this.getStringAttribute('network_dataplane');
+  }
+  public set networkDataplane(value: string) {
+    this._networkDataplane = value;
+  }
+  public resetNetworkDataplane() {
+    this._networkDataplane = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkDataplaneInput() {
+    return this._networkDataplane;
+  }
+
+  // network_mode - computed: false, optional: true, required: false
+  private _networkMode?: string; 
+  public get networkMode() {
+    return this.getStringAttribute('network_mode');
+  }
+  public set networkMode(value: string) {
+    this._networkMode = value;
+  }
+  public resetNetworkMode() {
+    this._networkMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkModeInput() {
+    return this._networkMode;
+  }
+
+  // network_plugin - computed: false, optional: true, required: false
+  private _networkPlugin?: string; 
+  public get networkPlugin() {
+    return this.getStringAttribute('network_plugin');
+  }
+  public set networkPlugin(value: string) {
+    this._networkPlugin = value;
+  }
+  public resetNetworkPlugin() {
+    this._networkPlugin = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkPluginInput() {
+    return this._networkPlugin;
+  }
+
+  // network_plugin_mode - computed: false, optional: true, required: false
+  private _networkPluginMode?: string; 
+  public get networkPluginMode() {
+    return this.getStringAttribute('network_plugin_mode');
+  }
+  public set networkPluginMode(value: string) {
+    this._networkPluginMode = value;
+  }
+  public resetNetworkPluginMode() {
+    this._networkPluginMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkPluginModeInput() {
+    return this._networkPluginMode;
+  }
+
+  // network_policy - computed: false, optional: true, required: false
+  private _networkPolicy?: string; 
+  public get networkPolicy() {
+    return this.getStringAttribute('network_policy');
+  }
+  public set networkPolicy(value: string) {
+    this._networkPolicy = value;
+  }
+  public resetNetworkPolicy() {
+    this._networkPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkPolicyInput() {
+    return this._networkPolicy;
+  }
+
+  // outbound_type - computed: false, optional: true, required: false
+  private _outboundType?: string; 
+  public get outboundType() {
+    return this.getStringAttribute('outbound_type');
+  }
+  public set outboundType(value: string) {
+    this._outboundType = value;
+  }
+  public resetOutboundType() {
+    this._outboundType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get outboundTypeInput() {
+    return this._outboundType;
+  }
+
+  // pod_cidr - computed: false, optional: true, required: false
+  private _podCidr?: string; 
+  public get podCidr() {
+    return this.getStringAttribute('pod_cidr');
+  }
+  public set podCidr(value: string) {
+    this._podCidr = value;
+  }
+  public resetPodCidr() {
+    this._podCidr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get podCidrInput() {
+    return this._podCidr;
+  }
+
+  // pod_cidrs - computed: false, optional: true, required: false
+  private _podCidrs?: string[]; 
+  public get podCidrs() {
+    return this.getListAttribute('pod_cidrs');
+  }
+  public set podCidrs(value: string[]) {
+    this._podCidrs = value;
+  }
+  public resetPodCidrs() {
+    this._podCidrs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get podCidrsInput() {
+    return this._podCidrs;
+  }
+
+  // service_cidr - computed: false, optional: true, required: false
+  private _serviceCidr?: string; 
+  public get serviceCidr() {
+    return this.getStringAttribute('service_cidr');
+  }
+  public set serviceCidr(value: string) {
+    this._serviceCidr = value;
+  }
+  public resetServiceCidr() {
+    this._serviceCidr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceCidrInput() {
+    return this._serviceCidr;
+  }
+
+  // service_cidrs - computed: false, optional: true, required: false
+  private _serviceCidrs?: string[]; 
+  public get serviceCidrs() {
+    return this.getListAttribute('service_cidrs');
+  }
+  public set serviceCidrs(value: string[]) {
+    this._serviceCidrs = value;
+  }
+  public resetServiceCidrs() {
+    this._serviceCidrs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceCidrsInput() {
+    return this._serviceCidrs;
+  }
+
+  // load_balancer_profile - computed: false, optional: true, required: false
+  private _loadBalancerProfile = new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfileOutputReference(this, "load_balancer_profile");
+  public get loadBalancerProfile() {
+    return this._loadBalancerProfile;
+  }
+  public putLoadBalancerProfile(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileLoadBalancerProfile) {
+    this._loadBalancerProfile.internalValue = value;
+  }
+  public resetLoadBalancerProfile() {
+    this._loadBalancerProfile.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get loadBalancerProfileInput() {
+    return this._loadBalancerProfile.internalValue;
+  }
+
+  // nat_gateway_profile - computed: false, optional: true, required: false
+  private _natGatewayProfile = new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfileOutputReference(this, "nat_gateway_profile");
+  public get natGatewayProfile() {
+    return this._natGatewayProfile;
+  }
+  public putNatGatewayProfile(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesNetworkProfileNatGatewayProfile) {
+    this._natGatewayProfile.internalValue = value;
+  }
+  public resetNatGatewayProfile() {
+    this._natGatewayProfile.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get natGatewayProfileInput() {
+    return this._natGatewayProfile.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesOidcIssuerProfile {
+  /**
+  * The enabled field within the oidcIssuerProfile configuration of Azure Kubernetes Service (AKS) determines whether the AKS cluster functions as an OpenID Connect (OIDC) issuer. When this field is set to true, the cluster becomes an OIDC-compliant identity provider, capable of issuing OIDC tokens that can be used for secure authentication and authorization of applications and services interacting with the cluster.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enabled DataRafayAksClusterV3#enabled}
+  */
+  readonly enabled?: boolean | cdktf.IResolvable;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesOidcIssuerProfileToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesOidcIssuerProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesOidcIssuerProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enabled: cdktf.booleanToTerraform(struct!.enabled),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesOidcIssuerProfileToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesOidcIssuerProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesOidcIssuerProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesOidcIssuerProfileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesOidcIssuerProfile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesOidcIssuerProfile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enabled = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enabled = value.enabled;
+    }
+  }
+
+  // enabled - computed: false, optional: true, required: false
+  private _enabled?: boolean | cdktf.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktf.IResolvable) {
+    this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesIdentity {
+  /**
+  * The client ID of the user assigned identity.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#client_id DataRafayAksClusterV3#client_id}
+  */
+  readonly clientId?: string;
+  /**
+  * The object ID of the user assigned identity.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#object_id DataRafayAksClusterV3#object_id}
+  */
+  readonly objectId?: string;
+  /**
+  * The resource ID of the user assigned identity.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#resource_id DataRafayAksClusterV3#resource_id}
+  */
+  readonly resourceId?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesIdentityToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesIdentityOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesIdentity): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    client_id: cdktf.stringToTerraform(struct!.clientId),
+    object_id: cdktf.stringToTerraform(struct!.objectId),
+    resource_id: cdktf.stringToTerraform(struct!.resourceId),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesIdentityToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesIdentityOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesIdentity): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    client_id: {
+      value: cdktf.stringToHclTerraform(struct!.clientId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    object_id: {
+      value: cdktf.stringToHclTerraform(struct!.objectId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    resource_id: {
+      value: cdktf.stringToHclTerraform(struct!.resourceId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesIdentityOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesIdentity | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._clientId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clientId = this._clientId;
+    }
+    if (this._objectId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectId = this._objectId;
+    }
+    if (this._resourceId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resourceId = this._resourceId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesIdentity | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._clientId = undefined;
+      this._objectId = undefined;
+      this._resourceId = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._clientId = value.clientId;
+      this._objectId = value.objectId;
+      this._resourceId = value.resourceId;
+    }
+  }
+
+  // client_id - computed: false, optional: true, required: false
+  private _clientId?: string; 
+  public get clientId() {
+    return this.getStringAttribute('client_id');
+  }
+  public set clientId(value: string) {
+    this._clientId = value;
+  }
+  public resetClientId() {
+    this._clientId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clientIdInput() {
+    return this._clientId;
+  }
+
+  // object_id - computed: false, optional: true, required: false
+  private _objectId?: string; 
+  public get objectId() {
+    return this.getStringAttribute('object_id');
+  }
+  public set objectId(value: string) {
+    this._objectId = value;
+  }
+  public resetObjectId() {
+    this._objectId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectIdInput() {
+    return this._objectId;
+  }
+
+  // resource_id - computed: false, optional: true, required: false
+  private _resourceId?: string; 
+  public get resourceId() {
+    return this.getStringAttribute('resource_id');
+  }
+  public set resourceId(value: string) {
+    this._resourceId = value;
+  }
+  public resetResourceId() {
+    this._resourceId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceIdInput() {
+    return this._resourceId;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentities {
+  /**
+  * The binding selector to use for the AzureIdentityBinding resource.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#binding_selector DataRafayAksClusterV3#binding_selector}
+  */
+  readonly bindingSelector?: string;
+  /**
+  * The name of the pod identity.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#name DataRafayAksClusterV3#name}
+  */
+  readonly name?: string;
+  /**
+  * The namespace of the pod identity.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#namespace DataRafayAksClusterV3#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * identity block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#identity DataRafayAksClusterV3#identity}
+  */
+  readonly identity?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesIdentity;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentities | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    binding_selector: cdktf.stringToTerraform(struct!.bindingSelector),
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    identity: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesIdentityToTerraform(struct!.identity),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentities | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    binding_selector: {
+      value: cdktf.stringToHclTerraform(struct!.bindingSelector),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    identity: {
+      value: dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesIdentityToHclTerraform(struct!.identity),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesIdentityList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentities | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._bindingSelector !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bindingSelector = this._bindingSelector;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._identity?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.identity = this._identity?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentities | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._bindingSelector = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._identity.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._bindingSelector = value.bindingSelector;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._identity.internalValue = value.identity;
+    }
+  }
+
+  // binding_selector - computed: false, optional: true, required: false
+  private _bindingSelector?: string; 
+  public get bindingSelector() {
+    return this.getStringAttribute('binding_selector');
+  }
+  public set bindingSelector(value: string) {
+    this._bindingSelector = value;
+  }
+  public resetBindingSelector() {
+    this._bindingSelector = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bindingSelectorInput() {
+    return this._bindingSelector;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // identity - computed: false, optional: true, required: false
+  private _identity = new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesIdentityOutputReference(this, "identity");
+  public get identity() {
+    return this._identity;
+  }
+  public putIdentity(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesIdentity) {
+    this._identity.internalValue = value;
+  }
+  public resetIdentity() {
+    this._identity.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get identityInput() {
+    return this._identity.internalValue;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentities[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesOutputReference {
+    return new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentityExceptions {
+  /**
+  * The name of the pod identity exception.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#name DataRafayAksClusterV3#name}
+  */
+  readonly name?: string;
+  /**
+  * The namespace of the pod identity exception.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#namespace DataRafayAksClusterV3#namespace}
+  */
+  readonly namespace?: string;
+  /**
+  * The pod labels to match.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#pod_labels DataRafayAksClusterV3#pod_labels}
+  */
+  readonly podLabels?: { [key: string]: string };
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentityExceptionsToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentityExceptions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    pod_labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.podLabels),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentityExceptionsToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentityExceptions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    pod_labels: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.podLabels),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentityExceptionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentityExceptions | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._podLabels !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.podLabels = this._podLabels;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentityExceptions | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._podLabels = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._podLabels = value.podLabels;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: true, required: false
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  public resetNamespace() {
+    this._namespace = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // pod_labels - computed: false, optional: true, required: false
+  private _podLabels?: { [key: string]: string }; 
+  public get podLabels() {
+    return this.getStringMapAttribute('pod_labels');
+  }
+  public set podLabels(value: { [key: string]: string }) {
+    this._podLabels = value;
+  }
+  public resetPodLabels() {
+    this._podLabels = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get podLabelsInput() {
+    return this._podLabels;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentityExceptionsList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentityExceptions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentityExceptionsOutputReference {
+    return new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentityExceptionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfile {
+  /**
+  * Running in Kubenet is disabled by default due to the security related nature of AAD Pod Identity and the risks of IP spoofing. See https://learn.microsoft.com/en-us/azure/aks/use-azure-ad-pod-identity#using-kubenet-network-plugin-with-azure-active-directory-pod-managed-identities for more information.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#allow_network_plugin_kubenet DataRafayAksClusterV3#allow_network_plugin_kubenet}
+  */
+  readonly allowNetworkPluginKubenet?: boolean | cdktf.IResolvable;
+  /**
+  * Whether the pod identity addon is enabled.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enabled DataRafayAksClusterV3#enabled}
+  */
+  readonly enabled?: boolean | cdktf.IResolvable;
+  /**
+  * user_assigned_identities block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#user_assigned_identities DataRafayAksClusterV3#user_assigned_identities}
+  */
+  readonly userAssignedIdentities?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentities[] | cdktf.IResolvable;
+  /**
+  * user_assigned_identity_exceptions block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#user_assigned_identity_exceptions DataRafayAksClusterV3#user_assigned_identity_exceptions}
+  */
+  readonly userAssignedIdentityExceptions?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentityExceptions[] | cdktf.IResolvable;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    allow_network_plugin_kubenet: cdktf.booleanToTerraform(struct!.allowNetworkPluginKubenet),
+    enabled: cdktf.booleanToTerraform(struct!.enabled),
+    user_assigned_identities: cdktf.listMapper(dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesToTerraform, true)(struct!.userAssignedIdentities),
+    user_assigned_identity_exceptions: cdktf.listMapper(dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentityExceptionsToTerraform, true)(struct!.userAssignedIdentityExceptions),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    allow_network_plugin_kubenet: {
+      value: cdktf.booleanToHclTerraform(struct!.allowNetworkPluginKubenet),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    user_assigned_identities: {
+      value: cdktf.listMapperHcl(dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesToHclTerraform, true)(struct!.userAssignedIdentities),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesList",
+    },
+    user_assigned_identity_exceptions: {
+      value: cdktf.listMapperHcl(dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentityExceptionsToHclTerraform, true)(struct!.userAssignedIdentityExceptions),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentityExceptionsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._allowNetworkPluginKubenet !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allowNetworkPluginKubenet = this._allowNetworkPluginKubenet;
+    }
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    if (this._userAssignedIdentities?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.userAssignedIdentities = this._userAssignedIdentities?.internalValue;
+    }
+    if (this._userAssignedIdentityExceptions?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.userAssignedIdentityExceptions = this._userAssignedIdentityExceptions?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._allowNetworkPluginKubenet = undefined;
+      this._enabled = undefined;
+      this._userAssignedIdentities.internalValue = undefined;
+      this._userAssignedIdentityExceptions.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._allowNetworkPluginKubenet = value.allowNetworkPluginKubenet;
+      this._enabled = value.enabled;
+      this._userAssignedIdentities.internalValue = value.userAssignedIdentities;
+      this._userAssignedIdentityExceptions.internalValue = value.userAssignedIdentityExceptions;
+    }
+  }
+
+  // allow_network_plugin_kubenet - computed: false, optional: true, required: false
+  private _allowNetworkPluginKubenet?: boolean | cdktf.IResolvable; 
+  public get allowNetworkPluginKubenet() {
+    return this.getBooleanAttribute('allow_network_plugin_kubenet');
+  }
+  public set allowNetworkPluginKubenet(value: boolean | cdktf.IResolvable) {
+    this._allowNetworkPluginKubenet = value;
+  }
+  public resetAllowNetworkPluginKubenet() {
+    this._allowNetworkPluginKubenet = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowNetworkPluginKubenetInput() {
+    return this._allowNetworkPluginKubenet;
+  }
+
+  // enabled - computed: false, optional: true, required: false
+  private _enabled?: boolean | cdktf.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktf.IResolvable) {
+    this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+
+  // user_assigned_identities - computed: false, optional: true, required: false
+  private _userAssignedIdentities = new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentitiesList(this, "user_assigned_identities", false);
+  public get userAssignedIdentities() {
+    return this._userAssignedIdentities;
+  }
+  public putUserAssignedIdentities(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentities[] | cdktf.IResolvable) {
+    this._userAssignedIdentities.internalValue = value;
+  }
+  public resetUserAssignedIdentities() {
+    this._userAssignedIdentities.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userAssignedIdentitiesInput() {
+    return this._userAssignedIdentities.internalValue;
+  }
+
+  // user_assigned_identity_exceptions - computed: false, optional: true, required: false
+  private _userAssignedIdentityExceptions = new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentityExceptionsList(this, "user_assigned_identity_exceptions", false);
+  public get userAssignedIdentityExceptions() {
+    return this._userAssignedIdentityExceptions;
+  }
+  public putUserAssignedIdentityExceptions(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPodIdentityProfileUserAssignedIdentityExceptions[] | cdktf.IResolvable) {
+    this._userAssignedIdentityExceptions.internalValue = value;
+  }
+  public resetUserAssignedIdentityExceptions() {
+    this._userAssignedIdentityExceptions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userAssignedIdentityExceptionsInput() {
+    return this._userAssignedIdentityExceptions.internalValue;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPowerState {
+  /**
+  * Tells whether the cluster is Running or Stopped.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#code DataRafayAksClusterV3#code}
+  */
+  readonly code?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPowerStateToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPowerStateOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPowerState): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    code: cdktf.stringToTerraform(struct!.code),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPowerStateToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPowerStateOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPowerState): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    code: {
+      value: cdktf.stringToHclTerraform(struct!.code),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPowerStateOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPowerState | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._code !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.code = this._code;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPowerState | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._code = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._code = value.code;
+    }
+  }
+
+  // code - computed: false, optional: true, required: false
+  private _code?: string; 
+  public get code() {
+    return this.getStringAttribute('code');
+  }
+  public set code(value: string) {
+    this._code = value;
+  }
+  public resetCode() {
+    this._code = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get codeInput() {
+    return this._code;
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPrivateLinkResources {
+  /**
+  * The group ID of the resource.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#group_id DataRafayAksClusterV3#group_id}
+  */
+  readonly groupId?: string;
+  /**
+  * The ID of the private link resource.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#id DataRafayAksClusterV3#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * The name of the private link resource.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#name DataRafayAksClusterV3#name}
+  */
+  readonly name?: string;
+  /**
+  * The RequiredMembers of the resource
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#required_members DataRafayAksClusterV3#required_members}
+  */
+  readonly requiredMembers?: string[];
+  /**
+  * The resource type.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#type DataRafayAksClusterV3#type}
+  */
+  readonly type?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPrivateLinkResourcesToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPrivateLinkResources | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    group_id: cdktf.stringToTerraform(struct!.groupId),
+    id: cdktf.stringToTerraform(struct!.id),
+    name: cdktf.stringToTerraform(struct!.name),
+    required_members: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.requiredMembers),
+    type: cdktf.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPrivateLinkResourcesToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPrivateLinkResources | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    group_id: {
+      value: cdktf.stringToHclTerraform(struct!.groupId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    id: {
+      value: cdktf.stringToHclTerraform(struct!.id),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    required_members: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.requiredMembers),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPrivateLinkResourcesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPrivateLinkResources | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._groupId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.groupId = this._groupId;
+    }
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._requiredMembers !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.requiredMembers = this._requiredMembers;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPrivateLinkResources | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._groupId = undefined;
+      this._id = undefined;
+      this._name = undefined;
+      this._requiredMembers = undefined;
+      this._type = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._groupId = value.groupId;
+      this._id = value.id;
+      this._name = value.name;
+      this._requiredMembers = value.requiredMembers;
+      this._type = value.type;
+    }
+  }
+
+  // group_id - computed: false, optional: true, required: false
+  private _groupId?: string; 
+  public get groupId() {
+    return this.getStringAttribute('group_id');
+  }
+  public set groupId(value: string) {
+    this._groupId = value;
+  }
+  public resetGroupId() {
+    this._groupId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get groupIdInput() {
+    return this._groupId;
+  }
+
+  // id - computed: false, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // required_members - computed: false, optional: true, required: false
+  private _requiredMembers?: string[]; 
+  public get requiredMembers() {
+    return this.getListAttribute('required_members');
+  }
+  public set requiredMembers(value: string[]) {
+    this._requiredMembers = value;
+  }
+  public resetRequiredMembers() {
+    this._requiredMembers = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requiredMembersInput() {
+    return this._requiredMembers;
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPrivateLinkResourcesList extends cdktf.ComplexList {
+  public internalValue? : DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPrivateLinkResources[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPrivateLinkResourcesOutputReference {
+    return new DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesPrivateLinkResourcesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesSecurityProfileAzureKeyVaultKms {
+  /**
+  * Whether to enable Azure Key Vault key management service. The default is false.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#enabled DataRafayAksClusterV3#enabled}
+  */
+  readonly enabled?: boolean | cdktf.IResolvable;
+  /**
+  * Identifier of Azure Key Vault key. See key identifier format for more details. When Azure Key Vault key management service is enabled, this field is required and must be a valid key identifier. When Azure Key Vault key management service is disabled, leave the field empty.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#key_id DataRafayAksClusterV3#key_id}
+  */
+  readonly keyId?: string;
+  /**
+  * Network access of key vault. The possible values are Public and Private. Public means the key vault allows public access from all networks. Private means the key vault disables public access and enables private link. The default value is Public.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#key_vault_network_access DataRafayAksClusterV3#key_vault_network_access}
+  */
+  readonly keyVaultNetworkAccess?: string;
+  /**
+  * Resource ID of key vault. When keyVaultNetworkAccess is Private, this field is required and must be a valid resource ID. When keyVaultNetworkAccess is Public, leave the field empty.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#key_vault_resource_id DataRafayAksClusterV3#key_vault_resource_id}
+  */
+  readonly keyVaultResourceId?: string;
+}
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesSecurityProfileAzureKeyVaultKmsToTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesSecurityProfileAzureKeyVaultKmsOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesSecurityProfileAzureKeyVaultKms): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enabled: cdktf.booleanToTerraform(struct!.enabled),
+    key_id: cdktf.stringToTerraform(struct!.keyId),
+    key_vault_network_access: cdktf.stringToTerraform(struct!.keyVaultNetworkAccess),
+    key_vault_resource_id: cdktf.stringToTerraform(struct!.keyVaultResourceId),
+  }
+}
+
+
+export function dataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesSecurityProfileAzureKeyVaultKmsToHclTerraform(struct?: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesSecurityProfileAzureKeyVaultKmsOutputReference | DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesSecurityProfileAzureKeyVaultKms): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    key_id: {
+      value: cdktf.stringToHclTerraform(struct!.keyId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    key_vault_network_access: {
+      value: cdktf.stringToHclTerraform(struct!.keyVaultNetworkAccess),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    key_vault_resource_id: {
+      value: cdktf.stringToHclTerraform(struct!.keyVaultResourceId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesSecurityProfileAzureKeyVaultKmsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesSecurityProfileAzureKeyVaultKms | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    if (this._keyId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.keyId = this._keyId;
+    }
+    if (this._keyVaultNetworkAccess !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.keyVaultNetworkAccess = this._keyVaultNetworkAccess;
+    }
+    if (this._keyVaultResourceId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.keyVaultResourceId = this._keyVaultResourceId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAksClusterV3SpecConfigSpecManagedClusterPropertiesSecurityProfileAzureKeyVaultKms | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enabled = undefined;
+      this._keyId = undefined;
+      this._keyVaultNetworkAccess = undefined;
+      this._keyVaultResourceId = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enabled = value.enabled;
+      this._keyId = value.keyId;
+      this._keyVaultNetworkAccess = value.keyVaultNetworkAccess;
+      this._keyVaultResourceId = value.keyVaultResourceId;
+    }
+  }
+
+  // enabled - computed: false, optional: true, required: false
+  private _enabled?: boolean | cdktf.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktf.IResolvable) {
+    this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+
+  // key_id - computed: false, optional: true, required: false
+  private _keyId?: string; 
+  public get keyId() {
+    return this.getStringAttribute('key_id');
+  }
+  public set keyId(value: string) {
+    this._keyId = value;
+  }
+  public resetKeyId() {
+    this._keyId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyIdInput() {
+    return this._keyId;
+  }
+
+  // key_vault_network_access - computed: false, optional: true, required: false
+  private _keyVaultNetworkAccess?: string; 
+  public get keyVaultNetworkAccess() {
+    return this.getStringAttribute('key_vault_network_access');
+  }
+  public set keyVaultNetworkAccess(value: string) {
+    this._keyVaultNetworkAccess = value;
+  }
+  public resetKeyVaultNetworkAccess() {
+    this._keyVaultNetworkAccess = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyVaultNetworkAccessInput() {
+    return this._keyVaultNetworkAccess;
+  }
+
+  // key_vault_resource_id - computed: false, optional: true, required: false
+  private _keyVaultResourceId?: string; 
+  public get keyVaultResourceId() {
+    return this.getStringAttribute('key_vault_resource_id');
+  }
+  public set keyVaultResourceId(value: string) {
+    this._keyVaultResourceId = value;
+  }
+  public resetKeyVaultResourceId() {
+    this._keyVaultResourceId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyVaultResourceIdInput() {
+    return this._keyVaultResourceId;
+  }
+}

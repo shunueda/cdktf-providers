@@ -1,0 +1,719 @@
+// https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/organizations
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface DataMongodbatlasOrganizationsConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/organizations#id DataMongodbatlasOrganizations#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/organizations#items_per_page DataMongodbatlasOrganizations#items_per_page}
+  */
+  readonly itemsPerPage?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/organizations#name DataMongodbatlasOrganizations#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/organizations#page_num DataMongodbatlasOrganizations#page_num}
+  */
+  readonly pageNum?: number;
+}
+export interface DataMongodbatlasOrganizationsResultsLinks {
+}
+
+export function dataMongodbatlasOrganizationsResultsLinksToTerraform(struct?: DataMongodbatlasOrganizationsResultsLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataMongodbatlasOrganizationsResultsLinksToHclTerraform(struct?: DataMongodbatlasOrganizationsResultsLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataMongodbatlasOrganizationsResultsLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataMongodbatlasOrganizationsResultsLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataMongodbatlasOrganizationsResultsLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+}
+
+export class DataMongodbatlasOrganizationsResultsLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataMongodbatlasOrganizationsResultsLinksOutputReference {
+    return new DataMongodbatlasOrganizationsResultsLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataMongodbatlasOrganizationsResultsUsersRolesProjectRoleAssignments {
+}
+
+export function dataMongodbatlasOrganizationsResultsUsersRolesProjectRoleAssignmentsToTerraform(struct?: DataMongodbatlasOrganizationsResultsUsersRolesProjectRoleAssignments): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataMongodbatlasOrganizationsResultsUsersRolesProjectRoleAssignmentsToHclTerraform(struct?: DataMongodbatlasOrganizationsResultsUsersRolesProjectRoleAssignments): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataMongodbatlasOrganizationsResultsUsersRolesProjectRoleAssignmentsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataMongodbatlasOrganizationsResultsUsersRolesProjectRoleAssignments | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataMongodbatlasOrganizationsResultsUsersRolesProjectRoleAssignments | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // project_id - computed: true, optional: false, required: false
+  public get projectId() {
+    return this.getStringAttribute('project_id');
+  }
+
+  // project_roles - computed: true, optional: false, required: false
+  public get projectRoles() {
+    return cdktf.Fn.tolist(this.getListAttribute('project_roles'));
+  }
+}
+
+export class DataMongodbatlasOrganizationsResultsUsersRolesProjectRoleAssignmentsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataMongodbatlasOrganizationsResultsUsersRolesProjectRoleAssignmentsOutputReference {
+    return new DataMongodbatlasOrganizationsResultsUsersRolesProjectRoleAssignmentsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataMongodbatlasOrganizationsResultsUsersRoles {
+}
+
+export function dataMongodbatlasOrganizationsResultsUsersRolesToTerraform(struct?: DataMongodbatlasOrganizationsResultsUsersRoles): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataMongodbatlasOrganizationsResultsUsersRolesToHclTerraform(struct?: DataMongodbatlasOrganizationsResultsUsersRoles): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataMongodbatlasOrganizationsResultsUsersRolesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataMongodbatlasOrganizationsResultsUsersRoles | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataMongodbatlasOrganizationsResultsUsersRoles | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // org_roles - computed: true, optional: false, required: false
+  public get orgRoles() {
+    return cdktf.Fn.tolist(this.getListAttribute('org_roles'));
+  }
+
+  // project_role_assignments - computed: true, optional: false, required: false
+  private _projectRoleAssignments = new DataMongodbatlasOrganizationsResultsUsersRolesProjectRoleAssignmentsList(this, "project_role_assignments", true);
+  public get projectRoleAssignments() {
+    return this._projectRoleAssignments;
+  }
+}
+
+export class DataMongodbatlasOrganizationsResultsUsersRolesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataMongodbatlasOrganizationsResultsUsersRolesOutputReference {
+    return new DataMongodbatlasOrganizationsResultsUsersRolesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataMongodbatlasOrganizationsResultsUsers {
+}
+
+export function dataMongodbatlasOrganizationsResultsUsersToTerraform(struct?: DataMongodbatlasOrganizationsResultsUsers): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataMongodbatlasOrganizationsResultsUsersToHclTerraform(struct?: DataMongodbatlasOrganizationsResultsUsers): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataMongodbatlasOrganizationsResultsUsersOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataMongodbatlasOrganizationsResultsUsers | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataMongodbatlasOrganizationsResultsUsers | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // country - computed: true, optional: false, required: false
+  public get country() {
+    return this.getStringAttribute('country');
+  }
+
+  // created_at - computed: true, optional: false, required: false
+  public get createdAt() {
+    return this.getStringAttribute('created_at');
+  }
+
+  // first_name - computed: true, optional: false, required: false
+  public get firstName() {
+    return this.getStringAttribute('first_name');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // invitation_created_at - computed: true, optional: false, required: false
+  public get invitationCreatedAt() {
+    return this.getStringAttribute('invitation_created_at');
+  }
+
+  // invitation_expires_at - computed: true, optional: false, required: false
+  public get invitationExpiresAt() {
+    return this.getStringAttribute('invitation_expires_at');
+  }
+
+  // inviter_username - computed: true, optional: false, required: false
+  public get inviterUsername() {
+    return this.getStringAttribute('inviter_username');
+  }
+
+  // last_auth - computed: true, optional: false, required: false
+  public get lastAuth() {
+    return this.getStringAttribute('last_auth');
+  }
+
+  // last_name - computed: true, optional: false, required: false
+  public get lastName() {
+    return this.getStringAttribute('last_name');
+  }
+
+  // mobile_number - computed: true, optional: false, required: false
+  public get mobileNumber() {
+    return this.getStringAttribute('mobile_number');
+  }
+
+  // org_membership_status - computed: true, optional: false, required: false
+  public get orgMembershipStatus() {
+    return this.getStringAttribute('org_membership_status');
+  }
+
+  // roles - computed: true, optional: false, required: false
+  private _roles = new DataMongodbatlasOrganizationsResultsUsersRolesList(this, "roles", false);
+  public get roles() {
+    return this._roles;
+  }
+
+  // team_ids - computed: true, optional: false, required: false
+  public get teamIds() {
+    return this.getListAttribute('team_ids');
+  }
+
+  // username - computed: true, optional: false, required: false
+  public get username() {
+    return this.getStringAttribute('username');
+  }
+}
+
+export class DataMongodbatlasOrganizationsResultsUsersList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataMongodbatlasOrganizationsResultsUsersOutputReference {
+    return new DataMongodbatlasOrganizationsResultsUsersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataMongodbatlasOrganizationsResults {
+}
+
+export function dataMongodbatlasOrganizationsResultsToTerraform(struct?: DataMongodbatlasOrganizationsResults): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataMongodbatlasOrganizationsResultsToHclTerraform(struct?: DataMongodbatlasOrganizationsResults): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataMongodbatlasOrganizationsResultsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataMongodbatlasOrganizationsResults | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataMongodbatlasOrganizationsResults | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // api_access_list_required - computed: true, optional: false, required: false
+  public get apiAccessListRequired() {
+    return this.getBooleanAttribute('api_access_list_required');
+  }
+
+  // gen_ai_features_enabled - computed: true, optional: false, required: false
+  public get genAiFeaturesEnabled() {
+    return this.getBooleanAttribute('gen_ai_features_enabled');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // is_deleted - computed: true, optional: false, required: false
+  public get isDeleted() {
+    return this.getBooleanAttribute('is_deleted');
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new DataMongodbatlasOrganizationsResultsLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // multi_factor_auth_required - computed: true, optional: false, required: false
+  public get multiFactorAuthRequired() {
+    return this.getBooleanAttribute('multi_factor_auth_required');
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // restrict_employee_access - computed: true, optional: false, required: false
+  public get restrictEmployeeAccess() {
+    return this.getBooleanAttribute('restrict_employee_access');
+  }
+
+  // security_contact - computed: true, optional: false, required: false
+  public get securityContact() {
+    return this.getStringAttribute('security_contact');
+  }
+
+  // skip_default_alerts_settings - computed: true, optional: false, required: false
+  public get skipDefaultAlertsSettings() {
+    return this.getBooleanAttribute('skip_default_alerts_settings');
+  }
+
+  // users - computed: true, optional: false, required: false
+  private _users = new DataMongodbatlasOrganizationsResultsUsersList(this, "users", false);
+  public get users() {
+    return this._users;
+  }
+}
+
+export class DataMongodbatlasOrganizationsResultsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataMongodbatlasOrganizationsResultsOutputReference {
+    return new DataMongodbatlasOrganizationsResultsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/organizations mongodbatlas_organizations}
+*/
+export class DataMongodbatlasOrganizations extends cdktf.TerraformDataSource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "mongodbatlas_organizations";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a DataMongodbatlasOrganizations resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the DataMongodbatlasOrganizations to import
+  * @param importFromId The id of the existing DataMongodbatlasOrganizations that should be imported. Refer to the {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/organizations#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the DataMongodbatlasOrganizations to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "mongodbatlas_organizations", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/mongodb/mongodbatlas/2.1.0/docs/data-sources/organizations mongodbatlas_organizations} Data Source
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options DataMongodbatlasOrganizationsConfig = {}
+  */
+  public constructor(scope: Construct, id: string, config: DataMongodbatlasOrganizationsConfig = {}) {
+    super(scope, id, {
+      terraformResourceType: 'mongodbatlas_organizations',
+      terraformGeneratorMetadata: {
+        providerName: 'mongodbatlas',
+        providerVersion: '2.1.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._id = config.id;
+    this._itemsPerPage = config.itemsPerPage;
+    this._name = config.name;
+    this._pageNum = config.pageNum;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // items_per_page - computed: false, optional: true, required: false
+  private _itemsPerPage?: number; 
+  public get itemsPerPage() {
+    return this.getNumberAttribute('items_per_page');
+  }
+  public set itemsPerPage(value: number) {
+    this._itemsPerPage = value;
+  }
+  public resetItemsPerPage() {
+    this._itemsPerPage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get itemsPerPageInput() {
+    return this._itemsPerPage;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // page_num - computed: false, optional: true, required: false
+  private _pageNum?: number; 
+  public get pageNum() {
+    return this.getNumberAttribute('page_num');
+  }
+  public set pageNum(value: number) {
+    this._pageNum = value;
+  }
+  public resetPageNum() {
+    this._pageNum = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pageNumInput() {
+    return this._pageNum;
+  }
+
+  // results - computed: true, optional: false, required: false
+  private _results = new DataMongodbatlasOrganizationsResultsList(this, "results", false);
+  public get results() {
+    return this._results;
+  }
+
+  // total_count - computed: true, optional: false, required: false
+  public get totalCount() {
+    return this.getNumberAttribute('total_count');
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      id: cdktf.stringToTerraform(this._id),
+      items_per_page: cdktf.numberToTerraform(this._itemsPerPage),
+      name: cdktf.stringToTerraform(this._name),
+      page_num: cdktf.numberToTerraform(this._pageNum),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      items_per_page: {
+        value: cdktf.numberToHclTerraform(this._itemsPerPage),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      page_num: {
+        value: cdktf.numberToHclTerraform(this._pageNum),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

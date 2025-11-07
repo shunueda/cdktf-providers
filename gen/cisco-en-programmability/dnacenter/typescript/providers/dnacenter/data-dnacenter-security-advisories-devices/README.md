@@ -1,0 +1,3 @@
+# `data_dnacenter_security_advisories_devices`
+
+Refer to the Terraform Registry for docs: [`data_dnacenter_security_advisories_devices`](https://registry.terraform.io/providers/cisco-en-programmability/dnacenter/1.1.21/docs/data-sources/security_advisories_devices).

@@ -1,0 +1,3 @@
+# `data_octopusdeploy_service_account_oidc_identity`
+
+Refer to the Terraform Registry for docs: [`data_octopusdeploy_service_account_oidc_identity`](https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/service_account_oidc_identity).

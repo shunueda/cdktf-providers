@@ -1,0 +1,3 @@
+# `data_alkira_peering_gateway_cxp`
+
+Refer to the Terraform Registry for docs: [`data_alkira_peering_gateway_cxp`](https://registry.terraform.io/providers/alkiranet/alkira/1.3.2/docs/data-sources/peering_gateway_cxp).

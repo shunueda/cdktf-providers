@@ -1,0 +1,3 @@
+# `ise_identity_source_sequence`
+
+Refer to the Terraform Registry for docs: [`ise_identity_source_sequence`](https://registry.terraform.io/providers/ciscodevnet/ise/0.2.12/docs/resources/identity_source_sequence).

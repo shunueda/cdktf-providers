@@ -1,0 +1,169 @@
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_reload_proxy_node
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface CynosdbReloadProxyNodeConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * cluster id.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_reload_proxy_node#cluster_id CynosdbReloadProxyNode#cluster_id}
+  */
+  readonly clusterId: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_reload_proxy_node#id CynosdbReloadProxyNode#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * proxy group id.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_reload_proxy_node#proxy_group_id CynosdbReloadProxyNode#proxy_group_id}
+  */
+  readonly proxyGroupId: string;
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_reload_proxy_node tencentcloud_cynosdb_reload_proxy_node}
+*/
+export class CynosdbReloadProxyNode extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "tencentcloud_cynosdb_reload_proxy_node";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a CynosdbReloadProxyNode resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the CynosdbReloadProxyNode to import
+  * @param importFromId The id of the existing CynosdbReloadProxyNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_reload_proxy_node#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the CynosdbReloadProxyNode to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "tencentcloud_cynosdb_reload_proxy_node", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_reload_proxy_node tencentcloud_cynosdb_reload_proxy_node} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options CynosdbReloadProxyNodeConfig
+  */
+  public constructor(scope: Construct, id: string, config: CynosdbReloadProxyNodeConfig) {
+    super(scope, id, {
+      terraformResourceType: 'tencentcloud_cynosdb_reload_proxy_node',
+      terraformGeneratorMetadata: {
+        providerName: 'tencentcloud',
+        providerVersion: '1.82.35'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._clusterId = config.clusterId;
+    this._id = config.id;
+    this._proxyGroupId = config.proxyGroupId;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // cluster_id - computed: false, optional: false, required: true
+  private _clusterId?: string; 
+  public get clusterId() {
+    return this.getStringAttribute('cluster_id');
+  }
+  public set clusterId(value: string) {
+    this._clusterId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clusterIdInput() {
+    return this._clusterId;
+  }
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // proxy_group_id - computed: false, optional: false, required: true
+  private _proxyGroupId?: string; 
+  public get proxyGroupId() {
+    return this.getStringAttribute('proxy_group_id');
+  }
+  public set proxyGroupId(value: string) {
+    this._proxyGroupId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get proxyGroupIdInput() {
+    return this._proxyGroupId;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      cluster_id: cdktf.stringToTerraform(this._clusterId),
+      id: cdktf.stringToTerraform(this._id),
+      proxy_group_id: cdktf.stringToTerraform(this._proxyGroupId),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      cluster_id: {
+        value: cdktf.stringToHclTerraform(this._clusterId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      proxy_group_id: {
+        value: cdktf.stringToHclTerraform(this._proxyGroupId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

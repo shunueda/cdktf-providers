@@ -1,0 +1,581 @@
+// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface PolicyLbClientSslProfileConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * A label of cipher group which is mostly consumed by GUI. Default value is BALANCED.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#cipher_group_label PolicyLbClientSslProfile#cipher_group_label}
+  */
+  readonly cipherGroupLabel?: string;
+  /**
+  * Supported SSL cipher list
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#ciphers PolicyLbClientSslProfile#ciphers}
+  */
+  readonly ciphers?: string[];
+  /**
+  * Description for this resource
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#description PolicyLbClientSslProfile#description}
+  */
+  readonly description?: string;
+  /**
+  * Display name for this resource
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#display_name PolicyLbClientSslProfile#display_name}
+  */
+  readonly displayName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#id PolicyLbClientSslProfile#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * NSX ID for this resource
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#nsx_id PolicyLbClientSslProfile#nsx_id}
+  */
+  readonly nsxId?: string;
+  /**
+  * During SSL handshake as part of the SSL client Hello client sends an ordered list of ciphers that it can support (or prefers) and typically server selects the first one from the top of that list it can also support. For Perfect Forward Secrecy(PFS), server could override the client's preference.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#prefer_server_ciphers PolicyLbClientSslProfile#prefer_server_ciphers}
+  */
+  readonly preferServerCiphers?: boolean | cdktf.IResolvable;
+  /**
+  * SSL versions TLS1.1 and TLS1.2 are supported and enabled by default. SSLv2, SSLv3, and TLS1.0 are supported, but disabled by default
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#protocols PolicyLbClientSslProfile#protocols}
+  */
+  readonly protocols?: string[];
+  /**
+  * If set to true, SSL session caching allows SSL client and server to reuse previously negotiated security parameters avoiding the expensive public key operation during handshake.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#session_cache_enabled PolicyLbClientSslProfile#session_cache_enabled}
+  */
+  readonly sessionCacheEnabled?: boolean | cdktf.IResolvable;
+  /**
+  * Session cache timeout specifies how long the SSL session parameters are held on to and can be reused. Default value is 300.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#session_cache_timeout PolicyLbClientSslProfile#session_cache_timeout}
+  */
+  readonly sessionCacheTimeout?: number;
+  /**
+  * tag block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#tag PolicyLbClientSslProfile#tag}
+  */
+  readonly tag?: PolicyLbClientSslProfileTag[] | cdktf.IResolvable;
+}
+export interface PolicyLbClientSslProfileTag {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#scope PolicyLbClientSslProfile#scope}
+  */
+  readonly scope?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#tag PolicyLbClientSslProfile#tag}
+  */
+  readonly tag?: string;
+}
+
+export function policyLbClientSslProfileTagToTerraform(struct?: PolicyLbClientSslProfileTag | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    scope: cdktf.stringToTerraform(struct!.scope),
+    tag: cdktf.stringToTerraform(struct!.tag),
+  }
+}
+
+
+export function policyLbClientSslProfileTagToHclTerraform(struct?: PolicyLbClientSslProfileTag | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    scope: {
+      value: cdktf.stringToHclTerraform(struct!.scope),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tag: {
+      value: cdktf.stringToHclTerraform(struct!.tag),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class PolicyLbClientSslProfileTagOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): PolicyLbClientSslProfileTag | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._scope !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scope = this._scope;
+    }
+    if (this._tag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tag = this._tag;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: PolicyLbClientSslProfileTag | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._scope = undefined;
+      this._tag = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._scope = value.scope;
+      this._tag = value.tag;
+    }
+  }
+
+  // scope - computed: false, optional: true, required: false
+  private _scope?: string; 
+  public get scope() {
+    return this.getStringAttribute('scope');
+  }
+  public set scope(value: string) {
+    this._scope = value;
+  }
+  public resetScope() {
+    this._scope = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scopeInput() {
+    return this._scope;
+  }
+
+  // tag - computed: false, optional: true, required: false
+  private _tag?: string; 
+  public get tag() {
+    return this.getStringAttribute('tag');
+  }
+  public set tag(value: string) {
+    this._tag = value;
+  }
+  public resetTag() {
+    this._tag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagInput() {
+    return this._tag;
+  }
+}
+
+export class PolicyLbClientSslProfileTagList extends cdktf.ComplexList {
+  public internalValue? : PolicyLbClientSslProfileTag[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): PolicyLbClientSslProfileTagOutputReference {
+    return new PolicyLbClientSslProfileTagOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile nsxt_policy_lb_client_ssl_profile}
+*/
+export class PolicyLbClientSslProfile extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "nsxt_policy_lb_client_ssl_profile";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a PolicyLbClientSslProfile resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the PolicyLbClientSslProfile to import
+  * @param importFromId The id of the existing PolicyLbClientSslProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the PolicyLbClientSslProfile to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "nsxt_policy_lb_client_ssl_profile", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile nsxt_policy_lb_client_ssl_profile} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options PolicyLbClientSslProfileConfig
+  */
+  public constructor(scope: Construct, id: string, config: PolicyLbClientSslProfileConfig) {
+    super(scope, id, {
+      terraformResourceType: 'nsxt_policy_lb_client_ssl_profile',
+      terraformGeneratorMetadata: {
+        providerName: 'nsxt',
+        providerVersion: '3.10.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._cipherGroupLabel = config.cipherGroupLabel;
+    this._ciphers = config.ciphers;
+    this._description = config.description;
+    this._displayName = config.displayName;
+    this._id = config.id;
+    this._nsxId = config.nsxId;
+    this._preferServerCiphers = config.preferServerCiphers;
+    this._protocols = config.protocols;
+    this._sessionCacheEnabled = config.sessionCacheEnabled;
+    this._sessionCacheTimeout = config.sessionCacheTimeout;
+    this._tag.internalValue = config.tag;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // cipher_group_label - computed: false, optional: true, required: false
+  private _cipherGroupLabel?: string; 
+  public get cipherGroupLabel() {
+    return this.getStringAttribute('cipher_group_label');
+  }
+  public set cipherGroupLabel(value: string) {
+    this._cipherGroupLabel = value;
+  }
+  public resetCipherGroupLabel() {
+    this._cipherGroupLabel = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cipherGroupLabelInput() {
+    return this._cipherGroupLabel;
+  }
+
+  // ciphers - computed: true, optional: true, required: false
+  private _ciphers?: string[]; 
+  public get ciphers() {
+    return cdktf.Fn.tolist(this.getListAttribute('ciphers'));
+  }
+  public set ciphers(value: string[]) {
+    this._ciphers = value;
+  }
+  public resetCiphers() {
+    this._ciphers = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ciphersInput() {
+    return this._ciphers;
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // display_name - computed: false, optional: false, required: true
+  private _displayName?: string; 
+  public get displayName() {
+    return this.getStringAttribute('display_name');
+  }
+  public set displayName(value: string) {
+    this._displayName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get displayNameInput() {
+    return this._displayName;
+  }
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // is_fips - computed: true, optional: false, required: false
+  public get isFips() {
+    return this.getBooleanAttribute('is_fips');
+  }
+
+  // is_secure - computed: true, optional: false, required: false
+  public get isSecure() {
+    return this.getBooleanAttribute('is_secure');
+  }
+
+  // nsx_id - computed: true, optional: true, required: false
+  private _nsxId?: string; 
+  public get nsxId() {
+    return this.getStringAttribute('nsx_id');
+  }
+  public set nsxId(value: string) {
+    this._nsxId = value;
+  }
+  public resetNsxId() {
+    this._nsxId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nsxIdInput() {
+    return this._nsxId;
+  }
+
+  // path - computed: true, optional: false, required: false
+  public get path() {
+    return this.getStringAttribute('path');
+  }
+
+  // prefer_server_ciphers - computed: false, optional: true, required: false
+  private _preferServerCiphers?: boolean | cdktf.IResolvable; 
+  public get preferServerCiphers() {
+    return this.getBooleanAttribute('prefer_server_ciphers');
+  }
+  public set preferServerCiphers(value: boolean | cdktf.IResolvable) {
+    this._preferServerCiphers = value;
+  }
+  public resetPreferServerCiphers() {
+    this._preferServerCiphers = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get preferServerCiphersInput() {
+    return this._preferServerCiphers;
+  }
+
+  // protocols - computed: true, optional: true, required: false
+  private _protocols?: string[]; 
+  public get protocols() {
+    return cdktf.Fn.tolist(this.getListAttribute('protocols'));
+  }
+  public set protocols(value: string[]) {
+    this._protocols = value;
+  }
+  public resetProtocols() {
+    this._protocols = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get protocolsInput() {
+    return this._protocols;
+  }
+
+  // revision - computed: true, optional: false, required: false
+  public get revision() {
+    return this.getNumberAttribute('revision');
+  }
+
+  // session_cache_enabled - computed: false, optional: true, required: false
+  private _sessionCacheEnabled?: boolean | cdktf.IResolvable; 
+  public get sessionCacheEnabled() {
+    return this.getBooleanAttribute('session_cache_enabled');
+  }
+  public set sessionCacheEnabled(value: boolean | cdktf.IResolvable) {
+    this._sessionCacheEnabled = value;
+  }
+  public resetSessionCacheEnabled() {
+    this._sessionCacheEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sessionCacheEnabledInput() {
+    return this._sessionCacheEnabled;
+  }
+
+  // session_cache_timeout - computed: false, optional: true, required: false
+  private _sessionCacheTimeout?: number; 
+  public get sessionCacheTimeout() {
+    return this.getNumberAttribute('session_cache_timeout');
+  }
+  public set sessionCacheTimeout(value: number) {
+    this._sessionCacheTimeout = value;
+  }
+  public resetSessionCacheTimeout() {
+    this._sessionCacheTimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sessionCacheTimeoutInput() {
+    return this._sessionCacheTimeout;
+  }
+
+  // tag - computed: false, optional: true, required: false
+  private _tag = new PolicyLbClientSslProfileTagList(this, "tag", true);
+  public get tag() {
+    return this._tag;
+  }
+  public putTag(value: PolicyLbClientSslProfileTag[] | cdktf.IResolvable) {
+    this._tag.internalValue = value;
+  }
+  public resetTag() {
+    this._tag.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagInput() {
+    return this._tag.internalValue;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      cipher_group_label: cdktf.stringToTerraform(this._cipherGroupLabel),
+      ciphers: cdktf.listMapper(cdktf.stringToTerraform, false)(this._ciphers),
+      description: cdktf.stringToTerraform(this._description),
+      display_name: cdktf.stringToTerraform(this._displayName),
+      id: cdktf.stringToTerraform(this._id),
+      nsx_id: cdktf.stringToTerraform(this._nsxId),
+      prefer_server_ciphers: cdktf.booleanToTerraform(this._preferServerCiphers),
+      protocols: cdktf.listMapper(cdktf.stringToTerraform, false)(this._protocols),
+      session_cache_enabled: cdktf.booleanToTerraform(this._sessionCacheEnabled),
+      session_cache_timeout: cdktf.numberToTerraform(this._sessionCacheTimeout),
+      tag: cdktf.listMapper(policyLbClientSslProfileTagToTerraform, true)(this._tag.internalValue),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      cipher_group_label: {
+        value: cdktf.stringToHclTerraform(this._cipherGroupLabel),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ciphers: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._ciphers),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      description: {
+        value: cdktf.stringToHclTerraform(this._description),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      display_name: {
+        value: cdktf.stringToHclTerraform(this._displayName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      nsx_id: {
+        value: cdktf.stringToHclTerraform(this._nsxId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      prefer_server_ciphers: {
+        value: cdktf.booleanToHclTerraform(this._preferServerCiphers),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      protocols: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._protocols),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      session_cache_enabled: {
+        value: cdktf.booleanToHclTerraform(this._sessionCacheEnabled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      session_cache_timeout: {
+        value: cdktf.numberToHclTerraform(this._sessionCacheTimeout),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      tag: {
+        value: cdktf.listMapperHcl(policyLbClientSslProfileTagToHclTerraform, true)(this._tag.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "PolicyLbClientSslProfileTagList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

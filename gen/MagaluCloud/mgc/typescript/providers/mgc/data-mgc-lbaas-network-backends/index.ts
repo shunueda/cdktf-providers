@@ -1,0 +1,318 @@
+// https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/data-sources/lbaas_network_backends
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface DataMgcLbaasNetworkBackendsConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * The Network Load Balancer ID.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/data-sources/lbaas_network_backends#lb_id DataMgcLbaasNetworkBackends#lb_id}
+  */
+  readonly lbId: string;
+}
+export interface DataMgcLbaasNetworkBackendsBackendsTargets {
+}
+
+export function dataMgcLbaasNetworkBackendsBackendsTargetsToTerraform(struct?: DataMgcLbaasNetworkBackendsBackendsTargets): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataMgcLbaasNetworkBackendsBackendsTargetsToHclTerraform(struct?: DataMgcLbaasNetworkBackendsBackendsTargets): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataMgcLbaasNetworkBackendsBackendsTargetsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataMgcLbaasNetworkBackendsBackendsTargets | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataMgcLbaasNetworkBackendsBackendsTargets | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // ip_address - computed: true, optional: false, required: false
+  public get ipAddress() {
+    return this.getStringAttribute('ip_address');
+  }
+
+  // nic_id - computed: true, optional: false, required: false
+  public get nicId() {
+    return this.getStringAttribute('nic_id');
+  }
+
+  // port - computed: true, optional: false, required: false
+  public get port() {
+    return this.getNumberAttribute('port');
+  }
+}
+
+export class DataMgcLbaasNetworkBackendsBackendsTargetsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataMgcLbaasNetworkBackendsBackendsTargetsOutputReference {
+    return new DataMgcLbaasNetworkBackendsBackendsTargetsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataMgcLbaasNetworkBackendsBackends {
+}
+
+export function dataMgcLbaasNetworkBackendsBackendsToTerraform(struct?: DataMgcLbaasNetworkBackendsBackends): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataMgcLbaasNetworkBackendsBackendsToHclTerraform(struct?: DataMgcLbaasNetworkBackendsBackends): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataMgcLbaasNetworkBackendsBackendsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataMgcLbaasNetworkBackendsBackends | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataMgcLbaasNetworkBackendsBackends | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // balance_algorithm - computed: true, optional: false, required: false
+  public get balanceAlgorithm() {
+    return this.getStringAttribute('balance_algorithm');
+  }
+
+  // close_connections_on_host_health_failure - computed: true, optional: false, required: false
+  public get closeConnectionsOnHostHealthFailure() {
+    return this.getBooleanAttribute('close_connections_on_host_health_failure');
+  }
+
+  // description - computed: true, optional: false, required: false
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+
+  // health_check_id - computed: true, optional: false, required: false
+  public get healthCheckId() {
+    return this.getStringAttribute('health_check_id');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // panic_threshold - computed: true, optional: false, required: false
+  public get panicThreshold() {
+    return this.getNumberAttribute('panic_threshold');
+  }
+
+  // targets - computed: true, optional: false, required: false
+  private _targets = new DataMgcLbaasNetworkBackendsBackendsTargetsList(this, "targets", false);
+  public get targets() {
+    return this._targets;
+  }
+
+  // targets_type - computed: true, optional: false, required: false
+  public get targetsType() {
+    return this.getStringAttribute('targets_type');
+  }
+}
+
+export class DataMgcLbaasNetworkBackendsBackendsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataMgcLbaasNetworkBackendsBackendsOutputReference {
+    return new DataMgcLbaasNetworkBackendsBackendsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/data-sources/lbaas_network_backends mgc_lbaas_network_backends}
+*/
+export class DataMgcLbaasNetworkBackends extends cdktf.TerraformDataSource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "mgc_lbaas_network_backends";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a DataMgcLbaasNetworkBackends resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the DataMgcLbaasNetworkBackends to import
+  * @param importFromId The id of the existing DataMgcLbaasNetworkBackends that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/data-sources/lbaas_network_backends#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the DataMgcLbaasNetworkBackends to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "mgc_lbaas_network_backends", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/data-sources/lbaas_network_backends mgc_lbaas_network_backends} Data Source
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options DataMgcLbaasNetworkBackendsConfig
+  */
+  public constructor(scope: Construct, id: string, config: DataMgcLbaasNetworkBackendsConfig) {
+    super(scope, id, {
+      terraformResourceType: 'mgc_lbaas_network_backends',
+      terraformGeneratorMetadata: {
+        providerName: 'mgc',
+        providerVersion: '0.39.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._lbId = config.lbId;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // backends - computed: true, optional: false, required: false
+  private _backends = new DataMgcLbaasNetworkBackendsBackendsList(this, "backends", false);
+  public get backends() {
+    return this._backends;
+  }
+
+  // lb_id - computed: false, optional: false, required: true
+  private _lbId?: string; 
+  public get lbId() {
+    return this.getStringAttribute('lb_id');
+  }
+  public set lbId(value: string) {
+    this._lbId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lbIdInput() {
+    return this._lbId;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      lb_id: cdktf.stringToTerraform(this._lbId),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      lb_id: {
+        value: cdktf.stringToHclTerraform(this._lbId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

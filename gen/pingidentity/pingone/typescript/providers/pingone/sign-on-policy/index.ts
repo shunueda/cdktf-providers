@@ -1,0 +1,178 @@
+// https://registry.terraform.io/providers/pingidentity/pingone/1.14.0/docs/resources/sign_on_policy
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface SignOnPolicyConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * A string that specifies the description to apply to the sign-on policy.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/pingone/1.14.0/docs/resources/sign_on_policy#description SignOnPolicy#description}
+  */
+  readonly description?: string;
+  /**
+  * The ID of the environment to manage the sign-on policy in.  Must be a valid PingOne resource ID.  This field is immutable and will trigger a replace plan if changed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/pingone/1.14.0/docs/resources/sign_on_policy#environment_id SignOnPolicy#environment_id}
+  */
+  readonly environmentId: string;
+  /**
+  * A string that specifies the sign on policy name, that is also used as the authentication context when initiating sign-on. The name must be unique within the environment, and can consist of either a string of alphanumeric letters, underscore, hyphen, period (regex `^[a-zA-Z0-9_.-]+$`) or an absolute URI if the string contains a `:` character.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pingidentity/pingone/1.14.0/docs/resources/sign_on_policy#name SignOnPolicy#name}
+  */
+  readonly name: string;
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/pingidentity/pingone/1.14.0/docs/resources/sign_on_policy pingone_sign_on_policy}
+*/
+export class SignOnPolicy extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "pingone_sign_on_policy";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a SignOnPolicy resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the SignOnPolicy to import
+  * @param importFromId The id of the existing SignOnPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/pingidentity/pingone/1.14.0/docs/resources/sign_on_policy#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the SignOnPolicy to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "pingone_sign_on_policy", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/pingidentity/pingone/1.14.0/docs/resources/sign_on_policy pingone_sign_on_policy} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options SignOnPolicyConfig
+  */
+  public constructor(scope: Construct, id: string, config: SignOnPolicyConfig) {
+    super(scope, id, {
+      terraformResourceType: 'pingone_sign_on_policy',
+      terraformGeneratorMetadata: {
+        providerName: 'pingone',
+        providerVersion: '1.14.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._description = config.description;
+    this._environmentId = config.environmentId;
+    this._name = config.name;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // default - computed: true, optional: false, required: false
+  public get default() {
+    return this.getBooleanAttribute('default');
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // environment_id - computed: false, optional: false, required: true
+  private _environmentId?: string; 
+  public get environmentId() {
+    return this.getStringAttribute('environment_id');
+  }
+  public set environmentId(value: string) {
+    this._environmentId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get environmentIdInput() {
+    return this._environmentId;
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      description: cdktf.stringToTerraform(this._description),
+      environment_id: cdktf.stringToTerraform(this._environmentId),
+      name: cdktf.stringToTerraform(this._name),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      description: {
+        value: cdktf.stringToHclTerraform(this._description),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      environment_id: {
+        value: cdktf.stringToHclTerraform(this._environmentId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

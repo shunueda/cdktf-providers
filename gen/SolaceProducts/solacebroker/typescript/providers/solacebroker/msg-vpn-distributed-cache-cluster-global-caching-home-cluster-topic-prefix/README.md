@@ -1,0 +1,3 @@
+# `solacebroker_msg_vpn_distributed_cache_cluster_global_caching_home_cluster_topic_prefix`
+
+Refer to the Terraform Registry for docs: [`solacebroker_msg_vpn_distributed_cache_cluster_global_caching_home_cluster_topic_prefix`](https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_distributed_cache_cluster_global_caching_home_cluster_topic_prefix).

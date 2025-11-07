@@ -1,0 +1,445 @@
+// https://registry.terraform.io/providers/ciscodevnet/aci/2.18.0/docs/resources/rest_managed
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface RestManagedConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * The annotation of the ACI object.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/aci/2.18.0/docs/resources/rest_managed#annotation RestManaged#annotation}
+  */
+  readonly annotation?: string;
+  /**
+  * Which class object is being created, eg. fvTenant. (Make sure there is no colon in the classname)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/aci/2.18.0/docs/resources/rest_managed#class_name RestManaged#class_name}
+  */
+  readonly className: string;
+  /**
+  * Map of key-value pairs those needed to be passed to the Model object as parameters. Make sure the key name matches the name with the object parameter in ACI.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/aci/2.18.0/docs/resources/rest_managed#content RestManaged#content}
+  */
+  readonly content?: { [key: string]: string };
+  /**
+  * Distinguished name of object being managed including its relative name, e.g. uni/tn-EXAMPLE_TENANT.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/aci/2.18.0/docs/resources/rest_managed#dn RestManaged#dn}
+  */
+  readonly dn: string;
+  /**
+  * Enable escaping of HTML characters when encoding the JSON payload.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/aci/2.18.0/docs/resources/rest_managed#escape_html RestManaged#escape_html}
+  */
+  readonly escapeHtml?: boolean | cdktf.IResolvable;
+  /**
+  * child block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/aci/2.18.0/docs/resources/rest_managed#child RestManaged#child}
+  */
+  readonly child?: RestManagedChild[] | cdktf.IResolvable;
+}
+export interface RestManagedChild {
+  /**
+  * Class name of child object.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/aci/2.18.0/docs/resources/rest_managed#class_name RestManaged#class_name}
+  */
+  readonly className: string;
+  /**
+  * Map of key-value pairs which represents the attributes for the child object.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/aci/2.18.0/docs/resources/rest_managed#content RestManaged#content}
+  */
+  readonly content?: { [key: string]: string };
+  /**
+  * The relative name of the child object.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/aci/2.18.0/docs/resources/rest_managed#rn RestManaged#rn}
+  */
+  readonly rn: string;
+}
+
+export function restManagedChildToTerraform(struct?: RestManagedChild | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    class_name: cdktf.stringToTerraform(struct!.className),
+    content: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.content),
+    rn: cdktf.stringToTerraform(struct!.rn),
+  }
+}
+
+
+export function restManagedChildToHclTerraform(struct?: RestManagedChild | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    class_name: {
+      value: cdktf.stringToHclTerraform(struct!.className),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    content: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.content),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    rn: {
+      value: cdktf.stringToHclTerraform(struct!.rn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RestManagedChildOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): RestManagedChild | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._className !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.className = this._className;
+    }
+    if (this._content !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.content = this._content;
+    }
+    if (this._rn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rn = this._rn;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RestManagedChild | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._className = undefined;
+      this._content = undefined;
+      this._rn = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._className = value.className;
+      this._content = value.content;
+      this._rn = value.rn;
+    }
+  }
+
+  // class_name - computed: false, optional: false, required: true
+  private _className?: string; 
+  public get className() {
+    return this.getStringAttribute('class_name');
+  }
+  public set className(value: string) {
+    this._className = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classNameInput() {
+    return this._className;
+  }
+
+  // content - computed: true, optional: true, required: false
+  private _content?: { [key: string]: string }; 
+  public get content() {
+    return this.getStringMapAttribute('content');
+  }
+  public set content(value: { [key: string]: string }) {
+    this._content = value;
+  }
+  public resetContent() {
+    this._content = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get contentInput() {
+    return this._content;
+  }
+
+  // rn - computed: false, optional: false, required: true
+  private _rn?: string; 
+  public get rn() {
+    return this.getStringAttribute('rn');
+  }
+  public set rn(value: string) {
+    this._rn = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rnInput() {
+    return this._rn;
+  }
+}
+
+export class RestManagedChildList extends cdktf.ComplexList {
+  public internalValue? : RestManagedChild[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): RestManagedChildOutputReference {
+    return new RestManagedChildOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/aci/2.18.0/docs/resources/rest_managed aci_rest_managed}
+*/
+export class RestManaged extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "aci_rest_managed";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a RestManaged resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the RestManaged to import
+  * @param importFromId The id of the existing RestManaged that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/aci/2.18.0/docs/resources/rest_managed#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the RestManaged to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "aci_rest_managed", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/aci/2.18.0/docs/resources/rest_managed aci_rest_managed} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options RestManagedConfig
+  */
+  public constructor(scope: Construct, id: string, config: RestManagedConfig) {
+    super(scope, id, {
+      terraformResourceType: 'aci_rest_managed',
+      terraformGeneratorMetadata: {
+        providerName: 'aci',
+        providerVersion: '2.18.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._annotation = config.annotation;
+    this._className = config.className;
+    this._content = config.content;
+    this._dn = config.dn;
+    this._escapeHtml = config.escapeHtml;
+    this._child.internalValue = config.child;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // annotation - computed: true, optional: true, required: false
+  private _annotation?: string; 
+  public get annotation() {
+    return this.getStringAttribute('annotation');
+  }
+  public set annotation(value: string) {
+    this._annotation = value;
+  }
+  public resetAnnotation() {
+    this._annotation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get annotationInput() {
+    return this._annotation;
+  }
+
+  // class_name - computed: false, optional: false, required: true
+  private _className?: string; 
+  public get className() {
+    return this.getStringAttribute('class_name');
+  }
+  public set className(value: string) {
+    this._className = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classNameInput() {
+    return this._className;
+  }
+
+  // content - computed: true, optional: true, required: false
+  private _content?: { [key: string]: string }; 
+  public get content() {
+    return this.getStringMapAttribute('content');
+  }
+  public set content(value: { [key: string]: string }) {
+    this._content = value;
+  }
+  public resetContent() {
+    this._content = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get contentInput() {
+    return this._content;
+  }
+
+  // dn - computed: false, optional: false, required: true
+  private _dn?: string; 
+  public get dn() {
+    return this.getStringAttribute('dn');
+  }
+  public set dn(value: string) {
+    this._dn = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnInput() {
+    return this._dn;
+  }
+
+  // escape_html - computed: true, optional: true, required: false
+  private _escapeHtml?: boolean | cdktf.IResolvable; 
+  public get escapeHtml() {
+    return this.getBooleanAttribute('escape_html');
+  }
+  public set escapeHtml(value: boolean | cdktf.IResolvable) {
+    this._escapeHtml = value;
+  }
+  public resetEscapeHtml() {
+    this._escapeHtml = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get escapeHtmlInput() {
+    return this._escapeHtml;
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // child - computed: false, optional: true, required: false
+  private _child = new RestManagedChildList(this, "child", true);
+  public get child() {
+    return this._child;
+  }
+  public putChild(value: RestManagedChild[] | cdktf.IResolvable) {
+    this._child.internalValue = value;
+  }
+  public resetChild() {
+    this._child.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get childInput() {
+    return this._child.internalValue;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      annotation: cdktf.stringToTerraform(this._annotation),
+      class_name: cdktf.stringToTerraform(this._className),
+      content: cdktf.hashMapper(cdktf.stringToTerraform)(this._content),
+      dn: cdktf.stringToTerraform(this._dn),
+      escape_html: cdktf.booleanToTerraform(this._escapeHtml),
+      child: cdktf.listMapper(restManagedChildToTerraform, true)(this._child.internalValue),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      annotation: {
+        value: cdktf.stringToHclTerraform(this._annotation),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      class_name: {
+        value: cdktf.stringToHclTerraform(this._className),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      content: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._content),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
+      },
+      dn: {
+        value: cdktf.stringToHclTerraform(this._dn),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      escape_html: {
+        value: cdktf.booleanToHclTerraform(this._escapeHtml),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      child: {
+        value: cdktf.listMapperHcl(restManagedChildToHclTerraform, true)(this._child.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "RestManagedChildList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

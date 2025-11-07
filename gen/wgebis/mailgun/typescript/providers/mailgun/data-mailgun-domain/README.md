@@ -1,0 +1,3 @@
+# `data_mailgun_domain`
+
+Refer to the Terraform Registry for docs: [`data_mailgun_domain`](https://registry.terraform.io/providers/wgebis/mailgun/0.8.1/docs/data-sources/domain).
