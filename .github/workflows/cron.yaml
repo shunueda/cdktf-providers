@@ -1,10 +1,6 @@
 name: cron
 
 on:
-  # NOMERGE
-  push:
-    branches:
-      - chore/manual-gen
   workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'
