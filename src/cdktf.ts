@@ -28,7 +28,7 @@ export type ProviderConstructionOption = Readonly<{
  */
 export async function generateProviderConstruct(
   option: ProviderConstructionOption
-): Promise<{ version: string }> {
+): Promise<void> {
   const { language, name, source, directory } = option
   const constraint = new TerraformProviderConstraint({
     name,
@@ -42,10 +42,6 @@ export async function generateProviderConstruct(
   await constructsMaker.removeFoldersThatShouldNotExist([constraint])
   const filtered = await constructsMaker.filterAlreadyGenerated([constraint])
   await constructsMaker.generate([constraint], filtered)
-
-  return {
-    version: await readVersionsFile(directory, source)
-  }
 }
 
 /**
@@ -58,13 +54,13 @@ export async function generateProviderConstruct(
  * }
  * ```
  */
-async function readVersionsFile(
+export async function readVersionsFile(
   directory: string,
-  source: string
+  fullname: string
 ): Promise<string> {
   const file = join(directory, 'versions.json')
   const content = await readFile(file, 'utf-8')
   const versions = JSON.parse(content)
-  const version = versions[`registry.terraform.io/${source.toLowerCase()}`]
+  const version = versions[`registry.terraform.io/${fullname.toLowerCase()}`]
   return z.string().parse(version)
 }
