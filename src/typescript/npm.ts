@@ -87,8 +87,7 @@ export function createPackageJson(
         import: './dist/*/index.js',
         types: './dist/*/index.d.ts',
         require: './dist/*/index.js'
-      },
-      './package.json': './package.json'
+      }
     },
     files: ['dist']
   }
