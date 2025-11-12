@@ -1,5 +1,10 @@
 import { URL } from 'node:url'
-import { type ProviderData, providersResponseSchema } from './schema.ts'
+import {
+  type ProviderData,
+  providersResponseSchema,
+  type ProviderVersionData,
+  providerVersionsResponseSchema
+} from './schema.ts'
 
 // only fetch community providers with more than 500k downloads. Pulled out of thin air.
 const communityTierDownloadThreshold = 500_000
@@ -14,6 +19,12 @@ function createFetchProvidersUrl(page: number): URL {
   // Maximum allowed by the API
   url.searchParams.set('page[size]', '100')
   url.searchParams.set('page[number]', page.toString())
+  return url
+}
+
+function createFetchProviderVersionUrl(id: string): URL {
+  const url = new URL(baseUrl)
+  url.pathname += `/${id}/provider-versions`
   return url
 }
 
@@ -32,4 +43,14 @@ export async function* fetchProviderData(
     return tier !== 'community' || downloads >= communityTierDownloadThreshold
   })
   yield* fetchProviderData(page + 1)
+}
+
+export async function fetchProviderVerionData(
+  id: string
+): Promise<ProviderVersionData[]> {
+  const url = createFetchProviderVersionUrl(id)
+  const response = await fetch(url)
+  const json = await response.json()
+  const { data } = providerVersionsResponseSchema.parse(json)
+  return data
 }
